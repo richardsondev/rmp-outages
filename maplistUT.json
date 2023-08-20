@@ -1,7 +1,19 @@
 {
   "count": 10,
-  "totalState": 177,
+  "totalState": 171,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.564,
+      "latitude": 38.579,
+      "etr": "Before 03:30 PM on 08/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:42 PM on 08/20",
+      "zip": "84532"
+    },
     {
       "icon": "standard",
       "longitude": -111.725,
@@ -100,18 +112,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.946,
-      "latitude": 41.194,
-      "etr": "Before 04:30 PM on 08/20",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:07 AM on 08/20",
-      "zip": "84403"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.126,
       "latitude": 41.641,
       "etr": "Before 02:30 PM on 08/20",
@@ -181,16 +181,23 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84403",
+      "zipCode": "84532",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Grand",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -213,9 +220,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 145,
-      "custOutUnplan": 7
+      "custOutUnplan": 0
     }
   ]
 }
