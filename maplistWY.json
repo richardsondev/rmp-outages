@@ -1,6 +1,6 @@
 {
   "count": 6,
-  "totalState": 78,
+  "totalState": 14,
   "outages": [
     {
       "icon": "planned",
@@ -15,18 +15,6 @@
       "zip": "82935"
     },
     {
-      "icon": "planned",
-      "longitude": -109.645,
-      "latitude": 41.545,
-      "etr": "Before 12:30 PM on 08/22",
-      "outCount": 1,
-      "custOut": 65,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:21 AM on 08/22",
-      "zip": "82935, 82938"
-    },
-    {
       "icon": "standard",
       "longitude": -109.268,
       "latitude": 41.59,
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:10 AM on 08/22",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.229,
+      "latitude": 41.788,
+      "etr": "Before 01:30 PM on 08/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:58 AM on 08/22",
+      "zip": "82301"
     },
     {
       "icon": "standard",
@@ -54,11 +54,11 @@
       "icon": "standard",
       "longitude": -109.824,
       "latitude": 42.844,
-      "etr": "Before 12:30 PM on 08/22",
+      "etr": "Before 11:00 AM on 08/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:25 AM on 08/22",
       "zip": "82941"
     },
@@ -76,6 +76,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82435",
       "outCountPlan": 0,
@@ -99,16 +106,9 @@
     },
     {
       "zipCode": "82935",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 47,
-      "custOutUnplan": 0
-    },
-    {
-      "zipCode": "82938",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 27,
+      "custOutPlan": 9,
       "custOutUnplan": 0
     },
     {
@@ -120,6 +120,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Converse",
       "outCountPlan": 0,
@@ -143,9 +150,9 @@
     },
     {
       "countyName": "Sweetwater",
-      "outCountPlan": 2,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 74,
+      "custOutPlan": 9,
       "custOutUnplan": 1
     }
   ]
