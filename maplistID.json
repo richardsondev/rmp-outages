@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 25,
+  "count": 4,
+  "totalState": 180,
   "outages": [
     {
       "icon": "standard",
@@ -9,13 +9,51 @@
       "etr": "Before 10:00 AM on 08/22",
       "outCount": 1,
       "custOut": 25,
-      "cause": "Investigating",
+      "cause": "Wildlife",
       "crewStatus": "Crews Arrived",
       "reported": "07:20 AM on 08/22",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.766,
+      "latitude": 43.818,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 154,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:09 AM on 08/22",
+      "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.202,
+      "latitude": 43.966,
+      "etr": "Before 11:00 AM on 08/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:11 AM on 08/22",
+      "zip": "83244"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 154
+    },
     {
       "zipCode": "83442",
       "outCountPlan": 0,
@@ -26,11 +64,25 @@
   ],
   "counties": [
     {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 25
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 154
     }
   ]
 }
