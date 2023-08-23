@@ -1,7 +1,19 @@
 {
-  "count": 11,
-  "totalState": 42,
+  "count": 13,
+  "totalState": 39,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.553,
+      "latitude": 37.288,
+      "etr": "Assessing",
+      "outCount": 3,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:55 AM on 08/23",
+      "zip": "84512"
+    },
     {
       "icon": "standard",
       "longitude": -111.615,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "12:11 AM on 08/23",
       "zip": "84098"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.902,
-      "latitude": 40.759,
-      "etr": "Before 06:00 AM on 08/23",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "06:23 PM on 08/22",
-      "zip": "84101"
     },
     {
       "icon": "standard",
@@ -134,20 +134,27 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84101",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 6,
-      "custOutUnplan": 0
+      "zipCode": "84512",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 6,
+      "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "San Juan",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Summit",
