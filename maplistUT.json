@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 123,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.946,
+      "latitude": 41.208,
+      "etr": "Before 02:00 PM on 08/26",
+      "outCount": 1,
+      "custOut": 119,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:46 AM on 08/26",
+      "zip": "84403"
+    },
     {
       "icon": "standard",
       "longitude": -111.774,
@@ -22,14 +34,21 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 119,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Weber",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 119,
       "custOutUnplan": 4
     }
   ]
