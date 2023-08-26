@@ -1,7 +1,31 @@
 {
-  "count": 4,
-  "totalState": 8,
+  "count": 6,
+  "totalState": 10,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.311,
+      "latitude": 42.161,
+      "etr": "Before 09:00 PM on 08/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:44 PM on 08/25",
+      "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.749,
+      "latitude": 43.203,
+      "etr": "Before 09:30 PM on 08/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:54 PM on 08/25",
+      "zip": "83236"
+    },
     {
       "icon": "standard",
       "longitude": -111.87,
@@ -42,11 +66,11 @@
       "icon": "standard",
       "longitude": -112.603,
       "latitude": 44.063,
-      "etr": "Before 06:30 PM on 08/25",
+      "etr": "Before 07:30 PM on 08/25",
       "outCount": 1,
       "custOut": 4,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "03:37 PM on 08/25",
       "zip": "83423"
     }
@@ -54,6 +78,13 @@
   "zips": [
     {
       "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,6 +107,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 3,
@@ -88,6 +126,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
