@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 83,
+  "count": 5,
+  "totalState": 117,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.026,
+      "latitude": 42.613,
+      "etr": "Before 11:00 AM on 08/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:51 AM on 08/30",
+      "zip": "83246"
+    },
     {
       "icon": "standard",
       "longitude": -112.233,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:46 PM on 08/29",
       "zip": "83444, 83402"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.752,
+      "latitude": 43.659,
+      "etr": "Before 12:00 PM on 08/30",
+      "outCount": 1,
+      "custOut": 33,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:55 AM on 08/30",
+      "zip": "83443, 83401"
     },
     {
       "icon": "standard",
@@ -41,6 +65,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83246",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 17,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -55,6 +93,13 @@
       "custOutUnplan": 73
     },
     {
+      "zipCode": "83443",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83444",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -64,10 +109,17 @@
   ],
   "counties": [
     {
-      "countyName": "Bonneville",
+      "countyName": "Bannock",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 33,
       "custOutUnplan": 10
     },
     {
