@@ -1,14 +1,38 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.909,
+      "latitude": 41.226,
+      "etr": "Before 12:00 PM on 08/31",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:00 AM on 08/31",
+      "zip": "82930"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.645,
+      "latitude": 41.545,
+      "etr": "Before 12:00 PM on 08/31",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:07 AM on 08/31",
+      "zip": "82935"
+    },
     {
       "icon": "standard",
       "longitude": -106.197,
       "latitude": 42.894,
       "etr": "Before 12:00 PM on 08/31",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:30 AM on 08/31",
@@ -21,12 +45,40 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "82930",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82935",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Uinta",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
