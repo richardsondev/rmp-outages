@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 38,
+  "count": 5,
+  "totalState": 394,
   "outages": [
     {
       "icon": "standard",
@@ -9,8 +9,8 @@
       "etr": "Before 06:00 AM on 09/03",
       "outCount": 1,
       "custOut": 35,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "11:21 PM on 09/02",
       "zip": "84070"
     },
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "11:46 PM on 09/02",
       "zip": "84115"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.902,
+      "latitude": 40.788,
+      "etr": "Before 05:30 AM on 09/03",
+      "outCount": 1,
+      "custOut": 356,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:13 AM on 09/03",
+      "zip": "84103, 84116"
     },
     {
       "icon": "standard",
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:37 AM on 09/03",
       "zip": "84116"
     }
@@ -67,6 +79,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84103",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 192
+    },
+    {
       "zipCode": "84115",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -76,18 +95,18 @@
     {
       "zipCode": "84116",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 141
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 37
+      "custOutUnplan": 369
     },
     {
       "countyName": "Tooele",
