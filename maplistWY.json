@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 8,
+  "totalState": 32,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.564,
+      "latitude": 41.33,
+      "etr": "Before 04:00 PM on 09/05",
+      "outCount": 1,
+      "custOut": 25,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:35 PM on 09/05",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -111.011,
@@ -28,18 +40,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -108.975,
-      "latitude": 44.107,
-      "etr": "Before 01:30 PM on 09/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:11 AM on 09/05",
-      "zip": "82433"
-    },
-    {
-      "icon": "standard",
       "longitude": -107.966,
       "latitude": 44.272,
       "etr": "Before 02:00 PM on 09/05",
@@ -53,14 +53,14 @@
   ],
   "zips": [
     {
-      "zipCode": "82432",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 25,
+      "custOutUnplan": 0
     },
     {
-      "zipCode": "82433",
+      "zipCode": "82432",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -83,6 +83,13 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 25,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Big Horn",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -95,13 +102,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 5
-    },
-    {
-      "countyName": "Park",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "countyName": "Uinta",
