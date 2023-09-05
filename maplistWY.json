@@ -1,7 +1,19 @@
 {
   "count": 6,
-  "totalState": 17,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.585,
+      "latitude": 41.302,
+      "etr": "Before 11:30 AM on 09/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:30 AM on 09/05",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -110.454,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "07:55 AM on 09/05",
       "zip": "83101"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.353,
-      "latitude": 42.915,
-      "etr": "Before 10:00 AM on 09/05",
-      "outCount": 1,
-      "custOut": 12,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:53 AM on 09/05",
-      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -77,6 +77,13 @@
   ],
   "zips": [
     {
+      "zipCode": "82070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82414",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -89,13 +96,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82601",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 12
     },
     {
       "zipCode": "82633",
@@ -114,6 +114,13 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -126,13 +133,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 12
     },
     {
       "countyName": "Park",
