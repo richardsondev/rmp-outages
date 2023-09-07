@@ -1,6 +1,6 @@
 {
   "count": 6,
-  "totalState": 38,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:27 PM on 09/07",
       "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.962,
+      "latitude": 43.541,
+      "etr": "Before 05:00 PM on 09/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:24 PM on 09/07",
+      "zip": "83401"
     },
     {
       "icon": "standard",
@@ -49,18 +61,6 @@
       "crewStatus": "Crews Notified",
       "reported": "02:11 PM on 09/07",
       "zip": "83402"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.752,
-      "latitude": 43.659,
-      "etr": "Before 03:00 PM on 09/07",
-      "outCount": 1,
-      "custOut": 33,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:06 AM on 09/07",
-      "zip": "83443, 83401"
     },
     {
       "icon": "standard",
@@ -99,10 +99,10 @@
     },
     {
       "zipCode": "83401",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 17,
-      "custOutUnplan": 0
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83402",
@@ -117,13 +117,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83443",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 16,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -143,10 +136,10 @@
     },
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 33,
-      "custOutUnplan": 1
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Franklin",
