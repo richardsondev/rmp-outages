@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.181,
+      "latitude": 42.503,
+      "etr": "Before 09:30 PM on 09/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:23 PM on 09/08",
+      "zip": "83234"
+    },
     {
       "icon": "standard",
       "longitude": -112.155,
@@ -10,12 +22,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:11 PM on 09/08",
       "zip": "83444"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83444",
       "outCountPlan": 0,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
