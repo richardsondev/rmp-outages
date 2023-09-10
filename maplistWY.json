@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 6,
+  "totalState": 106,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.215,
-      "latitude": 42.246,
-      "etr": "Before 05:00 PM on 09/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:05 PM on 09/10",
-      "zip": "83123"
-    },
     {
       "icon": "standard",
       "longitude": -110.184,
@@ -56,11 +44,23 @@
       "latitude": 43.163,
       "etr": "Before 07:30 PM on 09/10",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 101,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:45 AM on 09/10",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.989,
+      "latitude": 43.97,
+      "etr": "Before 07:30 PM on 09/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:41 PM on 09/10",
+      "zip": "82433"
     },
     {
       "icon": "standard",
@@ -70,18 +70,25 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:51 PM on 09/10",
       "zip": "82834"
     }
   ],
   "zips": [
     {
+      "zipCode": "82433",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82633",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 101
     },
     {
       "zipCode": "82637",
@@ -100,9 +107,9 @@
     {
       "zipCode": "83123",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -111,7 +118,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 102
     },
     {
       "countyName": "Johnson",
@@ -123,9 +130,16 @@
     {
       "countyName": "Lincoln",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
