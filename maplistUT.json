@@ -1,6 +1,6 @@
 {
-  "count": 10,
-  "totalState": 64,
+  "count": 11,
+  "totalState": 197,
   "outages": [
     {
       "icon": "standard",
@@ -51,14 +51,14 @@
       "zip": "84057"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.625,
       "latitude": 40.323,
-      "etr": "Assessing",
+      "etr": "Before 04:00 PM on 09/12",
       "outCount": 1,
       "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:14 AM on 09/12",
       "zip": "84022"
     },
@@ -78,7 +78,7 @@
       "icon": "standard",
       "longitude": -111.994,
       "latitude": 40.57,
-      "etr": "Before 09:30 AM on 09/12",
+      "etr": "Before 11:30 AM on 09/12",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -112,6 +112,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.906,
+      "latitude": 41.092,
+      "etr": "Before 01:00 PM on 09/12",
+      "outCount": 1,
+      "custOut": 133,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:20 AM on 09/12",
+      "zip": "84040"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.023,
       "latitude": 41.193,
       "etr": "Before 10:30 AM on 09/12",
@@ -140,10 +152,17 @@
     },
     {
       "zipCode": "84022",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84040",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 133
     },
     {
       "zipCode": "84057",
@@ -197,6 +216,13 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 133
+    },
+    {
       "countyName": "Emery",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -212,10 +238,10 @@
     },
     {
       "countyName": "Tooele",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Utah",
