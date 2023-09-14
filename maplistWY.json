@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 198,
+  "count": 4,
+  "totalState": 199,
   "outages": [
     {
       "icon": "planned",
@@ -33,15 +33,34 @@
       "etr": "Before 01:30 PM on 09/14",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Arrived",
       "reported": "10:27 AM on 09/14",
       "zip": "82301"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.326,
+      "latitude": 44.845,
+      "etr": "Before 02:30 PM on 09/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:37 AM on 09/14",
+      "zip": "82435"
     }
   ],
   "zips": [
     {
       "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82435",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -58,6 +77,13 @@
   "counties": [
     {
       "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Park",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
