@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 159,
+  "count": 5,
+  "totalState": 165,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.584,
+      "latitude": 41.316,
+      "etr": "Before 01:00 PM on 09/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:16 AM on 09/15",
+      "zip": "82070"
+    },
     {
       "icon": "planned",
       "longitude": -109.645,
@@ -27,6 +39,18 @@
       "zip": "82945"
     },
     {
+      "icon": "planned",
+      "longitude": -111.069,
+      "latitude": 41.814,
+      "etr": "Before 02:00 PM on 09/15",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:15 AM on 09/15",
+      "zip": "83114"
+    },
+    {
       "icon": "standard",
       "longitude": -110.212,
       "latitude": 42.507,
@@ -40,6 +64,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82935",
       "outCountPlan": 1,
@@ -60,9 +91,30 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83114",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Lincoln",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
