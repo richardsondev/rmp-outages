@@ -1,6 +1,6 @@
 {
-  "count": 10,
-  "totalState": 552,
+  "count": 11,
+  "totalState": 564,
   "outages": [
     {
       "icon": "standard",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "12:00 AM on 09/15",
       "zip": "84074"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.861,
+      "latitude": 40.556,
+      "etr": "Before 05:00 AM on 09/15",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:18 AM on 09/15",
+      "zip": "84094"
     },
     {
       "icon": "standard",
@@ -54,9 +66,9 @@
       "icon": "standard",
       "longitude": -111.921,
       "latitude": 40.788,
-      "etr": "Assessing",
+      "etr": "Before 05:00 AM on 09/15",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 10,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:13 AM on 09/15",
@@ -78,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.407,
       "latitude": 40.907,
-      "etr": "Before 01:00 AM on 09/15",
+      "etr": "Before 02:00 AM on 09/15",
       "outCount": 1,
       "custOut": 517,
       "cause": "Emergency Repair",
@@ -90,7 +102,7 @@
       "icon": "standard",
       "longitude": -111.411,
       "latitude": 40.921,
-      "etr": "Before 04:30 AM on 09/15",
+      "etr": "Before 08:30 AM on 09/15",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -106,7 +118,7 @@
       "outCount": 2,
       "custOut": 9,
       "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "02:59 PM on 09/14",
       "zip": "84404"
     }
@@ -141,11 +153,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84094",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84116",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 10
     },
     {
       "zipCode": "84404",
@@ -165,10 +184,10 @@
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutPlan": 3,
+      "custOutUnplan": 10
     },
     {
       "countyName": "San Juan",
