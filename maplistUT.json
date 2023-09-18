@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 5,
+  "count": 6,
+  "totalState": 210,
   "outages": [
     {
       "icon": "standard",
@@ -16,25 +16,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.975,
-      "latitude": 40.599,
-      "etr": "Before 08:30 PM on 09/17",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:13 PM on 09/17",
-      "zip": "84088"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.804,
       "latitude": 40.615,
       "etr": "Before 08:00 PM on 09/17",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:47 PM on 09/17",
       "zip": "84121"
     },
@@ -61,16 +49,21 @@
       "crewStatus": "Crews Arrived",
       "reported": "03:10 PM on 09/17",
       "zip": "84108"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.005,
+      "latitude": 41.295,
+      "etr": "Before 08:00 PM on 09/17",
+      "outCount": 2,
+      "custOut": 206,
+      "cause": "Pole Fire",
+      "crewStatus": "Crews Arrived",
+      "reported": "05:50 PM on 09/17",
+      "zip": "84404"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84088",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84108",
       "outCountPlan": 0,
@@ -93,6 +86,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84404",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 206
+    },
+    {
       "zipCode": "84518",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -111,9 +111,16 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 206
     }
   ]
 }
