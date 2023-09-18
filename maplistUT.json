@@ -3,6 +3,18 @@
   "totalState": 88,
   "outages": [
     {
+      "icon": "standard",
+      "longitude": -109.553,
+      "latitude": 37.288,
+      "etr": "Before 01:00 PM on 09/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:10 AM on 09/18",
+      "zip": "84512"
+    },
+    {
       "icon": "planned",
       "longitude": -109.477,
       "latitude": 37.461,
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:02 AM on 09/18",
       "zip": "84005"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.745,
-      "latitude": 40.369,
-      "etr": "Before 12:30 PM on 09/18",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:55 AM on 09/18",
-      "zip": "84062"
     },
     {
       "icon": "planned",
@@ -166,7 +166,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:50 AM on 09/18",
       "zip": "84015"
     },
@@ -253,13 +253,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84062",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84081",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -307,6 +300,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 10,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84512",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -341,9 +341,9 @@
     {
       "countyName": "San Juan",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 10,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Summit",
@@ -355,9 +355,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 17,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     }
   ]
 }
