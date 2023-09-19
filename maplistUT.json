@@ -1,6 +1,6 @@
 {
   "count": 10,
-  "totalState": 47,
+  "totalState": 34,
   "outages": [
     {
       "icon": "standard",
@@ -15,18 +15,6 @@
       "zip": "84532"
     },
     {
-      "icon": "standard",
-      "longitude": -112.573,
-      "latitude": 39.302,
-      "etr": "Before 05:00 PM on 09/19",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Vehicle Accident",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:10 PM on 09/19",
-      "zip": "84624"
-    },
-    {
       "icon": "planned",
       "longitude": -111.707,
       "latitude": 40.354,
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "01:07 PM on 09/19",
       "zip": "84062"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.88,
+      "latitude": 40.556,
+      "etr": "Before 06:30 PM on 09/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:16 PM on 09/19",
+      "zip": "84094"
     },
     {
       "icon": "standard",
@@ -88,6 +88,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.825,
+      "latitude": 40.731,
+      "etr": "Before 06:30 PM on 09/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:21 PM on 09/19",
+      "zip": "84108"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.864,
       "latitude": 40.774,
       "etr": "Before 05:00 PM on 09/19",
@@ -102,25 +114,13 @@
       "icon": "standard",
       "longitude": -111.983,
       "latitude": 41.077,
-      "etr": "Before 03:30 PM on 09/19",
+      "etr": "Before 04:30 PM on 09/19",
       "outCount": 1,
       "custOut": 4,
       "cause": "Damaged Line",
       "crewStatus": "Crews Arrived",
       "reported": "12:36 PM on 09/19",
       "zip": "84041"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.755,
-      "latitude": 41.253,
-      "etr": "Before 03:30 PM on 09/19",
-      "outCount": 1,
-      "custOut": 14,
-      "cause": "Damaged Line",
-      "crewStatus": "Crews Notified",
-      "reported": "12:47 PM on 09/19",
-      "zip": "84317"
     }
   ],
   "zips": [
@@ -153,6 +153,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84094",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84102",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -167,21 +174,14 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84317",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 14
-    },
-    {
-      "zipCode": "84532",
+      "zipCode": "84108",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84624",
+      "zipCode": "84532",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -204,18 +204,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Millard",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 5,
       "custOutPlan": 12,
-      "custOutUnplan": 3
+      "custOutUnplan": 5
     },
     {
       "countyName": "Tooele",
@@ -230,13 +223,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 11,
       "custOutUnplan": 0
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 14
     }
   ]
 }
