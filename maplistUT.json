@@ -1,12 +1,12 @@
 {
   "count": 14,
-  "totalState": 42,
+  "totalState": 99,
   "outages": [
     {
       "icon": "standard",
       "longitude": -113.633,
       "latitude": 37.166,
-      "etr": "Assessing",
+      "etr": "Before 06:00 PM on 09/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:50 PM on 09/20",
       "zip": "84742"
     },
@@ -49,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "02:03 PM on 09/20",
       "zip": "84540"
-    },
-    {
-      "icon": "standard",
-      "longitude": -110.387,
-      "latitude": 39.558,
-      "etr": "Before 05:30 PM on 09/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:35 PM on 09/20",
-      "zip": "84539"
     },
     {
       "icon": "standard",
@@ -159,6 +147,18 @@
       "zip": "84014"
     },
     {
+      "icon": "planned",
+      "longitude": -111.947,
+      "latitude": 41.252,
+      "etr": "Before 07:30 PM on 09/20",
+      "outCount": 1,
+      "custOut": 58,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "03:16 PM on 09/20",
+      "zip": "84404"
+    },
+    {
       "icon": "standard",
       "longitude": -112.147,
       "latitude": 41.714,
@@ -215,11 +215,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84539",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84404",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 58,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84540",
@@ -253,13 +253,6 @@
   "counties": [
     {
       "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Carbon",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -306,6 +299,13 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 58,
+      "custOutUnplan": 0
     }
   ]
 }
