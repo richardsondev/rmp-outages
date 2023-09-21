@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 16,
+  "count": 9,
+  "totalState": 166,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.643,
+      "latitude": 41.305,
+      "etr": "Before 06:00 PM on 09/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:23 PM on 09/21",
+      "zip": "82070"
+    },
     {
       "icon": "planned",
       "longitude": -109.269,
@@ -18,11 +30,11 @@
       "icon": "standard",
       "longitude": -109.287,
       "latitude": 41.576,
-      "etr": "Before 05:00 PM on 09/21",
+      "etr": "Before 03:00 PM on 09/21",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "01:35 PM on 09/21",
       "zip": "82901"
     },
@@ -40,13 +52,25 @@
     },
     {
       "icon": "standard",
+      "longitude": -109.227,
+      "latitude": 41.662,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 148,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:29 PM on 09/21",
+      "zip": "82901, 82945, 82943"
+    },
+    {
+      "icon": "standard",
       "longitude": -110.541,
       "latitude": 41.791,
       "etr": "Before 03:30 PM on 09/21",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:04 AM on 09/21",
       "zip": "83101"
     },
@@ -73,9 +97,35 @@
       "crewStatus": "Crews Notified",
       "reported": "01:04 PM on 09/21",
       "zip": "82443"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.491,
+      "latitude": 44.834,
+      "etr": "Before 05:30 PM on 09/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:25 PM on 09/21",
+      "zip": "82431"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82431",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82443",
       "outCountPlan": 0,
@@ -93,9 +143,23 @@
     {
       "zipCode": "82901",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 2,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "82943",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82945",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 146
     },
     {
       "zipCode": "83101",
@@ -106,6 +170,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Big Horn",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 1,
@@ -130,9 +208,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 2,
-      "custOutUnplan": 2
+      "custOutUnplan": 150
     }
   ]
 }
