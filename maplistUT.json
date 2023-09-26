@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 16,
+  "count": 7,
+  "totalState": 290,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.624,
+      "latitude": 37.412,
+      "etr": "Before 02:00 AM on 09/26",
+      "outCount": 1,
+      "custOut": 273,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:54 PM on 09/25",
+      "zip": "84722"
+    },
     {
       "icon": "standard",
       "longitude": -111.823,
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:08 PM on 09/25",
       "zip": "84014"
     },
@@ -54,13 +66,25 @@
       "icon": "standard",
       "longitude": -111.945,
       "latitude": 41.165,
-      "etr": "Before 12:00 AM on 09/26",
+      "etr": "Before 11:30 PM on 09/25",
       "outCount": 1,
       "custOut": 10,
       "cause": "Damaged Line",
       "crewStatus": "Crews Notified",
       "reported": "04:10 PM on 09/25",
       "zip": "84405"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.967,
+      "latitude": 41.295,
+      "etr": "Before 02:00 AM on 09/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:48 PM on 09/25",
+      "zip": "84414"
     }
   ],
   "zips": [
@@ -98,6 +122,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 10
+    },
+    {
+      "zipCode": "84414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84722",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 273
     }
   ],
   "counties": [
@@ -123,11 +161,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Weber",
+      "countyName": "Washington",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 10
+      "custOutUnplan": 273
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 11
     }
   ]
 }
