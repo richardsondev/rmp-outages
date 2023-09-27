@@ -1,7 +1,19 @@
 {
   "count": 2,
-  "totalState": 2,
+  "totalState": 7,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.17,
+      "latitude": 41.625,
+      "etr": "Before 04:30 PM on 09/27",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "03:17 PM on 09/27",
+      "zip": "82943"
+    },
     {
       "icon": "standard",
       "longitude": -110.967,
@@ -13,27 +25,15 @@
       "crewStatus": "Crews Notified",
       "reported": "02:51 PM on 09/27",
       "zip": "83114"
-    },
-    {
-      "icon": "standard",
-      "longitude": -105.907,
-      "latitude": 42.869,
-      "etr": "Before 04:30 PM on 09/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Wildlife",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:10 PM on 09/27",
-      "zip": "82637"
     }
   ],
   "zips": [
     {
-      "zipCode": "82637",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82943",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83114",
@@ -45,18 +45,18 @@
   ],
   "counties": [
     {
-      "countyName": "Converse",
+      "countyName": "Lincoln",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Lincoln",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     }
   ]
 }
