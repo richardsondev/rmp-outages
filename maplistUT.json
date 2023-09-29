@@ -1,7 +1,19 @@
 {
-  "count": 18,
-  "totalState": 397,
+  "count": 20,
+  "totalState": 486,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.222,
+      "latitude": 38.451,
+      "etr": "Before 11:00 AM on 09/29",
+      "outCount": 1,
+      "custOut": 11,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:24 AM on 09/29",
+      "zip": "84750"
+    },
     {
       "icon": "planned",
       "longitude": -112.151,
@@ -52,6 +64,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.481,
+      "latitude": 40.631,
+      "etr": "Before 01:30 PM on 09/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:24 AM on 09/29",
+      "zip": "84060"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.976,
       "latitude": 40.642,
       "etr": "Before 12:00 PM on 09/29",
@@ -99,18 +123,6 @@
       "zip": "84098"
     },
     {
-      "icon": "standard",
-      "longitude": -111.864,
-      "latitude": 40.774,
-      "etr": "Before 11:00 AM on 09/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:49 AM on 09/29",
-      "zip": "84103"
-    },
-    {
       "icon": "planned",
       "longitude": -111.944,
       "latitude": 41.078,
@@ -135,14 +147,14 @@
       "zip": "84015"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.964,
       "latitude": 41.092,
-      "etr": "Before 12:00 PM on 09/29",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "etr": "Before 02:30 PM on 09/29",
+      "outCount": 3,
+      "custOut": 80,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:31 AM on 09/29",
       "zip": "84041"
     },
@@ -212,10 +224,17 @@
     },
     {
       "zipCode": "84041",
-      "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 26,
-      "custOutUnplan": 2
+      "outCountPlan": 4,
+      "outCountUnplan": 0,
+      "custOutPlan": 106,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84060",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84070",
@@ -240,13 +259,6 @@
     },
     {
       "zipCode": "84098",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84103",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -300,6 +312,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 11,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84750",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 11,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -312,10 +331,10 @@
     },
     {
       "countyName": "Davis",
-      "outCountPlan": 4,
-      "outCountUnplan": 3,
-      "custOutPlan": 295,
-      "custOutUnplan": 3
+      "outCountPlan": 7,
+      "outCountUnplan": 1,
+      "custOutPlan": 375,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Millard",
@@ -325,11 +344,18 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Piute",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 11,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 5,
+      "outCountUnplan": 4,
       "custOutPlan": 13,
-      "custOutUnplan": 60
+      "custOutUnplan": 59
     },
     {
       "countyName": "Summit",
@@ -344,6 +370,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 7,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Wasatch",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
