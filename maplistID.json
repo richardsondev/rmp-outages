@@ -1,15 +1,27 @@
 {
-  "count": 2,
-  "totalState": 10,
+  "count": 5,
+  "totalState": 1103,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.414,
+      "latitude": 42.074,
+      "etr": "Before 09:00 PM on 10/02",
+      "outCount": 1,
+      "custOut": 1091,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:49 PM on 10/02",
+      "zip": "83272, 83287"
+    },
     {
       "icon": "standard",
       "longitude": -111.806,
       "latitude": 43.818,
       "etr": "Before 08:30 PM on 10/02",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Damaged Line",
+      "outCount": 3,
+      "custOut": 11,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "03:40 PM on 10/02",
       "zip": "83440"
@@ -29,6 +41,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83272",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1078
+    },
+    {
       "zipCode": "83421",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -38,12 +64,19 @@
     {
       "zipCode": "83440",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 11
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1091
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
@@ -54,9 +87,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 11
     }
   ]
 }
