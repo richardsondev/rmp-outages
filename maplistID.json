@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.395,
+      "latitude": 42.197,
+      "etr": "Before 02:00 PM on 10/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:23 AM on 10/04",
+      "zip": "83223"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.299,
       "latitude": 42.328,
       "etr": "Before 11:30 AM on 10/04",
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:04 AM on 10/04",
       "zip": "83254"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.979,
-      "latitude": 43.469,
-      "etr": "Before 12:00 PM on 10/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:01 AM on 10/04",
-      "zip": "83406"
     },
     {
       "icon": "planned",
@@ -46,12 +46,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:58 AM on 10/04",
       "zip": "83420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83223",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83254",
       "outCountPlan": 0,
@@ -67,13 +74,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83406",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "83420",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -85,16 +85,16 @@
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 49,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "countyName": "Fremont",
