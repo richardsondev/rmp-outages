@@ -1,23 +1,42 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 10,
   "outages": [
     {
+      "icon": "planned",
+      "longitude": -111.783,
+      "latitude": 40.368,
+      "etr": "Before 01:00 PM on 10/07",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:03 AM on 10/07",
+      "zip": "84003"
+    },
+    {
       "icon": "standard",
-      "longitude": -112.204,
-      "latitude": 41.684,
-      "etr": "Before 08:30 AM on 10/07",
+      "longitude": -112.014,
+      "latitude": 40.657,
+      "etr": "Before 11:30 AM on 10/07",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:25 AM on 10/07",
-      "zip": "84337"
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:07 AM on 10/07",
+      "zip": "84118"
     }
   ],
   "zips": [
     {
-      "zipCode": "84337",
+      "zipCode": "84003",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84118",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -26,11 +45,18 @@
   ],
   "counties": [
     {
-      "countyName": "Box Elder",
+      "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     }
   ]
 }
