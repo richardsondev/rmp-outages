@@ -1,18 +1,30 @@
 {
   "count": 17,
-  "totalState": 1048,
+  "totalState": 1037,
   "outages": [
     {
       "icon": "standard",
       "longitude": -113.215,
       "latitude": 37.435,
-      "etr": "Before 12:00 PM on 10/08",
+      "etr": "Before 12:30 PM on 10/08",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "09:07 AM on 10/08",
       "zip": "84757"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.837,
+      "latitude": 39.617,
+      "etr": "Before 03:00 PM on 10/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:50 AM on 10/08",
+      "zip": "84501"
     },
     {
       "icon": "planned",
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:35 AM on 10/08",
       "zip": "84058"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.725,
-      "latitude": 40.296,
-      "etr": "Before 12:00 PM on 10/08",
-      "outCount": 1,
-      "custOut": 12,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:08 AM on 10/08",
-      "zip": "84057"
     },
     {
       "icon": "standard",
@@ -161,13 +161,6 @@
   ],
   "zips": [
     {
-      "zipCode": "84057",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 12,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84058",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -224,6 +217,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84757",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -232,6 +232,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
@@ -255,9 +262,9 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 2,
+      "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 40,
+      "custOutPlan": 28,
       "custOutUnplan": 0
     },
     {
