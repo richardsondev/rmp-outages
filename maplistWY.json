@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 6,
+  "count": 5,
+  "totalState": 404,
   "outages": [
     {
       "icon": "planned",
@@ -15,27 +15,39 @@
       "zip": "82070, 82072"
     },
     {
-      "icon": "standard",
-      "longitude": -106.378,
-      "latitude": 42.843,
+      "icon": "planned",
+      "longitude": -109.285,
+      "latitude": 41.649,
       "etr": "Before 02:30 PM on 10/09",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "01:23 PM on 10/09",
+      "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.441,
+      "latitude": 42.788,
+      "etr": "Before 06:30 PM on 10/09",
+      "outCount": 1,
+      "custOut": 396,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "10:48 AM on 10/09",
-      "zip": "82644"
+      "reported": "01:20 PM on 10/09",
+      "zip": "82604"
     },
     {
       "icon": "standard",
       "longitude": -105.907,
       "latitude": 42.869,
-      "etr": "Assessing",
+      "etr": "Before 11:30 PM on 10/09",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:13 PM on 10/09",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:15 PM on 10/09",
       "zip": "82637"
     },
     {
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:26 AM on 10/09",
       "zip": "82633"
     }
@@ -58,6 +70,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 3,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82604",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 396
     },
     {
       "zipCode": "82633",
@@ -74,11 +93,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82644",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -101,7 +120,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 396
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     }
   ]
 }
