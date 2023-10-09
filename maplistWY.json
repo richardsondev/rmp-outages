@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 8,
+  "totalState": 6,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -105.605,
-      "latitude": 41.303,
-      "etr": "Before 04:30 PM on 10/09",
-      "outCount": 1,
-      "custOut": 3,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "08:02 AM on 10/09",
-      "zip": "82070, 82072"
-    },
     {
       "icon": "standard",
       "longitude": -107.113,
@@ -30,7 +18,7 @@
       "icon": "standard",
       "longitude": -106.521,
       "latitude": 42.762,
-      "etr": "Before 07:00 PM on 10/09",
+      "etr": "Before 10:30 PM on 10/09",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -42,7 +30,7 @@
       "icon": "standard",
       "longitude": -106.54,
       "latitude": 42.777,
-      "etr": "Assessing",
+      "etr": "Before 10:30 PM on 10/09",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -54,13 +42,25 @@
       "icon": "standard",
       "longitude": -106.574,
       "latitude": 42.858,
-      "etr": "Before 07:00 PM on 10/09",
+      "etr": "Before 10:30 PM on 10/09",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "03:13 PM on 10/09",
       "zip": "82604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.165,
+      "latitude": 44.458,
+      "etr": "Before 07:00 PM on 10/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:37 PM on 10/09",
+      "zip": "82414"
     },
     {
       "icon": "standard",
@@ -77,14 +77,14 @@
   ],
   "zips": [
     {
-      "zipCode": "82072",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
+      "zipCode": "82334",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "82334",
+      "zipCode": "82414",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -107,13 +107,6 @@
   ],
   "counties": [
     {
-      "countyName": "Albany",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Big Horn",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -133,6 +126,13 @@
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
