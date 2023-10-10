@@ -1,18 +1,30 @@
 {
-  "count": 2,
-  "totalState": 38,
+  "count": 3,
+  "totalState": 49,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.943,
-      "latitude": 43.629,
-      "etr": "Assessing",
+      "longitude": -111.414,
+      "latitude": 42.038,
+      "etr": "Before 09:00 PM on 10/09",
       "outCount": 1,
-      "custOut": 20,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:00 PM on 10/09",
-      "zip": "83442"
+      "custOut": 30,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:37 PM on 10/09",
+      "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.007,
+      "latitude": 43.832,
+      "etr": "Before 09:00 PM on 10/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:21 PM on 10/09",
+      "zip": "83244"
     },
     {
       "icon": "standard",
@@ -29,34 +41,48 @@
   ],
   "zips": [
     {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 30
+    },
+    {
       "zipCode": "83420",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 18
-    },
-    {
-      "zipCode": "83442",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 30
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 18
-    },
-    {
-      "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
     }
   ]
 }
