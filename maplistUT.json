@@ -1,18 +1,30 @@
 {
   "count": 3,
-  "totalState": 3,
+  "totalState": 42,
   "outages": [
     {
+      "icon": "planned",
+      "longitude": -111.863,
+      "latitude": 40.701,
+      "etr": "Before 10:30 PM on 10/13",
+      "outCount": 1,
+      "custOut": 40,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:45 PM on 10/13",
+      "zip": "84106"
+    },
+    {
       "icon": "standard",
-      "longitude": -112.692,
-      "latitude": 38.408,
-      "etr": "Before 09:00 PM on 10/13",
+      "longitude": -111.844,
+      "latitude": 40.716,
+      "etr": "Before 12:00 AM on 10/14",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:48 PM on 10/13",
-      "zip": "84713"
+      "crewStatus": "Crews Notified",
+      "reported": "08:55 PM on 10/13",
+      "zip": "84106"
     },
     {
       "icon": "standard",
@@ -22,29 +34,17 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:40 PM on 10/13",
       "zip": "84108"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.021,
-      "latitude": 41.106,
-      "etr": "Before 09:30 PM on 10/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Line",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:21 PM on 10/13",
-      "zip": "84015"
     }
   ],
   "zips": [
     {
-      "zipCode": "84015",
-      "outCountPlan": 0,
+      "zipCode": "84106",
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 40,
       "custOutUnplan": 1
     },
     {
@@ -53,36 +53,15 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84713",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Beaver",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 40,
+      "custOutUnplan": 2
     }
   ]
 }
