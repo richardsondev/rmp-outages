@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 5,
+  "totalState": 4,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "11:11 AM on 10/16",
       "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.398,
+      "latitude": 43.023,
+      "etr": "Before 03:00 PM on 10/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:16 AM on 10/16",
+      "zip": "82501"
     },
     {
       "icon": "standard",
@@ -37,28 +49,9 @@
       "crewStatus": "Crews Notified",
       "reported": "12:32 PM on 10/14",
       "zip": "82433"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.331,
-      "latitude": 44.671,
-      "etr": "Before 08:00 PM on 10/16",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:18 PM on 10/15",
-      "zip": "82414"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82414",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
     {
       "zipCode": "82433",
       "outCountPlan": 0,
@@ -74,6 +67,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82601",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -82,6 +82,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Hot Springs",
       "outCountPlan": 0,
@@ -99,9 +106,9 @@
     {
       "countyName": "Park",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 1
     }
   ]
 }
