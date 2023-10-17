@@ -1,6 +1,6 @@
 {
   "count": 9,
-  "totalState": 18,
+  "totalState": 19,
   "outages": [
     {
       "icon": "standard",
@@ -10,7 +10,7 @@
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:45 AM on 10/17",
       "zip": "83252"
     },
@@ -39,18 +39,6 @@
       "zip": "83254"
     },
     {
-      "icon": "standard",
-      "longitude": -111.743,
-      "latitude": 42.768,
-      "etr": "Before 01:00 PM on 10/17",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:38 AM on 10/17",
-      "zip": "83217"
-    },
-    {
       "icon": "planned",
       "longitude": -111.979,
       "latitude": 43.469,
@@ -76,13 +64,25 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.352,
+      "latitude": 43.632,
+      "etr": "Before 01:00 PM on 10/17",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:48 AM on 10/17",
+      "zip": "83444"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.044,
       "latitude": 43.657,
-      "etr": "Before 01:30 PM on 10/17",
+      "etr": "Before 12:30 PM on 10/17",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "10:37 AM on 10/17",
       "zip": "83442"
     },
@@ -100,13 +100,6 @@
     }
   ],
   "zips": [
-    {
-      "zipCode": "83217",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "83252",
       "outCountPlan": 0,
@@ -148,6 +141,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83444",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ],
   "counties": [
@@ -166,18 +166,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Caribou",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 4
     },
     {
       "countyName": "Oneida",
