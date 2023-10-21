@@ -1,6 +1,6 @@
 {
-  "count": 9,
-  "totalState": 222,
+  "count": 10,
+  "totalState": 204,
   "outages": [
     {
       "icon": "standard",
@@ -27,16 +27,16 @@
       "zip": "84521"
     },
     {
-      "icon": "standard",
-      "longitude": -111.816,
-      "latitude": 40.006,
-      "etr": "Before 12:30 PM on 10/21",
+      "icon": "planned",
+      "longitude": -111.783,
+      "latitude": 40.368,
+      "etr": "Before 01:30 PM on 10/21",
       "outCount": 1,
-      "custOut": 28,
-      "cause": "Investigating",
+      "custOut": 9,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "08:25 AM on 10/21",
-      "zip": "84655"
+      "reported": "11:25 AM on 10/21",
+      "zip": "84003"
     },
     {
       "icon": "standard",
@@ -97,9 +97,28 @@
       "crewStatus": "Crews Notified",
       "reported": "08:27 AM on 10/21",
       "zip": "84404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.897,
+      "latitude": 41.846,
+      "etr": "Before 02:30 PM on 10/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:22 AM on 10/21",
+      "zip": "84335"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84003",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84044",
       "outCountPlan": 0,
@@ -116,6 +135,13 @@
     },
     {
       "zipCode": "84119",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84335",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -141,16 +167,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 23
-    },
-    {
-      "zipCode": "84655",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 28
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Emery",
       "outCountPlan": 0,
@@ -174,10 +200,10 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 28
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
