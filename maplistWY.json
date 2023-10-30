@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 43,
+  "count": 7,
+  "totalState": 55,
   "outages": [
     {
       "icon": "standard",
@@ -27,13 +27,13 @@
       "zip": "83114"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -106.341,
       "latitude": 42.813,
       "etr": "Before 12:30 PM on 10/30",
       "outCount": 1,
       "custOut": 37,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:33 AM on 10/30",
       "zip": "82601"
@@ -49,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:58 AM on 10/30",
       "zip": "82609"
+    },
+    {
+      "icon": "planned",
+      "longitude": -106.359,
+      "latitude": 42.828,
+      "etr": "Before 03:00 PM on 10/30",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:56 AM on 10/30",
+      "zip": "82604"
     },
     {
       "icon": "standard",
@@ -92,10 +104,17 @@
     },
     {
       "zipCode": "82601",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 37
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 37,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82604",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82609",
@@ -150,10 +169,10 @@
     },
     {
       "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 38
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 49,
+      "custOutUnplan": 1
     }
   ]
 }
