@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 18,
+  "count": 9,
+  "totalState": 38,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.803,
+      "latitude": 42.05,
+      "etr": "Before 01:30 PM on 11/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:47 AM on 11/03",
+      "zip": "83237"
+    },
     {
       "icon": "standard",
       "longitude": -112,
@@ -28,32 +40,75 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.138,
-      "latitude": 43.366,
-      "etr": "Before 11:00 AM on 11/03",
+      "longitude": -111.921,
+      "latitude": 43.484,
+      "etr": "Before 01:30 PM on 11/03",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:13 AM on 11/03",
-      "zip": "83274"
+      "crewStatus": "Crews Notified",
+      "reported": "10:49 AM on 11/03",
+      "zip": "83401"
     },
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -112.124,
       "latitude": 43.712,
       "etr": "Before 03:30 PM on 11/03",
-      "outCount": 1,
-      "custOut": 15,
-      "cause": "Planned Maintenance",
+      "outCount": 2,
+      "custOut": 16,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "10:26 AM on 11/03",
       "zip": "83444"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.234,
+      "latitude": 43.72,
+      "etr": "Before 01:30 PM on 11/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:46 AM on 11/03",
+      "zip": "83444"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.448,
+      "latitude": 44.081,
+      "etr": "Before 01:30 PM on 11/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:54 AM on 11/03",
+      "zip": "83420"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.448,
+      "latitude": 44.124,
+      "etr": "Before 04:00 PM on 11/03",
+      "outCount": 1,
+      "custOut": 16,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:46 AM on 11/03",
+      "zip": "83420"
     }
   ],
   "zips": [
     {
       "zipCode": "83228",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83237",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -67,23 +122,30 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83274",
+      "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83420",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 16,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83444",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 2,
       "custOutPlan": 15,
-      "custOutUnplan": 0
+      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
-      "countyName": "Bingham",
+      "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -99,16 +161,23 @@
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 16,
       "custOutUnplan": 1
     },
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 2,
       "custOutPlan": 15,
-      "custOutUnplan": 0
+      "custOutUnplan": 2
     }
   ]
 }
