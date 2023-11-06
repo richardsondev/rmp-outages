@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.583,
+      "latitude": 41.331,
+      "etr": "Before 04:30 PM on 11/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:13 PM on 11/06",
+      "zip": "82072"
+    },
     {
       "icon": "planned",
       "longitude": -111.011,
@@ -22,12 +34,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:13 AM on 11/06",
       "zip": "82636"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82072",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82636",
       "outCountPlan": 0,
@@ -44,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Lincoln",
       "outCountPlan": 1,
