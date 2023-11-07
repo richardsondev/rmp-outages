@@ -76,18 +76,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.079,
-      "latitude": 41.134,
-      "etr": "Before 06:30 PM on 11/07",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:20 PM on 11/07",
-      "zip": "84015"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.042,
       "latitude": 41.193,
       "etr": "Before 07:00 PM on 11/07",
@@ -97,6 +85,18 @@
       "crewStatus": "Crews Notified",
       "reported": "03:46 PM on 11/07",
       "zip": "84067"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.984,
+      "latitude": 41.208,
+      "etr": "Before 07:30 PM on 11/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:01 PM on 11/07",
+      "zip": "84401"
     },
     {
       "icon": "standard",
@@ -112,13 +112,6 @@
     }
   ],
   "zips": [
-    {
-      "zipCode": "84015",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84057",
       "outCountPlan": 0,
@@ -176,6 +169,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -184,13 +184,6 @@
     }
   ],
   "counties": [
-    {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -207,9 +200,9 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 2
     }
   ]
