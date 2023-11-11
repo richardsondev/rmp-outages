@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 18,
+  "count": 7,
+  "totalState": 71,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.08,
+      "latitude": 38.757,
+      "etr": "Before 01:00 PM on 11/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:10 AM on 11/11",
+      "zip": "84701"
+    },
     {
       "icon": "standard",
       "longitude": -111.881,
@@ -13,6 +25,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:57 AM on 11/11",
       "zip": "84047"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.805,
+      "latitude": 40.673,
+      "etr": "Before 04:00 PM on 11/11",
+      "outCount": 1,
+      "custOut": 44,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:00 AM on 11/11",
+      "zip": "84124"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.863,
+      "latitude": 40.701,
+      "etr": "Before 02:30 PM on 11/11",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:09 AM on 11/11",
+      "zip": "84106"
     },
     {
       "icon": "standard",
@@ -31,7 +67,7 @@
       "longitude": -111.806,
       "latitude": 40.731,
       "etr": "Before 02:00 PM on 11/11",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 7,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
@@ -60,9 +96,16 @@
       "custOutUnplan": 4
     },
     {
+      "zipCode": "84106",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
       "zipCode": "84108",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
     },
@@ -79,15 +122,36 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84124",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 44,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84701",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 4,
-      "custOutPlan": 6,
-      "custOutUnplan": 12
+      "custOutPlan": 50,
+      "custOutUnplan": 20
+    },
+    {
+      "countyName": "Sevier",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
