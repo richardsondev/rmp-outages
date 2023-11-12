@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 33,
+  "count": 5,
+  "totalState": 35,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.88,
+      "latitude": 40.6,
+      "etr": "Before 07:00 PM on 11/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:31 PM on 11/12",
+      "zip": "84070"
+    },
     {
       "icon": "planned",
       "longitude": -111.844,
@@ -37,9 +49,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "01:19 PM on 11/12",
       "zip": "84337"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.166,
+      "latitude": 41.713,
+      "etr": "Before 06:30 PM on 11/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:39 PM on 11/12",
+      "zip": "84337"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84106",
       "outCountPlan": 1,
@@ -57,25 +88,25 @@
     {
       "zipCode": "84337",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 8
+      "custOutUnplan": 9
     }
   ],
   "counties": [
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 10
     },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 24,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ]
 }
