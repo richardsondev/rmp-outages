@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "totalState": 128,
+  "totalState": 4,
   "outages": [
     {
       "icon": "planned",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.975,
+      "latitude": 40.585,
+      "etr": "Before 04:00 AM on 11/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:47 AM on 11/15",
+      "zip": "84088"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.862,
       "latitude": 40.614,
       "etr": "Before 03:00 AM on 11/15",
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Notified",
       "reported": "11:46 PM on 11/14",
       "zip": "84047"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.481,
-      "latitude": 40.617,
-      "etr": "Before 04:00 AM on 11/15",
-      "outCount": 1,
-      "custOut": 125,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:41 PM on 11/14",
-      "zip": "84060"
     }
   ],
   "zips": [
@@ -48,41 +48,27 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84060",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 125
-    },
-    {
       "zipCode": "84081",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84088",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 2,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Summit",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 118
-    },
-    {
-      "countyName": "Wasatch",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 2
     }
   ]
 }
