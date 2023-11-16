@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 24,
+  "count": 6,
+  "totalState": 29,
   "outages": [
     {
       "icon": "planned",
@@ -15,13 +15,13 @@
       "zip": "82935"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -106.126,
       "latitude": 42.79,
       "etr": "Before 04:30 PM on 11/16",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "12:48 PM on 11/16",
       "zip": "82609"
@@ -32,11 +32,23 @@
       "latitude": 42.828,
       "etr": "Before 03:30 PM on 11/16",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 2,
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "11:41 AM on 11/16",
       "zip": "82604"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.721,
+      "latitude": 42.856,
+      "etr": "Before 03:00 PM on 11/16",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:03 PM on 11/16",
+      "zip": "82520"
     },
     {
       "icon": "planned",
@@ -53,18 +65,25 @@
   ],
   "zips": [
     {
+      "zipCode": "82520",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82604",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82609",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82935",
@@ -83,10 +102,17 @@
   ],
   "counties": [
     {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1,
       "custOutUnplan": 2
     },
     {
