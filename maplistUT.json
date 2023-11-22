@@ -1,6 +1,6 @@
 {
   "count": 13,
-  "totalState": 29,
+  "totalState": 37,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:48 PM on 11/22",
       "zip": "84003"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.525,
+      "latitude": 40.463,
+      "etr": "Before 06:30 PM on 11/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:27 PM on 11/22",
+      "zip": "84078"
     },
     {
       "icon": "standard",
@@ -42,9 +54,9 @@
       "icon": "standard",
       "longitude": -111.938,
       "latitude": 40.657,
-      "etr": "Assessing",
+      "etr": "Before 07:30 PM on 11/22",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 9,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "03:14 PM on 11/22",
@@ -97,18 +109,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:23 PM on 11/22",
       "zip": "84115"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.922,
-      "latitude": 40.875,
-      "etr": "Before 05:30 PM on 11/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:25 PM on 11/22",
-      "zip": "84087"
     },
     {
       "icon": "standard",
@@ -170,11 +170,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84078",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84087",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84093",
@@ -216,16 +223,16 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     },
     {
       "countyName": "Rich",
@@ -239,10 +246,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 6,
       "custOutPlan": 0,
-      "custOutUnplan": 17
+      "custOutUnplan": 25
     },
     {
       "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Uintah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
