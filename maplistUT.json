@@ -1,7 +1,19 @@
 {
-  "count": 12,
-  "totalState": 28,
+  "count": 14,
+  "totalState": 30,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.783,
+      "latitude": 40.383,
+      "etr": "Before 05:30 PM on 11/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:48 PM on 11/22",
+      "zip": "84003"
+    },
     {
       "icon": "standard",
       "longitude": -111.955,
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:47 PM on 11/22",
       "zip": "84095"
     },
@@ -76,18 +88,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.558,
-      "latitude": 40.703,
-      "etr": "Before 11:30 PM on 11/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:59 PM on 11/22",
-      "zip": "84098"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.73,
       "etr": "Before 05:30 PM on 11/22",
@@ -112,12 +112,24 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.948,
-      "latitude": 41.31,
-      "etr": "Before 04:30 PM on 11/22",
+      "longitude": -111.904,
+      "latitude": 40.919,
+      "etr": "Before 06:00 PM on 11/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:52 PM on 11/22",
+      "zip": "84087"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.948,
+      "latitude": 41.31,
+      "etr": "Before 06:00 PM on 11/22",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "01:12 PM on 11/22",
       "zip": "84414"
@@ -137,6 +149,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84064",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -153,9 +172,9 @@
     {
       "zipCode": "84087",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84093",
@@ -174,9 +193,9 @@
     {
       "zipCode": "84098",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84115",
@@ -202,18 +221,18 @@
     {
       "zipCode": "84414",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Rich",
@@ -232,16 +251,23 @@
     {
       "countyName": "Summit",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
-      "countyName": "Weber",
+      "countyName": "Utah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
