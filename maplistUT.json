@@ -1,7 +1,19 @@
 {
-  "count": 9,
-  "totalState": 14,
+  "count": 10,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.79,
+      "latitude": 37.885,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:14 PM on 11/25",
+      "zip": "84760"
+    },
     {
       "icon": "planned",
       "longitude": -111.687,
@@ -16,25 +28,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.972,
-      "latitude": 40.353,
-      "etr": "Before 03:30 PM on 11/25",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:46 PM on 11/25",
-      "zip": "84005"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.823,
       "latitude": 40.542,
       "etr": "Before 04:00 PM on 11/25",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:36 PM on 11/25",
       "zip": "84092"
     },
@@ -109,16 +109,21 @@
       "crewStatus": "Crews Notified",
       "reported": "12:40 PM on 11/25",
       "zip": "84404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.044,
+      "latitude": 41.338,
+      "etr": "Before 04:30 PM on 11/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:05 PM on 11/25",
+      "zip": "84404"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84005",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84017",
       "outCountPlan": 0,
@@ -164,14 +169,28 @@
     {
       "zipCode": "84404",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "84760",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -194,16 +213,16 @@
     {
       "countyName": "Utah",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 3,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 4,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ]
 }
