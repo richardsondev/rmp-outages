@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.212,
+      "latitude": 42.59,
+      "etr": "Before 11:00 AM on 11/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:49 AM on 11/25",
+      "zip": "83214"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.786,
+      "latitude": 43.804,
+      "etr": "Before 01:00 PM on 11/25",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:49 AM on 11/25",
+      "zip": "83440"
+    },
     {
       "icon": "standard",
       "longitude": -112.307,
@@ -17,6 +41,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83450",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -26,11 +64,25 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
