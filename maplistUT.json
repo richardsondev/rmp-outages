@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 57,
+  "count": 5,
+  "totalState": 59,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.881,
+      "latitude": 40.614,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:44 PM on 11/26",
+      "zip": "84047"
+    },
     {
       "icon": "standard",
       "longitude": -111.881,
@@ -37,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "03:55 PM on 11/26",
       "zip": "84015"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.026,
+      "latitude": 41.41,
+      "etr": "Before 12:00 AM on 11/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:36 PM on 11/26",
+      "zip": "84340"
     }
   ],
   "zips": [
@@ -57,12 +81,26 @@
     {
       "zipCode": "84047",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 51
+    },
+    {
+      "zipCode": "84340",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 50
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -73,9 +111,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 56
+      "custOutUnplan": 57
     }
   ]
 }
