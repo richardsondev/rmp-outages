@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 7,
+  "count": 4,
+  "totalState": 20,
   "outages": [
     {
       "icon": "standard",
@@ -27,14 +27,26 @@
       "zip": "83263"
     },
     {
+      "icon": "planned",
+      "longitude": -111.747,
+      "latitude": 43.876,
+      "etr": "Before 12:30 PM on 11/29",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:15 AM on 11/29",
+      "zip": "83448"
+    },
+    {
       "icon": "standard",
       "longitude": -111.396,
       "latitude": 43.9,
-      "etr": "Before 10:30 AM on 11/29",
+      "etr": "Before 02:00 PM on 11/29",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
       "reported": "07:56 AM on 11/29",
       "zip": "83436"
     }
@@ -60,6 +72,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -79,9 +98,9 @@
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 13,
       "custOutUnplan": 1
     }
   ]
