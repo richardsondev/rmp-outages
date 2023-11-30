@@ -1,7 +1,19 @@
 {
-  "count": 8,
-  "totalState": 17,
+  "count": 10,
+  "totalState": 19,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.685,
+      "latitude": 37.72,
+      "etr": "Before 08:00 PM on 11/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:55 PM on 11/29",
+      "zip": "84759"
+    },
     {
       "icon": "standard",
       "longitude": -112.259,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:45 PM on 11/29",
       "zip": "84750"
     },
@@ -69,9 +81,21 @@
       "etr": "Before 07:00 PM on 11/29",
       "outCount": 2,
       "custOut": 2,
-      "cause": "Investigating",
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "03:15 PM on 11/29",
+      "zip": "84414"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.948,
+      "latitude": 41.324,
+      "etr": "Before 08:00 PM on 11/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 PM on 11/29",
       "zip": "84414"
     }
   ],
@@ -114,9 +138,9 @@
     {
       "zipCode": "84414",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "zipCode": "84750",
@@ -124,9 +148,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84759",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Garfield",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Piute",
       "outCountPlan": 0,
@@ -158,9 +196,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ]
 }
