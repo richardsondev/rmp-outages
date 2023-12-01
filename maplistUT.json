@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 6,
+  "count": 8,
+  "totalState": 9,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.08,
+      "latitude": 38.757,
+      "etr": "Before 12:30 PM on 12/01",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:17 AM on 12/01",
+      "zip": "84701"
+    },
     {
       "icon": "standard",
       "longitude": -112.057,
@@ -18,13 +30,25 @@
       "icon": "standard",
       "longitude": -111.861,
       "latitude": 40.556,
-      "etr": "Assessing",
+      "etr": "Before 11:30 AM on 12/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:13 AM on 12/01",
       "zip": "84094"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.405,
+      "latitude": 40.66,
+      "etr": "Before 12:30 PM on 12/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:20 AM on 12/01",
+      "zip": "84036"
     },
     {
       "icon": "standard",
@@ -66,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.935,
       "latitude": 41.801,
-      "etr": "Assessing",
+      "etr": "Before 10:30 AM on 12/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -78,6 +102,13 @@
   "zips": [
     {
       "zipCode": "84013",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84036",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -110,6 +141,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84701",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -128,7 +166,21 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Sevier",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Wasatch",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
