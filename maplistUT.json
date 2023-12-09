@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 13,
+  "count": 5,
+  "totalState": 18,
   "outages": [
     {
       "icon": "standard",
@@ -9,10 +9,22 @@
       "etr": "Before 12:00 PM on 12/09",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "08:45 AM on 12/09",
       "zip": "84124"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.922,
+      "latitude": 40.875,
+      "etr": "Before 02:30 PM on 12/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:19 AM on 12/09",
+      "zip": "84087"
     },
     {
       "icon": "planned",
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.811,
       "latitude": 41.137,
-      "etr": "Before 01:00 PM on 12/09",
+      "etr": "Before 12:00 PM on 12/09",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Damaged Line",
+      "crewStatus": "Crews Arrived",
       "reported": "09:38 AM on 12/09",
       "zip": "84050"
     },
@@ -42,9 +54,9 @@
       "icon": "standard",
       "longitude": -111.611,
       "latitude": 41.268,
-      "etr": "Before 02:30 PM on 12/09",
+      "etr": "Before 04:30 PM on 12/09",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 5,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "11:07 AM on 12/09",
@@ -60,6 +72,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84087",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84124",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -71,7 +90,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     },
     {
       "zipCode": "84404",
@@ -82,6 +101,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Morgan",
       "outCountPlan": 1,
@@ -101,7 +127,7 @@
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 28,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     }
   ]
 }
