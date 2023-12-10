@@ -1,12 +1,12 @@
 {
   "count": 4,
-  "totalState": 10,
+  "totalState": 43,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.938,
       "latitude": 40.657,
-      "etr": "Assessing",
+      "etr": "Before 03:00 PM on 12/10",
       "outCount": 1,
       "custOut": 2,
       "cause": "Vehicle Accident",
@@ -15,24 +15,36 @@
       "zip": "84129"
     },
     {
-      "icon": "standard",
-      "longitude": -112.205,
-      "latitude": 41.699,
-      "etr": "Before 10:30 AM on 12/10",
+      "icon": "planned",
+      "longitude": -111.921,
+      "latitude": 40.817,
+      "etr": "Before 06:00 PM on 12/10",
       "outCount": 1,
-      "custOut": 6,
-      "cause": "Investigating",
+      "custOut": 2,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
-      "reported": "07:36 AM on 12/10",
-      "zip": "84337"
+      "reported": "07:58 AM on 12/10",
+      "zip": "84116"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.83,
+      "latitude": 41.137,
+      "etr": "Before 02:00 PM on 12/10",
+      "outCount": 1,
+      "custOut": 23,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:10 AM on 12/10",
+      "zip": "84050"
     },
     {
       "icon": "standard",
       "longitude": -112.185,
       "latitude": 41.699,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 2,
+      "etr": "Before 10:30 AM on 12/10",
+      "outCount": 1,
+      "custOut": 16,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:35 AM on 12/10",
@@ -40,6 +52,20 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84050",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 23,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84116",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84129",
       "outCountPlan": 0,
@@ -50,24 +76,31 @@
     {
       "zipCode": "84337",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 8
+      "custOutUnplan": 16
     }
   ],
   "counties": [
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 8
+      "custOutUnplan": 16
+    },
+    {
+      "countyName": "Morgan",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 23,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 2
     }
   ]
