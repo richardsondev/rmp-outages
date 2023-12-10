@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.253,
+      "latitude": 42.176,
+      "etr": "Before 08:30 PM on 12/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:01 PM on 12/09",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.688,
@@ -10,12 +22,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:21 PM on 12/09",
       "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83445",
       "outCountPlan": 0,
@@ -27,6 +46,13 @@
   "counties": [
     {
       "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
