@@ -1,7 +1,19 @@
 {
   "count": 10,
-  "totalState": 270,
+  "totalState": 275,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.745,
+      "latitude": 40.369,
+      "etr": "Before 02:30 PM on 12/12",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:18 AM on 12/12",
+      "zip": "84062"
+    },
     {
       "icon": "standard",
       "longitude": -112.316,
@@ -49,18 +61,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:02 AM on 12/12",
       "zip": "84044"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.824,
-      "latitude": 40.687,
-      "etr": "Before 10:30 AM on 12/12",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:01 AM on 12/12",
-      "zip": "84109"
     },
     {
       "icon": "planned",
@@ -146,6 +146,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84062",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -154,13 +161,6 @@
     },
     {
       "zipCode": "84095",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84109",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -206,9 +206,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 136,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
@@ -216,6 +216,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
