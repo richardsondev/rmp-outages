@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 41,
+  "count": 7,
+  "totalState": 84,
   "outages": [
     {
       "icon": "standard",
@@ -53,6 +53,18 @@
     {
       "icon": "planned",
       "longitude": -112.041,
+      "latitude": 41.12,
+      "etr": "Before 12:30 PM on 12/12",
+      "outCount": 1,
+      "custOut": 42,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:30 AM on 12/12",
+      "zip": "84015"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.041,
       "latitude": 41.149,
       "etr": "Before 12:00 PM on 12/12",
       "outCount": 1,
@@ -61,14 +73,26 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:11 AM on 12/12",
       "zip": "84015"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.005,
+      "latitude": 41.309,
+      "etr": "Before 02:00 PM on 12/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:42 AM on 12/12",
+      "zip": "84404"
     }
   ],
   "zips": [
     {
       "zipCode": "84015",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 37,
+      "custOutPlan": 79,
       "custOutUnplan": 0
     },
     {
@@ -98,14 +122,21 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84404",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 37,
+      "custOutPlan": 79,
       "custOutUnplan": 0
     },
     {
@@ -121,6 +152,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
