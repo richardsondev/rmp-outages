@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 84,
+  "count": 9,
+  "totalState": 221,
   "outages": [
     {
       "icon": "standard",
@@ -27,6 +27,18 @@
       "zip": "84095"
     },
     {
+      "icon": "planned",
+      "longitude": -111.977,
+      "latitude": 40.671,
+      "etr": "Before 03:00 PM on 12/12",
+      "outCount": 1,
+      "custOut": 136,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 12/12",
+      "zip": "84120"
+    },
+    {
       "icon": "standard",
       "longitude": -112.072,
       "latitude": 40.685,
@@ -34,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:02 AM on 12/12",
       "zip": "84044"
     },
@@ -85,6 +97,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:42 AM on 12/12",
       "zip": "84404"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.895,
+      "latitude": 41.687,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:59 AM on 12/12",
+      "zip": "84339"
     }
   ],
   "zips": [
@@ -124,6 +148,20 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84120",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 136,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84339",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -133,6 +171,13 @@
   ],
   "counties": [
     {
+      "countyName": "Cache",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Davis",
       "outCountPlan": 2,
       "outCountUnplan": 0,
@@ -141,9 +186,9 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 3,
-      "custOutPlan": 0,
+      "custOutPlan": 136,
       "custOutUnplan": 3
     },
     {
