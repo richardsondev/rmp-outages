@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 40,
   "outages": [
     {
       "icon": "standard",
@@ -16,18 +16,56 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.072,
+      "latitude": 40.685,
+      "etr": "Before 11:30 AM on 12/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:02 AM on 12/12",
+      "zip": "84044"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.824,
       "latitude": 40.687,
       "etr": "Before 10:30 AM on 12/12",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:01 AM on 12/12",
       "zip": "84109"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.041,
+      "latitude": 41.149,
+      "etr": "Before 12:00 PM on 12/12",
+      "outCount": 1,
+      "custOut": 37,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:11 AM on 12/12",
+      "zip": "84015"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84015",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 37,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84074",
       "outCountPlan": 0,
@@ -45,11 +83,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 37,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
