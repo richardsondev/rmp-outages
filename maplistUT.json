@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -112.009,
+      "latitude": 40.294,
+      "etr": "Before 02:00 PM on 12/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:11 AM on 12/13",
+      "zip": "84005"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.668,
       "latitude": 40.326,
       "etr": "Before 12:00 PM on 12/13",
@@ -75,18 +87,6 @@
       "zip": "84129"
     },
     {
-      "icon": "standard",
-      "longitude": -111.805,
-      "latitude": 40.687,
-      "etr": "Before 12:00 PM on 12/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:57 AM on 12/13",
-      "zip": "84124"
-    },
-    {
       "icon": "planned",
       "longitude": -111.882,
       "latitude": 40.701,
@@ -126,7 +126,7 @@
       "icon": "standard",
       "longitude": -111.825,
       "latitude": 40.716,
-      "etr": "Before 12:30 PM on 12/13",
+      "etr": "Before 12:00 PM on 12/13",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -269,6 +269,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84037",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -353,13 +360,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84124",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84129",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -434,9 +434,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 5,
-      "outCountUnplan": 7,
+      "outCountUnplan": 6,
       "custOutPlan": 269,
-      "custOutUnplan": 30
+      "custOutUnplan": 29
     },
     {
       "countyName": "Tooele",
@@ -448,9 +448,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 6
     },
     {
       "countyName": "Weber",
