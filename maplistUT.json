@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 20,
+  "count": 4,
+  "totalState": 37,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.804,
+      "latitude": 40.615,
+      "etr": "Before 01:30 AM on 12/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:01 PM on 12/14",
+      "zip": "84121"
+    },
     {
       "icon": "standard",
       "longitude": -112.053,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:48 PM on 12/14",
       "zip": "84128"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.921,
+      "latitude": 40.773,
+      "etr": "Before 06:00 AM on 12/15",
+      "outCount": 1,
+      "custOut": 16,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:00 PM on 12/14",
+      "zip": "84104"
     },
     {
       "icon": "standard",
@@ -36,6 +60,20 @@
       "custOutUnplan": 9
     },
     {
+      "zipCode": "84104",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84121",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84128",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,10 +91,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 11
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 16,
+      "custOutUnplan": 12
     }
   ]
 }
