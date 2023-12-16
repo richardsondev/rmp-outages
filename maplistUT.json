@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 10,
+  "count": 5,
+  "totalState": 11,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.764,
+      "latitude": 40.412,
+      "etr": "Before 10:30 PM on 12/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:36 PM on 12/15",
+      "zip": "84062"
+    },
     {
       "icon": "standard",
       "longitude": -112.05,
@@ -16,24 +28,12 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.88,
-      "latitude": 40.6,
-      "etr": "Before 08:00 PM on 12/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
-      "reported": "02:27 PM on 12/15",
-      "zip": "84047"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.824,
       "latitude": 40.673,
-      "etr": "Before 08:30 PM on 12/15",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Emergency Repair",
+      "etr": "Before 11:00 PM on 12/15",
+      "outCount": 2,
+      "custOut": 8,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "05:23 PM on 12/15",
       "zip": "84124"
@@ -53,7 +53,7 @@
   ],
   "zips": [
     {
-      "zipCode": "84047",
+      "zipCode": "84062",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,9 +76,9 @@
     {
       "zipCode": "84124",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 8
     }
   ],
   "counties": [
@@ -95,6 +95,13 @@
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 9
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
