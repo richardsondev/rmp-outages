@@ -1,18 +1,18 @@
 {
-  "count": 3,
-  "totalState": 69,
+  "count": 5,
+  "totalState": 64,
   "outages": [
     {
-      "icon": "planned",
-      "longitude": -111.726,
-      "latitude": 40.354,
-      "etr": "Before 07:00 PM on 12/16",
-      "outCount": 1,
-      "custOut": 21,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:03 PM on 12/16",
-      "zip": "84062"
+      "icon": "standard",
+      "longitude": -112.034,
+      "latitude": 40.671,
+      "etr": "Before 09:00 PM on 12/16",
+      "outCount": 2,
+      "custOut": 9,
+      "cause": "Multiple outages in the area",
+      "crewStatus": "Crews Notified",
+      "reported": "05:31 PM on 12/16",
+      "zip": "84128"
     },
     {
       "icon": "planned",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "01:04 PM on 12/16",
       "zip": "84109"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.984,
+      "latitude": 41.164,
+      "etr": "Before 08:00 PM on 12/16",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "05:43 PM on 12/16",
+      "zip": "84405"
     },
     {
       "icon": "standard",
@@ -41,13 +53,6 @@
   ],
   "zips": [
     {
-      "zipCode": "84062",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 21,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84109",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -55,34 +60,41 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84128",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 8,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84405",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 47,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Utah",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 21,
-      "custOutUnplan": 0
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 55,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 8
     }
   ]
 }
