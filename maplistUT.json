@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 10,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.975,
+      "latitude": 40.599,
+      "etr": "Before 05:00 AM on 12/19",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:57 PM on 12/18",
+      "zip": "84088"
+    },
     {
       "icon": "standard",
       "longitude": -112.318,
@@ -22,9 +34,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84088",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Tooele",
       "outCountPlan": 0,
