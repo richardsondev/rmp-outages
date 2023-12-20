@@ -1,6 +1,6 @@
 {
   "count": 7,
-  "totalState": 28,
+  "totalState": 35,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:56 PM on 12/19",
       "zip": "84009"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.975,
+      "latitude": 40.599,
+      "etr": "Before 11:00 PM on 12/19",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:22 PM on 12/19",
+      "zip": "84088"
     },
     {
       "icon": "standard",
@@ -73,18 +85,6 @@
       "crewStatus": "Crews Notified",
       "reported": "07:09 PM on 12/19",
       "zip": "84014"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.118,
-      "latitude": 41.178,
-      "etr": "Before 11:00 PM on 12/19",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
-      "reported": "05:29 PM on 12/19",
-      "zip": "84315"
     }
   ],
   "zips": [
@@ -117,6 +117,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84088",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84119",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -125,13 +132,6 @@
     },
     {
       "zipCode": "84123",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84315",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -148,17 +148,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 4,
-      "custOutPlan": 7,
+      "custOutPlan": 15,
       "custOutUnplan": 19
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
