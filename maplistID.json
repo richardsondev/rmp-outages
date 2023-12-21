@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 5,
+  "count": 3,
+  "totalState": 13,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.213,
+      "latitude": 43.292,
+      "etr": "Before 12:00 PM on 12/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:17 AM on 12/21",
+      "zip": "83236"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.138,
+      "latitude": 43.395,
+      "etr": "Before 10:30 AM on 12/21",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:22 AM on 12/21",
+      "zip": "83274"
+    },
     {
       "icon": "planned",
       "longitude": -111.998,
@@ -17,6 +41,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83274",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83434",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -25,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 7,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Madison",
       "outCountPlan": 1,
