@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 7,
+  "totalState": 8,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:45 AM on 12/28",
       "zip": "83261"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.921,
+      "latitude": 43.469,
+      "etr": "Before 02:30 PM on 12/28",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:19 PM on 12/28",
+      "zip": "83406"
     },
     {
       "icon": "planned",
@@ -34,20 +46,8 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:52 PM on 12/28",
-      "zip": "83448"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.747,
-      "latitude": 43.876,
-      "etr": "Before 03:00 PM on 12/28",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:47 AM on 12/28",
       "zip": "83448"
     }
   ],
@@ -67,10 +67,17 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83448",
+      "zipCode": "83406",
       "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ],
@@ -84,16 +91,16 @@
     },
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 2,
+      "custOutPlan": 5,
       "custOutUnplan": 0
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ]
