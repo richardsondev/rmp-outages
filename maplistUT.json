@@ -1,6 +1,6 @@
 {
-  "count": 20,
-  "totalState": 96,
+  "count": 18,
+  "totalState": 710,
   "outages": [
     {
       "icon": "standard",
@@ -25,30 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:01 PM on 01/02",
       "zip": "84634"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.744,
-      "latitude": 40.34,
-      "etr": "Before 07:00 PM on 01/02",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:34 AM on 01/02",
-      "zip": "84042"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.956,
-      "latitude": 40.556,
-      "etr": "Before 05:00 PM on 01/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:53 PM on 01/02",
-      "zip": "84095"
     },
     {
       "icon": "standard",
@@ -82,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:21 AM on 01/02",
       "zip": "84121"
     },
@@ -163,8 +139,8 @@
       "longitude": -111.882,
       "latitude": 40.745,
       "etr": "Before 05:30 PM on 01/02",
-      "outCount": 2,
-      "custOut": 2,
+      "outCount": 1,
+      "custOut": 24,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "02:01 PM on 01/02",
@@ -229,16 +205,21 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:06 PM on 01/02",
       "zip": "84340"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.899,
+      "latitude": 41.977,
+      "etr": "Before 05:30 PM on 01/02",
+      "outCount": 1,
+      "custOut": 595,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:26 PM on 01/02",
+      "zip": "84338, 84320, 84308, 84333"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84042",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
     {
       "zipCode": "84047",
       "outCountPlan": 0,
@@ -268,18 +249,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84095",
+      "zipCode": "84101",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84101",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 24
     },
     {
       "zipCode": "84104",
@@ -308,6 +282,34 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 10
+    },
+    {
+      "zipCode": "84308",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 37
+    },
+    {
+      "zipCode": "84320",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 507
+    },
+    {
+      "zipCode": "84333",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "84338",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 46
     },
     {
       "zipCode": "84340",
@@ -347,6 +349,13 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 592
+    },
+    {
       "countyName": "Davis",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -356,9 +365,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 13,
+      "outCountUnplan": 11,
       "custOutPlan": 9,
-      "custOutUnplan": 63
+      "custOutUnplan": 84
     },
     {
       "countyName": "Sanpete",
@@ -366,13 +375,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "countyName": "Utah",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
     },
     {
       "countyName": "Washington",
