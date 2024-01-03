@@ -1,36 +1,88 @@
 {
-  "count": 1,
-  "totalState": 86,
+  "count": 3,
+  "totalState": 88,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.862,
       "latitude": 42.854,
-      "etr": "Assessing",
+      "etr": "Before 03:30 PM on 01/03",
       "outCount": 1,
       "custOut": 86,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:28 AM on 01/03",
       "zip": "83217"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.133,
+      "latitude": 43.381,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
+      "reported": "08:40 AM on 01/03",
+      "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.368,
+      "latitude": 44.074,
+      "etr": "Before 11:30 AM on 01/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:38 AM on 01/03",
+      "zip": "83420"
     }
   ],
   "zips": [
     {
       "zipCode": "83217",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 86,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 86
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83420",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Caribou",
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 86
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 86,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
