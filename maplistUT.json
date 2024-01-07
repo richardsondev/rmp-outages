@@ -1,19 +1,7 @@
 {
   "count": 10,
-  "totalState": 172,
+  "totalState": 188,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.272,
-      "latitude": 37.202,
-      "etr": "Before 03:00 PM on 01/07",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:56 AM on 01/07",
-      "zip": "84745"
-    },
     {
       "icon": "standard",
       "longitude": -111.942,
@@ -99,6 +87,18 @@
       "zip": "84014"
     },
     {
+      "icon": "standard",
+      "longitude": -111.944,
+      "latitude": 41.063,
+      "etr": "Before 04:30 PM on 01/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:30 PM on 01/07",
+      "zip": "84040"
+    },
+    {
       "icon": "planned",
       "longitude": -112.041,
       "latitude": 41.164,
@@ -112,11 +112,11 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.139,
-      "latitude": 41.264,
-      "etr": "Before 04:30 PM on 01/07",
+      "longitude": -112.12,
+      "latitude": 41.265,
+      "etr": "Before 06:30 PM on 01/07",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 17,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "01:18 PM on 01/07",
@@ -126,6 +126,13 @@
   "zips": [
     {
       "zipCode": "84014",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84040",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -178,23 +185,16 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84745",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 17
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "countyName": "Salt Lake",
@@ -211,18 +211,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Washington",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Weber",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 25,
-      "custOutUnplan": 1
+      "custOutUnplan": 17
     }
   ]
 }
