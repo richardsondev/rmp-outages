@@ -1,14 +1,26 @@
 {
-  "count": 16,
-  "totalState": 242,
+  "count": 19,
+  "totalState": 264,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.907,
+      "latitude": 37.818,
+      "etr": "Before 01:00 PM on 01/09",
+      "outCount": 1,
+      "custOut": 20,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:13 AM on 01/09",
+      "zip": "84772, 84761"
+    },
     {
       "icon": "standard",
       "longitude": -111.932,
       "latitude": 39.548,
-      "etr": "Before 01:00 PM on 01/09",
-      "outCount": 2,
-      "custOut": 37,
+      "etr": "Assessing",
+      "outCount": 3,
+      "custOut": 38,
       "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:29 AM on 01/09",
@@ -25,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "09:27 AM on 01/09",
       "zip": "84005"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.745,
+      "latitude": 40.398,
+      "etr": "Before 01:00 PM on 01/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:11 AM on 01/09",
+      "zip": "84062"
     },
     {
       "icon": "planned",
@@ -208,6 +232,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84062",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84074",
       "outCountPlan": 1,
       "outCountUnplan": 1,
@@ -258,10 +289,24 @@
     },
     {
       "zipCode": "84639",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 1,
-      "custOutPlan": 36,
+      "custOutPlan": 37,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84761",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84772",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -280,10 +325,17 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Juab",
+      "countyName": "Iron",
       "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Juab",
+      "outCountPlan": 2,
       "outCountUnplan": 1,
-      "custOutPlan": 36,
+      "custOutPlan": 37,
       "custOutUnplan": 1
     },
     {
@@ -303,9 +355,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
