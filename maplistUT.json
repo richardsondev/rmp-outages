@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 32,
+  "totalState": 4,
   "outages": [
     {
       "icon": "standard",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.916,
+      "latitude": 40.397,
+      "etr": "Before 08:30 PM on 01/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:31 PM on 01/14",
+      "zip": "84045"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.921,
       "latitude": 40.788,
       "etr": "Before 07:00 PM on 01/14",
@@ -27,22 +39,10 @@
       "zip": "84116"
     },
     {
-      "icon": "planned",
-      "longitude": -112.022,
-      "latitude": 41.164,
-      "etr": "Before 05:30 PM on 01/14",
-      "outCount": 1,
-      "custOut": 29,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:57 AM on 01/14",
-      "zip": "84405"
-    },
-    {
       "icon": "standard",
       "longitude": -111.985,
       "latitude": 41.266,
-      "etr": "Before 05:30 PM on 01/14",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
@@ -52,6 +52,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84045",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84116",
       "outCountPlan": 0,
@@ -65,13 +72,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84405",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 29,
-      "custOutUnplan": 0
     },
     {
       "zipCode": "84759",
@@ -97,10 +97,17 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Weber",
-      "outCountPlan": 1,
+      "countyName": "Utah",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 29,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ]
