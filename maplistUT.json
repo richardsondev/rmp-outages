@@ -1,7 +1,19 @@
 {
-  "count": 21,
-  "totalState": 558,
+  "count": 19,
+  "totalState": 474,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.455,
+      "latitude": 38.49,
+      "etr": "Before 02:30 PM on 01/22",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:35 AM on 01/22",
+      "zip": "84532"
+    },
     {
       "icon": "standard",
       "longitude": -112.079,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:16 AM on 01/22",
       "zip": "84701"
     },
@@ -135,18 +147,6 @@
       "zip": "84115"
     },
     {
-      "icon": "planned",
-      "longitude": -111.863,
-      "latitude": 40.73,
-      "etr": "Before 12:00 PM on 01/22",
-      "outCount": 1,
-      "custOut": 22,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:39 AM on 01/22",
-      "zip": "84105"
-    },
-    {
       "icon": "standard",
       "longitude": -111.863,
       "latitude": 40.759,
@@ -169,18 +169,6 @@
       "crewStatus": "Crews Notified",
       "reported": "10:55 AM on 01/22",
       "zip": "84040"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.983,
-      "latitude": 41.092,
-      "etr": "Before 01:00 PM on 01/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:56 AM on 01/22",
-      "zip": "84041"
     },
     {
       "icon": "planned",
@@ -229,18 +217,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:24 AM on 01/22",
       "zip": "84404"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.897,
-      "latitude": 41.846,
-      "etr": "Before 02:00 PM on 01/22",
-      "outCount": 1,
-      "custOut": 63,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:56 AM on 01/22",
-      "zip": "84335"
     }
   ],
   "zips": [
@@ -260,13 +236,6 @@
     },
     {
       "zipCode": "84040",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84041",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -308,13 +277,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84105",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 22,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84115",
       "outCountPlan": 0,
       "outCountUnplan": 3,
@@ -333,13 +295,6 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 7,
-      "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84335",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 60,
       "custOutUnplan": 0
     },
     {
@@ -364,6 +319,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84532",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84701",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -373,25 +335,25 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 60,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 3,
+      "outCountPlan": 2,
       "outCountUnplan": 7,
-      "custOutPlan": 43,
+      "custOutPlan": 21,
       "custOutUnplan": 300
+    },
+    {
+      "countyName": "San Juan",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sevier",
