@@ -1,16 +1,16 @@
 {
-  "count": 2,
-  "totalState": 52,
+  "count": 3,
+  "totalState": 53,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.181,
       "latitude": 42.503,
-      "etr": "Assessing",
+      "etr": "Before 03:00 PM on 01/30",
       "outCount": 1,
       "custOut": 51,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:44 AM on 01/30",
       "zip": "83234"
     },
@@ -25,15 +25,34 @@
       "crewStatus": "Crews Notified",
       "reported": "08:09 AM on 01/30",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.206,
+      "latitude": 44.053,
+      "etr": "Before 11:30 AM on 01/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:47 AM on 01/30",
+      "zip": "83244"
     }
   ],
   "zips": [
     {
       "zipCode": "83234",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 49,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83244",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 49
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83442",
@@ -46,10 +65,17 @@
   "counties": [
     {
       "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 49,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Butte",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 49
+      "custOutUnplan": 1
     },
     {
       "countyName": "Jefferson",
