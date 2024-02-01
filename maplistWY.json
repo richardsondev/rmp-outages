@@ -1,19 +1,7 @@
 {
-  "count": 6,
-  "totalState": 12,
+  "count": 7,
+  "totalState": 14,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.337,
-      "latitude": 41.812,
-      "etr": "Before 03:00 PM on 02/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:37 AM on 02/01",
-      "zip": "83124"
-    },
     {
       "icon": "standard",
       "longitude": -110.105,
@@ -27,6 +15,18 @@
       "zip": "83113"
     },
     {
+      "icon": "planned",
+      "longitude": -106.421,
+      "latitude": 42.816,
+      "etr": "Before 02:00 PM on 02/01",
+      "outCount": 2,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:02 PM on 02/01",
+      "zip": "82604"
+    },
+    {
       "icon": "standard",
       "longitude": -105.343,
       "latitude": 43.065,
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:41 AM on 02/01",
       "zip": "82633"
     },
@@ -60,6 +60,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "82604",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82633",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -68,13 +75,6 @@
     },
     {
       "zipCode": "83113",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83124",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -97,11 +97,11 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Lincoln",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "countyName": "Natrona",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sublette",
