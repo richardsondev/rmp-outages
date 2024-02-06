@@ -1,21 +1,40 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
     {
       "icon": "planned",
       "longitude": -109.759,
       "latitude": 41.633,
-      "etr": "Before 01:00 PM on 02/06",
+      "etr": "Before 05:00 PM on 02/06",
       "outCount": 1,
       "custOut": 1,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "09:46 AM on 02/06",
       "zip": "82935"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.318,
+      "latitude": 42.856,
+      "etr": "Before 04:30 PM on 02/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:48 PM on 02/06",
+      "zip": "82601"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82935",
       "outCountPlan": 1,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
