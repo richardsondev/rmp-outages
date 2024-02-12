@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 4,
+  "count": 2,
+  "totalState": 7,
   "outages": [
     {
       "icon": "planned",
@@ -10,12 +10,31 @@
       "outCount": 1,
       "custOut": 4,
       "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:58 AM on 02/12",
       "zip": "83440"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.408,
+      "latitude": 44.066,
+      "etr": "Before 04:00 PM on 02/12",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:17 AM on 02/12",
+      "zip": "83420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83420",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83440",
       "outCountPlan": 1,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Madison",
       "outCountPlan": 1,
