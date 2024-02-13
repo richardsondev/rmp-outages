@@ -1,12 +1,12 @@
 {
   "count": 7,
-  "totalState": 42,
+  "totalState": 44,
   "outages": [
     {
       "icon": "standard",
       "longitude": -113.068,
       "latitude": 37.685,
-      "etr": "Before 09:00 PM on 02/12",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
@@ -45,10 +45,22 @@
       "etr": "Before 10:30 PM on 02/12",
       "outCount": 1,
       "custOut": 8,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "06:30 PM on 02/12",
       "zip": "84120"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.805,
+      "latitude": 40.687,
+      "etr": "Before 05:30 AM on 02/13",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:02 PM on 02/12",
+      "zip": "84109"
     },
     {
       "icon": "planned",
@@ -61,18 +73,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:27 PM on 02/12",
       "zip": "84119"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.863,
-      "latitude": 40.716,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:40 PM on 02/12",
-      "zip": "84106"
     },
     {
       "icon": "standard",
@@ -110,11 +110,11 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84106",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84109",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84119",
@@ -155,10 +155,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 2,
-      "outCountUnplan": 2,
-      "custOutPlan": 30,
-      "custOutUnplan": 9
+      "outCountPlan": 3,
+      "outCountUnplan": 1,
+      "custOutPlan": 33,
+      "custOutUnplan": 8
     },
     {
       "countyName": "Tooele",
