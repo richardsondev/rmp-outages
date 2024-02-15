@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 34,
+  "count": 4,
+  "totalState": 35,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.07,
+      "latitude": 42.321,
+      "etr": "Before 01:30 PM on 02/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:01 AM on 02/15",
+      "zip": "83238"
+    },
     {
       "icon": "standard",
       "longitude": -112.184,
@@ -10,21 +22,9 @@
       "outCount": 1,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:06 AM on 02/15",
       "zip": "83250"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.635,
-      "latitude": 43.725,
-      "etr": "Before 01:30 PM on 02/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:42 AM on 02/15",
-      "zip": "83440"
     },
     {
       "icon": "standard",
@@ -37,9 +37,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:49 AM on 02/15",
       "zip": "83436"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.708,
+      "latitude": 43.964,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:13 AM on 02/15",
+      "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83238",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83250",
       "outCountPlan": 0,
@@ -55,7 +74,7 @@
       "custOutUnplan": 30
     },
     {
-      "zipCode": "83440",
+      "zipCode": "83445",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -71,11 +90,25 @@
       "custOutUnplan": 2
     },
     {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 31
+      "custOutUnplan": 30
     }
   ]
 }
