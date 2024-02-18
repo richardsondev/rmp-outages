@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 16,
+  "count": 4,
+  "totalState": 20,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.015,
+      "latitude": 40.671,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:12 AM on 02/18",
+      "zip": "84120"
+    },
     {
       "icon": "planned",
       "longitude": -111.905,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 15,
       "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:51 AM on 02/18",
       "zip": "84025"
     },
@@ -25,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:17 AM on 02/18",
       "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.927,
+      "latitude": 41.208,
+      "etr": "Before 02:30 PM on 02/18",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:01 AM on 02/18",
+      "zip": "84403"
     }
   ],
   "zips": [
@@ -41,6 +65,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84120",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ],
   "counties": [
@@ -50,6 +88,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 15,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
