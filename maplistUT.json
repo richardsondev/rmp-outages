@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 16,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.905,
+      "latitude": 40.991,
+      "etr": "Before 02:30 PM on 02/18",
+      "outCount": 1,
+      "custOut": 15,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:51 AM on 02/18",
+      "zip": "84025"
+    },
     {
       "icon": "standard",
       "longitude": -112.001,
@@ -17,6 +29,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84025",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 15,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84041",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -27,9 +46,9 @@
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 15,
       "custOutUnplan": 1
     }
   ]
