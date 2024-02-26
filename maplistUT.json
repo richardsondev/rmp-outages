@@ -1,7 +1,19 @@
 {
-  "count": 9,
-  "totalState": 1755,
+  "count": 6,
+  "totalState": 21,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.318,
+      "latitude": 40.61,
+      "etr": "Before 10:00 PM on 02/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:50 PM on 02/25",
+      "zip": "84074"
+    },
     {
       "icon": "standard",
       "longitude": -111.843,
@@ -61,21 +73,16 @@
       "crewStatus": "Crews Notified",
       "reported": "05:24 PM on 02/25",
       "zip": "84098"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.897,
-      "latitude": 41.846,
-      "etr": "Before 08:30 PM on 02/25",
-      "outCount": 4,
-      "custOut": 1735,
-      "cause": "Substation Problem ",
-      "crewStatus": "Crews Notified",
-      "reported": "05:05 PM on 02/25",
-      "zip": "84335, 84338"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84074",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84098",
       "outCountPlan": 0,
@@ -110,30 +117,9 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84335",
-      "outCountPlan": 0,
-      "outCountUnplan": 4,
-      "custOutPlan": 0,
-      "custOutUnplan": 1483
-    },
-    {
-      "zipCode": "84338",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 190
     }
   ],
   "counties": [
-    {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 4,
-      "custOutPlan": 0,
-      "custOutUnplan": 1673
-    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -147,6 +133,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 9
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
