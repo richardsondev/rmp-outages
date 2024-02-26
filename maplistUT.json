@@ -1,19 +1,7 @@
 {
   "count": 16,
-  "totalState": 87,
+  "totalState": 86,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.015,
-      "latitude": 37.773,
-      "etr": "Before 03:30 PM on 02/26",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:24 AM on 02/26",
-      "zip": "84721"
-    },
     {
       "icon": "standard",
       "longitude": -112.644,
@@ -58,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "01:18 PM on 02/26",
       "zip": "84628"
     },
@@ -70,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:49 PM on 02/26",
       "zip": "84045"
     },
@@ -160,13 +148,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.965,
-      "latitude": 41.222,
+      "longitude": -112.022,
+      "latitude": 41.164,
       "etr": "Before 05:30 PM on 02/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "02:27 PM on 02/26",
+      "zip": "84067"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.965,
+      "latitude": 41.222,
+      "etr": "Before 03:00 PM on 02/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "02:04 PM on 02/26",
       "zip": "84401"
     },
@@ -212,6 +212,13 @@
     },
     {
       "zipCode": "84045",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84067",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -307,13 +314,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84721",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
     }
   ],
   "counties": [
@@ -344,13 +344,6 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "countyName": "Iron",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
     },
     {
       "countyName": "Juab",
@@ -390,9 +383,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
