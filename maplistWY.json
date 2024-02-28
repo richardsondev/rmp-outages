@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -13,11 +13,49 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:16 AM on 02/28",
       "zip": "82901"
+    },
+    {
+      "icon": "planned",
+      "longitude": -106.28,
+      "latitude": 42.839,
+      "etr": "Before 11:30 AM on 02/28",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:08 AM on 02/28",
+      "zip": "82609"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.902,
+      "latitude": 42.888,
+      "etr": "Before 12:30 PM on 02/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:12 AM on 02/28",
+      "zip": "82941"
     }
   ],
   "zips": [
     {
+      "zipCode": "82609",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82901",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82941",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -25,6 +63,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sublette",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
