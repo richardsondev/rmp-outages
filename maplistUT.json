@@ -1,6 +1,6 @@
 {
   "count": 14,
-  "totalState": 47,
+  "totalState": 43,
   "outages": [
     {
       "icon": "standard",
@@ -10,21 +10,9 @@
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:05 PM on 02/29",
       "zip": "84751"
-    },
-    {
-      "icon": "planned",
-      "longitude": -109.368,
-      "latitude": 38.67,
-      "etr": "Before 02:30 PM on 02/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:35 PM on 02/29",
-      "zip": "84532"
     },
     {
       "icon": "standard",
@@ -100,6 +88,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.072,
+      "latitude": 40.7,
+      "etr": "Before 05:30 PM on 02/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:15 PM on 02/29",
+      "zip": "84044"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.864,
       "latitude": 40.774,
       "etr": "Before 02:30 PM on 02/29",
@@ -111,16 +111,16 @@
       "zip": "84102"
     },
     {
-      "icon": "planned",
-      "longitude": -111.883,
-      "latitude": 40.788,
-      "etr": "Before 03:00 PM on 02/29",
+      "icon": "standard",
+      "longitude": -111.714,
+      "latitude": 41.065,
+      "etr": "Before 05:30 PM on 02/29",
       "outCount": 1,
-      "custOut": 5,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:13 AM on 02/29",
-      "zip": "84103"
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:22 PM on 02/29",
+      "zip": "84050"
     },
     {
       "icon": "planned",
@@ -138,22 +138,36 @@
       "icon": "standard",
       "longitude": -111.871,
       "latitude": 41.325,
-      "etr": "Before 06:30 PM on 02/29",
+      "etr": "Before 08:30 PM on 02/29",
       "outCount": 1,
       "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "01:27 PM on 02/29",
       "zip": "84310"
     }
   ],
   "zips": [
     {
+      "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84047",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 17,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84050",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84084",
@@ -184,13 +198,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84103",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 5,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84124",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -209,13 +216,6 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84532",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
       "custOutUnplan": 0
     },
     {
@@ -242,13 +242,6 @@
       "custOutUnplan": 2
     },
     {
-      "countyName": "Grand",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Juab",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -256,11 +249,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Morgan",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
-      "outCountPlan": 3,
-      "outCountUnplan": 5,
-      "custOutPlan": 32,
-      "custOutUnplan": 7
+      "outCountPlan": 2,
+      "outCountUnplan": 6,
+      "custOutPlan": 27,
+      "custOutUnplan": 8
     },
     {
       "countyName": "Weber",
