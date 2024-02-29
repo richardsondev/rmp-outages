@@ -1,21 +1,40 @@
 {
-  "count": 2,
-  "totalState": 2521,
+  "count": 3,
+  "totalState": 2522,
   "outages": [
     {
       "icon": "planned",
       "longitude": -113.086,
       "latitude": 37.684,
-      "etr": "Before 08:00 AM on 02/29",
+      "etr": "Before 06:30 AM on 02/29",
       "outCount": 2,
       "custOut": 2521,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "10:59 PM on 02/28",
       "zip": "84721"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.944,
+      "latitude": 41.078,
+      "etr": "Before 09:00 AM on 02/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:48 AM on 02/29",
+      "zip": "84040"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84040",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84721",
       "outCountPlan": 2,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Iron",
       "outCountPlan": 2,
