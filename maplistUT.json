@@ -1,6 +1,6 @@
 {
   "count": 9,
-  "totalState": 552,
+  "totalState": 89,
   "outages": [
     {
       "icon": "planned",
@@ -54,7 +54,7 @@
       "icon": "standard",
       "longitude": -112.51,
       "latitude": 40.708,
-      "etr": "Before 09:30 PM on 03/04",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -75,18 +75,6 @@
       "zip": "84116"
     },
     {
-      "icon": "planned",
-      "longitude": -111.922,
-      "latitude": 40.86,
-      "etr": "Before 01:00 AM on 03/05",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:25 PM on 03/04",
-      "zip": "84054"
-    },
-    {
       "icon": "standard",
       "longitude": -111.884,
       "latitude": 40.904,
@@ -104,11 +92,23 @@
       "latitude": 41.28,
       "etr": "Before 12:00 AM on 03/05",
       "outCount": 1,
-      "custOut": 542,
+      "custOut": 80,
       "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:27 PM on 03/04",
+      "crewStatus": "Crews Notified",
+      "reported": "08:28 PM on 03/04",
       "zip": "84404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.832,
+      "latitude": 41.325,
+      "etr": "Before 01:00 AM on 03/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:38 PM on 03/04",
+      "zip": "84310"
     }
   ],
   "zips": [
@@ -141,13 +141,6 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "84054",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -162,19 +155,26 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84310",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 541
+      "custOutUnplan": 80
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -201,9 +201,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 541
+      "custOutUnplan": 81
     }
   ]
 }
