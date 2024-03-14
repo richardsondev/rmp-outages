@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 11,
+  "count": 5,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.369,
+      "latitude": 42.153,
+      "etr": "Before 12:00 PM on 03/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:21 AM on 03/14",
+      "zip": "83252"
+    },
     {
       "icon": "planned",
       "longitude": -112.233,
@@ -13,24 +25,76 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:48 AM on 03/14",
       "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.889,
+      "latitude": 42.673,
+      "etr": "Before 12:00 PM on 03/14",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:18 AM on 03/14",
+      "zip": "83217"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.826,
+      "latitude": 43.803,
+      "etr": "Before 12:30 PM on 03/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:23 AM on 03/14",
+      "zip": "83440"
     }
   ],
   "zips": [
     {
+      "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 11,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Oneida",
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Madison",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 11,
+      "custOutPlan": 1,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 11,
+      "custOutUnplan": 1
     }
   ]
 }
