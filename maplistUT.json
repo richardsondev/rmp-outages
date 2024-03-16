@@ -1,7 +1,19 @@
 {
   "count": 10,
-  "totalState": 40,
+  "totalState": 60,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.406,
+      "latitude": 39.543,
+      "etr": "Before 07:00 AM on 03/16",
+      "outCount": 1,
+      "custOut": 21,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:01 AM on 03/16",
+      "zip": "84520"
+    },
     {
       "icon": "standard",
       "longitude": -111.744,
@@ -97,18 +109,6 @@
       "crewStatus": "Crews Notified",
       "reported": "12:08 AM on 03/16",
       "zip": "84414"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.025,
-      "latitude": 41.338,
-      "etr": "Before 04:30 AM on 03/16",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Wind",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:38 PM on 03/15",
-      "zip": "84404"
     }
   ],
   "zips": [
@@ -143,9 +143,9 @@
     {
       "zipCode": "84404",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 12
+      "custOutUnplan": 11
     },
     {
       "zipCode": "84405",
@@ -160,9 +160,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 5
+    },
+    {
+      "zipCode": "84520",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 21
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 21
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -187,9 +201,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 8,
+      "outCountUnplan": 7,
       "custOutPlan": 0,
-      "custOutUnplan": 32
+      "custOutUnplan": 31
     }
   ]
 }
