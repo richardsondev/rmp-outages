@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 5,
+  "count": 4,
+  "totalState": 8,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.246,
+      "latitude": 43.3,
+      "etr": "Before 07:30 PM on 03/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:55 PM on 03/26",
+      "zip": "83221"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.197,
+      "latitude": 43.351,
+      "etr": "Before 07:30 PM on 03/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:55 PM on 03/26",
+      "zip": "83236"
+    },
     {
       "icon": "standard",
       "longitude": -112.237,
@@ -13,11 +37,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:35 PM on 03/26",
       "zip": "83221, 83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.978,
+      "latitude": 43.483,
+      "etr": "Before 07:30 PM on 03/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 PM on 03/26",
+      "zip": "83406"
     }
   ],
   "zips": [
     {
       "zipCode": "83221",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83236",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -29,15 +72,29 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "zipCode": "83406",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bingham",
       "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 1
     }
   ]
 }
