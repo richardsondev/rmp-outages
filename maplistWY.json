@@ -1,7 +1,74 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 3,
+  "totalState": 688,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -108.841,
+      "latitude": 44.749,
+      "etr": "Before 02:30 PM on 03/27",
+      "outCount": 1,
+      "custOut": 589,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "11:20 AM on 03/27",
+      "zip": "82435, 82440"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.79,
+      "latitude": 44.756,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 98,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "11:18 AM on 03/27",
+      "zip": "82435"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.692,
+      "latitude": 44.849,
+      "etr": "Before 02:30 PM on 03/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:28 AM on 03/27",
+      "zip": "82414"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "82414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82435",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 675,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Park",
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 681,
+      "custOutUnplan": 1
+    }
+  ]
 }
