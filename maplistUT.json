@@ -1,19 +1,7 @@
 {
   "count": 15,
-  "totalState": 89,
+  "totalState": 104,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.291,
-      "latitude": 37.245,
-      "etr": "Before 10:00 AM on 03/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:29 AM on 03/29",
-      "zip": "84774"
-    },
     {
       "icon": "standard",
       "longitude": -113.659,
@@ -118,7 +106,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:49 AM on 03/29",
       "zip": "84005"
     },
@@ -171,6 +159,18 @@
       "zip": "84116"
     },
     {
+      "icon": "planned",
+      "longitude": -111.864,
+      "latitude": 40.774,
+      "etr": "Before 10:30 AM on 03/29",
+      "outCount": 1,
+      "custOut": 16,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:28 AM on 03/29",
+      "zip": "84103"
+    },
+    {
       "icon": "standard",
       "longitude": -112.079,
       "latitude": 41.105,
@@ -211,6 +211,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 43
+    },
+    {
+      "zipCode": "84103",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84105",
@@ -283,13 +290,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84774",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84782",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -314,9 +314,9 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 4,
-      "custOutPlan": 0,
+      "custOutPlan": 16,
       "custOutUnplan": 73
     },
     {
@@ -343,9 +343,9 @@
     {
       "countyName": "Washington",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     }
   ]
 }
