@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 5,
+  "count": 3,
+  "totalState": 20,
   "outages": [
     {
       "icon": "planned",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -107.906,
+      "latitude": 41.598,
+      "etr": "Before 03:00 PM on 04/05",
+      "outCount": 1,
+      "custOut": 15,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:04 PM on 04/05",
+      "zip": "82336"
+    },
+    {
+      "icon": "standard",
       "longitude": -105.907,
       "latitude": 42.869,
       "etr": "Before 11:00 PM on 04/05",
@@ -28,6 +40,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "82336",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 15
+    },
     {
       "zipCode": "82637",
       "outCountPlan": 0,
@@ -45,6 +64,13 @@
   ],
   "counties": [
     {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
+    },
+    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -54,9 +80,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 4,
-      "custOutUnplan": 0
+      "custOutUnplan": 2
     }
   ]
 }
