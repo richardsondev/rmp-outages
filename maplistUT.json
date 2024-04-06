@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 11,
+  "count": 7,
+  "totalState": 14,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.141,
+      "latitude": 37.712,
+      "etr": "Before 01:00 PM on 04/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:08 AM on 04/06",
+      "zip": "84721"
+    },
     {
       "icon": "standard",
       "longitude": -112.108,
@@ -40,6 +52,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.94,
+      "latitude": 40.759,
+      "etr": "Before 01:30 PM on 04/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:03 AM on 04/06",
+      "zip": "84104"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.064,
       "latitude": 40.772,
       "etr": "Before 03:30 PM on 04/06",
@@ -49,6 +73,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "01:50 PM on 04/05",
       "zip": "84116"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.099,
+      "latitude": 41.149,
+      "etr": "Before 01:30 PM on 04/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:08 AM on 04/06",
+      "zip": "84315"
     }
   ],
   "zips": [
@@ -62,9 +98,9 @@
     {
       "zipCode": "84104",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84116",
@@ -79,15 +115,43 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84315",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84721",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
+      "countyName": "Iron",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 1,
-      "custOutUnplan": 10
+      "custOutUnplan": 11
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
