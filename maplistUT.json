@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 31,
+  "count": 6,
+  "totalState": 60,
   "outages": [
     {
       "icon": "planned",
@@ -52,11 +52,23 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.984,
-      "latitude": 41.193,
+      "longitude": -111.944,
+      "latitude": 41.092,
       "etr": "Before 08:30 PM on 04/07",
       "outCount": 1,
       "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:22 PM on 04/07",
+      "zip": "84040"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.984,
+      "latitude": 41.193,
+      "etr": "Before 10:30 PM on 04/07",
+      "outCount": 1,
+      "custOut": 29,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:08 PM on 04/07",
@@ -64,6 +76,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84040",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84101",
       "outCountPlan": 0,
@@ -97,10 +116,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 29
     }
   ],
   "counties": [
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
@@ -113,7 +139,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 29
     }
   ]
 }
