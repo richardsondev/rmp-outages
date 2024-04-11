@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 17,
+  "count": 8,
+  "totalState": 324,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.744,
+      "latitude": 40.296,
+      "etr": "Before 11:30 PM on 04/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:57 PM on 04/10",
+      "zip": "84059"
+    },
     {
       "icon": "standard",
       "longitude": -111.991,
@@ -30,9 +42,9 @@
       "icon": "standard",
       "longitude": -111.861,
       "latitude": 40.571,
-      "etr": "Before 12:00 AM on 04/11",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 01:00 AM on 04/11",
+      "outCount": 2,
+      "custOut": 7,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:41 PM on 04/10",
@@ -61,11 +73,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:00 PM on 04/10",
       "zip": "84104"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.022,
+      "latitude": 41.164,
+      "etr": "Before 10:00 PM on 04/12",
+      "outCount": 1,
+      "custOut": 300,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:48 PM on 04/10",
+      "zip": "84067"
     }
   ],
   "zips": [
     {
       "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84059",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -79,11 +110,18 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84094",
+      "zipCode": "84067",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 300
+    },
+    {
+      "zipCode": "84094",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     },
     {
       "zipCode": "84096",
@@ -104,9 +142,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 12,
-      "custOutUnplan": 2
+      "custOutUnplan": 8
     },
     {
       "countyName": "Summit",
@@ -118,9 +156,16 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 300
     }
   ]
 }
