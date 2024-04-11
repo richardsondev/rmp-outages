@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 323,
+  "count": 8,
+  "totalState": 324,
   "outages": [
     {
       "icon": "standard",
@@ -30,11 +30,11 @@
       "icon": "standard",
       "longitude": -111.861,
       "latitude": 40.571,
-      "etr": "Before 01:00 AM on 04/11",
+      "etr": "Before 01:30 AM on 04/11",
       "outCount": 1,
       "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "08:41 PM on 04/10",
       "zip": "84094"
     },
@@ -64,12 +64,24 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.884,
+      "latitude": 40.904,
+      "etr": "Before 12:30 AM on 04/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:28 PM on 04/10",
+      "zip": "84014"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.022,
       "latitude": 41.164,
       "etr": "Before 10:00 PM on 04/12",
-      "outCount": 1,
+      "outCount": 2,
       "custOut": 300,
-      "cause": "Emergency Repair",
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "08:48 PM on 04/10",
       "zip": "84067"
@@ -78,6 +90,13 @@
   "zips": [
     {
       "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84014",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -93,7 +112,7 @@
     {
       "zipCode": "84067",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 300
     },
@@ -121,6 +140,13 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
       "outCountUnplan": 2,
@@ -144,7 +170,7 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 300
     }
