@@ -1,16 +1,28 @@
 {
-  "count": 4,
-  "totalState": 46,
+  "count": 3,
+  "totalState": 45,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.496,
+      "latitude": 41.334,
+      "etr": "Before 04:30 PM on 04/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:10 PM on 04/16",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -109.229,
       "latitude": 41.575,
-      "etr": "Assessing",
-      "outCount": 3,
-      "custOut": 45,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Notified",
+      "etr": "Before 05:30 PM on 04/16",
+      "outCount": 1,
+      "custOut": 43,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
       "reported": "09:21 AM on 04/16",
       "zip": "82901"
     },
@@ -18,16 +30,23 @@
       "icon": "standard",
       "longitude": -105.907,
       "latitude": 42.869,
-      "etr": "Assessing",
+      "etr": "Before 11:00 PM on 04/16",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:58 PM on 04/16",
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:03 PM on 04/16",
       "zip": "82637"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82637",
       "outCountPlan": 0,
@@ -38,12 +57,19 @@
     {
       "zipCode": "82901",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 45
+      "custOutUnplan": 43
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Converse",
       "outCountPlan": 0,
@@ -54,9 +80,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 45
+      "custOutUnplan": 43
     }
   ]
 }
