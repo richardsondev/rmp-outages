@@ -1,19 +1,7 @@
 {
-  "count": 5,
-  "totalState": 5,
+  "count": 6,
+  "totalState": 1663,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.541,
-      "latitude": 41.776,
-      "etr": "Before 11:30 PM on 04/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:41 PM on 04/15",
-      "zip": "83116"
-    },
     {
       "icon": "standard",
       "longitude": -109.742,
@@ -51,15 +39,27 @@
       "zip": "82414"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -108.329,
       "latitude": 44.825,
-      "etr": "Before 12:30 AM on 04/16",
+      "etr": "Before 11:00 PM on 04/15",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 588,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
-      "reported": "09:20 PM on 04/15",
+      "reported": "09:00 PM on 04/15",
+      "zip": "82431, 82838, 82426, 82441"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.379,
+      "latitude": 44.834,
+      "etr": "Before 11:00 PM on 04/15",
+      "outCount": 2,
+      "custOut": 1072,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:00 PM on 04/15",
       "zip": "82431"
     }
   ],
@@ -72,11 +72,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82426",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82431",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 1636,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82441",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 15,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82633",
@@ -86,14 +100,14 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82923",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82838",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
-      "zipCode": "83116",
+      "zipCode": "82923",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -103,20 +117,13 @@
   "counties": [
     {
       "countyName": "Big Horn",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 1656,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Converse",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Lincoln",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -128,6 +135,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Sheridan",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sublette",
