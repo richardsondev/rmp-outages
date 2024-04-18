@@ -1,6 +1,6 @@
 {
   "count": 23,
-  "totalState": 120,
+  "totalState": 121,
   "outages": [
     {
       "icon": "standard",
@@ -81,7 +81,7 @@
       "etr": "Before 03:00 PM on 04/18",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "11:37 AM on 04/18",
       "zip": "84094"
@@ -123,13 +123,13 @@
       "zip": "84129"
     },
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -111.824,
       "latitude": 40.687,
       "etr": "Before 03:00 PM on 04/18",
-      "outCount": 1,
-      "custOut": 18,
-      "cause": "Planned Maintenance",
+      "outCount": 2,
+      "custOut": 19,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "10:00 AM on 04/18",
       "zip": "84109"
@@ -144,18 +144,6 @@
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "11:26 AM on 04/18",
-      "zip": "84106"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.844,
-      "latitude": 40.702,
-      "etr": "Before 03:00 PM on 04/18",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:36 AM on 04/18",
       "zip": "84106"
     },
     {
@@ -181,6 +169,18 @@
       "crewStatus": "Crews Notified",
       "reported": "11:31 AM on 04/18",
       "zip": "84105"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.825,
+      "latitude": 40.731,
+      "etr": "Before 03:00 PM on 04/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:59 AM on 04/18",
+      "zip": "84108"
     },
     {
       "icon": "standard",
@@ -222,22 +222,22 @@
       "icon": "standard",
       "longitude": -111.946,
       "latitude": 41.223,
-      "etr": "Before 02:30 PM on 04/18",
+      "etr": "Before 12:30 PM on 04/18",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "11:22 AM on 04/18",
       "zip": "84401"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.966,
       "latitude": 41.237,
       "etr": "Before 06:30 PM on 04/18",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 5,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "11:02 AM on 04/18",
       "zip": "84401"
@@ -315,16 +315,23 @@
     {
       "zipCode": "84106",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84108",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
       "zipCode": "84109",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 18,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84115",
@@ -350,9 +357,9 @@
     {
       "zipCode": "84401",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 4,
-      "custOutUnplan": 2
+      "outCountUnplan": 1,
+      "custOutPlan": 5,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84511",
@@ -415,9 +422,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
-      "outCountUnplan": 11,
+      "outCountUnplan": 12,
       "custOutPlan": 19,
-      "custOutUnplan": 13
+      "custOutUnplan": 14
     },
     {
       "countyName": "San Juan",
@@ -436,9 +443,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 4,
-      "custOutUnplan": 2
+      "outCountUnplan": 1,
+      "custOutPlan": 5,
+      "custOutUnplan": 1
     }
   ]
 }
