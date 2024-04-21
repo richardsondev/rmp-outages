@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 5,
+  "totalState": 75,
   "outages": [
     {
       "icon": "standard",
@@ -22,9 +22,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:00 PM on 04/21",
       "zip": "84005"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.012,
+      "latitude": 40.483,
+      "etr": "Before 07:00 PM on 04/21",
+      "outCount": 1,
+      "custOut": 71,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:47 PM on 04/21",
+      "zip": "84096"
     },
     {
       "icon": "planned",
@@ -37,18 +49,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:30 PM on 04/21",
       "zip": "84123"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.053,
-      "latitude": 40.685,
-      "etr": "Before 07:00 PM on 04/21",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:33 PM on 04/21",
-      "zip": "84128"
     },
     {
       "icon": "standard",
@@ -72,18 +72,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84096",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 71
+    },
+    {
       "zipCode": "84123",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84128",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84307",
@@ -120,7 +120,7 @@
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 71
     },
     {
       "countyName": "Utah",
