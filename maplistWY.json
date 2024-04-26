@@ -1,16 +1,16 @@
 {
-  "count": 3,
-  "totalState": 26,
+  "count": 4,
+  "totalState": 27,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -109.524,
       "latitude": 41.55,
       "etr": "Before 09:00 PM on 04/25",
       "outCount": 1,
       "custOut": 24,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "05:59 PM on 04/25",
       "zip": "82935"
     },
@@ -37,9 +37,28 @@
       "crewStatus": "Crews Notified",
       "reported": "05:57 PM on 04/25",
       "zip": "82649"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.291,
+      "latitude": 43.434,
+      "etr": "Before 09:30 PM on 04/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:10 PM on 04/25",
+      "zip": "82443"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82637",
       "outCountPlan": 0,
@@ -56,10 +75,10 @@
     },
     {
       "zipCode": "82935",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 24
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 24,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -78,11 +97,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Sweetwater",
+      "countyName": "Hot Springs",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 24
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 24,
+      "custOutUnplan": 0
     }
   ]
 }
