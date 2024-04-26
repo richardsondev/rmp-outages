@@ -1,15 +1,15 @@
 {
   "count": 4,
-  "totalState": 25,
+  "totalState": 29,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -109.21,
       "latitude": 41.575,
       "etr": "Before 03:00 PM on 04/26",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 12,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:46 AM on 04/26",
       "zip": "82901"
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "10:11 AM on 04/26",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.741,
+      "latitude": 42.842,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:20 AM on 04/26",
+      "zip": "82520"
     },
     {
       "icon": "standard",
@@ -48,6 +60,13 @@
       "custOutUnplan": 11
     },
     {
+      "zipCode": "82520",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
+    },
+    {
       "zipCode": "82649",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -57,18 +76,18 @@
     {
       "zipCode": "82901",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 11,
-      "custOutUnplan": 2
+      "outCountUnplan": 1,
+      "custOutPlan": 12,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     },
     {
       "countyName": "Hot Springs",
@@ -80,9 +99,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 11,
-      "custOutUnplan": 2
+      "outCountUnplan": 1,
+      "custOutPlan": 12,
+      "custOutUnplan": 1
     }
   ]
 }
