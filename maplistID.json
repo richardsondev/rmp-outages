@@ -1,12 +1,36 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 103,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.881,
+      "latitude": 42.093,
+      "etr": "Before 03:00 PM on 05/02",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 05/02",
+      "zip": "83263"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.04,
+      "latitude": 43.584,
+      "etr": "Before 01:00 PM on 05/02",
+      "outCount": 1,
+      "custOut": 89,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:56 AM on 05/02",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.476,
       "latitude": 43.804,
-      "etr": "Assessing",
+      "etr": "Before 11:30 AM on 05/02",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -29,6 +53,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 85,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -44,6 +82,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 85,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
