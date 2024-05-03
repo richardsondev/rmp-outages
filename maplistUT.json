@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 19,
+  "totalState": 41,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -109.526,
-      "latitude": 40.42,
-      "etr": "Before 10:30 PM on 05/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:18 PM on 05/02",
-      "zip": "84078"
-    },
     {
       "icon": "standard",
       "longitude": -112.318,
@@ -34,9 +22,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:38 PM on 05/02",
       "zip": "84129"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.919,
+      "latitude": 40.672,
+      "etr": "Before 01:30 AM on 05/03",
+      "outCount": 1,
+      "custOut": 23,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:22 PM on 05/02",
+      "zip": "84123"
     },
     {
       "icon": "planned",
@@ -84,13 +84,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84078",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84098",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -103,6 +96,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 8,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84123",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 23
     },
     {
       "zipCode": "84129",
@@ -123,9 +123,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 8,
-      "custOutUnplan": 1
+      "custOutUnplan": 24
     },
     {
       "countyName": "Summit",
@@ -136,13 +136,6 @@
     },
     {
       "countyName": "Tooele",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Uintah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
