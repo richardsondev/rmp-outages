@@ -1,6 +1,6 @@
 {
   "count": 15,
-  "totalState": 188,
+  "totalState": 153,
   "outages": [
     {
       "icon": "standard",
@@ -64,6 +64,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.118,
+      "latitude": 39.726,
+      "etr": "Before 03:30 PM on 05/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:36 PM on 05/03",
+      "zip": "84526"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.739,
       "latitude": 40.322,
       "etr": "Before 02:30 PM on 05/03",
@@ -106,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:24 PM on 05/03",
       "zip": "84128"
     },
@@ -160,24 +172,12 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.945,
-      "latitude": 41.136,
-      "etr": "Before 01:00 PM on 05/03",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:54 AM on 05/03",
-      "zip": "84405"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.022,
       "latitude": 41.164,
-      "etr": "Before 04:00 PM on 05/03",
+      "etr": "Assessing",
       "outCount": 1,
-      "custOut": 139,
-      "cause": "Vehicle Accident",
+      "custOut": 105,
+      "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "08:50 AM on 05/03",
       "zip": "84067"
@@ -196,7 +196,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 139
+      "custOutUnplan": 105
     },
     {
       "zipCode": "84075",
@@ -248,11 +248,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84405",
+      "zipCode": "84526",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84532",
@@ -285,11 +285,18 @@
   ],
   "counties": [
     {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Davis",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 25,
-      "custOutUnplan": 2
+      "custOutUnplan": 0
     },
     {
       "countyName": "Grand",
@@ -345,7 +352,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 139
+      "custOutUnplan": 105
     }
   ]
 }
