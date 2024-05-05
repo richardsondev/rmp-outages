@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 128,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.671,
+      "latitude": 42.149,
+      "etr": "Before 11:00 PM on 05/04",
+      "outCount": 1,
+      "custOut": 124,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:53 PM on 05/04",
+      "zip": "83243, 83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.437,
+      "latitude": 42.152,
+      "etr": "Before 09:30 PM on 05/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:07 PM on 05/04",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.654,
@@ -22,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:31 PM on 05/04",
       "zip": "83274"
     },
@@ -30,16 +54,30 @@
       "icon": "standard",
       "longitude": -111.667,
       "latitude": 43.877,
-      "etr": "Before 10:30 PM on 05/04",
+      "etr": "Before 10:00 PM on 05/04",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
       "reported": "05:10 PM on 05/04",
       "zip": "83448"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83243",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 94
+    },
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 30
+    },
     {
       "zipCode": "83274",
       "outCountPlan": 0,
@@ -83,6 +121,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 124
     }
   ]
 }
