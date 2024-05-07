@@ -1,6 +1,6 @@
 {
-  "count": 10,
-  "totalState": 71,
+  "count": 13,
+  "totalState": 100,
   "outages": [
     {
       "icon": "standard",
@@ -54,7 +54,7 @@
       "icon": "standard",
       "longitude": -113.321,
       "latitude": 40.746,
-      "etr": "Before 04:00 AM on 05/07",
+      "etr": "Before 08:00 AM on 05/07",
       "outCount": 1,
       "custOut": 23,
       "cause": "Damaged Equipment",
@@ -75,13 +75,13 @@
       "zip": "84050"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.06,
       "latitude": 41.135,
-      "etr": "Before 07:00 AM on 05/07",
-      "outCount": 1,
-      "custOut": 20,
-      "cause": "Investigating",
+      "etr": "Assessing",
+      "outCount": 3,
+      "custOut": 48,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "02:41 AM on 05/07",
       "zip": "84015"
@@ -121,15 +121,27 @@
       "crewStatus": "Crews Notified",
       "reported": "03:35 PM on 05/06",
       "zip": "84404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.544,
+      "latitude": 41.716,
+      "etr": "Before 05:30 AM on 05/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:49 AM on 05/07",
+      "zip": "84336"
     }
   ],
   "zips": [
     {
       "zipCode": "84015",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 48,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84050",
@@ -188,6 +200,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84336",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -199,16 +218,16 @@
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 5
     },
     {
       "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 23
+      "outCountPlan": 3,
+      "outCountUnplan": 1,
+      "custOutPlan": 48,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Morgan",
