@@ -1,14 +1,14 @@
 {
-  "count": 2,
-  "totalState": 6,
+  "count": 3,
+  "totalState": 58,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.906,
       "latitude": 41.063,
-      "etr": "Before 06:00 AM on 05/10",
+      "etr": "Before 07:30 AM on 05/10",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 52,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "03:12 AM on 05/10",
@@ -18,18 +18,37 @@
       "icon": "standard",
       "longitude": -111.946,
       "latitude": 41.208,
-      "etr": "Before 05:00 AM on 05/10",
+      "etr": "Before 04:00 AM on 05/10",
       "outCount": 1,
       "custOut": 5,
-      "cause": "Investigating",
+      "cause": "Wind",
       "crewStatus": "Crews Arrived",
       "reported": "11:48 PM on 05/09",
       "zip": "84403"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.071,
+      "latitude": 41.354,
+      "etr": "Before 06:30 AM on 05/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:25 AM on 05/10",
+      "zip": "84340"
     }
   ],
   "zips": [
     {
       "zipCode": "84040",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 52
+    },
+    {
+      "zipCode": "84340",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -45,11 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Davis",
+      "countyName": "Box Elder",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 52
     },
     {
       "countyName": "Weber",
