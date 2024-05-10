@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 53,
+  "count": 4,
+  "totalState": 74,
   "outages": [
     {
       "icon": "standard",
@@ -9,19 +9,43 @@
       "etr": "Before 07:30 AM on 05/10",
       "outCount": 1,
       "custOut": 52,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "03:12 AM on 05/10",
       "zip": "84040"
     },
     {
       "icon": "standard",
-      "longitude": -112.071,
-      "latitude": 41.354,
-      "etr": "Before 06:30 AM on 05/10",
+      "longitude": -111.906,
+      "latitude": 41.092,
+      "etr": "Before 08:00 AM on 05/10",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:48 AM on 05/10",
+      "zip": "84040"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.06,
+      "latitude": 41.135,
+      "etr": "Before 05:30 AM on 05/10",
+      "outCount": 1,
+      "custOut": 20,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:46 AM on 05/10",
+      "zip": "84015"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.071,
+      "latitude": 41.354,
+      "etr": "Before 11:00 AM on 05/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Wind",
       "crewStatus": "Crews Arrived",
       "reported": "03:25 AM on 05/10",
       "zip": "84340"
@@ -29,11 +53,18 @@
   ],
   "zips": [
     {
+      "zipCode": "84015",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84040",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 52
+      "custOutUnplan": 53
     },
     {
       "zipCode": "84340",
@@ -53,10 +84,10 @@
     },
     {
       "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 52
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 20,
+      "custOutUnplan": 53
     }
   ]
 }
