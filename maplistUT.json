@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 14,
+  "count": 9,
+  "totalState": 16,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.068,
+      "latitude": 37.699,
+      "etr": "Before 03:00 PM on 05/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:03 PM on 05/11",
+      "zip": "84721"
+    },
     {
       "icon": "standard",
       "longitude": -111.785,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:56 AM on 05/11",
       "zip": "84092"
     },
@@ -66,7 +78,7 @@
       "icon": "standard",
       "longitude": -111.903,
       "latitude": 40.846,
-      "etr": "Assessing",
+      "etr": "Before 03:00 PM on 05/11",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -85,6 +97,18 @@
       "crewStatus": "Crews Notified",
       "reported": "11:37 AM on 05/11",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.852,
+      "latitude": 41.339,
+      "etr": "Before 03:30 PM on 05/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:03 PM on 05/11",
+      "zip": "84310"
     }
   ],
   "zips": [
@@ -124,7 +148,21 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84310",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84721",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -134,6 +172,13 @@
   "counties": [
     {
       "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -156,9 +201,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
