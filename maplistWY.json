@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 32,
+  "totalState": 23,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:52 AM on 05/14",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 04:00 PM on 05/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:56 PM on 05/14",
+      "zip": "82637"
     },
     {
       "icon": "planned",
@@ -30,41 +42,29 @@
       "icon": "standard",
       "longitude": -106.685,
       "latitude": 44.348,
-      "etr": "Before 02:30 PM on 05/14",
+      "etr": "Before 04:00 PM on 05/14",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "11:09 AM on 05/14",
       "zip": "82834"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.184,
-      "latitude": 44.502,
-      "etr": "Before 01:00 PM on 05/14",
-      "outCount": 1,
-      "custOut": 10,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:57 AM on 05/14",
-      "zip": "82414"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82414",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 10
-    },
     {
       "zipCode": "82433",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82834",
@@ -83,6 +83,13 @@
   ],
   "counties": [
     {
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Johnson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -92,9 +99,9 @@
     {
       "countyName": "Park",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 2,
-      "custOutUnplan": 10
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sweetwater",
