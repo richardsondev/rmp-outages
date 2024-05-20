@@ -4,13 +4,25 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.07,
+      "latitude": 42.238,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:14 PM on 05/20",
+      "zip": "83254"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.12,
       "latitude": 43.482,
       "etr": "Before 06:00 PM on 05/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:20 PM on 05/20",
       "zip": "83402"
     },
@@ -28,30 +40,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.746,
-      "latitude": 43.797,
-      "etr": "Before 06:30 PM on 05/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:43 PM on 05/20",
-      "zip": "83448"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.636,
       "latitude": 43.812,
-      "etr": "Before 06:30 PM on 05/20",
+      "etr": "Before 05:30 PM on 05/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:35 PM on 05/20",
       "zip": "83448"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83402",
       "outCountPlan": 0,
@@ -62,12 +69,19 @@
     {
       "zipCode": "83448",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
@@ -78,9 +92,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
