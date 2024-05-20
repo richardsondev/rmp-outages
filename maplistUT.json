@@ -1,7 +1,19 @@
 {
-  "count": 35,
+  "count": 34,
   "totalState": 289,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.448,
+      "latitude": 37.605,
+      "etr": "Before 04:00 PM on 05/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:04 PM on 05/20",
+      "zip": "84720"
+    },
     {
       "icon": "planned",
       "longitude": -113.284,
@@ -42,11 +54,11 @@
       "icon": "standard",
       "longitude": -111.944,
       "latitude": 40.07,
-      "etr": "Before 01:30 PM on 05/20",
+      "etr": "Before 02:00 PM on 05/20",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
       "reported": "10:43 AM on 05/20",
       "zip": "84633"
     },
@@ -61,30 +73,6 @@
       "crewStatus": "Crews Notified",
       "reported": "11:57 AM on 05/20",
       "zip": "84013"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.687,
-      "latitude": 40.282,
-      "etr": "Before 02:30 PM on 05/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:37 AM on 05/20",
-      "zip": "84097"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.668,
-      "latitude": 40.282,
-      "etr": "Before 02:30 PM on 05/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:43 AM on 05/20",
-      "zip": "84097"
     },
     {
       "icon": "standard",
@@ -136,13 +124,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.88,
-      "latitude": 40.6,
-      "etr": "Assessing",
+      "longitude": -112.47,
+      "latitude": 40.594,
+      "etr": "Before 04:30 PM on 05/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
+      "reported": "01:03 PM on 05/20",
+      "zip": "84029"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.88,
+      "latitude": 40.6,
+      "etr": "Before 01:30 PM on 05/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Trees",
+      "crewStatus": "Crews Notified",
       "reported": "09:20 AM on 05/20",
       "zip": "84070"
     },
@@ -184,18 +184,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.824,
-      "latitude": 40.658,
-      "etr": "Before 01:30 PM on 05/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:11 AM on 05/20",
-      "zip": "84117"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.977,
       "latitude": 40.671,
       "etr": "Before 04:30 PM on 05/20",
@@ -226,7 +214,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:34 AM on 05/20",
       "zip": "84115"
     },
@@ -291,16 +279,28 @@
       "zip": "84105"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.902,
       "latitude": 40.774,
       "etr": "Before 05:00 PM on 05/20",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 13,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "12:40 PM on 05/20",
       "zip": "84103"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.94,
+      "latitude": 40.802,
+      "etr": "Before 04:00 PM on 05/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:00 PM on 05/20",
+      "zip": "84116"
     },
     {
       "icon": "standard",
@@ -391,6 +391,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84029",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84045",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -426,18 +433,11 @@
       "custOutUnplan": 12
     },
     {
-      "zipCode": "84097",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
       "zipCode": "84103",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 12,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84104",
@@ -468,7 +468,7 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "84117",
+      "zipCode": "84116",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -545,6 +545,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84720",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84751",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -575,11 +582,25 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 15,
-      "custOutPlan": 89,
-      "custOutUnplan": 26
+      "outCountUnplan": 14,
+      "custOutPlan": 90,
+      "custOutUnplan": 25
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Uintah",
@@ -591,9 +612,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 1,
-      "outCountUnplan": 6,
+      "outCountUnplan": 4,
       "custOutPlan": 5,
-      "custOutUnplan": 6
+      "custOutUnplan": 4
     },
     {
       "countyName": "Weber",
