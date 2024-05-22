@@ -16,18 +16,6 @@
     },
     {
       "icon": "planned",
-      "longitude": -113.213,
-      "latitude": 37.638,
-      "etr": "Before 10:30 AM on 05/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:00 AM on 05/22",
-      "zip": "84720"
-    },
-    {
-      "icon": "planned",
       "longitude": -112.042,
       "latitude": 38.713,
       "etr": "Before 12:00 PM on 05/22",
@@ -73,6 +61,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:16 AM on 05/22",
       "zip": "84020"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.148,
+      "latitude": 40.509,
+      "etr": "Before 02:00 PM on 05/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:00 AM on 05/22",
+      "zip": "84036"
     },
     {
       "icon": "standard",
@@ -133,18 +133,6 @@
       "crewStatus": "Crews Notified",
       "reported": "06:07 AM on 05/22",
       "zip": "84118"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.938,
-      "latitude": 40.643,
-      "etr": "Before 01:30 PM on 05/22",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:21 AM on 05/22",
-      "zip": "84129"
     },
     {
       "icon": "planned",
@@ -243,6 +231,18 @@
       "zip": "84403"
     },
     {
+      "icon": "planned",
+      "longitude": -112.023,
+      "latitude": 41.193,
+      "etr": "Before 01:00 PM on 05/22",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:00 AM on 05/22",
+      "zip": "84067"
+    },
+    {
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.208,
@@ -314,6 +314,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84036",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84045",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -333,6 +340,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84067",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84070",
@@ -398,13 +412,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84129",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
-    },
-    {
       "zipCode": "84309",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -461,13 +468,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84720",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84779",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -491,13 +491,6 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Iron",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Millard",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -514,9 +507,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 6,
-      "outCountUnplan": 6,
+      "outCountUnplan": 5,
       "custOutPlan": 96,
-      "custOutUnplan": 12
+      "custOutUnplan": 5
     },
     {
       "countyName": "Sevier",
@@ -524,6 +517,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Tooele",
@@ -548,9 +548,9 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 2,
-      "custOutPlan": 8,
+      "custOutPlan": 15,
       "custOutUnplan": 51
     }
   ]
