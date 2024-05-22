@@ -1,19 +1,7 @@
 {
   "count": 25,
-  "totalState": 219,
+  "totalState": 254,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.102,
-      "latitude": 37.271,
-      "etr": "Before 11:30 AM on 05/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:39 AM on 05/22",
-      "zip": "84779"
-    },
     {
       "icon": "planned",
       "longitude": -112.042,
@@ -42,11 +30,11 @@
       "icon": "standard",
       "longitude": -111.877,
       "latitude": 40.294,
-      "etr": "Before 12:00 PM on 05/22",
+      "etr": "Before 03:00 PM on 05/22",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "09:07 AM on 05/22",
       "zip": "84045"
     },
@@ -94,7 +82,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:33 AM on 05/22",
       "zip": "84070"
     },
@@ -214,9 +202,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:05 AM on 05/22",
       "zip": "84014"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.926,
+      "latitude": 41.179,
+      "etr": "Before 03:00 PM on 05/22",
+      "outCount": 1,
+      "custOut": 36,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:55 AM on 05/22",
+      "zip": "84403"
     },
     {
       "icon": "planned",
@@ -414,6 +414,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84403",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 36,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -433,13 +440,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84779",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -500,17 +500,10 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Washington",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Weber",
-      "outCountPlan": 2,
+      "outCountPlan": 3,
       "outCountUnplan": 2,
-      "custOutPlan": 41,
+      "custOutPlan": 77,
       "custOutUnplan": 51
     }
   ]
