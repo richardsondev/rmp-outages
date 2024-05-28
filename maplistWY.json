@@ -1,19 +1,7 @@
 {
-  "count": 6,
-  "totalState": 114,
+  "count": 5,
+  "totalState": 6,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -105.566,
-      "latitude": 41.301,
-      "etr": "Before 10:30 AM on 05/28",
-      "outCount": 2,
-      "custOut": 110,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:21 AM on 05/28",
-      "zip": "82070"
-    },
     {
       "icon": "standard",
       "longitude": -106.546,
@@ -30,13 +18,25 @@
       "icon": "standard",
       "longitude": -110.918,
       "latitude": 42.161,
-      "etr": "Before 10:00 AM on 05/28",
+      "etr": "Assessing",
       "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
+      "custOut": 3,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "07:33 AM on 05/28",
       "zip": "83114"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.357,
+      "latitude": 42.857,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:17 AM on 05/28",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -46,19 +46,12 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:54 AM on 05/28",
       "zip": "82414"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82070",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 110
-    },
     {
       "zipCode": "82327",
       "outCountPlan": 0,
@@ -74,21 +67,21 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83114",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ],
   "counties": [
-    {
-      "countyName": "Albany",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 110
-    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -101,7 +94,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Park",
