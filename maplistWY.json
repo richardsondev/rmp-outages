@@ -1,16 +1,16 @@
 {
   "count": 9,
-  "totalState": 53,
+  "totalState": 80,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -105.622,
       "latitude": 41.318,
-      "etr": "Before 03:30 PM on 05/29",
+      "etr": "Before 04:30 PM on 05/29",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "12:21 PM on 05/29",
       "zip": "82070"
     },
@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:59 AM on 05/29",
       "zip": "82901"
     },
@@ -67,28 +67,40 @@
       "longitude": -107.953,
       "latitude": 44.027,
       "etr": "Before 04:00 PM on 05/29",
-      "outCount": 4,
-      "custOut": 22,
+      "outCount": 3,
+      "custOut": 48,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:28 PM on 05/29",
+      "zip": "82401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.932,
+      "latitude": 44.04,
+      "etr": "Before 04:00 PM on 05/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:52 PM on 05/29",
       "zip": "82401"
     }
   ],
   "zips": [
     {
       "zipCode": "82070",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82401",
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 22
+      "custOutUnplan": 49
     },
     {
       "zipCode": "82601",
@@ -122,10 +134,10 @@
   "counties": [
     {
       "countyName": "Albany",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Converse",
@@ -153,7 +165,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 22
+      "custOutUnplan": 49
     }
   ]
 }
