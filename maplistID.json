@@ -1,7 +1,19 @@
 {
   "count": 6,
-  "totalState": 151,
+  "totalState": 23,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.13,
+      "latitude": 41.83,
+      "etr": "Before 10:00 PM on 05/30",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:52 PM on 05/30",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.426,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:35 AM on 05/30",
       "zip": "83254"
-    },
-    {
-      "icon": "planned",
-      "longitude": -112.139,
-      "latitude": 43.438,
-      "etr": "Before 01:00 PM on 05/30",
-      "outCount": 1,
-      "custOut": 135,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:56 AM on 05/30",
-      "zip": "83402, 83274"
     },
     {
       "icon": "standard",
@@ -54,10 +54,10 @@
       "icon": "standard",
       "longitude": -111.667,
       "latitude": 43.877,
-      "etr": "Before 02:30 PM on 05/30",
+      "etr": "Before 03:00 PM on 05/30",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Wildlife",
       "crewStatus": "Crews Arrived",
       "reported": "11:39 AM on 05/30",
       "zip": "83451"
@@ -77,6 +77,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
+    },
+    {
       "zipCode": "83254",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -84,25 +91,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83274",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 105,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "83401",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 12,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83402",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 30,
-      "custOutUnplan": 0
     },
     {
       "zipCode": "83435",
@@ -128,17 +121,10 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Bingham",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 109,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Bonneville",
-      "outCountPlan": 2,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 38,
+      "custOutPlan": 12,
       "custOutUnplan": 1
     },
     {
@@ -154,6 +140,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     }
   ]
 }
