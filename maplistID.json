@@ -1,21 +1,52 @@
 {
-  "count": 1,
-  "totalState": 134,
+  "count": 3,
+  "totalState": 137,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.212,
+      "latitude": 42.59,
+      "etr": "Before 10:30 AM on 05/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:28 AM on 05/30",
+      "zip": "83214"
+    },
     {
       "icon": "planned",
       "longitude": -112.139,
       "latitude": 43.438,
       "etr": "Before 01:00 PM on 05/30",
       "outCount": 1,
-      "custOut": 134,
+      "custOut": 135,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "07:56 AM on 05/30",
       "zip": "83402, 83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.747,
+      "latitude": 43.862,
+      "etr": "Before 11:00 AM on 05/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:27 AM on 05/30",
+      "zip": "83448"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83274",
       "outCountPlan": 1,
@@ -27,11 +58,25 @@
       "zipCode": "83402",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 29,
+      "custOutPlan": 30,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bingham",
       "outCountPlan": 1,
@@ -43,8 +88,15 @@
       "countyName": "Bonneville",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 25,
+      "custOutPlan": 26,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
