@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 7,
+  "totalState": 22,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.622,
+      "latitude": 41.318,
+      "etr": "Before 03:00 PM on 06/03",
+      "outCount": 1,
+      "custOut": 16,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:30 AM on 06/03",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -105.346,
@@ -28,6 +40,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -105.572,
+      "latitude": 43.163,
+      "etr": "Before 12:00 PM on 06/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:41 AM on 06/03",
+      "zip": "82633"
+    },
+    {
+      "icon": "standard",
       "longitude": -108.212,
       "latitude": 43.642,
       "etr": "Before 11:30 AM on 06/03",
@@ -37,6 +61,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:06 AM on 06/03",
       "zip": "82443"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.022,
+      "latitude": 44.499,
+      "etr": "Before 12:00 PM on 06/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:31 AM on 06/03",
+      "zip": "82414"
     },
     {
       "icon": "standard",
@@ -52,6 +88,20 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82431",
       "outCountPlan": 0,
@@ -76,12 +126,19 @@
     {
       "zipCode": "82633",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Big Horn",
       "outCountPlan": 0,
@@ -92,9 +149,9 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Hot Springs",
@@ -105,6 +162,13 @@
     },
     {
       "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Park",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
