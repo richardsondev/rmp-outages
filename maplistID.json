@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 841,
+  "count": 5,
+  "totalState": 791,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.862,
+      "latitude": 42.854,
+      "etr": "Before 12:30 PM on 06/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:04 AM on 06/06",
+      "zip": "83217"
+    },
     {
       "icon": "standard",
       "longitude": -112.119,
@@ -15,16 +27,16 @@
       "zip": "83402"
     },
     {
-      "icon": "planned",
-      "longitude": -112.081,
-      "latitude": 43.526,
-      "etr": "Before 12:00 PM on 06/06",
+      "icon": "standard",
+      "longitude": -111.843,
+      "latitude": 43.6,
+      "etr": "Before 01:00 PM on 06/06",
       "outCount": 1,
-      "custOut": 52,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:56 AM on 06/06",
-      "zip": "83402"
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:11 AM on 06/06",
+      "zip": "83401"
     },
     {
       "icon": "planned",
@@ -46,17 +58,31 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:31 AM on 06/06",
       "zip": "83425"
     }
   ],
   "zips": [
     {
-      "zipCode": "83402",
-      "outCountPlan": 1,
+      "zipCode": "83217",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 52,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -84,9 +110,16 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 52,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
