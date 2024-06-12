@@ -1,18 +1,30 @@
 {
-  "count": 5,
-  "totalState": 35,
+  "count": 8,
+  "totalState": 71,
   "outages": [
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -111.397,
       "latitude": 42.038,
       "etr": "Before 02:00 PM on 06/12",
-      "outCount": 1,
-      "custOut": 26,
-      "cause": "Planned Maintenance",
+      "outCount": 3,
+      "custOut": 40,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:24 AM on 06/12",
       "zip": "83287"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.661,
+      "latitude": 42.157,
+      "etr": "Before 01:00 PM on 06/12",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:48 AM on 06/12",
+      "zip": "83243"
     },
     {
       "icon": "standard",
@@ -72,11 +84,18 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83287",
+      "zipCode": "83243",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 26,
+      "custOutPlan": 22,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 27,
+      "custOutUnplan": 13
     },
     {
       "zipCode": "83401",
@@ -111,9 +130,9 @@
     {
       "countyName": "Bear Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 26,
-      "custOutUnplan": 0
+      "outCountUnplan": 2,
+      "custOutPlan": 27,
+      "custOutUnplan": 13
     },
     {
       "countyName": "Bonneville",
@@ -135,6 +154,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
     }
   ]
 }
