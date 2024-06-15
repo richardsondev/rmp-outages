@@ -1,7 +1,19 @@
 {
-  "count": 13,
-  "totalState": 50,
+  "count": 11,
+  "totalState": 2001,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.395,
+      "latitude": 42.11,
+      "etr": "Before 09:30 PM on 06/15",
+      "outCount": 1,
+      "custOut": 1954,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:56 PM on 06/15",
+      "zip": "83272, 83254, 83223, 83287, 83261"
+    },
     {
       "icon": "standard",
       "longitude": -111.426,
@@ -18,7 +30,7 @@
       "icon": "standard",
       "longitude": -112.35,
       "latitude": 43.545,
-      "etr": "Assessing",
+      "etr": "Before 07:30 PM on 06/15",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -28,23 +40,11 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.352,
-      "latitude": 43.632,
-      "etr": "Before 07:00 PM on 06/15",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:06 PM on 06/15",
-      "zip": "83444"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.233,
       "latitude": 43.633,
       "etr": "Before 06:30 PM on 06/15",
-      "outCount": 2,
-      "custOut": 8,
+      "outCount": 1,
+      "custOut": 7,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "03:48 PM on 06/15",
@@ -58,21 +58,9 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:15 PM on 06/15",
       "zip": "83442"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.354,
-      "latitude": 43.719,
-      "etr": "Before 07:30 PM on 06/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:39 PM on 06/15",
-      "zip": "83444"
     },
     {
       "icon": "standard",
@@ -85,6 +73,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:09 PM on 06/15",
       "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.998,
+      "latitude": 43.809,
+      "etr": "Before 07:30 PM on 06/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 PM on 06/15",
+      "zip": "83434"
     },
     {
       "icon": "standard",
@@ -137,6 +137,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83223",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 186
+    },
+    {
       "zipCode": "83244",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -146,9 +153,30 @@
     {
       "zipCode": "83254",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
+      "zipCode": "83261",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 392
+    },
+    {
+      "zipCode": "83272",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 244
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1128
     },
     {
       "zipCode": "83402",
@@ -159,6 +187,13 @@
     },
     {
       "zipCode": "83425",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83434",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -188,18 +223,18 @@
     {
       "zipCode": "83444",
       "outCountPlan": 0,
-      "outCountUnplan": 5,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 11
+      "custOutUnplan": 7
     }
   ],
   "counties": [
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 1955
     },
     {
       "countyName": "Bonneville",
@@ -225,16 +260,16 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 8,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 38
+      "custOutUnplan": 34
     },
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
