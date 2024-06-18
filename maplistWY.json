@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 38,
+  "count": 3,
+  "totalState": 40,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.643,
+      "latitude": 41.305,
+      "etr": "Before 12:00 PM on 06/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:38 AM on 06/18",
+      "zip": "82070"
+    },
     {
       "icon": "planned",
       "longitude": -108.149,
@@ -13,9 +25,35 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:03 AM on 06/18",
       "zip": "82649"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.101,
+      "latitude": 44.233,
+      "etr": "Before 12:00 PM on 06/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:43 AM on 06/18",
+      "zip": "82433"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82433",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82649",
       "outCountPlan": 1,
@@ -26,11 +64,25 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 38,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
