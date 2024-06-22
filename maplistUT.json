@@ -1,19 +1,7 @@
 {
-  "count": 13,
-  "totalState": 308,
+  "count": 14,
+  "totalState": 981,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.085,
-      "latitude": 37.67,
-      "etr": "Before 08:00 PM on 06/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:11 PM on 06/22",
-      "zip": "84720"
-    },
     {
       "icon": "standard",
       "longitude": -113.086,
@@ -25,18 +13,6 @@
       "crewStatus": "Crews Notified",
       "reported": "11:48 AM on 06/22",
       "zip": "84720"
-    },
-    {
-      "icon": "standard",
-      "longitude": -113.104,
-      "latitude": 37.698,
-      "etr": "Before 06:00 PM on 06/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:28 PM on 06/22",
-      "zip": "84721"
     },
     {
       "icon": "planned",
@@ -54,13 +30,37 @@
       "icon": "standard",
       "longitude": -111.91,
       "latitude": 39.947,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 08:30 PM on 06/22",
+      "outCount": 2,
+      "custOut": 513,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "11:26 AM on 06/22",
-      "zip": "84633"
+      "zip": "84645, 84626, 84633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.948,
+      "latitude": 39.976,
+      "etr": "Before 08:30 PM on 06/22",
+      "outCount": 1,
+      "custOut": 100,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:26 PM on 06/22",
+      "zip": "84626, 84633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.944,
+      "latitude": 40.07,
+      "etr": "Before 08:30 PM on 06/22",
+      "outCount": 1,
+      "custOut": 63,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:27 PM on 06/22",
+      "zip": "84013, 84626, 84633"
     },
     {
       "icon": "standard",
@@ -94,7 +94,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:48 PM on 06/22",
       "zip": "84088"
     },
@@ -161,6 +161,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84013",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84017",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -224,25 +231,32 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84626",
+      "outCountPlan": 0,
+      "outCountUnplan": 4,
+      "custOutPlan": 0,
+      "custOutUnplan": 224
+    },
+    {
       "zipCode": "84633",
+      "outCountPlan": 0,
+      "outCountUnplan": 4,
+      "custOutPlan": 0,
+      "custOutUnplan": 446
+    },
+    {
+      "zipCode": "84645",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     },
     {
       "zipCode": "84720",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 59
-    },
-    {
-      "zipCode": "84721",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 58
     }
   ],
   "counties": [
@@ -263,9 +277,9 @@
     {
       "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 60
+      "custOutUnplan": 58
     },
     {
       "countyName": "Salt Lake",
@@ -291,9 +305,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 676
     }
   ]
 }
