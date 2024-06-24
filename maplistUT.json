@@ -1,6 +1,6 @@
 {
-  "count": 10,
-  "totalState": 47,
+  "count": 12,
+  "totalState": 52,
   "outages": [
     {
       "icon": "standard",
@@ -42,9 +42,9 @@
       "icon": "standard",
       "longitude": -111.938,
       "latitude": 40.643,
-      "etr": "Before 10:30 AM on 06/24",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 11:30 AM on 06/24",
+      "outCount": 2,
+      "custOut": 5,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:16 AM on 06/24",
@@ -100,9 +100,21 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.963,
+      "latitude": 41.049,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:44 AM on 06/24",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.947,
       "latitude": 41.252,
-      "etr": "Before 07:30 AM on 06/24",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 6,
       "cause": "Investigating",
@@ -114,16 +126,23 @@
       "icon": "standard",
       "longitude": -112.005,
       "latitude": 41.324,
-      "etr": "Before 10:30 AM on 06/24",
+      "etr": "Before 08:00 AM on 06/24",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:07 AM on 06/24",
       "zip": "84414"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84078",
       "outCountPlan": 0,
@@ -162,9 +181,9 @@
     {
       "zipCode": "84129",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     },
     {
       "zipCode": "84404",
@@ -183,11 +202,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 6,
+      "outCountUnplan": 7,
       "custOutPlan": 0,
-      "custOutUnplan": 38
+      "custOutUnplan": 42
     },
     {
       "countyName": "Uintah",
