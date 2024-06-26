@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 13,
+  "count": 8,
+  "totalState": 16,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:02 AM on 06/26",
       "zip": "83404"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.139,
+      "latitude": 43.438,
+      "etr": "Before 03:30 PM on 06/26",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "02:12 PM on 06/26",
+      "zip": "83402"
     },
     {
       "icon": "standard",
@@ -42,13 +54,25 @@
       "icon": "standard",
       "longitude": -111.865,
       "latitude": 43.745,
-      "etr": "Before 04:00 PM on 06/26",
+      "etr": "Before 03:00 PM on 06/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:01 PM on 06/26",
+      "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.006,
+      "latitude": 43.803,
+      "etr": "Before 05:00 PM on 06/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "01:01 PM on 06/26",
-      "zip": "83440"
+      "reported": "02:13 PM on 06/26",
+      "zip": "83244"
     },
     {
       "icon": "standard",
@@ -65,11 +89,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 8,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83404",
@@ -96,10 +134,17 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 2,
-      "custOutPlan": 8,
+      "custOutPlan": 10,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Jefferson",
