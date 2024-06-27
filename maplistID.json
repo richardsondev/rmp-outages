@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 11,
+  "count": 6,
+  "totalState": 355,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.783,
+      "latitude": 42.036,
+      "etr": "Before 11:00 PM on 06/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:39 PM on 06/26",
+      "zip": "83237"
+    },
     {
       "icon": "standard",
       "longitude": -112.369,
@@ -27,6 +39,18 @@
       "zip": "83252"
     },
     {
+      "icon": "planned",
+      "longitude": -111.476,
+      "latitude": 42.595,
+      "etr": "Before 11:00 PM on 06/26",
+      "outCount": 1,
+      "custOut": 343,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:30 PM on 06/26",
+      "zip": "83276"
+    },
+    {
       "icon": "standard",
       "longitude": -111.628,
       "latitude": 43.964,
@@ -41,11 +65,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 5
+    },
+    {
+      "zipCode": "83276",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 343,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83445",
@@ -56,6 +94,27 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 98,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 245,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
