@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 8,
+  "count": 7,
+  "totalState": 12,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.197,
+      "latitude": 43.365,
+      "etr": "Before 01:00 PM on 06/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:26 AM on 06/28",
+      "zip": "83274"
+    },
     {
       "icon": "standard",
       "longitude": -112.18,
@@ -15,25 +27,13 @@
       "zip": "83402"
     },
     {
-      "icon": "standard",
-      "longitude": -112.231,
-      "latitude": 43.546,
-      "etr": "Before 10:30 AM on 06/28",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:03 AM on 06/28",
-      "zip": "83402"
-    },
-    {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.904,
       "latitude": 43.687,
       "etr": "Before 12:00 PM on 06/28",
       "outCount": 1,
       "custOut": 3,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "10:01 AM on 06/28",
       "zip": "83442"
@@ -56,7 +56,7 @@
       "latitude": 43.9,
       "etr": "Before 01:00 PM on 06/28",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "10:05 AM on 06/28",
@@ -66,10 +66,10 @@
       "icon": "standard",
       "longitude": -112.483,
       "latitude": 44.065,
-      "etr": "Before 11:30 AM on 06/28",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
+      "etr": "Before 01:30 PM on 06/28",
+      "outCount": 2,
+      "custOut": 3,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "08:16 AM on 06/28",
       "zip": "83435"
@@ -77,32 +77,39 @@
   ],
   "zips": [
     {
-      "zipCode": "83402",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
-      "zipCode": "83435",
+      "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83435",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83436",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83442",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83445",
@@ -114,18 +121,25 @@
   ],
   "counties": [
     {
-      "countyName": "Bonneville",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
-      "countyName": "Clark",
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Fremont",
@@ -136,17 +150,17 @@
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Teton",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     }
   ]
 }
