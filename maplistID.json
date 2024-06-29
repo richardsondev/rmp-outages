@@ -1,12 +1,12 @@
 {
   "count": 4,
-  "totalState": 4,
+  "totalState": 5,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.397,
       "latitude": 42.038,
-      "etr": "Assessing",
+      "etr": "Before 01:00 PM on 06/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -16,9 +16,21 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.121,
+      "latitude": 42.439,
+      "etr": "Before 01:00 PM on 06/29",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:51 AM on 06/29",
+      "zip": "83234"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.18,
       "latitude": 43.467,
-      "etr": "Before 12:30 PM on 06/29",
+      "etr": "Before 03:00 PM on 06/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -37,21 +49,16 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:37 AM on 06/29",
       "zip": "83401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.808,
-      "latitude": 43.948,
-      "etr": "Before 11:30 AM on 06/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:08 AM on 06/29",
-      "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "zipCode": "83287",
       "outCountPlan": 0,
@@ -72,16 +79,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83445",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
@@ -95,13 +102,6 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
