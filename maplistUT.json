@@ -1,7 +1,19 @@
 {
   "count": 11,
-  "totalState": 111,
+  "totalState": 101,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.546,
+      "latitude": 38.564,
+      "etr": "Before 04:30 PM on 06/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:20 PM on 06/30",
+      "zip": "84532"
+    },
     {
       "icon": "standard",
       "longitude": -112.298,
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:45 AM on 06/30",
       "zip": "84095"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.861,
-      "latitude": 40.571,
-      "etr": "Before 01:30 PM on 06/30",
-      "outCount": 1,
-      "custOut": 11,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:04 PM on 06/30",
-      "zip": "84094"
     },
     {
       "icon": "standard",
@@ -66,10 +66,10 @@
       "icon": "standard",
       "longitude": -111.805,
       "latitude": 40.658,
-      "etr": "Before 02:30 PM on 06/30",
+      "etr": "Before 08:00 PM on 06/30",
       "outCount": 1,
       "custOut": 49,
-      "cause": "Damaged Equipment",
+      "cause": "Trees",
       "crewStatus": "Crews Arrived",
       "reported": "11:30 AM on 06/30",
       "zip": "84121, 84117"
@@ -132,13 +132,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84094",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 11
-    },
-    {
       "zipCode": "84095",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -188,6 +181,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84532",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84624",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -204,6 +204,13 @@
   ],
   "counties": [
     {
+      "countyName": "Grand",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Millard",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -213,9 +220,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 5,
+      "outCountUnplan": 4,
       "custOutPlan": 1,
-      "custOutUnplan": 72
+      "custOutUnplan": 61
     },
     {
       "countyName": "Weber",
