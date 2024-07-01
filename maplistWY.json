@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 13,
+  "count": 5,
+  "totalState": 9,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.761,
+      "latitude": 41.546,
+      "etr": "Before 03:30 PM on 07/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:15 PM on 07/01",
+      "zip": "82935"
+    },
     {
       "icon": "planned",
       "longitude": -109.229,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:01 AM on 07/01",
       "zip": "82901"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.882,
-      "latitude": 42.07,
-      "etr": "Before 12:30 PM on 07/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:12 AM on 07/01",
-      "zip": "82334"
     },
     {
       "icon": "standard",
@@ -61,35 +61,9 @@
       "crewStatus": "Crews Notified",
       "reported": "10:09 AM on 07/01",
       "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -108.159,
-      "latitude": 43.496,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 4,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:41 AM on 07/01",
-      "zip": "82443, 82649"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82334",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82443",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
     {
       "zipCode": "82520",
       "outCountPlan": 0,
@@ -105,18 +79,18 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "82649",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
       "zipCode": "82901",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 5,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82935",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82941",
@@ -128,25 +102,11 @@
   ],
   "counties": [
     {
-      "countyName": "Carbon",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Hot Springs",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
     },
     {
       "countyName": "Natrona",
@@ -165,9 +125,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 5,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ]
 }

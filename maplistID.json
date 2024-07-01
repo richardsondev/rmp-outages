@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 36,
+  "count": 7,
+  "totalState": 44,
   "outages": [
     {
       "icon": "standard",
@@ -16,13 +16,25 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.059,
+      "latitude": 43.626,
+      "etr": "Before 02:30 PM on 07/01",
+      "outCount": 1,
+      "custOut": 14,
+      "cause": "Vehicle Accident",
+      "crewStatus": "Crews Notified",
+      "reported": "12:23 PM on 07/01",
+      "zip": "83401, 83442"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.233,
       "latitude": 43.633,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 32,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
+      "etr": "Before 02:00 PM on 07/01",
+      "outCount": 1,
+      "custOut": 25,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "01:21 AM on 07/01",
       "zip": "83444"
     },
@@ -33,8 +45,8 @@
       "etr": "Before 02:30 PM on 07/01",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Vehicle Accident",
+      "crewStatus": "Crews Arrived",
       "reported": "11:46 AM on 07/01",
       "zip": "83442"
     },
@@ -61,6 +73,18 @@
       "crewStatus": "Crews Notified",
       "reported": "11:34 AM on 07/01",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.359,
+      "latitude": 43.917,
+      "etr": "Before 03:00 PM on 07/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:15 PM on 07/01",
+      "zip": "83450"
     }
   ],
   "zips": [
@@ -72,18 +96,32 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 11
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 6
     },
     {
       "zipCode": "83444",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 32
+      "custOutUnplan": 25
+    },
+    {
+      "zipCode": "83450",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -97,9 +135,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 5,
+      "outCountUnplan": 6,
       "custOutPlan": 0,
-      "custOutUnplan": 35
+      "custOutUnplan": 43
     }
   ]
 }
