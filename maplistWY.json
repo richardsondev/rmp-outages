@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 10,
+  "count": 7,
+  "totalState": 14,
   "outages": [
     {
       "icon": "planned",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -108.923,
+      "latitude": 42.404,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:42 AM on 07/01",
+      "zip": "82520"
+    },
+    {
+      "icon": "standard",
       "longitude": -105.266,
       "latitude": 42.619,
       "etr": "Before 11:30 AM on 07/01",
@@ -28,25 +40,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -105.839,
-      "latitude": 42.815,
-      "etr": "Before 10:30 AM on 07/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:13 AM on 07/01",
-      "zip": "82637"
-    },
-    {
-      "icon": "standard",
       "longitude": -106.214,
       "latitude": 42.866,
       "etr": "Before 12:00 PM on 07/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:47 AM on 07/01",
       "zip": "82636"
     },
@@ -73,9 +73,35 @@
       "crewStatus": "Crews Notified",
       "reported": "09:21 AM on 07/01",
       "zip": "82636"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.159,
+      "latitude": 43.496,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "09:41 AM on 07/01",
+      "zip": "82443, 82649"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "82520",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82604",
       "outCountPlan": 1,
@@ -98,11 +124,11 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "82637",
+      "zipCode": "82649",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82901",
@@ -116,9 +142,23 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Hot Springs",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
     },
     {
       "countyName": "Natrona",
