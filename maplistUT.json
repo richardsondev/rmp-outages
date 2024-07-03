@@ -1,18 +1,18 @@
 {
-  "count": 7,
-  "totalState": 96,
+  "count": 6,
+  "totalState": 245,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.995,
-      "latitude": 40.657,
-      "etr": "Before 12:00 AM on 07/03",
+      "longitude": -112.009,
+      "latitude": 40.309,
+      "etr": "Before 02:30 AM on 07/03",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 152,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:34 PM on 07/02",
-      "zip": "84118"
+      "crewStatus": "Crews Notified",
+      "reported": "10:24 PM on 07/02",
+      "zip": "84005"
     },
     {
       "icon": "standard",
@@ -73,21 +73,16 @@
       "crewStatus": "Crews Notified",
       "reported": "09:57 PM on 07/02",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.168,
-      "latitude": 41.8,
-      "etr": "Before 11:00 PM on 07/02",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:06 PM on 07/02",
-      "zip": "84312"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 152
+    },
     {
       "zipCode": "84014",
       "outCountPlan": 0,
@@ -110,25 +105,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84118",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84129",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84312",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
     },
     {
       "zipCode": "84404",
@@ -140,13 +121,6 @@
   ],
   "counties": [
     {
-      "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -156,9 +130,16 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 152
     },
     {
       "countyName": "Weber",
