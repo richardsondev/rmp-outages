@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 7,
+  "totalState": 10,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.571,
+      "latitude": 38.345,
+      "etr": "Before 09:00 AM on 07/04",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:01 AM on 07/04",
+      "zip": "84713"
+    },
     {
       "icon": "standard",
       "longitude": -111.633,
@@ -13,6 +25,30 @@
       "crewStatus": "Crews Notified",
       "reported": "02:55 PM on 07/03",
       "zip": "84092"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.156,
+      "latitude": 41.163,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:12 AM on 07/04",
+      "zip": "84315"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.118,
+      "latitude": 41.163,
+      "etr": "Before 09:30 AM on 07/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:10 AM on 07/04",
+      "zip": "84315"
     },
     {
       "icon": "standard",
@@ -30,10 +66,10 @@
       "icon": "standard",
       "longitude": -112.026,
       "latitude": 41.396,
-      "etr": "Before 07:00 AM on 07/04",
+      "etr": "Before 06:30 AM on 07/04",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "09:42 PM on 07/03",
       "zip": "84340"
@@ -48,6 +84,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84315",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
       "zipCode": "84340",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -60,9 +103,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84713",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
@@ -80,9 +137,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 6
     }
   ]
 }
