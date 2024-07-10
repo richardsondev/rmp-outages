@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -112.118,
+      "latitude": 43.381,
+      "etr": "Before 04:00 PM on 07/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:17 PM on 07/10",
+      "zip": "83274"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.025,
       "latitude": 43.744,
       "etr": "Before 03:00 PM on 07/10",
@@ -25,21 +37,16 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:24 AM on 07/10",
       "zip": "83440"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.806,
-      "latitude": 43.818,
-      "etr": "Before 03:30 PM on 07/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:58 PM on 07/10",
-      "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83434",
       "outCountPlan": 0,
@@ -50,12 +57,19 @@
     {
       "zipCode": "83440",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
@@ -66,9 +80,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     }
   ]
 }
