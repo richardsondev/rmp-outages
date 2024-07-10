@@ -1,7 +1,31 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 4,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.636,
+      "latitude": 43.812,
+      "etr": "Before 03:00 PM on 07/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:24 AM on 07/10",
+      "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.959,
+      "latitude": 43.884,
+      "etr": "Before 12:00 PM on 07/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:15 AM on 07/10",
+      "zip": "83244"
+    },
     {
       "icon": "planned",
       "longitude": -111.928,
@@ -29,10 +53,17 @@
   ],
   "zips": [
     {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83440",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 1,
+      "custOutPlan": 2,
       "custOutUnplan": 0
     },
     {
@@ -45,6 +76,13 @@
   ],
   "counties": [
     {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,9 +91,9 @@
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 1,
+      "custOutPlan": 2,
       "custOutUnplan": 0
     }
   ]
