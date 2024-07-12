@@ -1,7 +1,19 @@
 {
   "count": 5,
-  "totalState": 388,
+  "totalState": 490,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.064,
+      "latitude": 42.27,
+      "etr": "Before 07:30 PM on 07/12",
+      "outCount": 1,
+      "custOut": 103,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:20 PM on 07/12",
+      "zip": "83114, 83238"
+    },
     {
       "icon": "standard",
       "longitude": -111.318,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "04:50 PM on 07/12",
       "zip": "83220, 83254, 83261"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.065,
-      "latitude": 42.628,
-      "etr": "Before 06:30 PM on 07/12",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:12 PM on 07/12",
-      "zip": "83246"
     },
     {
       "icon": "standard",
@@ -65,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83114",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83220",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -72,11 +79,11 @@
       "custOutUnplan": 71
     },
     {
-      "zipCode": "83246",
+      "zipCode": "83238",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 100
     },
     {
       "zipCode": "83254",
@@ -116,18 +123,11 @@
   ],
   "counties": [
     {
-      "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 384
+      "custOutUnplan": 487
     },
     {
       "countyName": "Bingham",
