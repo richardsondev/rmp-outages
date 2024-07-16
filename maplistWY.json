@@ -1,6 +1,6 @@
 {
-  "count": 8,
-  "totalState": 27,
+  "count": 10,
+  "totalState": 138,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:33 AM on 07/16",
       "zip": "82070"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.463,
+      "latitude": 41.506,
+      "etr": "Before 12:00 PM on 07/16",
+      "outCount": 1,
+      "custOut": 19,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:09 AM on 07/16",
+      "zip": "82935"
     },
     {
       "icon": "planned",
@@ -42,12 +54,12 @@
       "icon": "standard",
       "longitude": -111.064,
       "latitude": 42.27,
-      "etr": "Before 12:30 PM on 07/16",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Investigating",
+      "etr": "Before 02:30 PM on 07/16",
+      "outCount": 2,
+      "custOut": 98,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
-      "reported": "07:36 AM on 07/16",
+      "reported": "06:36 AM on 07/16",
       "zip": "83114"
     },
     {
@@ -117,6 +129,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82935",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 19,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83101",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -126,9 +145,9 @@
     {
       "zipCode": "83114",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 98
     }
   ],
   "counties": [
@@ -163,9 +182,16 @@
     {
       "countyName": "Lincoln",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 101
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 19,
+      "custOutUnplan": 0
     }
   ]
 }
