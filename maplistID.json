@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 2,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112,
+      "latitude": 42.193,
+      "etr": "Before 10:30 AM on 07/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:11 AM on 07/17",
+      "zip": "83228"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.672,
+      "latitude": 42.5,
+      "etr": "Before 09:30 AM on 07/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:03 AM on 07/17",
+      "zip": "83241"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83228",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83241",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    }
+  ]
 }
