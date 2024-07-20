@@ -1,6 +1,6 @@
 {
   "count": 17,
-  "totalState": 1374,
+  "totalState": 1352,
   "outages": [
     {
       "icon": "standard",
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1068,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:32 AM on 07/20",
       "zip": "84078"
     },
@@ -112,6 +112,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.002,
+      "latitude": 41.077,
+      "etr": "Before 01:00 PM on 07/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:03 AM on 07/20",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.138,
       "latitude": 41.177,
       "etr": "Before 08:00 PM on 07/20",
@@ -160,25 +172,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.15,
-      "latitude": 41.466,
-      "etr": "Before 03:30 PM on 07/20",
-      "outCount": 2,
-      "custOut": 23,
-      "cause": "Wildlife",
-      "crewStatus": "Crews Notified",
-      "reported": "07:53 AM on 07/20",
-      "zip": "84086"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.429,
       "latitude": 41.805,
       "etr": "Before 11:30 AM on 07/20",
       "outCount": 1,
       "custOut": 9,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:10 AM on 07/20",
       "zip": "84316, 84337, 84331"
     },
@@ -186,16 +186,23 @@
       "icon": "standard",
       "longitude": -112.431,
       "latitude": 41.892,
-      "etr": "Before 10:30 AM on 07/20",
-      "outCount": 1,
+      "etr": "Assessing",
+      "outCount": 2,
       "custOut": 208,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:25 AM on 07/20",
       "zip": "84307, 84316, 84336, 84331"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84078",
       "outCountPlan": 0,
@@ -209,13 +216,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 3,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84086",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 23
     },
     {
       "zipCode": "84088",
@@ -269,14 +269,14 @@
     {
       "zipCode": "84331",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 34
     },
     {
       "zipCode": "84336",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 48
     },
@@ -320,9 +320,16 @@
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 217
+    },
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Piute",
@@ -330,13 +337,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Rich",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 23
     },
     {
       "countyName": "Salt Lake",
