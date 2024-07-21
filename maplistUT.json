@@ -58,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:55 AM on 07/21",
       "zip": "84094"
     },
@@ -100,6 +100,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.963,
+      "latitude": 41.078,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:42 AM on 07/21",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.041,
       "latitude": 41.12,
       "etr": "Before 12:30 PM on 07/21",
@@ -124,21 +136,9 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.812,
-      "latitude": 41.253,
-      "etr": "Before 10:00 AM on 07/21",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:18 AM on 07/21",
-      "zip": "84317"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.794,
       "latitude": 41.296,
-      "etr": "Before 09:30 AM on 07/21",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -162,6 +162,13 @@
   "zips": [
     {
       "zipCode": "84015",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84041",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -245,13 +252,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84317",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84401",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -277,9 +277,9 @@
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Piute",
@@ -305,9 +305,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 385,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
