@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 6,
+  "totalState": 13,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 11:00 AM on 07/22",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:00 AM on 07/22",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -110.104,
@@ -28,6 +40,30 @@
     },
     {
       "icon": "standard",
+      "longitude": -105.564,
+      "latitude": 43.25,
+      "etr": "Before 12:30 PM on 07/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:12 AM on 07/22",
+      "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.162,
+      "latitude": 43.858,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:13 AM on 07/22",
+      "zip": "82401"
+    },
+    {
+      "icon": "standard",
       "longitude": -108.129,
       "latitude": 44.56,
       "etr": "Before 11:30 AM on 07/22",
@@ -41,6 +77,20 @@
   ],
   "zips": [
     {
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82426",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -50,9 +100,9 @@
     {
       "zipCode": "82633",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "83113",
@@ -64,6 +114,13 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Big Horn",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -73,12 +130,19 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Sublette",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Sublette",
+      "countyName": "Washakie",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
