@@ -1,6 +1,6 @@
 {
   "count": 8,
-  "totalState": 8,
+  "totalState": 42,
   "outages": [
     {
       "icon": "standard",
@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:26 AM on 07/24",
       "zip": "82520"
     },
@@ -30,13 +30,25 @@
       "icon": "standard",
       "longitude": -106.299,
       "latitude": 42.84,
-      "etr": "Before 01:00 PM on 07/24",
+      "etr": "Before 05:00 PM on 07/24",
       "outCount": 2,
-      "custOut": 2,
-      "cause": "Multiple outages in the area",
+      "custOut": 10,
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "09:11 AM on 07/24",
       "zip": "82601"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.419,
+      "latitude": 42.995,
+      "etr": "Before 04:00 PM on 07/24",
+      "outCount": 1,
+      "custOut": 27,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:07 AM on 07/24",
+      "zip": "82501, 82510"
     },
     {
       "icon": "standard",
@@ -49,18 +61,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:36 AM on 07/24",
       "zip": "82643"
-    },
-    {
-      "icon": "standard",
-      "longitude": -108.791,
-      "latitude": 44.727,
-      "etr": "Before 11:00 AM on 07/24",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Wildlife",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:14 AM on 07/24",
-      "zip": "82435"
     },
     {
       "icon": "standard",
@@ -84,11 +84,18 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "82435",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82501",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 21,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82510",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82520",
@@ -102,7 +109,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 10
     },
     {
       "zipCode": "82643",
@@ -129,9 +136,9 @@
     },
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 27,
       "custOutUnplan": 1
     },
     {
@@ -146,14 +153,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
-      "countyName": "Park",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 10
     },
     {
       "countyName": "Sublette",
