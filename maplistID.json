@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 509,
+  "count": 5,
+  "totalState": 661,
   "outages": [
     {
       "icon": "standard",
@@ -18,7 +18,7 @@
       "icon": "standard",
       "longitude": -111.824,
       "latitude": 42.18,
-      "etr": "Before 01:00 AM on 07/26",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 480,
       "cause": "Investigating",
@@ -49,15 +49,41 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:46 PM on 07/25",
       "zip": "83261"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.203,
+      "latitude": 42.655,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 152,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:09 AM on 07/26",
+      "zip": "83250, 83214"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83223",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83250",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 151,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83261",
@@ -82,6 +108,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 152,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
