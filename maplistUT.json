@@ -1,6 +1,6 @@
 {
-  "count": 31,
-  "totalState": 1305,
+  "count": 32,
+  "totalState": 1353,
   "outages": [
     {
       "icon": "planned",
@@ -27,18 +27,6 @@
       "zip": "84654"
     },
     {
-      "icon": "standard",
-      "longitude": -112.82,
-      "latitude": 39.103,
-      "etr": "Before 09:30 AM on 07/30",
-      "outCount": 1,
-      "custOut": 10,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:38 AM on 07/30",
-      "zip": "84624, 84728"
-    },
-    {
       "icon": "planned",
       "longitude": -112.151,
       "latitude": 39.198,
@@ -49,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:42 AM on 07/30",
       "zip": "84656"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.6,
+      "latitude": 40.072,
+      "etr": "Before 04:00 PM on 07/30",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:10 AM on 07/30",
+      "zip": "84664"
     },
     {
       "icon": "standard",
@@ -162,13 +162,25 @@
       "icon": "standard",
       "longitude": -111.844,
       "latitude": 40.731,
-      "etr": "Before 12:00 PM on 07/30",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:55 AM on 07/30",
-      "zip": "84108"
+      "zip": "84108, 84105"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.882,
+      "latitude": 40.745,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 56,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:13 AM on 07/30",
+      "zip": "84115"
     },
     {
       "icon": "standard",
@@ -327,13 +339,13 @@
       "zip": "84324, 84339"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.144,
       "latitude": 41.554,
-      "etr": "Assessing",
+      "etr": "Before 02:00 PM on 07/30",
       "outCount": 1,
       "custOut": 224,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:58 AM on 07/30",
       "zip": "84307, 84340"
@@ -342,25 +354,13 @@
       "icon": "standard",
       "longitude": -112.089,
       "latitude": 41.714,
-      "etr": "Before 10:30 AM on 07/30",
+      "etr": "Before 11:00 AM on 07/30",
       "outCount": 1,
       "custOut": 738,
       "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "07:00 AM on 07/30",
       "zip": "84302, 84314, 84309"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.09,
-      "latitude": 41.758,
-      "etr": "Before 12:00 PM on 07/30",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:48 AM on 07/30",
-      "zip": "84306"
     }
   ],
   "zips": [
@@ -428,6 +428,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84105",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84106",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -440,6 +447,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84115",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 56
     },
     {
       "zipCode": "84116",
@@ -470,18 +484,11 @@
       "custOutUnplan": 120
     },
     {
-      "zipCode": "84306",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84307",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 221
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 221,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84309",
@@ -513,10 +520,10 @@
     },
     {
       "zipCode": "84340",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84401",
@@ -540,13 +547,6 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "84624",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
-    },
-    {
       "zipCode": "84654",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -561,11 +561,11 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84728",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
+      "zipCode": "84664",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84738",
@@ -578,10 +578,10 @@
   "counties": [
     {
       "countyName": "Box Elder",
-      "outCountPlan": 1,
-      "outCountUnplan": 4,
-      "custOutPlan": 28,
-      "custOutUnplan": 964
+      "outCountPlan": 2,
+      "outCountUnplan": 2,
+      "custOutPlan": 252,
+      "custOutUnplan": 739
     },
     {
       "countyName": "Cache",
@@ -600,16 +600,16 @@
     {
       "countyName": "Millard",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 7,
-      "custOutUnplan": 10
+      "custOutUnplan": 0
     },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
-      "outCountUnplan": 9,
+      "outCountUnplan": 11,
       "custOutPlan": 24,
-      "custOutUnplan": 113
+      "custOutUnplan": 170
     },
     {
       "countyName": "Sevier",
@@ -627,9 +627,9 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 1
     },
     {
