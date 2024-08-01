@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 222,
+  "count": 3,
+  "totalState": 346,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.706,
+      "latitude": 42.072,
+      "etr": "Before 12:00 PM on 08/01",
+      "outCount": 1,
+      "custOut": 123,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:01 AM on 08/01",
+      "zip": "83272, 83263"
+    },
     {
       "icon": "standard",
       "longitude": -111.74,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:33 AM on 08/01",
       "zip": "83241, 83263, 83283"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.478,
+      "latitude": 43.891,
+      "etr": "Before 11:00 AM on 08/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:06 AM on 08/01",
+      "zip": "83450"
     }
   ],
   "zips": [
@@ -25,10 +49,17 @@
     },
     {
       "zipCode": "83263",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 122,
       "custOutUnplan": 86
+    },
+    {
+      "zipCode": "83272",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83283",
@@ -36,6 +67,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 60
+    },
+    {
+      "zipCode": "83450",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -48,10 +86,17 @@
     },
     {
       "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 123,
+      "custOutUnplan": 147
+    },
+    {
+      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 147
+      "custOutUnplan": 1
     }
   ]
 }
