@@ -1,6 +1,6 @@
 {
   "count": 8,
-  "totalState": 52,
+  "totalState": 86,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:50 PM on 07/31",
       "zip": "84634"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.725,
+      "latitude": 40.311,
+      "etr": "Before 03:00 AM on 08/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:10 AM on 08/01",
+      "zip": "84057"
     },
     {
       "icon": "standard",
@@ -44,7 +56,7 @@
       "latitude": 40.73,
       "etr": "Before 03:00 AM on 08/01",
       "outCount": 2,
-      "custOut": 14,
+      "custOut": 48,
       "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "09:36 PM on 07/31",
@@ -63,18 +75,6 @@
       "zip": "84103"
     },
     {
-      "icon": "standard",
-      "longitude": -111.946,
-      "latitude": 41.237,
-      "etr": "Before 03:00 AM on 08/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:40 PM on 07/31",
-      "zip": "84404"
-    },
-    {
       "icon": "planned",
       "longitude": -111.966,
       "latitude": 41.251,
@@ -88,6 +88,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84057",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84092",
       "outCountPlan": 0,
@@ -107,7 +114,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 14
+      "custOutUnplan": 48
     },
     {
       "zipCode": "84123",
@@ -119,9 +126,9 @@
     {
       "zipCode": "84404",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 7,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84634",
@@ -137,7 +144,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 43
+      "custOutUnplan": 77
     },
     {
       "countyName": "Sanpete",
@@ -147,11 +154,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 7,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     }
   ]
 }
