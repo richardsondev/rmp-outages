@@ -1,21 +1,40 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 123,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.507,
+      "latitude": 42.856,
+      "etr": "Before 10:00 PM on 08/01",
+      "outCount": 1,
+      "custOut": 122,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:37 PM on 08/01",
+      "zip": "83276"
+    },
     {
       "icon": "standard",
       "longitude": -111.608,
       "latitude": 43.979,
-      "etr": "Before 09:30 PM on 08/01",
+      "etr": "Before 09:00 PM on 08/01",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "06:43 PM on 08/01",
       "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83276",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 122
+    },
     {
       "zipCode": "83445",
       "outCountPlan": 0,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 122
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
