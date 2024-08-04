@@ -1,6 +1,6 @@
 {
-  "count": 18,
-  "totalState": 52,
+  "count": 19,
+  "totalState": 649,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:30 PM on 08/04",
       "zip": "84751"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.374,
+      "latitude": 38.409,
+      "etr": "Before 10:00 PM on 08/04",
+      "outCount": 1,
+      "custOut": 597,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:22 PM on 08/04",
+      "zip": "81429, 84540, 81523, 84515, 81522, 84532"
     },
     {
       "icon": "standard",
@@ -115,9 +127,9 @@
       "longitude": -111.842,
       "latitude": 40.571,
       "etr": "Before 09:00 PM on 08/04",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Damaged Equipment",
+      "outCount": 2,
+      "custOut": 10,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "02:06 PM on 08/04",
       "zip": "84092"
@@ -126,25 +138,13 @@
       "icon": "standard",
       "longitude": -112.47,
       "latitude": 40.594,
-      "etr": "Before 06:00 PM on 08/04",
+      "etr": "Before 09:00 PM on 08/04",
       "outCount": 1,
       "custOut": 3,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Notified",
       "reported": "02:55 PM on 08/04",
       "zip": "84029"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.938,
-      "latitude": 40.628,
-      "etr": "Before 05:30 PM on 08/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:09 PM on 08/04",
-      "zip": "84129"
     },
     {
       "icon": "standard",
@@ -177,13 +177,34 @@
       "etr": "Before 08:30 PM on 08/04",
       "outCount": 1,
       "custOut": 11,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "04:03 PM on 08/04",
       "zip": "84120"
     }
   ],
   "zips": [
+    {
+      "zipCode": "81429",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "81522",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "81523",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
+    },
     {
       "zipCode": "84005",
       "outCountPlan": 0,
@@ -236,9 +257,9 @@
     {
       "zipCode": "84092",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 10
     },
     {
       "zipCode": "84094",
@@ -262,11 +283,25 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84129",
+      "zipCode": "84515",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 46
+    },
+    {
+      "zipCode": "84532",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 519
+    },
+    {
+      "zipCode": "84540",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 24
     },
     {
       "zipCode": "84629",
@@ -299,11 +334,32 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Grand",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 579
+    },
+    {
+      "countyName": "Mesa",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
       "outCountUnplan": 7,
       "custOutPlan": 10,
       "custOutUnplan": 32
+    },
+    {
+      "countyName": "San Juan",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 17
     },
     {
       "countyName": "Sanpete",
