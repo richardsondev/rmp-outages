@@ -1,42 +1,18 @@
 {
   "count": 7,
-  "totalState": 275,
+  "totalState": 133,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -109.603,
-      "latitude": 41.249,
+      "longitude": -109.645,
+      "latitude": 41.545,
       "etr": "Assessing",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:21 PM on 08/04",
-      "zip": "82938"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.647,
-      "latitude": 41.458,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 25,
+      "cause": "Lightning",
       "crewStatus": "Crews Arrived",
       "reported": "04:10 PM on 08/04",
       "zip": "82938"
-    },
-    {
-      "icon": "standard",
-      "longitude": -105.907,
-      "latitude": 42.869,
-      "etr": "Before 05:00 AM on 08/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:38 PM on 08/04",
-      "zip": "82637"
     },
     {
       "icon": "standard",
@@ -58,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:50 PM on 08/04",
       "zip": "82633"
     },
@@ -66,24 +42,36 @@
       "icon": "standard",
       "longitude": -108.378,
       "latitude": 43.037,
-      "etr": "Before 10:30 PM on 08/04",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 11:00 PM on 08/04",
+      "outCount": 2,
+      "custOut": 10,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:23 PM on 08/04",
       "zip": "82501"
     },
     {
       "icon": "standard",
-      "longitude": -109.45,
-      "latitude": 44.759,
-      "etr": "Before 09:30 PM on 08/04",
+      "longitude": -108.053,
+      "latitude": 44.493,
+      "etr": "Before 11:30 PM on 08/04",
       "outCount": 1,
-      "custOut": 269,
+      "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "06:16 PM on 08/04",
+      "reported": "08:11 PM on 08/04",
+      "zip": "82426"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.328,
+      "latitude": 44.758,
+      "etr": "Before 11:00 PM on 08/04",
+      "outCount": 1,
+      "custOut": 95,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:59 PM on 08/04",
       "zip": "82414"
     }
   ],
@@ -93,14 +81,21 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 269
+      "custOutUnplan": 95
     },
     {
-      "zipCode": "82501",
+      "zipCode": "82426",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
     },
     {
       "zipCode": "82633",
@@ -112,46 +107,53 @@
     {
       "zipCode": "82637",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82938",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 25
     }
   ],
   "counties": [
     {
-      "countyName": "Converse",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
-    },
-    {
-      "countyName": "Fremont",
+      "countyName": "Big Horn",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Park",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 269
-    },
-    {
-      "countyName": "Sweetwater",
+      "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 95
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 25
     }
   ]
 }
