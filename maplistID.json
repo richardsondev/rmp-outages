@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 12,
+  "count": 6,
+  "totalState": 14,
   "outages": [
     {
       "icon": "standard",
@@ -15,6 +15,18 @@
       "zip": "83232"
     },
     {
+      "icon": "standard",
+      "longitude": -111.298,
+      "latitude": 42.313,
+      "etr": "Before 05:00 PM on 08/06",
+      "outCount": 3,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:35 PM on 08/06",
+      "zip": "83254"
+    },
+    {
       "icon": "planned",
       "longitude": -111.982,
       "latitude": 43.527,
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:51 AM on 08/06",
       "zip": "83401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.847,
-      "latitude": 43.861,
-      "etr": "Before 05:00 PM on 08/06",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:20 PM on 08/06",
-      "zip": "83440"
     },
     {
       "icon": "planned",
@@ -60,18 +60,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 6,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83440",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "83445",
@@ -82,6 +82,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
@@ -102,13 +109,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
-    },
-    {
-      "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
