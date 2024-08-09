@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "totalState": 5,
+  "totalState": 133,
   "outages": [
     {
       "icon": "standard",
@@ -16,18 +16,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.366,
-      "latitude": 44.24,
+      "longitude": -112.483,
+      "latitude": 44.065,
       "etr": "Before 08:00 PM on 08/09",
       "outCount": 2,
-      "custOut": 2,
+      "custOut": 130,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:10 PM on 08/09",
-      "zip": "83423"
+      "zip": "83435, 83423, 59739"
     }
   ],
   "zips": [
+    {
+      "zipCode": "59739",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "zipCode": "83234",
       "outCountPlan": 0,
@@ -38,9 +45,16 @@
     {
       "zipCode": "83423",
       "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 123
+    },
+    {
+      "zipCode": "83435",
+      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 4
     }
   ],
   "counties": [
@@ -56,7 +70,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 130
     }
   ]
 }
