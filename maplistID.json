@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 52,
+  "count": 4,
+  "totalState": 132,
   "outages": [
     {
       "icon": "standard",
@@ -16,15 +16,39 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.784,
+      "latitude": 43.63,
+      "etr": "Before 10:30 AM on 08/09",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:59 AM on 08/09",
+      "zip": "83443"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.904,
       "latitude": 43.672,
       "etr": "Before 10:00 AM on 08/09",
       "outCount": 1,
       "custOut": 49,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:13 AM on 08/09",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.786,
+      "latitude": 43.818,
+      "etr": "Before 11:00 AM on 08/09",
+      "outCount": 1,
+      "custOut": 71,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:54 AM on 08/09",
+      "zip": "83440"
     }
   ],
   "zips": [
@@ -36,11 +60,25 @@
       "custOutUnplan": 3
     },
     {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 71
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 49
+    },
+    {
+      "zipCode": "83443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 9
     }
   ],
   "counties": [
@@ -54,9 +92,16 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 58
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 49
+      "custOutUnplan": 71
     }
   ]
 }
