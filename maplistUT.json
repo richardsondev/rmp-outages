@@ -1,41 +1,17 @@
 {
   "count": 17,
-  "totalState": 32,
+  "totalState": 193,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -113.052,
-      "latitude": 37.772,
-      "etr": "Before 12:30 AM on 08/11",
+      "longitude": -113.051,
+      "latitude": 37.757,
+      "etr": "Before 03:00 AM on 08/11",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:38 PM on 08/10",
-      "zip": "84721"
-    },
-    {
-      "icon": "standard",
-      "longitude": -113.007,
-      "latitude": 37.794,
-      "etr": "Before 12:30 AM on 08/11",
-      "outCount": 1,
-      "custOut": 1,
+      "custOut": 162,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:35 PM on 08/10",
-      "zip": "84721"
-    },
-    {
-      "icon": "standard",
-      "longitude": -113.009,
-      "latitude": 37.881,
-      "etr": "Before 12:30 AM on 08/11",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:36 PM on 08/10",
       "zip": "84721"
     },
     {
@@ -58,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:42 PM on 08/10",
       "zip": "84520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.117,
+      "latitude": 39.945,
+      "etr": "Before 12:30 AM on 08/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:51 PM on 08/10",
+      "zip": "84628"
     },
     {
       "icon": "standard",
@@ -78,7 +66,7 @@
       "icon": "standard",
       "longitude": -111.918,
       "latitude": 40.556,
-      "etr": "Before 10:00 PM on 08/10",
+      "etr": "Before 02:00 AM on 08/11",
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
@@ -109,6 +97,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:18 PM on 08/10",
       "zip": "84074"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.015,
+      "latitude": 40.671,
+      "etr": "Before 11:00 PM on 08/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:53 PM on 08/10",
+      "zip": "84120"
     },
     {
       "icon": "standard",
@@ -150,10 +150,10 @@
       "icon": "standard",
       "longitude": -111.901,
       "latitude": 40.73,
-      "etr": "Assessing",
+      "etr": "Before 10:30 PM on 08/10",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Trees",
       "crewStatus": "Crews Arrived",
       "reported": "03:46 PM on 08/10",
       "zip": "84115"
@@ -234,6 +234,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84120",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84336",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -255,6 +262,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84628",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84646",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -264,9 +278,9 @@
     {
       "zipCode": "84721",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 162
     }
   ],
   "counties": [
@@ -287,15 +301,22 @@
     {
       "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 162
+    },
+    {
+      "countyName": "Juab",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 7,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 20
     },
     {
