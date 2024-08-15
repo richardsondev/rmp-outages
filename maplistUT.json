@@ -1,6 +1,6 @@
 {
   "count": 25,
-  "totalState": 97,
+  "totalState": 99,
   "outages": [
     {
       "icon": "standard",
@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.317,
+      "latitude": 40.552,
+      "etr": "Before 02:30 AM on 08/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:13 PM on 08/14",
+      "zip": "84074"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.824,
       "latitude": 40.629,
       "etr": "Before 03:30 AM on 08/15",
@@ -36,6 +48,18 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:29 PM on 08/14",
+      "zip": "84121"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.805,
+      "latitude": 40.629,
+      "etr": "Before 04:00 AM on 08/15",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:03 PM on 08/14",
       "zip": "84121"
     },
     {
@@ -54,11 +78,11 @@
       "icon": "standard",
       "longitude": -111.5,
       "latitude": 40.66,
-      "etr": "Before 03:00 AM on 08/15",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:36 PM on 08/14",
       "zip": "84060"
     },
@@ -82,7 +106,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:09 PM on 08/14",
       "zip": "84124"
     },
@@ -90,11 +114,11 @@
       "icon": "standard",
       "longitude": -111.977,
       "latitude": 40.686,
-      "etr": "Before 12:00 AM on 08/15",
+      "etr": "Before 11:30 PM on 08/14",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:40 PM on 08/14",
       "zip": "84120"
     },
@@ -121,18 +145,6 @@
       "crewStatus": "Crews Notified",
       "reported": "05:15 PM on 08/14",
       "zip": "84109"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.996,
-      "latitude": 40.7,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:18 PM on 08/14",
-      "zip": "84120"
     },
     {
       "icon": "standard",
@@ -232,18 +244,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.864,
-      "latitude": 40.774,
-      "etr": "Before 02:00 AM on 08/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:47 PM on 08/14",
-      "zip": "84103"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.921,
       "latitude": 40.802,
       "etr": "Assessing",
@@ -314,6 +314,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84074",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84096",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -322,13 +329,6 @@
     },
     {
       "zipCode": "84102",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84103",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -372,15 +372,15 @@
     {
       "zipCode": "84120",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84121",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 3,
       "custOutUnplan": 3
     },
     {
@@ -415,13 +415,20 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 20,
-      "custOutPlan": 0,
-      "custOutUnplan": 51
+      "outCountPlan": 1,
+      "outCountUnplan": 18,
+      "custOutPlan": 3,
+      "custOutUnplan": 49
     },
     {
       "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Tooele",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
