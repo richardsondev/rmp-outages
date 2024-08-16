@@ -1,36 +1,43 @@
 {
-  "count": 1,
-  "totalState": 15,
+  "count": 2,
+  "totalState": 65,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.767,
       "latitude": 43.876,
       "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 15,
-      "cause": "Vehicle Accident",
+      "outCount": 2,
+      "custOut": 65,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:38 PM on 08/15",
-      "zip": "83440"
+      "zip": "83440, 83448"
     }
   ],
   "zips": [
     {
       "zipCode": "83440",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 64
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 65
     }
   ]
 }
