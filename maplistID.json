@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 15,
+  "count": 5,
+  "totalState": 14,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.026,
+      "latitude": 42.599,
+      "etr": "Before 05:30 PM on 08/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:16 PM on 08/19",
+      "zip": "83246"
+    },
     {
       "icon": "standard",
       "longitude": -112.059,
@@ -27,16 +39,16 @@
       "zip": "83402"
     },
     {
-      "icon": "planned",
-      "longitude": -111.864,
-      "latitude": 43.686,
+      "icon": "standard",
+      "longitude": -111.728,
+      "latitude": 43.963,
       "etr": "Assessing",
       "outCount": 1,
-      "custOut": 3,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:04 PM on 08/19",
-      "zip": "83442"
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:28 PM on 08/19",
+      "zip": "83445"
     },
     {
       "icon": "standard",
@@ -53,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83246",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -67,21 +86,21 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83442",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "83445",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 10
+      "custOutUnplan": 11
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bingham",
       "outCountPlan": 0,
@@ -99,16 +118,9 @@
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 10
-    },
-    {
-      "countyName": "Jefferson",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
+      "custOutUnplan": 11
     }
   ]
 }
