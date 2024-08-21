@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 289,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.642,
+      "latitude": 41.319,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 288,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "07:34 AM on 08/21",
+      "zip": "82070"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.307,
+      "latitude": 41.547,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:43 AM on 08/21",
+      "zip": "82901"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 288,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 288,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ]
 }
