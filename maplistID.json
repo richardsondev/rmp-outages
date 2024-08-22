@@ -1,19 +1,7 @@
 {
-  "count": 5,
-  "totalState": 5,
+  "count": 6,
+  "totalState": 10,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.253,
-      "latitude": 42.191,
-      "etr": "Before 12:30 PM on 08/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:37 AM on 08/22",
-      "zip": "83252"
-    },
     {
       "icon": "standard",
       "longitude": -111.504,
@@ -49,18 +37,35 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:43 AM on 08/22",
       "zip": "83404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.963,
+      "latitude": 43.585,
+      "etr": "Before 12:00 PM on 08/22",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:04 AM on 08/22",
+      "zip": "83401"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.886,
+      "latitude": 43.774,
+      "etr": "Before 02:00 PM on 08/22",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:05 AM on 08/22",
+      "zip": "83440"
     }
   ],
   "zips": [
     {
       "zipCode": "83234",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -74,10 +79,24 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
+    },
+    {
       "zipCode": "83404",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 0
     }
   ],
@@ -99,16 +118,16 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 4
     },
     {
-      "countyName": "Oneida",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ]
 }
