@@ -1,7 +1,19 @@
 {
   "count": 3,
-  "totalState": 100,
+  "totalState": 19,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.602,
+      "latitude": 41.332,
+      "etr": "Before 03:00 PM on 08/26",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:06 AM on 08/26",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -109.865,
@@ -10,21 +22,9 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:14 AM on 08/26",
       "zip": "82941"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.94,
-      "latitude": 42.939,
-      "etr": "Before 08:30 AM on 08/26",
-      "outCount": 1,
-      "custOut": 93,
-      "cause": "Wind",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:27 AM on 08/26",
-      "zip": "82925, 82941"
     },
     {
       "icon": "standard",
@@ -41,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82414",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -48,21 +55,21 @@
       "custOutUnplan": 6
     },
     {
-      "zipCode": "82925",
+      "zipCode": "82941",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 20
-    },
-    {
-      "zipCode": "82941",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 74
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Park",
       "outCountPlan": 0,
@@ -73,9 +80,9 @@
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 94
+      "custOutUnplan": 1
     }
   ]
 }
