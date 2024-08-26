@@ -1,6 +1,6 @@
 {
   "count": 7,
-  "totalState": 72,
+  "totalState": 115,
   "outages": [
     {
       "icon": "standard",
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:31 PM on 08/25",
       "zip": "84097"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.958,
+      "latitude": 40.686,
+      "etr": "Before 07:00 AM on 08/26",
+      "outCount": 1,
+      "custOut": 44,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:54 PM on 08/25",
+      "zip": "84119"
     },
     {
       "icon": "standard",
@@ -61,18 +73,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:09 PM on 08/25",
       "zip": "84017"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.965,
-      "latitude": 41.208,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Trees",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:27 AM on 08/25",
-      "zip": "84403"
     },
     {
       "icon": "standard",
@@ -117,18 +117,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84119",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 44,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84317",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 51
-    },
-    {
-      "zipCode": "84403",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84525",
@@ -148,9 +148,9 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 44,
       "custOutUnplan": 1
     },
     {
@@ -170,9 +170,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 52
+      "custOutUnplan": 51
     }
   ]
 }
