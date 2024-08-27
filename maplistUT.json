@@ -1,7 +1,19 @@
 {
-  "count": 18,
-  "totalState": 75,
+  "count": 15,
+  "totalState": 72,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.086,
+      "latitude": 37.684,
+      "etr": "Before 05:30 PM on 08/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:32 PM on 08/27",
+      "zip": "84721"
+    },
     {
       "icon": "standard",
       "longitude": -109.509,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "08:01 AM on 08/27",
       "zip": "84532"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.266,
-      "latitude": 38.93,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:20 AM on 08/27",
-      "zip": "84515"
     },
     {
       "icon": "standard",
@@ -82,7 +82,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:10 PM on 08/27",
       "zip": "84045"
     },
@@ -105,8 +105,8 @@
       "etr": "Before 03:00 PM on 08/27",
       "outCount": 1,
       "custOut": 10,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Line",
+      "crewStatus": "Crews Notified",
       "reported": "11:01 AM on 08/27",
       "zip": "84070"
     },
@@ -160,61 +160,18 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.946,
-      "latitude": 41.208,
-      "etr": "Before 07:00 PM on 08/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:54 PM on 08/27",
-      "zip": "84403"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.967,
       "latitude": 41.309,
       "etr": "Before 05:00 PM on 08/27",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:44 PM on 08/27",
       "zip": "84414"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.383,
-      "latitude": 41.813,
-      "etr": "Before 03:30 PM on 08/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:18 AM on 08/27",
-      "zip": "84038"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.82,
-      "latitude": 41.847,
-      "etr": "Before 03:00 PM on 08/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:29 AM on 08/27",
-      "zip": "84335"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84038",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84045",
       "outCountPlan": 0,
@@ -272,28 +229,7 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84335",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84403",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84414",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84515",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -326,16 +262,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
-      "countyName": "Cache",
+      "zipCode": "84721",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
+    }
+  ],
+  "counties": [
     {
       "countyName": "Emery",
       "outCountPlan": 0,
@@ -346,12 +282,12 @@
     {
       "countyName": "Grand",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
-      "countyName": "Rich",
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -388,9 +324,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
