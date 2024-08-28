@@ -1,42 +1,42 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
     {
-      "icon": "planned",
-      "longitude": -111.881,
-      "latitude": 42.093,
-      "etr": "Before 05:00 PM on 08/28",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:01 PM on 08/28",
-      "zip": "83263"
-    },
-    {
       "icon": "standard",
-      "longitude": -112.155,
-      "latitude": 43.743,
-      "etr": "Before 05:30 PM on 08/28",
+      "longitude": -111.433,
+      "latitude": 42.008,
+      "etr": "Before 07:00 PM on 08/28",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:18 PM on 08/28",
+      "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.881,
+      "latitude": 42.093,
+      "etr": "Before 07:00 PM on 08/28",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
-      "reported": "02:41 PM on 08/28",
-      "zip": "83444"
+      "reported": "04:01 PM on 08/28",
+      "zip": "83263"
     }
   ],
   "zips": [
     {
       "zipCode": "83263",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "83444",
+      "zipCode": "83287",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -45,17 +45,17 @@
   ],
   "counties": [
     {
-      "countyName": "Franklin",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Jefferson",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1,
       "custOutUnplan": 1
     }
   ]
