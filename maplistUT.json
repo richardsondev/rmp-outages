@@ -1,15 +1,27 @@
 {
-  "count": 7,
-  "totalState": 26,
+  "count": 8,
+  "totalState": 28,
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.725,
+      "latitude": 40.282,
+      "etr": "Before 10:00 AM on 08/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:16 AM on 08/29",
+      "zip": "84058"
+    },
+    {
+      "icon": "planned",
       "longitude": -109.544,
       "latitude": 40.449,
-      "etr": "Before 10:00 AM on 08/29",
-      "outCount": 2,
+      "etr": "Before 08:00 AM on 08/29",
+      "outCount": 1,
       "custOut": 12,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "06:08 AM on 08/29",
       "zip": "84078"
@@ -61,9 +73,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:40 AM on 08/29",
       "zip": "84405"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.335,
+      "latitude": 41.82,
+      "etr": "Before 10:00 AM on 08/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:25 AM on 08/29",
+      "zip": "84038"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84038",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84049",
       "outCountPlan": 0,
@@ -72,11 +103,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84058",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84078",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 11,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84106",
@@ -102,6 +140,13 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Rich",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 3,
@@ -111,8 +156,15 @@
     {
       "countyName": "Uintah",
       "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 11,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
