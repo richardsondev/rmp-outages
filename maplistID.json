@@ -1,16 +1,40 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 5,
+  "totalState": 7,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.985,
-      "latitude": 43.73,
+      "longitude": -111.415,
+      "latitude": 42.009,
       "etr": "Before 01:00 PM on 08/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "10:42 AM on 08/29",
+      "zip": "83287"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.14,
+      "latitude": 43.467,
+      "etr": "Before 01:00 PM on 08/29",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:32 AM on 08/29",
+      "zip": "83402"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.985,
+      "latitude": 43.73,
+      "etr": "Before 02:00 PM on 08/29",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "10:23 AM on 08/29",
       "zip": "83434"
     },
@@ -18,9 +42,9 @@
       "icon": "standard",
       "longitude": -112.959,
       "latitude": 43.884,
-      "etr": "Before 12:00 PM on 08/29",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 01:00 PM on 08/29",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:20 AM on 08/29",
@@ -31,32 +55,60 @@
     {
       "zipCode": "83244",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83402",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83434",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Butte",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Jefferson",
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Butte",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ]
 }
