@@ -1,18 +1,18 @@
 {
-  "count": 5,
-  "totalState": 55,
+  "count": 7,
+  "totalState": 19,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.88,
-      "latitude": 40.585,
-      "etr": "Before 02:00 AM on 08/29",
+      "longitude": -110.762,
+      "latitude": 39.53,
+      "etr": "Before 03:00 AM on 08/29",
       "outCount": 1,
-      "custOut": 51,
+      "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:46 PM on 08/28",
-      "zip": "84070"
+      "crewStatus": "Crews Notified",
+      "reported": "11:52 PM on 08/28",
+      "zip": "84501"
     },
     {
       "icon": "standard",
@@ -27,16 +27,16 @@
       "zip": "84115"
     },
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -111.883,
       "latitude": 40.774,
       "etr": "Before 04:00 AM on 08/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
+      "outCount": 3,
+      "custOut": 15,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "11:01 PM on 08/28",
-      "zip": "84111"
+      "zip": "84111, 84103"
     },
     {
       "icon": "standard",
@@ -72,18 +72,18 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84070",
+      "zipCode": "84103",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 51
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84111",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 13
     },
     {
       "zipCode": "84115",
@@ -98,9 +98,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -111,9 +125,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 1,
-      "custOutUnplan": 52
+      "custOutUnplan": 15
     },
     {
       "countyName": "Weber",
