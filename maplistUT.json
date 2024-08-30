@@ -28,18 +28,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.835,
-      "latitude": 37.862,
-      "etr": "Before 08:00 PM on 08/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:28 PM on 08/29",
-      "zip": "84761"
-    },
-    {
-      "icon": "standard",
       "longitude": -109.564,
       "latitude": 38.579,
       "etr": "Before 11:30 PM on 08/29",
@@ -70,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:28 PM on 08/29",
       "zip": "84065"
     },
@@ -198,7 +186,7 @@
       "icon": "standard",
       "longitude": -111.884,
       "latitude": 40.846,
-      "etr": "Before 06:30 PM on 08/29",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -214,7 +202,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:12 PM on 08/29",
       "zip": "84025"
     },
@@ -229,6 +217,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "03:41 PM on 08/29",
       "zip": "84050"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.185,
+      "latitude": 41.67,
+      "etr": "Before 09:00 PM on 08/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:31 PM on 08/29",
+      "zip": "84337"
     }
   ],
   "zips": [
@@ -324,6 +324,13 @@
       "custOutUnplan": 2
     },
     {
+      "zipCode": "84337",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84532",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -343,16 +350,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "84761",
+      "countyName": "Box Elder",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -370,9 +377,9 @@
     {
       "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Morgan",
