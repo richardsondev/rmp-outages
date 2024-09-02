@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 9,
+  "count": 5,
+  "totalState": 11,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.916,
+      "latitude": 40.397,
+      "etr": "Before 07:30 AM on 09/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:42 AM on 09/02",
+      "zip": "84045"
+    },
     {
       "icon": "standard",
       "longitude": -111.764,
@@ -30,18 +42,25 @@
       "icon": "standard",
       "longitude": -111.963,
       "latitude": 41.078,
-      "etr": "Before 07:00 AM on 09/02",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 07:30 AM on 09/02",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "04:15 AM on 09/02",
+      "reported": "04:31 AM on 09/02",
       "zip": "84041"
     }
   ],
   "zips": [
     {
       "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "84045",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -66,9 +85,9 @@
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
@@ -80,9 +99,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 8
     }
   ]
 }
