@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "totalState": 5,
+  "totalState": 66,
   "outages": [
     {
       "icon": "standard",
@@ -16,12 +16,24 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.727,
-      "latitude": 43.848,
+      "longitude": -112.119,
+      "latitude": 43.395,
+      "etr": "Before 06:00 PM on 09/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:26 PM on 09/02",
+      "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.726,
+      "latitude": 43.833,
       "etr": "Before 05:30 PM on 09/02",
-      "outCount": 2,
-      "custOut": 4,
-      "cause": "Multiple outages in the area",
+      "outCount": 1,
+      "custOut": 64,
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Notified",
       "reported": "02:42 PM on 09/02",
       "zip": "83448"
@@ -36,14 +48,28 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83448",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 64
     }
   ],
   "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Caribou",
       "outCountPlan": 0,
@@ -54,9 +80,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 64
     }
   ]
 }
