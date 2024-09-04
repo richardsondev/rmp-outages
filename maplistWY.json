@@ -1,6 +1,6 @@
 {
-  "count": 16,
-  "totalState": 180,
+  "count": 19,
+  "totalState": 1400,
   "outages": [
     {
       "icon": "standard",
@@ -12,6 +12,18 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "10:06 PM on 09/03",
+      "zip": "82901"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.209,
+      "latitude": 41.604,
+      "etr": "Before 12:30 AM on 09/04",
+      "outCount": 1,
+      "custOut": 1145,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "11:21 PM on 09/03",
       "zip": "82901"
     },
     {
@@ -114,9 +126,9 @@
       "icon": "standard",
       "longitude": -109.619,
       "latitude": 42.762,
-      "etr": "Before 07:30 AM on 09/04",
-      "outCount": 4,
-      "custOut": 4,
+      "etr": "Before 08:00 AM on 09/04",
+      "outCount": 5,
+      "custOut": 5,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "10:27 PM on 09/03",
@@ -145,6 +157,18 @@
       "crewStatus": "Crews Notified",
       "reported": "09:24 PM on 09/03",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.45,
+      "latitude": 44.759,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 74,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:26 PM on 09/03",
+      "zip": "82414"
     }
   ],
   "zips": [
@@ -154,6 +178,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 74
     },
     {
       "zipCode": "82520",
@@ -171,17 +202,17 @@
     },
     {
       "zipCode": "82901",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1145,
       "custOutUnplan": 1
     },
     {
       "zipCode": "82923",
       "outCountPlan": 0,
-      "outCountUnplan": 11,
+      "outCountUnplan": 12,
       "custOutPlan": 0,
-      "custOutUnplan": 12
+      "custOutUnplan": 13
     }
   ],
   "counties": [
@@ -200,17 +231,24 @@
       "custOutUnplan": 166
     },
     {
-      "countyName": "Sublette",
-      "outCountPlan": 0,
-      "outCountUnplan": 11,
-      "custOutPlan": 0,
-      "custOutUnplan": 12
-    },
-    {
-      "countyName": "Sweetwater",
+      "countyName": "Park",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 74
+    },
+    {
+      "countyName": "Sublette",
+      "outCountPlan": 0,
+      "outCountUnplan": 12,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1145,
       "custOutUnplan": 1
     }
   ]
