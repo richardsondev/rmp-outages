@@ -1,18 +1,42 @@
 {
-  "count": 5,
-  "totalState": 24,
+  "count": 6,
+  "totalState": 31,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -110.967,
       "latitude": 41.27,
-      "etr": "Assessing",
+      "etr": "Before 01:00 PM on 09/05",
       "outCount": 1,
       "custOut": 5,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:28 AM on 09/05",
       "zip": "82930"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.643,
+      "latitude": 41.305,
+      "etr": "Before 01:00 PM on 09/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:39 AM on 09/05",
+      "zip": "82070"
+    },
+    {
+      "icon": "planned",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 04:00 PM on 09/05",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:31 AM on 09/05",
+      "zip": "82070, 82072"
     },
     {
       "icon": "planned",
@@ -40,18 +64,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -106.318,
-      "latitude": 42.856,
-      "etr": "Before 12:30 PM on 09/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:06 AM on 09/05",
-      "zip": "82601"
-    },
-    {
-      "icon": "standard",
       "longitude": -105.595,
       "latitude": 42.903,
       "etr": "Before 12:00 PM on 09/05",
@@ -65,10 +77,10 @@
   ],
   "zips": [
     {
-      "zipCode": "82601",
-      "outCountPlan": 0,
+      "zipCode": "82070",
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 7,
       "custOutUnplan": 1
     },
     {
@@ -94,13 +106,20 @@
     },
     {
       "zipCode": "82930",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 7,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Converse",
       "outCountPlan": 0,
@@ -111,9 +130,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 8,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sweetwater",
@@ -124,10 +143,10 @@
     },
     {
       "countyName": "Uinta",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     }
   ]
 }
