@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 4,
+  "totalState": 56,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.4,
+      "latitude": 42.775,
+      "etr": "Before 09:00 PM on 09/05",
+      "outCount": 1,
+      "custOut": 51,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:51 PM on 09/05",
+      "zip": "82633"
+    },
     {
       "icon": "standard",
       "longitude": -109.824,
@@ -25,15 +37,34 @@
       "crewStatus": "Crews Notified",
       "reported": "03:34 PM on 09/05",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.204,
+      "latitude": 43.115,
+      "etr": "Before 09:00 PM on 09/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:52 PM on 09/05",
+      "zip": "82922"
     }
   ],
   "zips": [
     {
       "zipCode": "82633",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 54
+    },
+    {
+      "zipCode": "82922",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82941",
@@ -47,16 +78,16 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 54
     },
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
