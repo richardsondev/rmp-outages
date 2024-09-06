@@ -1,19 +1,7 @@
 {
-  "count": 15,
-  "totalState": 81,
+  "count": 12,
+  "totalState": 64,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.098,
-      "latitude": 38.742,
-      "etr": "Before 08:30 PM on 09/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:30 PM on 09/05",
-      "zip": "84701"
-    },
     {
       "icon": "standard",
       "longitude": -111.725,
@@ -42,12 +30,12 @@
       "icon": "standard",
       "longitude": -112.014,
       "latitude": 40.613,
-      "etr": "Before 07:30 PM on 09/05",
+      "etr": "Before 10:00 PM on 09/05",
       "outCount": 1,
       "custOut": 6,
-      "cause": "Investigating",
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Arrived",
-      "reported": "04:27 PM on 09/05",
+      "reported": "06:41 PM on 09/05",
       "zip": "84081"
     },
     {
@@ -70,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:45 PM on 09/05",
       "zip": "84124"
     },
@@ -82,7 +70,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:30 PM on 09/05",
       "zip": "84119"
     },
@@ -106,21 +94,9 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "05:15 PM on 09/05",
       "zip": "84104"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.844,
-      "latitude": 40.731,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:54 PM on 09/05",
-      "zip": "84105"
     },
     {
       "icon": "standard",
@@ -135,28 +111,16 @@
       "zip": "84116"
     },
     {
-      "icon": "planned",
-      "longitude": -112.08,
-      "latitude": 41.178,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 15,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:35 AM on 09/05",
-      "zip": "84067"
-    },
-    {
       "icon": "standard",
-      "longitude": -111.965,
-      "latitude": 41.208,
+      "longitude": -111.922,
+      "latitude": 40.86,
       "etr": "Before 08:30 PM on 09/05",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
-      "reported": "05:06 PM on 09/05",
-      "zip": "84401"
+      "reported": "06:23 PM on 09/05",
+      "zip": "84054"
     },
     {
       "icon": "standard",
@@ -185,6 +149,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84054",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84057",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -199,13 +170,6 @@
       "custOutUnplan": 37
     },
     {
-      "zipCode": "84067",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 15,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84081",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -214,13 +178,6 @@
     },
     {
       "zipCode": "84104",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84105",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -269,25 +226,11 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84401",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "84701",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -299,18 +242,18 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 8,
-      "custOutPlan": 0,
-      "custOutUnplan": 13
-    },
-    {
-      "countyName": "Sevier",
+      "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 7,
+      "custOutPlan": 0,
+      "custOutUnplan": 12
     },
     {
       "countyName": "Utah",
@@ -321,10 +264,10 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 15,
-      "custOutUnplan": 3
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
