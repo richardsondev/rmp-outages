@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 16,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -110.967,
+      "latitude": 41.27,
+      "etr": "Before 01:00 PM on 09/06",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 09/06",
+      "zip": "82930"
+    },
     {
       "icon": "standard",
       "longitude": -110.541,
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:00 AM on 09/06",
       "zip": "82633"
     },
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -106.277,
       "latitude": 42.867,
-      "etr": "Before 11:30 AM on 09/06",
+      "etr": "Before 09:30 AM on 09/06",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "08:29 AM on 09/06",
       "zip": "82636"
     },
@@ -74,6 +86,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82930",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83101",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -109,6 +128,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Uinta",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
     }
   ]
 }
