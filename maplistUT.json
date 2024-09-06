@@ -1,7 +1,19 @@
 {
-  "count": 29,
-  "totalState": 2495,
+  "count": 31,
+  "totalState": 1999,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.849,
+      "latitude": 37.703,
+      "etr": "Before 02:30 PM on 09/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:27 AM on 09/06",
+      "zip": "84719"
+    },
     {
       "icon": "standard",
       "longitude": -113.051,
@@ -20,9 +32,9 @@
       "latitude": 37.758,
       "etr": "Before 04:00 PM on 09/06",
       "outCount": 1,
-      "custOut": 1837,
+      "custOut": 1339,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:44 AM on 09/06",
       "zip": "84721"
     },
@@ -37,6 +49,18 @@
       "crewStatus": "Crews Notified",
       "reported": "09:13 AM on 09/06",
       "zip": "84751"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.867,
+      "latitude": 39.527,
+      "etr": "Before 04:00 PM on 09/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:15 AM on 09/06",
+      "zip": "84639"
     },
     {
       "icon": "standard",
@@ -82,7 +106,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:07 AM on 09/06",
       "zip": "84029"
     },
@@ -258,11 +282,11 @@
       "icon": "standard",
       "longitude": -111.816,
       "latitude": 41.572,
-      "etr": "Before 12:30 PM on 09/06",
+      "etr": "Before 11:00 AM on 09/06",
       "outCount": 1,
       "custOut": 8,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "08:59 AM on 09/06",
       "zip": "84328"
     },
@@ -476,11 +500,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84639",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84719",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84721",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1838
+      "custOutUnplan": 1340
     },
     {
       "zipCode": "84751",
@@ -521,10 +559,17 @@
     },
     {
       "countyName": "Iron",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
+      "custOutPlan": 1,
+      "custOutUnplan": 1340
+    },
+    {
+      "countyName": "Juab",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1838
+      "custOutUnplan": 1
     },
     {
       "countyName": "Morgan",
