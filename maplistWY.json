@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 14,
+  "count": 4,
+  "totalState": 15,
   "outages": [
     {
       "icon": "planned",
@@ -12,6 +12,18 @@
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:20 AM on 09/09",
+      "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.247,
+      "latitude": 41.648,
+      "etr": "Before 03:00 PM on 09/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:57 AM on 09/09",
       "zip": "82901"
     },
     {
@@ -28,24 +40,31 @@
     },
     {
       "icon": "standard",
-      "longitude": -110.453,
-      "latitude": 41.812,
-      "etr": "Before 12:00 PM on 09/09",
+      "longitude": -107.934,
+      "latitude": 44.012,
+      "etr": "Before 03:00 PM on 09/09",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "08:48 AM on 09/09",
-      "zip": "83101"
+      "reported": "11:50 AM on 09/09",
+      "zip": "82401"
     }
   ],
   "zips": [
     {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82901",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 10,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82935",
@@ -53,29 +72,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "zipCode": "83101",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Lincoln",
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 10,
+      "custOutUnplan": 4
+    },
+    {
+      "countyName": "Washakie",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Sweetwater",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 10,
-      "custOutUnplan": 3
     }
   ]
 }
