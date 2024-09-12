@@ -1,6 +1,6 @@
 {
   "count": 7,
-  "totalState": 105,
+  "totalState": 41,
   "outages": [
     {
       "icon": "standard",
@@ -16,27 +16,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.983,
-      "latitude": 43.628,
-      "etr": "Before 02:00 PM on 09/12",
-      "outCount": 1,
-      "custOut": 66,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:27 AM on 09/12",
-      "zip": "83442"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.233,
       "latitude": 43.633,
       "etr": "Before 02:30 PM on 09/12",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 2,
       "cause": "Lightning",
       "crewStatus": "Crews Arrived",
       "reported": "12:11 PM on 09/12",
       "zip": "83444"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.747,
+      "latitude": 43.876,
+      "etr": "Before 03:00 PM on 09/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "12:36 PM on 09/12",
+      "zip": "83448"
     },
     {
       "icon": "standard",
@@ -124,18 +124,11 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "83442",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 66
-    },
-    {
       "zipCode": "83444",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "83445",
@@ -143,6 +136,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 21
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -170,9 +170,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 67
+      "custOutUnplan": 2
     },
     {
       "countyName": "Lemhi",
@@ -180,6 +180,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
