@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 102,
+  "count": 8,
+  "totalState": 106,
   "outages": [
     {
       "icon": "planned",
@@ -57,7 +57,7 @@
       "etr": "Before 01:00 PM on 09/12",
       "outCount": 1,
       "custOut": 4,
-      "cause": "Investigating",
+      "cause": "Lightning",
       "crewStatus": "Crews Notified",
       "reported": "09:47 AM on 09/12",
       "zip": "82520"
@@ -68,7 +68,7 @@
       "latitude": 42.813,
       "etr": "Before 01:00 PM on 09/12",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:54 AM on 09/12",
@@ -85,15 +85,34 @@
       "crewStatus": "Crews Notified",
       "reported": "10:42 AM on 09/12",
       "zip": "82609"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.019,
+      "latitude": 44.347,
+      "etr": "Before 02:00 PM on 09/12",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Lightning",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:58 AM on 09/12",
+      "zip": "82410"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82410",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "zipCode": "82520",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 6
     },
     {
       "zipCode": "82609",
@@ -126,11 +145,18 @@
   ],
   "counties": [
     {
+      "countyName": "Big Horn",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 6
     },
     {
       "countyName": "Lincoln",
