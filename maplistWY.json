@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 19,
+  "count": 4,
+  "totalState": 45,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.804,
+      "latitude": 41.035,
+      "etr": "Before 01:30 PM on 09/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:23 AM on 09/19",
+      "zip": "82930"
+    },
+    {
+      "icon": "planned",
+      "longitude": -110.967,
+      "latitude": 41.256,
+      "etr": "Before 03:00 PM on 09/19",
+      "outCount": 1,
+      "custOut": 26,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:26 AM on 09/19",
+      "zip": "82930"
+    },
     {
       "icon": "planned",
       "longitude": -105.546,
@@ -25,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:52 AM on 09/19",
       "zip": "82901"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.448,
-      "latitude": 42.832,
-      "etr": "Before 01:00 PM on 09/19",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:56 AM on 09/19",
-      "zip": "82604"
     }
   ],
   "zips": [
@@ -48,18 +60,18 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "82604",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "82901",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 11
+    },
+    {
+      "zipCode": "82930",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 26,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -71,18 +83,18 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 11
+    },
+    {
+      "countyName": "Uinta",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 26,
+      "custOutUnplan": 1
     }
   ]
 }
