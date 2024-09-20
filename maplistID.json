@@ -1,19 +1,7 @@
 {
-  "count": 5,
-  "totalState": 7,
+  "count": 4,
+  "totalState": 10,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -112.119,
-      "latitude": 43.439,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 3,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "10:52 AM on 09/20",
-      "zip": "83402"
-    },
     {
       "icon": "standard",
       "longitude": -112.042,
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:24 AM on 09/20",
       "zip": "83445"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.485,
+      "latitude": 44.152,
+      "etr": "Before 12:30 PM on 09/20",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:57 AM on 09/20",
+      "zip": "83423"
     }
   ],
   "zips": [
@@ -48,11 +48,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83402",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
     },
     {
       "zipCode": "83445",
@@ -65,10 +65,17 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 2,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 3,
+      "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
     },
     {
       "countyName": "Fremont",
