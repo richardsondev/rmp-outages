@@ -1,14 +1,38 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 8,
+  "totalState": 123,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.463,
+      "latitude": 41.492,
+      "etr": "Before 06:00 PM on 09/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:57 PM on 09/22",
+      "zip": "82935"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.248,
+      "latitude": 41.59,
+      "etr": "Assessing",
+      "outCount": 3,
+      "custOut": 118,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:55 PM on 09/22",
+      "zip": "82901"
+    },
     {
       "icon": "standard",
       "longitude": -110.123,
       "latitude": 42.557,
-      "etr": "Before 05:30 PM on 09/22",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 06:00 PM on 09/22",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "02:38 PM on 09/22",
@@ -55,11 +79,25 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83113",
+      "zipCode": "82901",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 118
+    },
+    {
+      "zipCode": "82935",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83113",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ],
   "counties": [
@@ -80,9 +118,16 @@
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 0,
+      "outCountUnplan": 4,
+      "custOutPlan": 0,
+      "custOutUnplan": 119
     }
   ]
 }
