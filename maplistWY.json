@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 6,
+  "count": 5,
+  "totalState": 175,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.249,
+      "latitude": 41.576,
+      "etr": "Before 03:00 PM on 09/26",
+      "outCount": 1,
+      "custOut": 20,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:04 AM on 09/26",
+      "zip": "82901"
+    },
     {
       "icon": "planned",
       "longitude": -109.248,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:56 AM on 09/26",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.347,
+      "latitude": 41.776,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 149,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:11 AM on 09/26",
+      "zip": "83101, 83124"
     },
     {
       "icon": "standard",
@@ -37,10 +61,24 @@
     },
     {
       "zipCode": "82901",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 5,
+      "custOutPlan": 25,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83101",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 54
+    },
+    {
+      "zipCode": "83124",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 95
     }
   ],
   "counties": [
@@ -52,10 +90,17 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Lincoln",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 149
+    },
+    {
       "countyName": "Sweetwater",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 5,
+      "custOutPlan": 25,
       "custOutUnplan": 0
     }
   ]
