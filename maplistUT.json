@@ -1,7 +1,19 @@
 {
   "count": 9,
-  "totalState": 68,
+  "totalState": 38,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.858,
+      "latitude": 40.368,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:29 PM on 09/28",
+      "zip": "84043"
+    },
     {
       "icon": "standard",
       "longitude": -112.069,
@@ -52,27 +64,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.825,
-      "latitude": 40.702,
-      "etr": "Before 12:30 PM on 09/28",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:27 AM on 09/28",
-      "zip": "84109"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.111,
       "latitude": 40.714,
       "etr": "Before 03:00 PM on 09/28",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:39 AM on 09/28",
       "zip": "84044"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.844,
+      "latitude": 40.731,
+      "etr": "Before 03:30 PM on 09/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:18 PM on 09/28",
+      "zip": "84108"
     },
     {
       "icon": "planned",
@@ -97,18 +109,6 @@
       "crewStatus": "Crews Notified",
       "reported": "11:02 AM on 09/28",
       "zip": "84307"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.541,
-      "latitude": 41.629,
-      "etr": "Before 02:30 PM on 09/28",
-      "outCount": 1,
-      "custOut": 23,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:02 AM on 09/28",
-      "zip": "84307, 84336"
     }
   ],
   "zips": [
@@ -118,6 +118,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84043",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84044",
@@ -148,34 +155,27 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84109",
+      "zipCode": "84108",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84307",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 11
-    },
-    {
-      "zipCode": "84336",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Box Elder",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 24
+      "custOutUnplan": 1
     },
     {
       "countyName": "Davis",
@@ -189,7 +189,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 6,
       "custOutPlan": 0,
-      "custOutUnplan": 43
+      "custOutUnplan": 35
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
