@@ -1,6 +1,6 @@
 {
   "count": 10,
-  "totalState": 160,
+  "totalState": 146,
   "outages": [
     {
       "icon": "standard",
@@ -52,6 +52,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.49,
+      "latitude": 40.623,
+      "etr": "Before 06:00 PM on 09/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:51 PM on 09/29",
+      "zip": "84029"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.805,
       "latitude": 40.673,
       "etr": "Before 04:00 PM on 09/29",
@@ -61,6 +73,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:41 PM on 09/29",
       "zip": "84117"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.882,
+      "latitude": 40.687,
+      "etr": "Before 06:00 PM on 09/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:53 PM on 09/29",
+      "zip": "84107"
     },
     {
       "icon": "planned",
@@ -88,32 +112,34 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.042,
-      "latitude": 41.193,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 16,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:20 PM on 09/29",
-      "zip": "84067"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.799,
-      "latitude": 41.775,
-      "etr": "Before 03:00 PM on 09/29",
+      "longitude": -111.906,
+      "latitude": 41.107,
+      "etr": "Before 06:00 PM on 09/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:06 PM on 09/29",
-      "zip": "84341"
+      "crewStatus": "Crews Notified",
+      "reported": "02:52 PM on 09/29",
+      "zip": "84040"
     }
   ],
   "zips": [
     {
       "zipCode": "84014",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84029",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84040",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -127,14 +153,14 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84067",
+      "zipCode": "84093",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 16
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "84093",
+      "zipCode": "84107",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -162,13 +188,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84341",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84714",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -178,18 +197,11 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Iron",
@@ -201,9 +213,16 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 10,
-      "custOutUnplan": 3
+      "custOutUnplan": 4
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Utah",
@@ -211,13 +230,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 16,
       "custOutUnplan": 0
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 16
     }
   ]
 }
