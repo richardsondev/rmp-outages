@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 146,
+  "count": 5,
+  "totalState": 149,
   "outages": [
     {
       "icon": "standard",
@@ -27,16 +27,28 @@
       "zip": "84078"
     },
     {
-      "icon": "standard",
-      "longitude": -112.041,
-      "latitude": 41.164,
-      "etr": "Before 01:00 AM on 09/29",
+      "icon": "planned",
+      "longitude": -111.901,
+      "latitude": 40.73,
+      "etr": "Before 06:00 AM on 09/29",
       "outCount": 1,
-      "custOut": 13,
-      "cause": "Wildlife",
+      "custOut": 8,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "11:35 PM on 09/28",
-      "zip": "84067"
+      "reported": "12:48 AM on 09/29",
+      "zip": "84104"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.966,
+      "latitude": 41.28,
+      "etr": "Before 06:00 AM on 09/29",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:50 AM on 09/29",
+      "zip": "84404"
     }
   ],
   "zips": [
@@ -48,21 +60,35 @@
       "custOutUnplan": 111
     },
     {
-      "zipCode": "84067",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 13
-    },
-    {
       "zipCode": "84078",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 22
+    },
+    {
+      "zipCode": "84104",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
     }
   ],
   "counties": [
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Uintah",
       "outCountPlan": 0,
@@ -82,7 +108,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 8
     }
   ]
 }
