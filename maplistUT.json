@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 77,
+  "count": 10,
+  "totalState": 136,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.526,
+      "latitude": 40.42,
+      "etr": "Before 10:00 AM on 09/30",
+      "outCount": 2,
+      "custOut": 56,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:01 AM on 09/30",
+      "zip": "84078"
+    },
     {
       "icon": "standard",
       "longitude": -111.842,
@@ -51,6 +63,18 @@
       "zip": "84036"
     },
     {
+      "icon": "planned",
+      "longitude": -111.905,
+      "latitude": 40.991,
+      "etr": "Before 02:00 PM on 09/30",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:03 AM on 09/30",
+      "zip": "84025"
+    },
+    {
       "icon": "standard",
       "longitude": -111.905,
       "latitude": 41.035,
@@ -73,6 +97,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:26 AM on 09/30",
       "zip": "84015"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.946,
+      "latitude": 41.194,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:14 AM on 09/30",
+      "zip": "84403"
     }
   ],
   "zips": [
@@ -82,6 +118,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84025",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84036",
@@ -96,6 +139,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84078",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 56,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84084",
@@ -117,14 +167,21 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 40
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 2
     },
     {
@@ -136,6 +193,20 @@
     },
     {
       "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 56,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
