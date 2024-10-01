@@ -1,7 +1,19 @@
 {
   "count": 3,
-  "totalState": 9,
+  "totalState": 23,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.182,
+      "latitude": 42.568,
+      "etr": "Before 09:30 PM on 09/30",
+      "outCount": 1,
+      "custOut": 15,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:47 PM on 09/30",
+      "zip": "83214"
+    },
     {
       "icon": "standard",
       "longitude": -112.215,
@@ -22,37 +34,25 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:28 PM on 09/30",
       "zip": "83442"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.786,
-      "latitude": 43.832,
-      "etr": "Before 07:00 PM on 09/30",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:52 PM on 09/30",
-      "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 15
+    },
     {
       "zipCode": "83236",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
-    },
-    {
-      "zipCode": "83440",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "83442",
@@ -64,6 +64,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 15
+    },
+    {
       "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -72,13 +79,6 @@
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Madison",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
