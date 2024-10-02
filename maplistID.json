@@ -1,18 +1,18 @@
 {
-  "count": 7,
-  "totalState": 10,
+  "count": 6,
+  "totalState": 196,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -111.673,
-      "latitude": 42.66,
-      "etr": "Before 01:00 PM on 10/02",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:23 AM on 10/02",
-      "zip": "83276"
+      "icon": "planned",
+      "longitude": -111.713,
+      "latitude": 42.681,
+      "etr": "Before 03:00 PM on 10/02",
+      "outCount": 1,
+      "custOut": 188,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:16 AM on 10/02",
+      "zip": "83217, 83276"
     },
     {
       "icon": "standard",
@@ -27,13 +27,13 @@
       "zip": "83443"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.784,
       "latitude": 43.642,
       "etr": "Before 02:00 PM on 10/02",
       "outCount": 2,
       "custOut": 4,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "10:05 AM on 10/02",
       "zip": "83442"
@@ -53,18 +53,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83217",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83276",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 179,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83442",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 3,
-      "custOutUnplan": 1
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83443",
@@ -91,10 +98,10 @@
     },
     {
       "countyName": "Caribou",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 188,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Fremont",
@@ -105,10 +112,10 @@
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 3,
-      "custOutUnplan": 1
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
     }
   ]
 }
