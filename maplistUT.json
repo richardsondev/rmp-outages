@@ -1,6 +1,6 @@
 {
-  "count": 24,
-  "totalState": 215,
+  "count": 23,
+  "totalState": 208,
   "outages": [
     {
       "icon": "planned",
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:05 PM on 10/03",
       "zip": "84058"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.994,
+      "latitude": 40.555,
+      "etr": "Before 12:00 AM on 10/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:49 PM on 10/03",
+      "zip": "84009"
     },
     {
       "icon": "planned",
@@ -79,11 +91,11 @@
       "longitude": -111.976,
       "latitude": 40.657,
       "etr": "Before 01:00 AM on 10/04",
-      "outCount": 2,
-      "custOut": 47,
+      "outCount": 1,
+      "custOut": 40,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:43 PM on 10/03",
+      "crewStatus": "Crews Notified",
+      "reported": "04:44 PM on 10/03",
       "zip": "84129"
     },
     {
@@ -214,7 +226,7 @@
       "outCount": 1,
       "custOut": 65,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:30 PM on 10/03",
       "zip": "84075"
     },
@@ -265,21 +277,16 @@
       "crewStatus": "Crews Notified",
       "reported": "02:43 PM on 10/03",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.796,
-      "latitude": 41.528,
-      "etr": "Before 06:00 PM on 10/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:08 PM on 10/03",
-      "zip": "84328"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84009",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84044",
       "outCountPlan": 0,
@@ -381,16 +388,9 @@
     {
       "zipCode": "84129",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 47
-    },
-    {
-      "zipCode": "84328",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 40
     },
     {
       "zipCode": "84404",
@@ -416,13 +416,6 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 4,
@@ -441,7 +434,7 @@
       "outCountPlan": 1,
       "outCountUnplan": 12,
       "custOutPlan": 6,
-      "custOutUnplan": 109
+      "custOutUnplan": 103
     },
     {
       "countyName": "Sevier",
