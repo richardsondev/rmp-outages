@@ -1,14 +1,26 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 01:30 PM on 10/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "03:20 AM on 10/06",
+      "zip": "82637"
+    },
     {
       "icon": "standard",
       "longitude": -106.302,
       "latitude": 42.935,
       "etr": "Before 07:30 AM on 10/06",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "04:03 AM on 10/06",
@@ -21,16 +33,30 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Natrona",
+      "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
