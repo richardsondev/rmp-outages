@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 51,
+  "count": 4,
+  "totalState": 57,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.524,
+      "latitude": 41.55,
+      "etr": "Before 04:00 PM on 10/08",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:56 AM on 10/08",
+      "zip": "82935"
+    },
     {
       "icon": "standard",
       "longitude": -109.268,
@@ -25,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:44 AM on 10/08",
       "zip": "82941"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.865,
+      "latitude": 42.939,
+      "etr": "Before 02:00 PM on 10/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:52 AM on 10/08",
+      "zip": "82941"
     }
   ],
   "zips": [
@@ -36,26 +60,33 @@
       "custOutUnplan": 32
     },
     {
+      "zipCode": "82935",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82941",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 19
     }
   ],
   "counties": [
     {
       "countyName": "Sublette",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 19
     },
     {
       "countyName": "Sweetwater",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 5,
       "custOutUnplan": 32
     }
   ]
