@@ -1,7 +1,19 @@
 {
   "count": 6,
-  "totalState": 14,
+  "totalState": 20,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.763,
+      "latitude": 40.34,
+      "etr": "Before 10:00 PM on 10/09",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:49 PM on 10/09",
+      "zip": "84042"
+    },
     {
       "icon": "standard",
       "longitude": -112.298,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "07:46 PM on 10/09",
       "zip": "84074"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.975,
-      "latitude": 40.57,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Line",
-      "crewStatus": "Crews Notified",
-      "reported": "11:14 AM on 10/09",
-      "zip": "84095"
     },
     {
       "icon": "planned",
@@ -65,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84042",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
+    },
+    {
       "zipCode": "84070",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -73,13 +80,6 @@
     },
     {
       "zipCode": "84074",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84095",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -104,9 +104,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 2,
-      "custOutUnplan": 6
+      "custOutUnplan": 5
     },
     {
       "countyName": "Tooele",
@@ -114,6 +114,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     },
     {
       "countyName": "Weber",
