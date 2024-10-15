@@ -1,19 +1,7 @@
 {
   "count": 2,
-  "totalState": 68,
+  "totalState": 2,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -109.228,
-      "latitude": 41.619,
-      "etr": "Before 09:00 PM on 10/14",
-      "outCount": 1,
-      "custOut": 67,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:30 PM on 10/14",
-      "zip": "82901"
-    },
     {
       "icon": "planned",
       "longitude": -109.874,
@@ -25,15 +13,27 @@
       "crewStatus": "Crews Notified",
       "reported": "07:38 AM on 10/14",
       "zip": "82935, 82934"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 10:00 PM on 10/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:59 PM on 10/14",
+      "zip": "82637"
     }
   ],
   "zips": [
     {
-      "zipCode": "82901",
+      "zipCode": "82637",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 67
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82935",
@@ -45,11 +45,18 @@
   ],
   "counties": [
     {
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 67
+      "custOutUnplan": 0
     }
   ]
 }
