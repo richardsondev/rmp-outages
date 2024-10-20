@@ -1,18 +1,42 @@
 {
-  "count": 2,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.031,
+      "latitude": 38.338,
+      "etr": "Before 02:30 AM on 10/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:40 PM on 10/19",
+      "zip": "84751"
+    },
     {
       "icon": "standard",
       "longitude": -113.014,
       "latitude": 38.382,
-      "etr": "Before 06:00 AM on 10/20",
+      "etr": "Before 12:30 AM on 10/20",
       "outCount": 1,
       "custOut": 2,
       "cause": "Snow",
       "crewStatus": "Crews Arrived",
       "reported": "04:59 PM on 10/18",
       "zip": "84751"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.883,
+      "latitude": 40.774,
+      "etr": "Before 03:00 AM on 10/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:41 PM on 10/19",
+      "zip": "84111"
     },
     {
       "icon": "standard",
@@ -29,6 +53,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84111",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84307",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -38,21 +69,28 @@
     {
       "zipCode": "84751",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
       "countyName": "Beaver",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
