@@ -1,18 +1,42 @@
 {
-  "count": 5,
-  "totalState": 5,
+  "count": 7,
+  "totalState": 7,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.783,
+      "latitude": 42.021,
+      "etr": "Before 12:00 PM on 10/24",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:53 AM on 10/24",
+      "zip": "83237"
+    },
     {
       "icon": "standard",
       "longitude": -111.92,
       "latitude": 43.44,
-      "etr": "Assessing",
+      "etr": "Before 11:30 AM on 10/24",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:43 AM on 10/24",
       "zip": "83406"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.805,
+      "latitude": 43.746,
+      "etr": "Before 12:00 PM on 10/24",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:59 AM on 10/24",
+      "zip": "83440"
     },
     {
       "icon": "standard",
@@ -65,6 +89,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83406",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -94,9 +125,9 @@
     },
     {
       "zipCode": "83440",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 1
     }
   ],
@@ -110,6 +141,13 @@
     },
     {
       "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -131,9 +169,9 @@
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 1
     }
   ]
