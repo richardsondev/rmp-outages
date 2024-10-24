@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 6,
+  "count": 6,
+  "totalState": 9,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.118,
+      "latitude": 43.381,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:44 PM on 10/24",
+      "zip": "83274"
+    },
     {
       "icon": "standard",
       "longitude": -111.92,
@@ -37,9 +49,28 @@
       "crewStatus": "Crews Notified",
       "reported": "02:08 PM on 10/24",
       "zip": "83445"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.785,
+      "latitude": 43.919,
+      "etr": "Before 08:30 PM on 10/24",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:39 PM on 10/24",
+      "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83406",
       "outCountPlan": 0,
@@ -50,9 +81,9 @@
     {
       "zipCode": "83440",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 6
     },
     {
       "zipCode": "83445",
@@ -64,6 +95,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -73,9 +111,9 @@
     {
       "countyName": "Fremont",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 2,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 2
     },
     {
       "countyName": "Madison",
