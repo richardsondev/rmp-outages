@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 79,
+  "count": 9,
+  "totalState": 81,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.176,
+      "latitude": 37.654,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:52 AM on 10/25",
+      "zip": "84720"
+    },
     {
       "icon": "standard",
       "longitude": -109.528,
@@ -37,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:25 AM on 10/25",
       "zip": "84501"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.707,
+      "latitude": 40.354,
+      "etr": "Before 09:00 AM on 10/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:56 AM on 10/25",
+      "zip": "84062"
     },
     {
       "icon": "standard",
@@ -89,6 +113,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84062",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -129,6 +160,13 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -154,6 +192,13 @@
       "custOutUnplan": 2
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -166,6 +211,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
