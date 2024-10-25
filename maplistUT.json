@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 77,
+  "count": 6,
+  "totalState": 78,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:04 AM on 10/25",
       "zip": "84532"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.78,
+      "latitude": 39.573,
+      "etr": "Before 11:30 AM on 10/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:25 AM on 10/25",
+      "zip": "84501"
     },
     {
       "icon": "standard",
@@ -51,14 +63,14 @@
       "zip": "84102"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.167,
       "latitude": 41.728,
-      "etr": "Assessing",
+      "etr": "Before 02:30 PM on 10/25",
       "outCount": 1,
       "custOut": 51,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:14 AM on 10/25",
       "zip": "84312"
     }
@@ -87,10 +99,17 @@
     },
     {
       "zipCode": "84312",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 51,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84501",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 51
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84532",
@@ -103,10 +122,17 @@
   "counties": [
     {
       "countyName": "Box Elder",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 51,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Carbon",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 51
+      "custOutUnplan": 1
     },
     {
       "countyName": "Grand",
