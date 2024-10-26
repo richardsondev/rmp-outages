@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 42,
+  "count": 3,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.706,
+      "latitude": 42.072,
+      "etr": "Before 01:30 PM on 10/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:20 AM on 10/26",
+      "zip": "83237"
+    },
     {
       "icon": "standard",
       "longitude": -111.901,
@@ -25,21 +37,16 @@
       "crewStatus": "Crews Notified",
       "reported": "10:06 AM on 10/26",
       "zip": "83274"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.448,
-      "latitude": 44.066,
-      "etr": "Before 11:30 AM on 10/26",
-      "outCount": 2,
-      "custOut": 38,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:25 AM on 10/26",
-      "zip": "83420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83263",
       "outCountPlan": 0,
@@ -53,13 +60,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "zipCode": "83420",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 38
     }
   ],
   "counties": [
@@ -73,16 +73,9 @@
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 38
+      "custOutUnplan": 2
     }
   ]
 }
