@@ -1,6 +1,6 @@
 {
   "count": 6,
-  "totalState": 50,
+  "totalState": 57,
   "outages": [
     {
       "icon": "planned",
@@ -22,9 +22,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:31 AM on 10/30",
       "zip": "84044"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.825,
+      "latitude": 40.731,
+      "etr": "Before 01:30 PM on 10/30",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:24 AM on 10/30",
+      "zip": "84109"
     },
     {
       "icon": "planned",
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:16 AM on 10/30",
       "zip": "84098"
     },
@@ -61,18 +73,6 @@
       "crewStatus": "Crews Notified",
       "reported": "08:05 AM on 10/30",
       "zip": "84116"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.883,
-      "latitude": 40.788,
-      "etr": "Before 10:00 AM on 10/30",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:50 AM on 10/30",
-      "zip": "84103"
     }
   ],
   "zips": [
@@ -91,11 +91,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84103",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84109",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84116",
@@ -115,10 +115,10 @@
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 4,
-      "custOutPlan": 0,
-      "custOutUnplan": 18
+      "outCountPlan": 1,
+      "outCountUnplan": 3,
+      "custOutPlan": 8,
+      "custOutUnplan": 17
     },
     {
       "countyName": "Summit",
