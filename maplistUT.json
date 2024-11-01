@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 38,
+  "count": 4,
+  "totalState": 66,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.525,
+      "latitude": 40.449,
+      "etr": "Before 09:00 AM on 11/01",
+      "outCount": 1,
+      "custOut": 18,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "06:47 AM on 11/01",
+      "zip": "84078"
+    },
     {
       "icon": "standard",
       "longitude": -111.614,
@@ -20,7 +32,7 @@
       "latitude": 40.774,
       "etr": "Before 10:00 AM on 11/01",
       "outCount": 2,
-      "custOut": 27,
+      "custOut": 37,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:52 AM on 11/01",
@@ -28,6 +40,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84078",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84092",
       "outCountPlan": 0,
@@ -40,7 +59,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 27
+      "custOutUnplan": 37
     }
   ],
   "counties": [
@@ -49,7 +68,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 38
+      "custOutUnplan": 48
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
     }
   ]
 }
