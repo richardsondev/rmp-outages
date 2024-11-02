@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 247,
+  "count": 7,
+  "totalState": 1515,
   "outages": [
     {
       "icon": "planned",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:19 AM on 11/02",
       "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.311,
+      "latitude": 42.161,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1268,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:14 AM on 11/02",
+      "zip": "83234, 83252"
     },
     {
       "icon": "standard",
@@ -70,18 +82,25 @@
       "outCount": 1,
       "custOut": 5,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:11 AM on 11/02",
       "zip": "83444"
     }
   ],
   "zips": [
     {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 239
+      "custOutUnplan": 1502
     },
     {
       "zipCode": "83286",
@@ -114,6 +133,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -137,9 +163,9 @@
     {
       "countyName": "Oneida",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 239
+      "custOutUnplan": 1502
     }
   ]
 }
