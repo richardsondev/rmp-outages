@@ -1,12 +1,24 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.745,
+      "latitude": 40.354,
+      "etr": "Before 09:30 AM on 11/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:35 AM on 11/06",
+      "zip": "84062"
+    },
     {
       "icon": "standard",
       "longitude": -111.916,
       "latitude": 40.397,
-      "etr": "Assessing",
+      "etr": "Before 09:30 AM on 11/06",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:31 AM on 11/06",
       "zip": "84404"
     }
@@ -30,6 +42,13 @@
   "zips": [
     {
       "zipCode": "84045",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84062",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -47,9 +66,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
