@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 60,
+  "totalState": 61,
   "outages": [
     {
       "icon": "planned",
@@ -16,12 +16,24 @@
     },
     {
       "icon": "standard",
+      "longitude": -113.318,
+      "latitude": 43.638,
+      "etr": "Before 03:00 PM on 11/06",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:03 PM on 11/06",
+      "zip": "83213"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.806,
       "latitude": 43.818,
-      "etr": "Assessing",
+      "etr": "Before 03:00 PM on 11/06",
       "outCount": 2,
       "custOut": 55,
-      "cause": "Multiple outages in the area",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "11:58 AM on 11/06",
       "zip": "83440"
@@ -37,34 +49,22 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:41 AM on 11/06",
       "zip": "83435"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.558,
-      "latitude": 44.073,
-      "etr": "Before 12:30 PM on 11/06",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:57 AM on 11/06",
-      "zip": "83420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83213",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "zipCode": "83401",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83420",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "83435",
@@ -90,11 +90,11 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Fremont",
+      "countyName": "Butte",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Jefferson",
