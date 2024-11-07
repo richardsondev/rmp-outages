@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 5,
   "outages": [
     {
       "icon": "planned",
@@ -21,8 +21,8 @@
       "etr": "Before 11:30 PM on 11/06",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "08:57 PM on 11/06",
       "zip": "84045"
     },
@@ -49,9 +49,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:13 PM on 11/06",
       "zip": "84121"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.091,
+      "latitude": 40.685,
+      "etr": "Before 01:30 AM on 11/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:11 PM on 11/06",
+      "zip": "84044"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84045",
       "outCountPlan": 1,
@@ -78,9 +97,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
