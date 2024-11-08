@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 3,
+  "totalState": 24,
+  "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.884,
+      "latitude": 42.865,
+      "etr": "Before 12:00 PM on 11/08",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:36 AM on 11/08",
+      "zip": "82637"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.379,
+      "latitude": 43.023,
+      "etr": "Before 09:00 AM on 11/08",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:31 AM on 11/08",
+      "zip": "82501"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "82501",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
+    }
+  ]
 }
