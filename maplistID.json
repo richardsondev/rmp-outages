@@ -1,27 +1,34 @@
 {
   "count": 1,
-  "totalState": 1,
+  "totalState": 30,
   "outages": [
     {
       "icon": "standard",
       "longitude": -112.234,
       "latitude": 43.72,
-      "etr": "Assessing",
+      "etr": "Before 06:00 AM on 11/11",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 30,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "02:59 AM on 11/11",
-      "zip": "83444"
+      "zip": "83425, 83444"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83425",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
     {
       "zipCode": "83444",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 20
     }
   ],
   "counties": [
@@ -30,7 +37,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 30
     }
   ]
 }
