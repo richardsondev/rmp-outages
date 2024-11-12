@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "totalState": 3,
+  "totalState": 10,
   "outages": [
     {
       "icon": "standard",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.881,
+      "latitude": 40.614,
+      "etr": "Before 10:30 AM on 11/12",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:24 AM on 11/12",
+      "zip": "84047"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.319,
       "latitude": 40.639,
       "etr": "Before 09:30 AM on 11/12",
@@ -25,34 +37,22 @@
       "crewStatus": "Crews Notified",
       "reported": "06:11 AM on 11/12",
       "zip": "84074"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.016,
-      "latitude": 40.787,
-      "etr": "Before 09:00 AM on 11/12",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:46 AM on 11/12",
-      "zip": "84116"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84047",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
     {
       "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "84116",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -61,7 +61,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 8
     },
     {
       "countyName": "Tooele",
