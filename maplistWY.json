@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 9,
+  "count": 4,
+  "totalState": 73,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.227,
+      "latitude": 41.662,
+      "etr": "Before 04:00 PM on 11/13",
+      "outCount": 2,
+      "custOut": 63,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:51 PM on 11/13",
+      "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.228,
+      "latitude": 41.802,
+      "etr": "Before 04:00 PM on 11/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:55 PM on 11/13",
+      "zip": "82301"
+    },
     {
       "icon": "planned",
       "longitude": -108.379,
@@ -17,20 +41,48 @@
   ],
   "zips": [
     {
+      "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82501",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 9,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 63
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 9,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 63
     }
   ]
 }
