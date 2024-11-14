@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 80,
+  "count": 2,
+  "totalState": 81,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.851,
+      "latitude": 42.035,
+      "etr": "Before 10:00 AM on 11/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:40 AM on 11/14",
+      "zip": "83263"
+    },
     {
       "icon": "standard",
       "longitude": -111.397,
@@ -10,12 +22,19 @@
       "outCount": 1,
       "custOut": 80,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:57 AM on 11/14",
       "zip": "83287"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83287",
       "outCountPlan": 0,
@@ -31,6 +50,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 80
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
