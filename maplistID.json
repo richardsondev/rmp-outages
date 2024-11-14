@@ -1,15 +1,15 @@
 {
-  "count": 3,
-  "totalState": 20,
+  "count": 5,
+  "totalState": 25,
   "outages": [
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -111.397,
       "latitude": 42.038,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 14,
-      "cause": "Planned Maintenance",
+      "etr": "Before 02:00 PM on 11/14",
+      "outCount": 2,
+      "custOut": 15,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "10:27 AM on 11/14",
       "zip": "83287"
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:08 AM on 11/14",
       "zip": "83442"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.247,
+      "latitude": 44.328,
+      "etr": "Before 02:00 PM on 11/14",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:46 AM on 11/14",
+      "zip": "83446"
     }
   ],
   "zips": [
@@ -50,15 +62,22 @@
     {
       "zipCode": "83287",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 14,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83442",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83446",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
       "custOutUnplan": 0
     }
   ],
@@ -73,8 +92,15 @@
     {
       "countyName": "Bear Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 14,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
       "custOutUnplan": 0
     },
     {
