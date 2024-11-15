@@ -1,7 +1,19 @@
 {
-  "count": 13,
-  "totalState": 201,
+  "count": 14,
+  "totalState": 209,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.544,
+      "latitude": 40.449,
+      "etr": "Before 02:00 AM on 11/15",
+      "outCount": 1,
+      "custOut": 84,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:01 PM on 11/14",
+      "zip": "84078"
+    },
     {
       "icon": "standard",
       "longitude": -111.974,
@@ -66,12 +78,12 @@
       "icon": "standard",
       "longitude": -111.918,
       "latitude": 40.599,
-      "etr": "Before 04:30 AM on 11/15",
-      "outCount": 3,
-      "custOut": 104,
-      "cause": "Investigating",
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 27,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
-      "reported": "08:01 PM on 11/14",
+      "reported": "08:05 PM on 11/14",
       "zip": "84047"
     },
     {
@@ -121,6 +133,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:19 PM on 11/14",
       "zip": "84115"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.883,
+      "latitude": 40.774,
+      "etr": "Before 02:30 AM on 11/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:13 PM on 11/14",
+      "zip": "84143"
     }
   ],
   "zips": [
@@ -134,9 +158,9 @@
     {
       "zipCode": "84047",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 104
+      "custOutUnplan": 27
     },
     {
       "zipCode": "84065",
@@ -151,6 +175,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84078",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 84,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84096",
@@ -179,6 +210,13 @@
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 89
+    },
+    {
+      "zipCode": "84143",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -187,7 +225,14 @@
       "outCountPlan": 1,
       "outCountUnplan": 12,
       "custOutPlan": 2,
-      "custOutUnplan": 199
+      "custOutUnplan": 123
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 84,
+      "custOutUnplan": 0
     }
   ]
 }
