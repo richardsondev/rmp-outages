@@ -1,6 +1,6 @@
 {
-  "count": 11,
-  "totalState": 1002,
+  "count": 13,
+  "totalState": 535,
   "outages": [
     {
       "icon": "standard",
@@ -16,12 +16,24 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.82,
+      "latitude": 40.368,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:30 PM on 11/17",
+      "zip": "84003"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.918,
       "latitude": 40.585,
-      "etr": "Before 03:00 PM on 11/17",
-      "outCount": 2,
-      "custOut": 961,
-      "cause": "Damaged Equipment",
+      "etr": "Assessing",
+      "outCount": 4,
+      "custOut": 516,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "09:33 AM on 11/17",
       "zip": "84070"
@@ -63,18 +75,6 @@
       "zip": "84128"
     },
     {
-      "icon": "planned",
-      "longitude": -111.883,
-      "latitude": 40.774,
-      "etr": "Before 04:00 PM on 11/17",
-      "outCount": 1,
-      "custOut": 23,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:22 AM on 11/17",
-      "zip": "84111"
-    },
-    {
       "icon": "standard",
       "longitude": -111.886,
       "latitude": 40.991,
@@ -113,6 +113,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84025",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -136,16 +143,9 @@
     {
       "zipCode": "84070",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 961
-    },
-    {
-      "zipCode": "84111",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 23,
-      "custOutUnplan": 0
+      "custOutUnplan": 516
     },
     {
       "zipCode": "84119",
@@ -179,10 +179,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
-      "outCountUnplan": 4,
-      "custOutPlan": 23,
-      "custOutUnplan": 965
+      "outCountPlan": 0,
+      "outCountUnplan": 6,
+      "custOutPlan": 0,
+      "custOutUnplan": 520
     },
     {
       "countyName": "Sevier",
@@ -193,6 +193,13 @@
     },
     {
       "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
