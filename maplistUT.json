@@ -1,6 +1,6 @@
 {
-  "count": 13,
-  "totalState": 184,
+  "count": 17,
+  "totalState": 195,
   "outages": [
     {
       "icon": "planned",
@@ -58,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:08 AM on 11/18",
       "zip": "84029"
     },
@@ -88,6 +88,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.938,
+      "latitude": 40.643,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:44 AM on 11/18",
+      "zip": "84123"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.806,
       "latitude": 40.702,
       "etr": "Before 11:00 AM on 11/18",
@@ -97,6 +109,30 @@
       "crewStatus": "Crews Notified",
       "reported": "07:58 AM on 11/18",
       "zip": "84109"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.825,
+      "latitude": 40.716,
+      "etr": "Before 12:00 PM on 11/18",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:33 AM on 11/18",
+      "zip": "84109"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.482,
+      "latitude": 40.718,
+      "etr": "Before 01:00 PM on 11/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:40 AM on 11/18",
+      "zip": "84098"
     },
     {
       "icon": "standard",
@@ -138,13 +174,25 @@
       "icon": "standard",
       "longitude": -112.081,
       "latitude": 41.236,
-      "etr": "Assessing",
+      "etr": "Before 11:30 AM on 11/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:29 AM on 11/18",
       "zip": "84401"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.168,
+      "latitude": 41.829,
+      "etr": "Before 12:00 PM on 11/18",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:41 AM on 11/18",
+      "zip": "84312"
     }
   ],
   "zips": [
@@ -172,15 +220,15 @@
     {
       "zipCode": "84098",
       "outCountPlan": 2,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 11,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84109",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 7,
       "custOutUnplan": 1
     },
     {
@@ -196,6 +244,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 47,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84123",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84312",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84401",
@@ -221,6 +283,13 @@
   ],
   "counties": [
     {
+      "countyName": "Box Elder",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -236,10 +305,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
-      "outCountUnplan": 3,
-      "custOutPlan": 47,
-      "custOutUnplan": 3
+      "outCountPlan": 2,
+      "outCountUnplan": 4,
+      "custOutPlan": 54,
+      "custOutUnplan": 4
     },
     {
       "countyName": "San Juan",
@@ -251,9 +320,9 @@
     {
       "countyName": "Summit",
       "outCountPlan": 2,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 11,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Tooele",
