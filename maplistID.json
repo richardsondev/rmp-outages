@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 15,
+  "count": 7,
+  "totalState": 16,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:54 AM on 11/22",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.178,
+      "latitude": 43.38,
+      "etr": "Before 02:00 PM on 11/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:19 AM on 11/22",
+      "zip": "83274"
     },
     {
       "icon": "planned",
@@ -42,11 +54,11 @@
       "icon": "standard",
       "longitude": -111.845,
       "latitude": 43.702,
-      "etr": "Before 12:00 PM on 11/22",
+      "etr": "Before 04:00 PM on 11/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "09:13 AM on 11/22",
       "zip": "83442"
     },
@@ -66,6 +78,13 @@
   "zips": [
     {
       "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -101,6 +120,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 2,
