@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 5,
+  "count": 4,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.292,
+      "latitude": 42.205,
+      "etr": "Before 06:30 PM on 11/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:55 PM on 11/23",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.74,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:24 PM on 11/23",
       "zip": "83241"
     },
@@ -42,6 +54,13 @@
   "zips": [
     {
       "zipCode": "83241",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -83,6 +102,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
