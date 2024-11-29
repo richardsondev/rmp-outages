@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 311,
+  "count": 4,
+  "totalState": 402,
   "outages": [
     {
       "icon": "planned",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.675,
+      "latitude": 41.007,
+      "etr": "Before 01:30 PM on 11/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:01 AM on 11/29",
+      "zip": "84050"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.179,
       "etr": "Before 01:00 PM on 11/29",
@@ -25,15 +37,41 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:03 PM on 11/28",
       "zip": "84403, 84405"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.966,
+      "latitude": 41.266,
+      "etr": "Before 01:30 PM on 11/29",
+      "outCount": 1,
+      "custOut": 90,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:08 AM on 11/29",
+      "zip": "84404"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84050",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84403",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 73
+    },
+    {
+      "zipCode": "84404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 90
     },
     {
       "zipCode": "84405",
@@ -52,6 +90,13 @@
   ],
   "counties": [
     {
+      "countyName": "Morgan",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Washington",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -61,9 +106,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 296
+      "custOutUnplan": 386
     }
   ]
 }
