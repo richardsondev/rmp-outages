@@ -1,19 +1,7 @@
 {
-  "count": 2,
-  "totalState": 3,
+  "count": 3,
+  "totalState": 40,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.098,
-      "latitude": 38.742,
-      "etr": "Before 12:30 AM on 11/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:30 PM on 11/28",
-      "zip": "84701"
-    },
     {
       "icon": "standard",
       "longitude": -112.021,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:18 PM on 11/28",
       "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.965,
+      "latitude": 41.179,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 38,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:03 PM on 11/28",
+      "zip": "84403, 84405"
     }
   ],
   "zips": [
@@ -36,11 +36,18 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "84701",
+      "zipCode": "84403",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84405",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 37
     }
   ],
   "counties": [
@@ -52,11 +59,11 @@
       "custOutUnplan": 2
     },
     {
-      "countyName": "Sevier",
+      "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 38
     }
   ]
 }
