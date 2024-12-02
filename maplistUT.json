@@ -1,6 +1,6 @@
 {
-  "count": 27,
-  "totalState": 593,
+  "count": 28,
+  "totalState": 738,
   "outages": [
     {
       "icon": "planned",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:32 AM on 12/02",
       "zip": "84532"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.895,
+      "latitude": 40.295,
+      "etr": "Before 04:30 PM on 12/02",
+      "outCount": 1,
+      "custOut": 30,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:49 AM on 12/02",
+      "zip": "84045"
     },
     {
       "icon": "planned",
@@ -54,9 +66,21 @@
       "icon": "standard",
       "longitude": -111.802,
       "latitude": 40.397,
-      "etr": "Assessing",
+      "etr": "Before 02:30 PM on 12/02",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:54 AM on 12/02",
+      "zip": "84003"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.802,
+      "latitude": 40.412,
+      "etr": "Before 04:00 PM on 12/02",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 117,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "11:44 AM on 12/02",
@@ -97,18 +121,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:12 AM on 12/02",
       "zip": "84092"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.215,
-      "latitude": 40.574,
-      "etr": "Before 12:30 PM on 12/02",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:02 AM on 12/02",
-      "zip": "84036"
     },
     {
       "icon": "standard",
@@ -219,18 +231,6 @@
       "zip": "84098"
     },
     {
-      "icon": "standard",
-      "longitude": -111.692,
-      "latitude": 40.768,
-      "etr": "Before 05:30 PM on 12/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:29 AM on 12/02",
-      "zip": "84108"
-    },
-    {
       "icon": "planned",
       "longitude": -111.883,
       "latitude": 40.774,
@@ -319,22 +319,15 @@
     {
       "zipCode": "84003",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 119
     },
     {
       "zipCode": "84005",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 9,
-      "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84036",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
       "custOutUnplan": 0
     },
     {
@@ -350,6 +343,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84045",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 30,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84062",
@@ -406,13 +406,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 67,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84108",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84111",
@@ -517,9 +510,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 11,
+      "outCountUnplan": 10,
       "custOutPlan": 507,
-      "custOutUnplan": 11
+      "custOutUnplan": 10
     },
     {
       "countyName": "San Juan",
@@ -530,17 +523,17 @@
     },
     {
       "countyName": "Summit",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 47
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 9,
-      "custOutUnplan": 2
+      "outCountPlan": 2,
+      "outCountUnplan": 4,
+      "custOutPlan": 39,
+      "custOutUnplan": 120
     },
     {
       "countyName": "Weber",
