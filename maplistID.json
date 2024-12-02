@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 240,
+  "count": 4,
+  "totalState": 245,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.212,
+      "latitude": 42.59,
+      "etr": "Before 01:00 PM on 12/02",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:42 AM on 12/02",
+      "zip": "83250"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.902,
+      "latitude": 43.513,
+      "etr": "Before 03:00 PM on 12/02",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:39 AM on 12/02",
+      "zip": "83401"
+    },
     {
       "icon": "planned",
       "longitude": -111.747,
@@ -13,9 +37,42 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:54 AM on 12/02",
       "zip": "83440, 83448"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.079,
+      "latitude": 43.882,
+      "etr": "Before 01:30 PM on 12/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:34 AM on 12/02",
+      "zip": "83244"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83250",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83440",
       "outCountPlan": 1,
@@ -32,6 +89,27 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Madison",
       "outCountPlan": 1,
