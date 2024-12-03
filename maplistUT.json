@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 6,
+  "count": 5,
+  "totalState": 5,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:25 AM on 12/03",
       "zip": "84059"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.937,
+      "latitude": 40.541,
+      "etr": "Before 10:00 AM on 12/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:38 AM on 12/03",
+      "zip": "84065"
     },
     {
       "icon": "standard",
@@ -40,20 +52,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.994,
-      "latitude": 41.86,
-      "etr": "Before 07:30 AM on 12/03",
+      "longitude": -111.965,
+      "latitude": 41.222,
+      "etr": "Before 12:00 PM on 12/03",
       "outCount": 1,
-      "custOut": 3,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:49 AM on 12/03",
-      "zip": "84327"
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:42 AM on 12/03",
+      "zip": "84401"
     }
   ],
   "zips": [
     {
       "zipCode": "84059",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84065",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -74,27 +93,20 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84327",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
-    }
-  ],
-  "counties": [
-    {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
-    },
-    {
-      "countyName": "Salt Lake",
+      "zipCode": "84401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
@@ -105,6 +117,13 @@
     },
     {
       "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
