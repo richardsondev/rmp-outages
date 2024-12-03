@@ -1,7 +1,31 @@
 {
-  "count": 11,
-  "totalState": 235,
+  "count": 14,
+  "totalState": 473,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.86,
+      "latitude": 39.005,
+      "etr": "Before 11:30 AM on 12/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:53 AM on 12/03",
+      "zip": "84652"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.253,
+      "latitude": 40.588,
+      "etr": "Before 01:00 PM on 12/03",
+      "outCount": 1,
+      "custOut": 41,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:56 AM on 12/03",
+      "zip": "84036"
+    },
     {
       "icon": "standard",
       "longitude": -111.862,
@@ -112,6 +136,18 @@
     },
     {
       "icon": "planned",
+      "longitude": -111.727,
+      "latitude": 41.376,
+      "etr": "Before 04:30 PM on 12/03",
+      "outCount": 1,
+      "custOut": 196,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:53 AM on 12/03",
+      "zip": "84310"
+    },
+    {
+      "icon": "planned",
       "longitude": -112.054,
       "latitude": 41.917,
       "etr": "Before 01:00 PM on 12/03",
@@ -124,6 +160,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84036",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 41
+    },
     {
       "zipCode": "84041",
       "outCountPlan": 1,
@@ -174,7 +217,21 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84310",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 196,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84652",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -184,9 +241,9 @@
   "counties": [
     {
       "countyName": "Cache",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 5,
+      "custOutPlan": 25,
       "custOutUnplan": 0
     },
     {
@@ -204,10 +261,24 @@
       "custOutUnplan": 7
     },
     {
-      "countyName": "Weber",
+      "countyName": "Sevier",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Wasatch",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 41
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 176,
       "custOutUnplan": 1
     }
   ]
