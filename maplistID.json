@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 19,
+  "totalState": 16,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.513,
+      "etr": "Before 12:30 PM on 12/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:45 AM on 12/03",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.107,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:20 AM on 12/03",
       "zip": "83444"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.786,
-      "latitude": 43.818,
-      "etr": "Before 10:30 AM on 12/03",
-      "outCount": 1,
-      "custOut": 4,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:53 AM on 12/03",
-      "zip": "83440"
     },
     {
       "icon": "planned",
@@ -41,11 +41,11 @@
   ],
   "zips": [
     {
-      "zipCode": "83440",
+      "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83444",
@@ -64,6 +64,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -73,9 +80,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 14,
-      "custOutUnplan": 4
+      "custOutUnplan": 0
     }
   ]
 }
