@@ -1,15 +1,15 @@
 {
-  "count": 6,
-  "totalState": 1005,
+  "count": 5,
+  "totalState": 1001,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -113.014,
       "latitude": 38.382,
-      "etr": "Before 05:00 AM on 12/04",
+      "etr": "Before 03:00 AM on 12/04",
       "outCount": 3,
       "custOut": 998,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "10:56 PM on 12/03",
       "zip": "84751"
@@ -37,28 +37,9 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:50 PM on 12/03",
       "zip": "84115"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.904,
-      "latitude": 40.919,
-      "etr": "Before 11:00 PM on 12/03",
-      "outCount": 1,
-      "custOut": 4,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
-      "reported": "07:18 PM on 12/03",
-      "zip": "84087"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84087",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
-    },
     {
       "zipCode": "84115",
       "outCountPlan": 1,
@@ -75,19 +56,19 @@
     },
     {
       "zipCode": "84751",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 998
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 998,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Beaver",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 998
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 998,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Carbon",
@@ -95,13 +76,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
     },
     {
       "countyName": "Salt Lake",
