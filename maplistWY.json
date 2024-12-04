@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
     {
       "icon": "standard",
@@ -13,11 +13,30 @@
       "crewStatus": "Crews Notified",
       "reported": "09:23 PM on 12/03",
       "zip": "82070"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.583,
+      "latitude": 41.331,
+      "etr": "Before 01:00 AM on 12/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:45 PM on 12/03",
+      "zip": "82072"
     }
   ],
   "zips": [
     {
       "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82072",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -28,9 +47,9 @@
     {
       "countyName": "Albany",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
