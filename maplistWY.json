@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 6,
+  "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.986,
+      "latitude": 41.27,
+      "etr": "Before 12:00 PM on 12/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:47 AM on 12/05",
+      "zip": "82930"
+    },
+    {
+      "icon": "planned",
+      "longitude": -107.933,
+      "latitude": 44.026,
+      "etr": "Before 12:00 PM on 12/05",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:53 AM on 12/05",
+      "zip": "82401"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "82401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82930",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Uinta",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    }
+  ]
 }
