@@ -1,7 +1,19 @@
 {
   "count": 2,
-  "totalState": 16,
+  "totalState": 1001,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.116,
+      "latitude": 38.698,
+      "etr": "Before 04:00 AM on 12/05",
+      "outCount": 1,
+      "custOut": 986,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "01:57 AM on 12/05",
+      "zip": "84701, 84711, 84724, 84730, 84754"
+    },
     {
       "icon": "standard",
       "longitude": -111.843,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:43 PM on 12/04",
       "zip": "84117"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.786,
-      "latitude": 40.673,
-      "etr": "Before 03:30 AM on 12/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:17 AM on 12/05",
-      "zip": "84124"
     }
   ],
   "zips": [
@@ -36,20 +36,55 @@
       "custOutUnplan": 15
     },
     {
-      "zipCode": "84124",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84701",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 66,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84711",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 389,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84724",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84730",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84754",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 512,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 16
+      "custOutUnplan": 15
+    },
+    {
+      "countyName": "Sevier",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 986,
+      "custOutUnplan": 0
     }
   ]
 }
