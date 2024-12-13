@@ -3,18 +3,6 @@
   "totalState": 812,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -111.707,
-      "latitude": 40.369,
-      "etr": "Before 11:00 AM on 12/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:03 AM on 12/13",
-      "zip": "84062"
-    },
-    {
       "icon": "planned",
       "longitude": -111.574,
       "latitude": 40.384,
@@ -61,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:29 AM on 12/13",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.917,
+      "latitude": 40.527,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:44 AM on 12/13",
+      "zip": "84020"
     },
     {
       "icon": "standard",
@@ -261,6 +261,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84020",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84028",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -273,13 +280,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 583,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84062",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84067",
@@ -377,9 +377,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 26,
-      "custOutUnplan": 3
+      "custOutUnplan": 4
     },
     {
       "countyName": "Summit",
@@ -398,9 +398,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 13,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
