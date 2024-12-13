@@ -1,19 +1,7 @@
 {
   "count": 15,
-  "totalState": 183,
+  "totalState": 184,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.91,
-      "latitude": 39.947,
-      "etr": "Before 05:00 PM on 12/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:10 PM on 12/13",
-      "zip": "84633"
-    },
     {
       "icon": "standard",
       "longitude": -112.057,
@@ -66,10 +54,10 @@
       "icon": "standard",
       "longitude": -111.995,
       "latitude": 40.657,
-      "etr": "Before 07:00 PM on 12/13",
+      "etr": "Before 05:00 PM on 12/13",
       "outCount": 2,
       "custOut": 167,
-      "cause": "Multiple outages in the area",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "02:20 PM on 12/13",
       "zip": "84129, 84118"
@@ -169,6 +157,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:39 AM on 12/13",
       "zip": "84310"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.894,
+      "latitude": 41.629,
+      "etr": "Before 05:30 PM on 12/13",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:48 PM on 12/13",
+      "zip": "84339"
     }
   ],
   "zips": [
@@ -250,6 +250,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84339",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "zipCode": "84403",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -262,16 +269,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84633",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "countyName": "Morgan",
       "outCountPlan": 0,
@@ -296,9 +303,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 3,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
