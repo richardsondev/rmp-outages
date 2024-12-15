@@ -1,14 +1,26 @@
 {
-  "count": 1,
-  "totalState": 24,
+  "count": 3,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.437,
+      "latitude": 42.152,
+      "etr": "Before 09:00 AM on 12/15",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:35 AM on 12/15",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.514,
       "latitude": 43.552,
       "etr": "Before 07:00 AM on 12/15",
-      "outCount": 1,
-      "custOut": 24,
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "04:14 AM on 12/15",
@@ -17,20 +29,34 @@
   ],
   "zips": [
     {
-      "zipCode": "83443",
+      "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 24
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "83443",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 24
+      "custOutUnplan": 3
     }
   ]
 }
