@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 157,
+  "totalState": 236,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:01 AM on 12/17",
       "zip": "84782"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.862,
+      "latitude": 40.614,
+      "etr": "Before 01:30 PM on 12/17",
+      "outCount": 1,
+      "custOut": 80,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:25 AM on 12/17",
+      "zip": "84047"
     },
     {
       "icon": "standard",
@@ -34,21 +46,9 @@
       "outCount": 1,
       "custOut": 142,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:53 AM on 12/17",
       "zip": "84104"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.844,
-      "latitude": 40.731,
-      "etr": "Before 09:00 AM on 12/17",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:39 AM on 12/17",
-      "zip": "84108"
     },
     {
       "icon": "standard",
@@ -65,18 +65,18 @@
   ],
   "zips": [
     {
+      "zipCode": "84047",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 80,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84104",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 142
-    },
-    {
-      "zipCode": "84108",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84115",
@@ -103,10 +103,10 @@
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 144
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 80,
+      "custOutUnplan": 143
     },
     {
       "countyName": "Washington",
