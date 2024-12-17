@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 236,
+  "totalState": 98,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:01 AM on 12/17",
       "zip": "84782"
+    },
+    {
+      "icon": "planned",
+      "longitude": -110.361,
+      "latitude": 39.289,
+      "etr": "Before 12:00 PM on 12/17",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:32 AM on 12/17",
+      "zip": "84525"
     },
     {
       "icon": "planned",
@@ -40,18 +52,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.939,
-      "latitude": 40.73,
-      "etr": "Before 11:00 AM on 12/17",
-      "outCount": 1,
-      "custOut": 142,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:53 AM on 12/17",
-      "zip": "84104"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.946,
       "latitude": 41.179,
       "etr": "Before 09:00 AM on 12/17",
@@ -72,13 +72,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84104",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 142
-    },
-    {
       "zipCode": "84115",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -93,6 +86,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84525",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84782",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -102,11 +102,18 @@
   ],
   "counties": [
     {
+      "countyName": "Emery",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 80,
-      "custOutUnplan": 143
+      "custOutUnplan": 1
     },
     {
       "countyName": "Washington",
