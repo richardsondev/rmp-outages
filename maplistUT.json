@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 98,
+  "count": 8,
+  "totalState": 208,
   "outages": [
     {
       "icon": "planned",
@@ -51,6 +51,30 @@
       "zip": "84115"
     },
     {
+      "icon": "planned",
+      "longitude": -112.04,
+      "latitude": 41.077,
+      "etr": "Before 11:00 AM on 12/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:53 AM on 12/17",
+      "zip": "84075"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.041,
+      "latitude": 41.149,
+      "etr": "Before 12:00 PM on 12/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:57 AM on 12/17",
+      "zip": "84067"
+    },
+    {
       "icon": "standard",
       "longitude": -111.946,
       "latitude": 41.179,
@@ -61,6 +85,18 @@
       "crewStatus": "Crews Notified",
       "reported": "09:19 PM on 12/16",
       "zip": "84403"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.818,
+      "latitude": 41.716,
+      "etr": "Before 01:00 PM on 12/17",
+      "outCount": 1,
+      "custOut": 108,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:49 AM on 12/17",
+      "zip": "84332"
     }
   ],
   "zips": [
@@ -72,11 +108,32 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84067",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84075",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84115",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84332",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 108,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84403",
@@ -102,6 +159,20 @@
   ],
   "counties": [
     {
+      "countyName": "Cache",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 108,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Emery",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -125,9 +196,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
