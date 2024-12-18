@@ -1,12 +1,24 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.14,
+      "latitude": 37.654,
+      "etr": "Before 12:00 PM on 12/18",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:08 AM on 12/18",
+      "zip": "84720"
+    },
     {
       "icon": "standard",
       "longitude": -112.044,
       "latitude": 39.46,
-      "etr": "Before 08:00 AM on 12/18",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -42,7 +54,7 @@
       "icon": "standard",
       "longitude": -111.863,
       "latitude": 40.73,
-      "etr": "Assessing",
+      "etr": "Before 11:00 AM on 12/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -79,9 +91,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Iron",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Juab",
       "outCountPlan": 0,
