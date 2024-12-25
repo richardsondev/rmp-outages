@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 4,
+  "count": 4,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -8,7 +8,7 @@
       "latitude": 37.685,
       "etr": "Before 09:00 AM on 12/25",
       "outCount": 1,
-      "custOut": 2,
+      "custOut": 3,
       "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "01:30 AM on 12/25",
@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:15 AM on 12/25",
       "zip": "84022"
     },
@@ -37,9 +37,28 @@
       "crewStatus": "Crews Notified",
       "reported": "08:46 PM on 12/24",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.021,
+      "latitude": 41.121,
+      "etr": "Before 06:30 AM on 12/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:31 AM on 12/25",
+      "zip": "84015"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84015",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84022",
       "outCountPlan": 0,
@@ -59,16 +78,23 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ],
   "counties": [
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "countyName": "Tooele",
