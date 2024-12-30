@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 14,
+  "count": 5,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.272,
+      "latitude": 40.632,
+      "etr": "Before 01:30 AM on 12/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:16 PM on 12/29",
+      "zip": "84036"
+    },
     {
       "icon": "standard",
       "longitude": -111.481,
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.832,
       "latitude": 41.267,
-      "etr": "Assessing",
+      "etr": "Before 10:00 PM on 12/29",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "06:00 PM on 12/29",
       "zip": "84310"
     },
@@ -54,6 +66,13 @@
   "zips": [
     {
       "zipCode": "84014",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84036",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -92,9 +111,9 @@
     {
       "countyName": "Summit",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 11
+      "custOutUnplan": 12
     },
     {
       "countyName": "Weber",
