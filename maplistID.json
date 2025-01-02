@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 5,
+  "totalState": 23,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:54 AM on 01/02",
       "zip": "83263"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.979,
+      "latitude": 42.136,
+      "etr": "Before 03:00 PM on 01/02",
+      "outCount": 1,
+      "custOut": 19,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:07 AM on 01/02",
+      "zip": "83263, 83232"
     },
     {
       "icon": "standard",
@@ -25,9 +37,47 @@
       "crewStatus": "Crews Notified",
       "reported": "08:56 AM on 01/02",
       "zip": "83254"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.959,
+      "latitude": 43.884,
+      "etr": "Before 12:00 PM on 01/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:01 AM on 01/02",
+      "zip": "83244"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.599,
+      "latitude": 43.889,
+      "etr": "Before 12:00 PM on 01/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:11 AM on 01/02",
+      "zip": "83435"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83232",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83254",
       "outCountPlan": 0,
@@ -37,6 +87,13 @@
     },
     {
       "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 9,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83435",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -52,7 +109,21 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 19,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
