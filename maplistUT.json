@@ -1,6 +1,6 @@
 {
-  "count": 14,
-  "totalState": 309,
+  "count": 16,
+  "totalState": 317,
   "outages": [
     {
       "icon": "standard",
@@ -28,6 +28,18 @@
     },
     {
       "icon": "planned",
+      "longitude": -111.723,
+      "latitude": 40.093,
+      "etr": "Before 02:00 PM on 01/03",
+      "outCount": 2,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:54 AM on 01/03",
+      "zip": "84660"
+    },
+    {
+      "icon": "planned",
       "longitude": -111.783,
       "latitude": 40.412,
       "etr": "Before 12:00 PM on 01/03",
@@ -42,7 +54,7 @@
       "icon": "standard",
       "longitude": -111.994,
       "latitude": 40.584,
-      "etr": "Before 11:30 AM on 01/03",
+      "etr": "Before 10:30 AM on 01/03",
       "outCount": 1,
       "custOut": 32,
       "cause": "Investigating",
@@ -88,24 +100,12 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.882,
-      "latitude": 40.687,
-      "etr": "Before 12:00 PM on 01/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:40 AM on 01/03",
-      "zip": "84115"
-    },
-    {
-      "icon": "planned",
       "longitude": -111.805,
       "latitude": 40.687,
-      "etr": "Before 01:00 PM on 01/03",
-      "outCount": 1,
-      "custOut": 16,
-      "cause": "Planned Maintenance",
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 17,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:35 AM on 01/03",
       "zip": "84124"
@@ -196,18 +196,11 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "84115",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84124",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 16,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84404",
@@ -221,6 +214,13 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84660",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
       "custOutUnplan": 0
     },
     {
@@ -262,9 +262,9 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 1,
+      "outCountPlan": 3,
       "outCountUnplan": 0,
-      "custOutPlan": 5,
+      "custOutPlan": 13,
       "custOutUnplan": 0
     },
     {
