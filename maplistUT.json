@@ -1,6 +1,6 @@
 {
-  "count": 13,
-  "totalState": 258,
+  "count": 14,
+  "totalState": 305,
   "outages": [
     {
       "icon": "planned",
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:23 AM on 01/05",
       "zip": "84121"
     },
@@ -57,7 +57,7 @@
       "etr": "Before 12:30 PM on 01/05",
       "outCount": 1,
       "custOut": 4,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "08:08 AM on 01/05",
       "zip": "84124"
@@ -138,12 +138,12 @@
       "icon": "standard",
       "longitude": -111.926,
       "latitude": 41.15,
-      "etr": "Assessing",
+      "etr": "Before 04:30 PM on 01/05",
       "outCount": 1,
-      "custOut": 14,
-      "cause": "Investigating",
+      "custOut": 59,
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
-      "reported": "11:59 AM on 01/05",
+      "reported": "12:10 PM on 01/05",
       "zip": "84403"
     },
     {
@@ -157,6 +157,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:40 AM on 01/05",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.166,
+      "latitude": 41.713,
+      "etr": "Before 03:00 PM on 01/05",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:00 PM on 01/05",
+      "zip": "84337"
     }
   ],
   "zips": [
@@ -217,6 +229,13 @@
       "custOutUnplan": 5
     },
     {
+      "zipCode": "84337",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "zipCode": "84401",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -228,10 +247,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 14
+      "custOutUnplan": 59
     }
   ],
   "counties": [
+    {
+      "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
@@ -251,7 +277,7 @@
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 26,
-      "custOutUnplan": 14
+      "custOutUnplan": 59
     }
   ]
 }
