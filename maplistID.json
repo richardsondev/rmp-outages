@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 6,
+  "count": 5,
+  "totalState": 7,
   "outages": [
     {
       "icon": "planned",
@@ -12,6 +12,18 @@
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "10:00 AM on 01/07",
+      "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.437,
+      "latitude": 42.152,
+      "etr": "Before 01:30 PM on 01/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:11 AM on 01/07",
       "zip": "83252"
     },
     {
@@ -28,30 +40,23 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.021,
-      "latitude": 43.555,
-      "etr": "Before 11:30 AM on 01/07",
+      "longitude": -112.973,
+      "latitude": 44.318,
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:46 AM on 01/07",
-      "zip": "83401"
+      "crewStatus": "Crews Notified",
+      "reported": "10:36 AM on 01/07",
+      "zip": "83464"
     }
   ],
   "zips": [
     {
       "zipCode": "83252",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83401",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 1
     },
     {
@@ -60,22 +65,36 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83464",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bonneville",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Lemhi",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
       "countyName": "Oneida",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 1,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ]
 }
