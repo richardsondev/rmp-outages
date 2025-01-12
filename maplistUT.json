@@ -1,7 +1,31 @@
 {
-  "count": 4,
-  "totalState": 12,
+  "count": 6,
+  "totalState": 21,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.068,
+      "latitude": 37.699,
+      "etr": "Before 02:30 PM on 01/12",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:46 AM on 01/12",
+      "zip": "84721"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.861,
+      "latitude": 40.556,
+      "etr": "Before 12:00 PM on 01/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:53 AM on 01/12",
+      "zip": "84094"
+    },
     {
       "icon": "standard",
       "longitude": -111.919,
@@ -55,10 +79,24 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84094",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84401",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84721",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
       "custOutUnplan": 0
     }
   ],
@@ -71,11 +109,18 @@
       "custOutUnplan": 8
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
