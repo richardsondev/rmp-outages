@@ -1,6 +1,6 @@
 {
-  "count": 20,
-  "totalState": 661,
+  "count": 21,
+  "totalState": 715,
   "outages": [
     {
       "icon": "standard",
@@ -13,18 +13,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:50 AM on 01/15",
       "zip": "84721"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.943,
-      "latitude": 37.803,
-      "etr": "Before 01:00 PM on 01/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:50 AM on 01/15",
-      "zip": "84772"
     },
     {
       "icon": "planned",
@@ -45,10 +33,22 @@
       "etr": "Before 11:30 AM on 01/15",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "08:35 AM on 01/15",
       "zip": "84654"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.009,
+      "latitude": 40.309,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 54,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:58 AM on 01/15",
+      "zip": "84005"
     },
     {
       "icon": "planned",
@@ -171,6 +171,18 @@
       "zip": "84015"
     },
     {
+      "icon": "standard",
+      "longitude": -111.965,
+      "latitude": 41.222,
+      "etr": "Before 02:00 PM on 01/15",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:49 AM on 01/15",
+      "zip": "84401"
+    },
+    {
       "icon": "planned",
       "longitude": -112.2,
       "latitude": 41.969,
@@ -184,6 +196,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 54
+    },
     {
       "zipCode": "84015",
       "outCountPlan": 1,
@@ -262,6 +281,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84654",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -281,13 +307,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 10
-    },
-    {
-      "zipCode": "84772",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -308,9 +327,9 @@
     {
       "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 11
+      "custOutUnplan": 10
     },
     {
       "countyName": "Millard",
@@ -350,9 +369,16 @@
     {
       "countyName": "Utah",
       "outCountPlan": 3,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 432,
-      "custOutUnplan": 0
+      "custOutUnplan": 54
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
