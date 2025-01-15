@@ -1,6 +1,6 @@
 {
-  "count": 27,
-  "totalState": 273,
+  "count": 28,
+  "totalState": 351,
   "outages": [
     {
       "icon": "standard",
@@ -40,12 +40,24 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.009,
+      "latitude": 40.309,
+      "etr": "Before 05:30 PM on 01/15",
+      "outCount": 2,
+      "custOut": 109,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:16 PM on 01/15",
+      "zip": "84005"
+    },
+    {
+      "icon": "planned",
       "longitude": -111.687,
       "latitude": 40.311,
       "etr": "Before 04:00 PM on 01/15",
       "outCount": 1,
       "custOut": 14,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "01:12 PM on 01/15",
       "zip": "84057"
@@ -85,18 +97,6 @@
       "crewStatus": "Crews Notified",
       "reported": "12:06 PM on 01/15",
       "zip": "84095"
-    },
-    {
-      "icon": "planned",
-      "longitude": -112.47,
-      "latitude": 40.594,
-      "etr": "Before 03:00 PM on 01/15",
-      "outCount": 1,
-      "custOut": 31,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:02 AM on 01/15",
-      "zip": "84029"
     },
     {
       "icon": "planned",
@@ -293,6 +293,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 109
+    },
+    {
       "zipCode": "84015",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -307,13 +314,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84029",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 31,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84036",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -322,10 +322,10 @@
     },
     {
       "zipCode": "84057",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 14
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 14,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84059",
@@ -498,13 +498,6 @@
       "custOutUnplan": 4
     },
     {
-      "countyName": "Tooele",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 31,
-      "custOutUnplan": 0
-    },
-    {
       "countyName": "Uintah",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -513,10 +506,10 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 1,
-      "custOutUnplan": 14
+      "outCountPlan": 2,
+      "outCountUnplan": 2,
+      "custOutPlan": 15,
+      "custOutUnplan": 109
     },
     {
       "countyName": "Washington",
