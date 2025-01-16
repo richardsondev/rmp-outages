@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 13,
+  "count": 7,
+  "totalState": 653,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.656,
+      "latitude": 41.966,
+      "etr": "Before 02:00 PM on 01/16",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:16 AM on 01/16",
+      "zip": "83252"
+    },
     {
       "icon": "planned",
       "longitude": -112.181,
@@ -42,13 +54,25 @@
       "icon": "standard",
       "longitude": -111.786,
       "latitude": 43.818,
-      "etr": "Before 12:30 PM on 01/16",
+      "etr": "Before 11:00 AM on 01/16",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:32 AM on 01/16",
       "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.848,
+      "latitude": 43.948,
+      "etr": "Before 01:30 PM on 01/16",
+      "outCount": 1,
+      "custOut": 632,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:27 AM on 01/16",
+      "zip": "83440, 83445, 83438"
     }
   ],
   "zips": [
@@ -67,6 +91,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
       "zipCode": "83276",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -74,11 +105,25 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83440",
+      "zipCode": "83438",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 50
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 12
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 571
     }
   ],
   "counties": [
@@ -104,11 +149,25 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Madison",
+      "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 601
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 32
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
     }
   ]
 }
