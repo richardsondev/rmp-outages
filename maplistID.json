@@ -1,14 +1,14 @@
 {
-  "count": 3,
-  "totalState": 10,
+  "count": 6,
+  "totalState": 14,
   "outages": [
     {
       "icon": "planned",
       "longitude": -112.181,
       "latitude": 42.503,
       "etr": "Before 01:00 PM on 01/16",
-      "outCount": 1,
-      "custOut": 8,
+      "outCount": 2,
+      "custOut": 10,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "09:08 AM on 01/16",
@@ -18,10 +18,10 @@
       "icon": "standard",
       "longitude": -111.574,
       "latitude": 42.588,
-      "etr": "Before 11:30 AM on 01/16",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:22 AM on 01/16",
       "zip": "83276"
@@ -37,14 +37,26 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:41 AM on 01/16",
       "zip": "83236"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.786,
+      "latitude": 43.818,
+      "etr": "Before 12:30 PM on 01/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:32 AM on 01/16",
+      "zip": "83440"
     }
   ],
   "zips": [
     {
       "zipCode": "83234",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 8,
+      "custOutPlan": 10,
       "custOutUnplan": 0
     },
     {
@@ -57,6 +69,13 @@
     {
       "zipCode": "83276",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
@@ -65,9 +84,9 @@
   "counties": [
     {
       "countyName": "Bannock",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 8,
+      "custOutPlan": 10,
       "custOutUnplan": 0
     },
     {
@@ -79,6 +98,13 @@
     },
     {
       "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Madison",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
