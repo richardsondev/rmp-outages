@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 9,
+  "count": 6,
+  "totalState": 10,
   "outages": [
     {
       "icon": "planned",
@@ -15,15 +15,27 @@
       "zip": "84062"
     },
     {
+      "icon": "planned",
+      "longitude": -111.138,
+      "latitude": 40.56,
+      "etr": "Before 12:00 PM on 01/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:34 AM on 01/17",
+      "zip": "84036"
+    },
+    {
       "icon": "standard",
       "longitude": -111.977,
       "latitude": 40.686,
       "etr": "Before 11:00 AM on 01/17",
-      "outCount": 2,
-      "custOut": 2,
+      "outCount": 1,
+      "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "05:52 AM on 01/17",
+      "reported": "07:59 AM on 01/17",
       "zip": "84119"
     },
     {
@@ -40,6 +52,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.042,
+      "latitude": 41.193,
+      "etr": "Before 12:00 PM on 01/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:35 AM on 01/17",
+      "zip": "84067"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.967,
       "latitude": 41.324,
       "etr": "Before 12:00 PM on 01/17",
@@ -53,11 +77,25 @@
   ],
   "zips": [
     {
+      "zipCode": "84036",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84062",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84067",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84098",
@@ -69,9 +107,9 @@
     {
       "zipCode": "84119",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84414",
@@ -85,9 +123,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Summit",
@@ -104,11 +142,18 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Wasatch",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 6
     }
   ]
 }
