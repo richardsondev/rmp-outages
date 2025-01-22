@@ -1,6 +1,6 @@
 {
-  "count": 15,
-  "totalState": 73,
+  "count": 18,
+  "totalState": 76,
   "outages": [
     {
       "icon": "standard",
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:42 PM on 01/22",
       "zip": "84003"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.013,
+      "latitude": 40.541,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:39 PM on 01/22",
+      "zip": "84009"
     },
     {
       "icon": "standard",
@@ -76,6 +88,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.938,
+      "latitude": 40.672,
+      "etr": "Before 06:00 PM on 01/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:35 PM on 01/22",
+      "zip": "84123"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.939,
       "latitude": 40.686,
       "etr": "Before 05:30 PM on 01/22",
@@ -94,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:37 PM on 01/22",
       "zip": "84106"
     },
@@ -106,7 +130,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:17 PM on 01/22",
       "zip": "84106"
     },
@@ -169,11 +193,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:45 PM on 01/22",
       "zip": "84414"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.967,
+      "latitude": 41.324,
+      "etr": "Before 06:00 PM on 01/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:41 PM on 01/22",
+      "zip": "84414"
     }
   ],
   "zips": [
     {
       "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84009",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -231,16 +274,16 @@
     {
       "zipCode": "84123",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 8,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84414",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84783",
@@ -254,9 +297,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 6,
+      "outCountUnplan": 8,
       "custOutPlan": 34,
-      "custOutUnplan": 15
+      "custOutUnplan": 17
     },
     {
       "countyName": "Tooele",
@@ -282,9 +325,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
