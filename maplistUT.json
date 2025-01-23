@@ -1,24 +1,12 @@
 {
   "count": 6,
-  "totalState": 40,
+  "totalState": 6,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.802,
-      "latitude": 40.383,
-      "etr": "Before 08:00 PM on 01/22",
-      "outCount": 1,
-      "custOut": 35,
-      "cause": "Wind",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:59 PM on 01/22",
-      "zip": "84003"
-    },
     {
       "icon": "standard",
       "longitude": -111.993,
       "latitude": 40.497,
-      "etr": "Assessing",
+      "etr": "Before 09:00 PM on 01/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -34,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:07 PM on 01/22",
       "zip": "84020"
     },
@@ -61,15 +49,27 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:09 PM on 01/22",
       "zip": "84123"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.079,
+      "latitude": 41.134,
+      "etr": "Before 08:00 PM on 01/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:46 PM on 01/22",
+      "zip": "84015"
     }
   ],
   "zips": [
     {
-      "zipCode": "84003",
+      "zipCode": "84015",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 35
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84020",
@@ -102,18 +102,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 5,
       "custOutPlan": 0,
       "custOutUnplan": 5
-    },
-    {
-      "countyName": "Utah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 35
     }
   ]
 }
