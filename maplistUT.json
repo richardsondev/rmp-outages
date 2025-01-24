@@ -1,6 +1,6 @@
 {
-  "count": 12,
-  "totalState": 100,
+  "count": 13,
+  "totalState": 198,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:10 PM on 01/23",
       "zip": "84761"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.732,
+      "latitude": 39.202,
+      "etr": "Before 09:30 PM on 01/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:55 PM on 01/23",
+      "zip": "84665"
     },
     {
       "icon": "standard",
@@ -52,12 +64,24 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.843,
-      "latitude": 40.658,
-      "etr": "Before 07:00 PM on 01/23",
+      "longitude": -112.28,
+      "latitude": 40.625,
+      "etr": "Before 10:00 PM on 01/23",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:48 PM on 01/23",
+      "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.843,
+      "latitude": 40.658,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 103,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "03:54 PM on 01/23",
       "zip": "84117"
@@ -73,30 +97,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:05 AM on 01/23",
       "zip": "84117"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.939,
-      "latitude": 40.686,
-      "etr": "Before 07:00 PM on 01/23",
-      "outCount": 1,
-      "custOut": 5,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:44 PM on 01/23",
-      "zip": "84129"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.806,
-      "latitude": 40.702,
-      "etr": "Before 07:00 PM on 01/23",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:53 PM on 01/23",
-      "zip": "84109"
     },
     {
       "icon": "standard",
@@ -158,9 +158,9 @@
     {
       "zipCode": "84074",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84096",
@@ -177,13 +177,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84109",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84116",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -193,16 +186,9 @@
     {
       "zipCode": "84117",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 83,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84129",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 103
     },
     {
       "zipCode": "84310",
@@ -213,6 +199,13 @@
     },
     {
       "zipCode": "84401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84665",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -237,16 +230,23 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 7,
+      "outCountUnplan": 6,
       "custOutPlan": 83,
-      "custOutUnplan": 11
+      "custOutUnplan": 107
     },
     {
-      "countyName": "Tooele",
+      "countyName": "Sanpete",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
