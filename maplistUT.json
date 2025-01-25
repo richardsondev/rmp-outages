@@ -1,19 +1,7 @@
 {
   "count": 4,
-  "totalState": 73,
+  "totalState": 84,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.687,
-      "latitude": 40.282,
-      "etr": "Before 09:30 AM on 01/25",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:49 AM on 01/25",
-      "zip": "84097"
-    },
     {
       "icon": "standard",
       "longitude": -109.544,
@@ -49,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:34 AM on 01/25",
       "zip": "84015"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.906,
+      "latitude": 41.121,
+      "etr": "Before 02:30 PM on 01/25",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 01/25",
+      "zip": "84403, 84405"
     }
   ],
   "zips": [
@@ -74,19 +74,26 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84097",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84403",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84405",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 66,
+      "custOutPlan": 78,
       "custOutUnplan": 0
     },
     {
@@ -98,13 +105,6 @@
     },
     {
       "countyName": "Uintah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Utah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
