@@ -1,30 +1,30 @@
 {
   "count": 3,
-  "totalState": 207,
+  "totalState": 208,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.319,
-      "latitude": 42.067,
-      "etr": "Before 12:00 PM on 01/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:21 AM on 01/29",
-      "zip": "83252"
-    },
     {
       "icon": "planned",
       "longitude": -112.204,
       "latitude": 42.155,
       "etr": "Before 03:00 PM on 01/29",
       "outCount": 1,
-      "custOut": 198,
+      "custOut": 199,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:03 AM on 01/29",
       "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.946,
+      "latitude": 43.797,
+      "etr": "Before 12:30 PM on 01/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:36 AM on 01/29",
+      "zip": "83244"
     },
     {
       "icon": "planned",
@@ -41,11 +41,18 @@
   ],
   "zips": [
     {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 198,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 199,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83448",
@@ -64,6 +71,13 @@
   ],
   "counties": [
     {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Madison",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -73,9 +87,9 @@
     {
       "countyName": "Oneida",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 198,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 199,
+      "custOutUnplan": 0
     }
   ]
 }
