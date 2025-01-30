@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 76,
+  "count": 6,
+  "totalState": 91,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.176,
+      "latitude": 37.654,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:41 AM on 01/30",
+      "zip": "84720"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.687,
+      "latitude": 40.297,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:30 AM on 01/30",
+      "zip": "84097"
+    },
     {
       "icon": "standard",
       "longitude": -111.861,
@@ -13,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:12 AM on 01/30",
       "zip": "84094"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.996,
+      "latitude": 40.686,
+      "etr": "Before 10:30 AM on 01/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:30 AM on 01/30",
+      "zip": "84120"
     },
     {
       "icon": "standard",
@@ -55,11 +91,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84097",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84120",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 74
+      "custOutUnplan": 75
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -71,11 +121,25 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 75
+      "custOutUnplan": 76
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
     }
   ]
 }
