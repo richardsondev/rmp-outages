@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 6,
+  "totalState": 70,
   "outages": [
     {
       "icon": "standard",
@@ -15,6 +15,18 @@
       "zip": "84523"
     },
     {
+      "icon": "planned",
+      "longitude": -111.482,
+      "latitude": 40.718,
+      "etr": "Before 01:00 PM on 02/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:56 AM on 02/01",
+      "zip": "84098"
+    },
+    {
       "icon": "standard",
       "longitude": -111.94,
       "latitude": 40.773,
@@ -27,6 +39,18 @@
       "zip": "84116"
     },
     {
+      "icon": "planned",
+      "longitude": -111.944,
+      "latitude": 41.049,
+      "etr": "Before 02:30 PM on 02/01",
+      "outCount": 1,
+      "custOut": 65,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:46 AM on 02/01",
+      "zip": "84041"
+    },
+    {
       "icon": "standard",
       "longitude": -112.004,
       "latitude": 41.222,
@@ -37,11 +61,44 @@
       "crewStatus": "Crews Notified",
       "reported": "08:30 AM on 02/01",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.82,
+      "latitude": 41.832,
+      "etr": "Before 12:00 PM on 02/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:57 AM on 02/01",
+      "zip": "84335"
     }
   ],
   "zips": [
     {
+      "zipCode": "84041",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 65,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84098",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84116",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84335",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -64,6 +121,20 @@
   ],
   "counties": [
     {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 65,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Emery",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -76,6 +147,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
