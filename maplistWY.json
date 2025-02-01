@@ -1,39 +1,53 @@
 {
   "count": 2,
-  "totalState": 2,
+  "totalState": 70,
   "outages": [
     {
       "icon": "standard",
       "longitude": -106.299,
       "latitude": 42.84,
-      "etr": "Before 07:00 AM on 02/01",
+      "etr": "Before 06:30 AM on 02/01",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
       "reported": "03:52 AM on 02/01",
       "zip": "82609"
     },
     {
       "icon": "standard",
-      "longitude": -108.954,
-      "latitude": 44.985,
+      "longitude": -108.712,
+      "latitude": 44.921,
       "etr": "Assessing",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
+      "custOut": 69,
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "06:55 PM on 01/31",
-      "zip": "82435"
+      "zip": "82423, 82435, 82421, 59008"
     }
   ],
   "zips": [
+    {
+      "zipCode": "59008",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
+      "zipCode": "82421",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
+    },
     {
       "zipCode": "82435",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 60
     },
     {
       "zipCode": "82609",
@@ -56,7 +70,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 69
     }
   ]
 }
