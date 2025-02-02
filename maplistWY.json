@@ -1,21 +1,40 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
     {
       "icon": "standard",
       "longitude": -106.344,
       "latitude": 42.77,
-      "etr": "Before 07:30 PM on 02/01",
+      "etr": "Before 08:30 PM on 02/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Wind",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:22 PM on 02/01",
+      "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.143,
+      "latitude": 43.86,
+      "etr": "Before 10:30 PM on 02/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "04:22 PM on 02/01",
-      "zip": "82601"
+      "reported": "07:11 PM on 02/01",
+      "zip": "82401"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82601",
       "outCountPlan": 0,
@@ -27,6 +46,13 @@
   "counties": [
     {
       "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Washakie",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
