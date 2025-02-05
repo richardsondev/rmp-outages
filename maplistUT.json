@@ -1,7 +1,19 @@
 {
-  "count": 10,
-  "totalState": 146,
+  "count": 11,
+  "totalState": 441,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.918,
+      "latitude": 40.556,
+      "etr": "Before 04:00 AM on 02/05",
+      "outCount": 2,
+      "custOut": 296,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:56 PM on 02/04",
+      "zip": "84095"
+    },
     {
       "icon": "standard",
       "longitude": -111.5,
@@ -64,25 +76,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.015,
-      "latitude": 40.7,
-      "etr": "Before 12:30 AM on 02/05",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:26 PM on 02/04",
-      "zip": "84120"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.92,
       "latitude": 40.701,
       "etr": "Before 12:30 AM on 02/05",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:04 PM on 02/04",
       "zip": "84119"
     },
@@ -114,7 +114,7 @@
       "icon": "standard",
       "longitude": -111.596,
       "latitude": 40.747,
-      "etr": "Before 06:00 AM on 02/05",
+      "etr": "Before 12:30 AM on 02/05",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -130,6 +130,13 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "zipCode": "84095",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 296,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84098",
@@ -167,13 +174,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84120",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -184,10 +184,10 @@
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 7,
-      "custOutPlan": 0,
-      "custOutUnplan": 142
+      "outCountPlan": 2,
+      "outCountUnplan": 6,
+      "custOutPlan": 296,
+      "custOutUnplan": 141
     },
     {
       "countyName": "Summit",
