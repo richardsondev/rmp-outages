@@ -1,12 +1,12 @@
 {
   "count": 7,
-  "totalState": 133,
+  "totalState": 52,
   "outages": [
     {
       "icon": "standard",
       "longitude": -112.117,
       "latitude": 39.96,
-      "etr": "Before 03:00 AM on 02/05",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -42,25 +42,13 @@
       "icon": "standard",
       "longitude": -111.653,
       "latitude": 40.645,
-      "etr": "Before 03:00 AM on 02/05",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 45,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "09:30 PM on 02/04",
       "zip": "84121"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.805,
-      "latitude": 40.658,
-      "etr": "Before 03:00 AM on 02/05",
-      "outCount": 1,
-      "custOut": 82,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
-      "reported": "09:43 PM on 02/04",
-      "zip": "84117"
     },
     {
       "icon": "standard",
@@ -73,6 +61,18 @@
       "crewStatus": "Crews Notified",
       "reported": "01:16 AM on 02/05",
       "zip": "84129"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.86,
+      "latitude": 41.977,
+      "etr": "Before 06:00 AM on 02/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:13 AM on 02/05",
+      "zip": "84320"
     }
   ],
   "zips": [
@@ -82,13 +82,6 @@
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 4
-    },
-    {
-      "zipCode": "84117",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 82
     },
     {
       "zipCode": "84121",
@@ -105,6 +98,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84320",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84628",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -113,6 +113,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Juab",
       "outCountPlan": 0,
@@ -123,9 +130,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 128
+      "custOutUnplan": 46
     },
     {
       "countyName": "Wasatch",
