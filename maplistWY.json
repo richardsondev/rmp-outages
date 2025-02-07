@@ -1,19 +1,7 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 30,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -105.622,
-      "latitude": 41.318,
-      "etr": "Before 10:00 AM on 02/07",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:24 AM on 02/07",
-      "zip": "82070"
-    },
     {
       "icon": "standard",
       "longitude": -107.782,
@@ -25,15 +13,39 @@
       "crewStatus": "Crews Notified",
       "reported": "08:45 AM on 02/07",
       "zip": "82336"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.545,
+      "latitude": 41.879,
+      "etr": "Before 12:30 PM on 02/07",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:25 AM on 02/07",
+      "zip": "82327"
+    },
+    {
+      "icon": "planned",
+      "longitude": -110.918,
+      "latitude": 42.074,
+      "etr": "Before 03:00 PM on 02/07",
+      "outCount": 1,
+      "custOut": 21,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:28 AM on 02/07",
+      "zip": "83114"
     }
   ],
   "zips": [
     {
-      "zipCode": "82070",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
+      "zipCode": "82327",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     },
     {
       "zipCode": "82336",
@@ -41,14 +53,28 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83114",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 21,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Albany",
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
+    },
+    {
+      "countyName": "Lincoln",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 1,
+      "custOutPlan": 21,
       "custOutUnplan": 0
     },
     {
