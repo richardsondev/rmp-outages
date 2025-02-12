@@ -1,6 +1,6 @@
 {
   "count": 12,
-  "totalState": 108,
+  "totalState": 80,
   "outages": [
     {
       "icon": "standard",
@@ -13,18 +13,6 @@
       "crewStatus": "Crews Notified",
       "reported": "01:55 PM on 02/12",
       "zip": "84751"
-    },
-    {
-      "icon": "planned",
-      "longitude": -112.142,
-      "latitude": 38.589,
-      "etr": "Before 04:00 PM on 02/12",
-      "outCount": 1,
-      "custOut": 29,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:58 AM on 02/12",
-      "zip": "84754"
     },
     {
       "icon": "planned",
@@ -88,6 +76,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.843,
+      "latitude": 40.673,
+      "etr": "Before 06:30 PM on 02/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:03 PM on 02/12",
+      "zip": "84117"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.863,
       "latitude": 40.759,
       "etr": "Before 06:00 PM on 02/12",
@@ -130,7 +130,7 @@
       "outCount": 1,
       "custOut": 42,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:59 PM on 02/12",
       "zip": "84405"
     },
@@ -191,6 +191,13 @@
       "custOutUnplan": 15
     },
     {
+      "zipCode": "84117",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -224,13 +231,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84754",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 29,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -258,16 +258,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 17
-    },
-    {
-      "countyName": "Sevier",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 29,
-      "custOutUnplan": 0
+      "custOutUnplan": 18
     },
     {
       "countyName": "Tooele",
