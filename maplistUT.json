@@ -1,15 +1,15 @@
 {
-  "count": 3,
-  "totalState": 22,
+  "count": 4,
+  "totalState": 31,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -109.525,
       "latitude": 40.463,
-      "etr": "Before 12:00 PM on 02/12",
+      "etr": "Before 11:30 AM on 02/12",
       "outCount": 1,
       "custOut": 20,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:14 AM on 02/12",
       "zip": "84078"
@@ -22,9 +22,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:43 AM on 02/12",
       "zip": "84096"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.824,
+      "latitude": 40.673,
+      "etr": "Before 03:00 PM on 02/12",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:26 AM on 02/12",
+      "zip": "84117"
     },
     {
       "icon": "standard",
@@ -42,10 +54,10 @@
   "zips": [
     {
       "zipCode": "84078",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84096",
@@ -53,6 +65,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84117",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84339",
@@ -72,17 +91,17 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 9,
       "custOutUnplan": 1
     },
     {
       "countyName": "Uintah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
     }
   ]
 }
