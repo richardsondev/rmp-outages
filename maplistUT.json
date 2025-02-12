@@ -1,19 +1,7 @@
 {
-  "count": 15,
-  "totalState": 89,
+  "count": 14,
+  "totalState": 87,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.651,
-      "latitude": 37.165,
-      "etr": "Before 03:00 PM on 02/12",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:52 AM on 02/12",
-      "zip": "84738"
-    },
     {
       "icon": "standard",
       "longitude": -113.29,
@@ -51,6 +39,18 @@
       "zip": "84754"
     },
     {
+      "icon": "planned",
+      "longitude": -111.813,
+      "latitude": 39.723,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:45 PM on 02/12",
+      "zip": "84648"
+    },
+    {
       "icon": "standard",
       "longitude": -111.935,
       "latitude": 40.396,
@@ -58,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:27 AM on 02/12",
       "zip": "84045"
     },
@@ -169,18 +169,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:31 AM on 02/12",
       "zip": "84025"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.025,
-      "latitude": 41.323,
-      "etr": "Before 03:00 PM on 02/12",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:57 AM on 02/12",
-      "zip": "84414"
     }
   ],
   "zips": [
@@ -248,18 +236,11 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84414",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
-    },
-    {
-      "zipCode": "84738",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84648",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84754",
@@ -289,6 +270,13 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Juab",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
       "custOutUnplan": 0
     },
     {
@@ -322,16 +310,9 @@
     {
       "countyName": "Washington",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 14,
-      "custOutUnplan": 2
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutPlan": 14,
+      "custOutUnplan": 1
     }
   ]
 }
