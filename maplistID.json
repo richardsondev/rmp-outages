@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 634,
+  "count": 6,
+  "totalState": 678,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.212,
+      "latitude": 42.59,
+      "etr": "Before 01:00 PM on 02/13",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:50 AM on 02/13",
+      "zip": "83214"
+    },
     {
       "icon": "standard",
       "longitude": -112.06,
@@ -37,9 +49,28 @@
       "crewStatus": "Crews Notified",
       "reported": "07:56 AM on 02/13",
       "zip": "83401, 83402, 83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.517,
+      "latitude": 43.899,
+      "etr": "Before 03:00 PM on 02/13",
+      "outCount": 1,
+      "custOut": 41,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "08:52 AM on 02/13",
+      "zip": "83445, 83436, 83420, 83421"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83401",
       "outCountPlan": 0,
@@ -55,14 +86,49 @@
       "custOutUnplan": 291
     },
     {
+      "zipCode": "83420",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83421",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 18
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 18
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 20
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
@@ -71,11 +137,25 @@
       "custOutUnplan": 436
     },
     {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 39
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 198
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
