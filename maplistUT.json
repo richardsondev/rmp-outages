@@ -1,6 +1,6 @@
 {
-  "count": 13,
-  "totalState": 24,
+  "count": 14,
+  "totalState": 33,
   "outages": [
     {
       "icon": "standard",
@@ -8,9 +8,9 @@
       "latitude": 37.204,
       "etr": "Before 07:30 PM on 02/14",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "custOut": 9,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
       "reported": "01:56 PM on 02/14",
       "zip": "84779"
     },
@@ -157,6 +157,18 @@
       "crewStatus": "Crews Notified",
       "reported": "02:37 PM on 02/14",
       "zip": "84414"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.936,
+      "latitude": 41.817,
+      "etr": "Before 05:30 PM on 02/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:15 PM on 02/14",
+      "zip": "84335"
     }
   ],
   "zips": [
@@ -231,6 +243,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84335",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84414",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -249,10 +268,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Iron",
       "outCountPlan": 0,
@@ -279,7 +305,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     },
     {
       "countyName": "Weber",
