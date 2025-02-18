@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 18,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.725,
+      "latitude": 40.34,
+      "etr": "Before 10:00 AM on 02/18",
+      "outCount": 1,
+      "custOut": 16,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:42 AM on 02/18",
+      "zip": "84042"
+    },
     {
       "icon": "standard",
       "longitude": -111.745,
@@ -29,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84042",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84062",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,9 +72,9 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 16,
       "custOutUnplan": 1
     }
   ]
