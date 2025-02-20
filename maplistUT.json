@@ -1,19 +1,7 @@
 {
   "count": 11,
-  "totalState": 77,
+  "totalState": 73,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.366,
-      "latitude": 38.768,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 5,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:09 AM on 02/20",
-      "zip": "84654"
-    },
     {
       "icon": "standard",
       "longitude": -111.706,
@@ -22,7 +10,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:51 PM on 02/20",
       "zip": "84058"
     },
@@ -52,13 +40,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.407,
-      "latitude": 40.878,
-      "etr": "Before 07:30 PM on 02/20",
+      "longitude": -111.806,
+      "latitude": 40.702,
+      "etr": "Before 08:00 PM on 02/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "04:33 PM on 02/20",
+      "zip": "84109"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.407,
+      "latitude": 40.878,
+      "etr": "Before 06:00 PM on 02/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "03:12 PM on 02/20",
       "zip": "84017"
     },
@@ -78,7 +78,7 @@
       "icon": "standard",
       "longitude": -111.985,
       "latitude": 41.266,
-      "etr": "Before 04:30 PM on 02/20",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Vehicle Accident",
@@ -118,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:45 PM on 02/20",
       "zip": "84304"
     },
@@ -130,7 +130,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:21 PM on 02/20",
       "zip": "84336"
     }
@@ -159,6 +159,13 @@
     },
     {
       "zipCode": "84058",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84109",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -198,13 +205,6 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "84654",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
     }
   ],
   "counties": [
@@ -232,16 +232,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 29
-    },
-    {
-      "countyName": "Sevier",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 30
     },
     {
       "countyName": "Summit",
