@@ -1,6 +1,6 @@
 {
-  "count": 12,
-  "totalState": 65,
+  "count": 13,
+  "totalState": 307,
   "outages": [
     {
       "icon": "standard",
@@ -15,14 +15,26 @@
       "zip": "84540"
     },
     {
+      "icon": "planned",
+      "longitude": -111.918,
+      "latitude": 40.585,
+      "etr": "Before 04:00 AM on 02/21",
+      "outCount": 1,
+      "custOut": 242,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:55 PM on 02/20",
+      "zip": "84070"
+    },
+    {
       "icon": "standard",
       "longitude": -111.958,
       "latitude": 40.686,
-      "etr": "Assessing",
+      "etr": "Before 07:00 AM on 02/21",
       "outCount": 1,
       "custOut": 11,
       "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "04:17 PM on 02/20",
       "zip": "84129"
     },
@@ -34,7 +46,7 @@
       "outCount": 2,
       "custOut": 13,
       "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:05 PM on 02/20",
       "zip": "84109"
     },
@@ -54,11 +66,11 @@
       "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.759,
-      "etr": "Assessing",
+      "etr": "Before 02:00 AM on 02/21",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "05:14 PM on 02/20",
       "zip": "84111"
     },
@@ -124,6 +136,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 242,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84104",
       "outCountPlan": 1,
@@ -212,9 +231,9 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 5,
-      "custOutPlan": 4,
+      "custOutPlan": 246,
       "custOutUnplan": 26
     },
     {
