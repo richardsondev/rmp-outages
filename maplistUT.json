@@ -1,7 +1,31 @@
 {
-  "count": 19,
-  "totalState": 600,
+  "count": 22,
+  "totalState": 605,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.658,
+      "latitude": 37.608,
+      "etr": "Before 03:00 PM on 02/25",
+      "outCount": 2,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:45 PM on 02/25",
+      "zip": "84714"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.706,
+      "latitude": 40.311,
+      "etr": "Before 03:30 PM on 02/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:50 PM on 02/25",
+      "zip": "84057"
+    },
     {
       "icon": "planned",
       "longitude": -111.687,
@@ -22,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:06 PM on 02/25",
       "zip": "84062"
     },
@@ -227,9 +251,9 @@
     {
       "zipCode": "84057",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 10,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84062",
@@ -314,6 +338,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84714",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -339,6 +370,13 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 7,
       "outCountUnplan": 2,
@@ -355,9 +393,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 120,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
