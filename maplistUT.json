@@ -1,7 +1,31 @@
 {
-  "count": 5,
-  "totalState": 8,
+  "count": 7,
+  "totalState": 12,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.031,
+      "latitude": 38.338,
+      "etr": "Before 11:00 AM on 02/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:11 AM on 02/25",
+      "zip": "84751"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.582,
+      "latitude": 40.464,
+      "etr": "Before 10:30 AM on 02/25",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:04 AM on 02/25",
+      "zip": "84078"
+    },
     {
       "icon": "standard",
       "longitude": -111.824,
@@ -10,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:13 AM on 02/25",
       "zip": "84121"
     },
@@ -53,6 +77,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84078",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84107",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -79,15 +110,36 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84751",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 5,
       "custOutPlan": 0,
       "custOutUnplan": 8
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     }
   ]
 }
