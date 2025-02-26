@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
     {
       "icon": "standard",
@@ -10,14 +10,33 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:28 PM on 02/26",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 11:30 PM on 02/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:10 PM on 02/26",
+      "zip": "82637"
     }
   ],
   "zips": [
     {
       "zipCode": "82633",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82637",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -28,9 +47,9 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
