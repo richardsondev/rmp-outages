@@ -1,36 +1,62 @@
 {
-  "count": 1,
-  "totalState": 4,
+  "count": 2,
+  "totalState": 29,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -112.065,
-      "latitude": 42.628,
+      "icon": "planned",
+      "longitude": -111.922,
+      "latitude": 43.527,
+      "etr": "Before 02:00 PM on 02/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:21 AM on 02/28",
+      "zip": "83427"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.043,
+      "latitude": 43.642,
       "etr": "Before 12:00 PM on 02/28",
       "outCount": 1,
-      "custOut": 4,
-      "cause": "Investigating",
+      "custOut": 28,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "09:40 AM on 02/28",
-      "zip": "83246"
+      "reported": "10:19 AM on 02/28",
+      "zip": "83442"
     }
   ],
   "zips": [
     {
-      "zipCode": "83246",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
+      "zipCode": "83427",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 28,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 28,
+      "custOutUnplan": 0
     }
   ]
 }
