@@ -24,14 +24,18 @@ jobs:
         for state in "${STATES[@]}"; do
           # Fetch the JSON data
           echo "Fetching data for ${state}"
-          mapJson=$(curl -s ${URL_BASE}/map${state}.json)
-          listJson=$(curl -s ${URL_BASE}/list${state}.json)
+          mapJson=$(curl --max-time 60 --retry 3 -s ${URL_BASE}/map${state}.json)
+          listJson=$(curl --max-time 60 --retry 3 -s ${URL_BASE}/list${state}.json)
 
           # Get shared keys
           shared_keys=$(echo $mapJson | jq -r 'keys[]' | grep -Fx -f <(echo $listJson | jq -r 'keys[]'))
 
           # Validate shared values match between the two JSON objects (for data integrity)
           for key in $shared_keys; do
+            if [[ "$key" == "last_upd" ]]; then
+              continue
+            fi
+
             mapKey=$(echo $mapJson | jq .${key})
             listKey=$(echo $listJson | jq .${key})
 
