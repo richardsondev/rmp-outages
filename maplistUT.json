@@ -1,14 +1,38 @@
 {
-  "count": 8,
-  "totalState": 39,
+  "count": 9,
+  "totalState": 46,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.14,
+      "latitude": 37.654,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:53 AM on 03/04",
+      "zip": "84720"
+    },
+    {
+      "icon": "planned",
+      "longitude": -113.046,
+      "latitude": 39.186,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:48 AM on 03/04",
+      "zip": "84728"
+    },
     {
       "icon": "standard",
       "longitude": -112.428,
       "latitude": 40.435,
       "etr": "Before 11:00 AM on 03/04",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:38 AM on 03/04",
@@ -25,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "06:25 AM on 03/04",
       "zip": "84070"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.861,
-      "latitude": 40.571,
-      "etr": "Before 11:00 AM on 03/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:37 AM on 03/04",
-      "zip": "84094"
     },
     {
       "icon": "standard",
@@ -58,7 +70,7 @@
       "outCount": 2,
       "custOut": 33,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:22 AM on 03/04",
       "zip": "84124"
     },
@@ -100,17 +112,10 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "zipCode": "84074",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84094",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -136,15 +141,43 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 33
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84728",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
+      "countyName": "Iron",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Millard",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 5,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 36
+      "custOutUnplan": 35
     },
     {
       "countyName": "Summit",
@@ -158,7 +191,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 4
     }
   ]
 }
