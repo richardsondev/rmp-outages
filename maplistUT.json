@@ -1,6 +1,6 @@
 {
-  "count": 9,
-  "totalState": 46,
+  "count": 10,
+  "totalState": 130,
   "outages": [
     {
       "icon": "planned",
@@ -54,7 +54,7 @@
       "icon": "standard",
       "longitude": -112.318,
       "latitude": 40.61,
-      "etr": "Assessing",
+      "etr": "Before 08:30 AM on 03/04",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -88,15 +88,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.558,
-      "latitude": 40.761,
-      "etr": "Before 10:30 AM on 03/04",
+      "longitude": -111.806,
+      "latitude": 40.716,
+      "etr": "Before 11:30 AM on 03/04",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "06:27 AM on 03/04",
-      "zip": "84098"
+      "reported": "08:25 AM on 03/04",
+      "zip": "84109"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.059,
+      "latitude": 41.077,
+      "etr": "Before 02:00 PM on 03/04",
+      "outCount": 1,
+      "custOut": 84,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:22 AM on 03/04",
+      "zip": "84075"
     }
   ],
   "zips": [
@@ -122,7 +134,14 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84098",
+      "zipCode": "84075",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 84,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84109",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -159,6 +178,13 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 84,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Iron",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -175,16 +201,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 35
-    },
-    {
-      "countyName": "Summit",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 36
     },
     {
       "countyName": "Tooele",
