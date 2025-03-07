@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 8,
+  "count": 5,
+  "totalState": 11,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:19 PM on 03/06",
       "zip": "83252"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.242,
+      "latitude": 42.611,
+      "etr": "Before 12:00 PM on 03/07",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:49 AM on 03/07",
+      "zip": "83250"
     },
     {
       "icon": "standard",
@@ -46,12 +58,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:32 AM on 03/07",
       "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83250",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83252",
       "outCountPlan": 0,
@@ -82,6 +101,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
