@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 98,
+  "count": 11,
+  "totalState": 6682,
   "outages": [
     {
       "icon": "standard",
@@ -10,21 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:41 PM on 03/13",
       "zip": "84094"
     },
     {
       "icon": "standard",
-      "longitude": -111.823,
-      "latitude": 40.615,
-      "etr": "Before 02:30 AM on 03/14",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "longitude": -112.47,
+      "latitude": 40.594,
+      "etr": "Before 03:00 AM on 03/14",
+      "outCount": 3,
+      "custOut": 5644,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
-      "reported": "11:15 PM on 03/13",
-      "zip": "84121"
+      "reported": "11:31 PM on 03/13",
+      "zip": "84029"
     },
     {
       "icon": "standard",
@@ -64,13 +64,37 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.982,
+      "latitude": 41.063,
+      "etr": "Before 02:30 AM on 03/14",
+      "outCount": 1,
+      "custOut": 940,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:43 PM on 03/13",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.022,
+      "latitude": 41.164,
+      "etr": "Before 03:00 AM on 03/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:38 PM on 03/13",
+      "zip": "84067"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.926,
       "latitude": 41.165,
       "etr": "Before 01:00 AM on 03/14",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:47 PM on 03/13",
       "zip": "84403"
     },
@@ -78,7 +102,7 @@
       "icon": "standard",
       "longitude": -112.08,
       "latitude": 41.178,
-      "etr": "Before 11:30 PM on 03/13",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 92,
       "cause": "Pole Fire",
@@ -90,10 +114,17 @@
   "zips": [
     {
       "zipCode": "84029",
+      "outCountPlan": 2,
+      "outCountUnplan": 2,
+      "custOutPlan": 3490,
+      "custOutUnplan": 2155
+    },
+    {
+      "zipCode": "84041",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 940
     },
     {
       "zipCode": "84044",
@@ -105,9 +136,9 @@
     {
       "zipCode": "84067",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 40
+      "custOutUnplan": 41
     },
     {
       "zipCode": "84094",
@@ -118,13 +149,6 @@
     },
     {
       "zipCode": "84118",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -147,25 +171,32 @@
   ],
   "counties": [
     {
-      "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 4,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
-    },
-    {
-      "countyName": "Tooele",
+      "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 940
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 2,
+      "outCountUnplan": 2,
+      "custOutPlan": 3490,
+      "custOutUnplan": 2155
     },
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 93
+      "custOutUnplan": 94
     }
   ]
 }
