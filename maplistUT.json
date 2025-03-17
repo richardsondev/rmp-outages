@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 6,
+  "count": 5,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.291,
+      "latitude": 40.617,
+      "etr": "Before 09:00 AM on 03/17",
+      "outCount": 3,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:58 AM on 03/17",
+      "zip": "84036"
+    },
     {
       "icon": "standard",
       "longitude": -111.922,
@@ -25,34 +37,22 @@
       "crewStatus": "Crews Notified",
       "reported": "03:33 AM on 03/17",
       "zip": "84401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.958,
-      "latitude": 41.991,
-      "etr": "Before 05:30 AM on 03/17",
-      "outCount": 2,
-      "custOut": 4,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:58 AM on 03/17",
-      "zip": "84308"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84036",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "zipCode": "84054",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84308",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
     },
     {
       "zipCode": "84401",
@@ -64,18 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Weber",
