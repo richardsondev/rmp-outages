@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 12,
+  "count": 8,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.252,
+      "latitude": 42.161,
+      "etr": "Before 04:00 PM on 03/19",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:07 AM on 03/19",
+      "zip": "83272, 83287"
+    },
     {
       "icon": "standard",
       "longitude": -112.118,
@@ -34,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:57 AM on 03/19",
       "zip": "83440"
     },
@@ -65,11 +77,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83272",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "zipCode": "83287",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83401",
@@ -101,6 +127,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bingham",
       "outCountPlan": 0,
