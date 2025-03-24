@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 49,
+  "count": 7,
+  "totalState": 50,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:16 PM on 03/23",
       "zip": "84095"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.318,
+      "latitude": 40.61,
+      "etr": "Before 10:30 PM on 03/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:24 PM on 03/23",
+      "zip": "84074"
     },
     {
       "icon": "standard",
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:14 PM on 03/23",
       "zip": "84129"
     },
@@ -55,27 +67,22 @@
       "longitude": -112.1,
       "latitude": 41.236,
       "etr": "Before 10:30 PM on 03/23",
-      "outCount": 1,
-      "custOut": 44,
+      "outCount": 2,
+      "custOut": 45,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:29 PM on 03/23",
       "zip": "84401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.768,
-      "latitude": 41.253,
-      "etr": "Before 10:30 PM on 03/23",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:08 PM on 03/23",
-      "zip": "84317"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84074",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84095",
       "outCountPlan": 0,
@@ -105,18 +112,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84317",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84401",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 44
+      "custOutUnplan": 45
     }
   ],
   "counties": [
@@ -126,6 +126,13 @@
       "outCountUnplan": 4,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
