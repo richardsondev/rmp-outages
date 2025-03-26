@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 14,
+  "totalState": 9,
   "outages": [
     {
       "icon": "standard",
@@ -16,18 +16,6 @@
     },
     {
       "icon": "planned",
-      "longitude": -110.967,
-      "latitude": 41.285,
-      "etr": "Before 12:00 PM on 03/26",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:17 AM on 03/26",
-      "zip": "82930"
-    },
-    {
-      "icon": "planned",
       "longitude": -109.463,
       "latitude": 41.506,
       "etr": "Before 03:00 PM on 03/26",
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:03 AM on 03/26",
       "zip": "82935"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.308,
+      "latitude": 42.725,
+      "etr": "Before 03:00 PM on 03/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:59 AM on 03/26",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -60,10 +60,17 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82930",
-      "outCountPlan": 1,
+      "zipCode": "82601",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 6,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82930",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -75,6 +82,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Park",
       "outCountPlan": 0,
@@ -91,9 +105,9 @@
     },
     {
       "countyName": "Uinta",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 6,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ]
