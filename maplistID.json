@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 5,
+  "totalState": 20,
   "outages": [
     {
       "icon": "standard",
@@ -15,6 +15,30 @@
       "zip": "83234"
     },
     {
+      "icon": "planned",
+      "longitude": -112.203,
+      "latitude": 42.641,
+      "etr": "Before 01:30 PM on 03/27",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:52 AM on 03/27",
+      "zip": "83250"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.216,
+      "latitude": 43.278,
+      "etr": "Before 11:30 AM on 03/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:44 AM on 03/27",
+      "zip": "83236"
+    },
+    {
       "icon": "standard",
       "longitude": -112.101,
       "latitude": 43.511,
@@ -25,6 +49,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:24 AM on 03/27",
       "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.688,
+      "latitude": 43.966,
+      "etr": "Before 01:00 PM on 03/27",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
+      "reported": "08:59 AM on 03/27",
+      "zip": "83445"
     }
   ],
   "zips": [
@@ -36,16 +72,44 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83250",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     }
   ],
   "counties": [
     {
       "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 10,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -57,6 +121,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     }
   ]
 }
