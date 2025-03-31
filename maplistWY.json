@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 25,
+  "count": 7,
+  "totalState": 27,
   "outages": [
     {
       "icon": "planned",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "10:47 AM on 03/31",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.342,
+      "latitude": 42.799,
+      "etr": "Before 02:30 PM on 03/31",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:10 AM on 03/31",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -61,6 +73,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:38 AM on 03/31",
       "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.782,
+      "latitude": 44.029,
+      "etr": "Before 02:30 PM on 03/31",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:07 AM on 03/31",
+      "zip": "82401"
     }
   ],
   "zips": [
@@ -72,11 +96,18 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82601",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 5,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "zipCode": "82633",
@@ -104,9 +135,16 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 5,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
