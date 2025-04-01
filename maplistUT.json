@@ -1,7 +1,19 @@
 {
   "count": 13,
-  "totalState": 31,
+  "totalState": 43,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.968,
+      "latitude": 39.327,
+      "etr": "Before 08:00 PM on 04/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:58 PM on 04/01",
+      "zip": "84528"
+    },
     {
       "icon": "planned",
       "longitude": -111.668,
@@ -22,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:13 PM on 04/01",
       "zip": "84003"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.957,
+      "latitude": 40.643,
+      "etr": "Before 06:30 PM on 04/01",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:52 PM on 04/01",
+      "zip": "84129"
     },
     {
       "icon": "standard",
@@ -34,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:25 PM on 04/01",
       "zip": "84121"
     },
@@ -88,18 +112,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.863,
-      "latitude": 40.759,
-      "etr": "Before 07:30 PM on 04/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:23 PM on 04/01",
-      "zip": "84102"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.158,
       "latitude": 40.936,
       "etr": "Before 07:00 PM on 04/01",
@@ -145,18 +157,6 @@
       "crewStatus": "Crews Notified",
       "reported": "04:36 PM on 04/01",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.836,
-      "latitude": 41.571,
-      "etr": "Before 06:30 PM on 04/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:39 PM on 04/01",
-      "zip": "84328"
     }
   ],
   "zips": [
@@ -196,13 +196,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84102",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84106",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -231,11 +224,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84328",
+      "zipCode": "84129",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 13
     },
     {
       "zipCode": "84401",
@@ -250,11 +243,18 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84528",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Cache",
+      "countyName": "Emery",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -265,7 +265,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 17
     },
     {
       "countyName": "Summit",
