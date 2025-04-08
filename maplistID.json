@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 4,
   "outages": [
     {
       "icon": "planned",
@@ -37,11 +37,30 @@
       "crewStatus": "Crews Notified",
       "reported": "07:49 AM on 04/08",
       "zip": "83436"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.428,
+      "latitude": 44.095,
+      "etr": "Before 03:00 PM on 04/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:39 AM on 04/08",
+      "zip": "83420"
     }
   ],
   "zips": [
     {
       "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83420",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
@@ -63,6 +82,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
