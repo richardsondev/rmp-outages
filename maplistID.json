@@ -1,7 +1,88 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 3,
+  "totalState": 3,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.2,
+      "latitude": 41.969,
+      "etr": "Before 12:00 PM on 04/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:12 AM on 04/08",
+      "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.356,
+      "latitude": 43.806,
+      "etr": "Before 11:00 AM on 04/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:03 AM on 04/08",
+      "zip": "83450"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.516,
+      "latitude": 43.812,
+      "etr": "Before 10:30 AM on 04/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:49 AM on 04/08",
+      "zip": "83436"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83450",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    }
+  ]
 }
