@@ -1,38 +1,14 @@
 {
-  "count": 8,
-  "totalState": 1321,
+  "count": 6,
+  "totalState": 1331,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.958,
-      "latitude": 42.005,
-      "etr": "Before 10:00 PM on 04/09",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:21 PM on 04/09",
-      "zip": "83286"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.987,
-      "latitude": 42.012,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:13 PM on 04/09",
-      "zip": "83286"
-    },
     {
       "icon": "standard",
       "longitude": -111.978,
       "latitude": 42.034,
-      "etr": "Before 10:30 PM on 04/09",
+      "etr": "Before 11:00 PM on 04/09",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 13,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:10 PM on 04/09",
@@ -40,9 +16,21 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.006,
+      "latitude": 42.614,
+      "etr": "Before 11:00 PM on 04/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:37 PM on 04/09",
+      "zip": "83246"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.982,
       "latitude": 43.527,
-      "etr": "Assessing",
+      "etr": "Before 12:00 AM on 04/10",
       "outCount": 2,
       "custOut": 1243,
       "cause": "Multiple outages in the area",
@@ -54,7 +42,7 @@
       "icon": "standard",
       "longitude": -111.962,
       "latitude": 43.527,
-      "etr": "Before 09:00 PM on 04/09",
+      "etr": "Before 12:00 AM on 04/10",
       "outCount": 1,
       "custOut": 73,
       "cause": "Investigating",
@@ -66,34 +54,29 @@
       "icon": "standard",
       "longitude": -111.962,
       "latitude": 43.541,
-      "etr": "Before 09:00 PM on 04/09",
+      "etr": "Before 12:00 AM on 04/10",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:07 PM on 04/09",
       "zip": "83401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.119,
-      "latitude": 43.982,
-      "etr": "Before 01:00 AM on 04/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:45 PM on 04/09",
-      "zip": "83425"
     }
   ],
   "zips": [
     {
+      "zipCode": "83246",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83286",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 13
     },
     {
       "zipCode": "83401",
@@ -101,16 +84,16 @@
       "outCountUnplan": 3,
       "custOutPlan": 1233,
       "custOutUnplan": 84
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "83425",
+      "countyName": "Bannock",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
@@ -121,16 +104,9 @@
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
-    },
-    {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 13
     }
   ]
 }
