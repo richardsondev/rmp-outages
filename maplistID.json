@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.859,
+      "latitude": 42.593,
+      "etr": "Before 02:30 PM on 04/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:11 PM on 04/11",
+      "zip": "83241"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.961,
       "latitude": 43.498,
       "etr": "Before 01:30 PM on 04/11",
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "10:57 AM on 04/11",
       "zip": "83401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.483,
-      "latitude": 44.065,
-      "etr": "Before 01:30 PM on 04/11",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:00 AM on 04/11",
-      "zip": "83435"
     },
     {
       "icon": "standard",
@@ -41,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83241",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,13 +60,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "zipCode": "83435",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -71,11 +71,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Clark",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 3
     }
   ]
 }
