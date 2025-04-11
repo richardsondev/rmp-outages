@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 01:30 PM on 04/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:57 AM on 04/11",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.483,
@@ -10,18 +22,37 @@
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:03 AM on 04/11",
       "zip": "83435, 83423"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.489,
+      "latitude": 44.326,
+      "etr": "Before 01:30 PM on 04/11",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:47 AM on 04/11",
+      "zip": "83423"
     }
   ],
   "zips": [
     {
-      "zipCode": "83423",
+      "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
     },
     {
       "zipCode": "83435",
@@ -33,11 +64,18 @@
   ],
   "counties": [
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Clark",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 5
     }
   ]
 }
