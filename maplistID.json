@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 4,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.516,
+      "latitude": 43.812,
+      "etr": "Before 10:00 AM on 04/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
+      "reported": "07:49 AM on 04/17",
+      "zip": "83436"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.243,
+      "latitude": 44.155,
+      "etr": "Before 10:30 AM on 04/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:50 AM on 04/17",
+      "zip": "83423"
+    },
     {
       "icon": "standard",
       "longitude": -112.366,
@@ -19,18 +43,32 @@
     {
       "zipCode": "83423",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Clark",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
