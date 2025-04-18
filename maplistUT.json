@@ -1,16 +1,16 @@
 {
-  "count": 12,
-  "totalState": 183,
+  "count": 14,
+  "totalState": 193,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.745,
       "latitude": 40.354,
-      "etr": "Before 11:30 AM on 04/18",
-      "outCount": 1,
-      "custOut": 65,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "etr": "Before 03:30 PM on 04/18",
+      "outCount": 2,
+      "custOut": 72,
+      "cause": "Vehicle Accident",
+      "crewStatus": "Crews Notified",
       "reported": "07:30 AM on 04/18",
       "zip": "84062"
     },
@@ -94,7 +94,7 @@
       "outCount": 1,
       "custOut": 5,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:35 AM on 04/18",
       "zip": "84120"
     },
@@ -142,9 +142,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:05 AM on 04/18",
       "zip": "84404"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.819,
+      "latitude": 41.789,
+      "etr": "Before 01:00 PM on 04/18",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:40 AM on 04/18",
+      "zip": "84318"
     }
   ],
   "zips": [
@@ -172,9 +184,9 @@
     {
       "zipCode": "84062",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 65
+      "custOutUnplan": 72
     },
     {
       "zipCode": "84074",
@@ -226,6 +238,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84318",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -234,6 +253,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -265,9 +291,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 65
+      "custOutUnplan": 72
     },
     {
       "countyName": "Weber",
