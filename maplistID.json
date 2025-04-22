@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 34,
   "outages": [
     {
       "icon": "standard",
@@ -13,11 +13,49 @@
       "crewStatus": "Crews Notified",
       "reported": "08:05 AM on 04/22",
       "zip": "83252"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.222,
+      "latitude": 42.626,
+      "etr": "Before 01:00 PM on 04/22",
+      "outCount": 1,
+      "custOut": 32,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:31 AM on 04/22",
+      "zip": "83250, 83214"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.787,
+      "latitude": 43.847,
+      "etr": "Before 11:30 AM on 04/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:34 AM on 04/22",
+      "zip": "83440"
     }
   ],
   "zips": [
     {
+      "zipCode": "83250",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 32,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -25,6 +63,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 32,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Oneida",
       "outCountPlan": 0,
