@@ -1,6 +1,6 @@
 {
   "count": 24,
-  "totalState": 266,
+  "totalState": 228,
   "outages": [
     {
       "icon": "planned",
@@ -30,7 +30,7 @@
       "icon": "standard",
       "longitude": -110.148,
       "latitude": 39.114,
-      "etr": "Before 10:30 AM on 04/23",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -42,10 +42,10 @@
       "icon": "standard",
       "longitude": -112.593,
       "latitude": 39.36,
-      "etr": "Before 12:30 PM on 04/23",
+      "etr": "Before 12:00 PM on 04/23",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "09:17 AM on 04/23",
       "zip": "84624"
@@ -135,16 +135,28 @@
       "zip": "84123"
     },
     {
-      "icon": "standard",
-      "longitude": -111.882,
-      "latitude": 40.73,
-      "etr": "Before 11:00 AM on 04/23",
+      "icon": "planned",
+      "longitude": -111.272,
+      "latitude": 40.632,
+      "etr": "Assessing",
       "outCount": 1,
-      "custOut": 40,
-      "cause": "Investigating",
+      "custOut": 2,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "09:19 AM on 04/23",
-      "zip": "84115"
+      "reported": "10:42 AM on 04/23",
+      "zip": "84036"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.825,
+      "latitude": 40.702,
+      "etr": "Before 02:00 PM on 04/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:40 AM on 04/23",
+      "zip": "84109"
     },
     {
       "icon": "planned",
@@ -243,18 +255,6 @@
       "zip": "84307"
     },
     {
-      "icon": "standard",
-      "longitude": -111.849,
-      "latitude": 41.897,
-      "etr": "Before 11:00 AM on 04/23",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:29 AM on 04/23",
-      "zip": "84335"
-    },
-    {
       "icon": "planned",
       "longitude": -111.801,
       "latitude": 41.92,
@@ -268,6 +268,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84036",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84050",
       "outCountPlan": 0,
@@ -320,9 +327,9 @@
     {
       "zipCode": "84109",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 13,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84111",
@@ -330,13 +337,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84115",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 40
     },
     {
       "zipCode": "84123",
@@ -358,13 +358,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84335",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84401",
@@ -427,9 +420,9 @@
     {
       "countyName": "Cache",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
     },
     {
       "countyName": "Carbon",
@@ -471,13 +464,20 @@
       "outCountPlan": 3,
       "outCountUnplan": 6,
       "custOutPlan": 149,
-      "custOutUnplan": 57
+      "custOutUnplan": 18
     },
     {
       "countyName": "Sevier",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 14,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 0
     },
     {
