@@ -1,6 +1,6 @@
 {
-  "count": 9,
-  "totalState": 144,
+  "count": 12,
+  "totalState": 148,
   "outages": [
     {
       "icon": "standard",
@@ -52,15 +52,51 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.985,
+      "latitude": 43.715,
+      "etr": "Before 12:30 PM on 04/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:36 AM on 04/25",
+      "zip": "83431"
+    },
+    {
+      "icon": "planned",
       "longitude": -111.286,
       "latitude": 43.849,
       "etr": "Before 12:30 PM on 04/25",
       "outCount": 1,
       "custOut": 16,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:32 AM on 04/25",
       "zip": "83436, 83452"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.607,
+      "latitude": 43.892,
+      "etr": "Before 12:30 PM on 04/25",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:36 AM on 04/25",
+      "zip": "83436"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.617,
+      "latitude": 43.913,
+      "etr": "Before 12:30 PM on 04/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:38 AM on 04/25",
+      "zip": "83436"
     },
     {
       "icon": "planned",
@@ -87,13 +123,13 @@
       "zip": "83435"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.488,
       "latitude": 44.066,
       "etr": "Before 12:30 PM on 04/25",
       "outCount": 2,
       "custOut": 7,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:53 AM on 04/25",
       "zip": "83420"
@@ -137,10 +173,17 @@
     },
     {
       "zipCode": "83420",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83431",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 1,
-      "custOutUnplan": 6
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83435",
@@ -151,10 +194,10 @@
     },
     {
       "zipCode": "83436",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 9
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 9,
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83445",
@@ -165,10 +208,10 @@
     },
     {
       "zipCode": "83452",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -195,24 +238,24 @@
     },
     {
       "countyName": "Fremont",
-      "outCountPlan": 2,
-      "outCountUnplan": 1,
-      "custOutPlan": 38,
-      "custOutUnplan": 6
+      "outCountPlan": 3,
+      "outCountUnplan": 2,
+      "custOutPlan": 44,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Teton",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 16
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
     }
   ]
 }
