@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 58,
+  "count": 8,
+  "totalState": 138,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:41 AM on 04/25",
       "zip": "83263"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.378,
+      "latitude": 42.472,
+      "etr": "Before 03:30 PM on 04/25",
+      "outCount": 1,
+      "custOut": 80,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:03 AM on 04/25",
+      "zip": "83254, 83239"
     },
     {
       "icon": "standard",
@@ -89,6 +101,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83239",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83254",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 79,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -146,6 +172,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 80,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
