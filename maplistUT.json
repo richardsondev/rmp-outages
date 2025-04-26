@@ -3,18 +3,6 @@
   "totalState": 1603,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -112.936,
-      "latitude": 38.223,
-      "etr": "Before 11:00 AM on 04/26",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:07 AM on 04/26",
-      "zip": "84752"
-    },
-    {
       "icon": "planned",
       "longitude": -111.586,
       "latitude": 39.529,
@@ -61,6 +49,18 @@
       "crewStatus": "Crews Notified",
       "reported": "12:05 AM on 04/26",
       "zip": "84009"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.5,
+      "latitude": 40.66,
+      "etr": "Before 03:00 PM on 04/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:42 AM on 04/26",
+      "zip": "84060"
     },
     {
       "icon": "standard",
@@ -130,7 +130,7 @@
       "outCount": 1,
       "custOut": 9,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:24 AM on 04/26",
       "zip": "84108"
     },
@@ -141,7 +141,7 @@
       "etr": "Before 12:00 PM on 04/26",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Trees",
       "crewStatus": "Crews Arrived",
       "reported": "08:34 AM on 04/26",
       "zip": "84104"
@@ -219,6 +219,13 @@
     },
     {
       "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84060",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -335,23 +342,9 @@
       "outCountUnplan": 0,
       "custOutPlan": 147,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84752",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
-    {
-      "countyName": "Beaver",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -383,9 +376,9 @@
     {
       "countyName": "Summit",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
