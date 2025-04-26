@@ -1,7 +1,19 @@
 {
-  "count": 10,
-  "totalState": 1375,
+  "count": 11,
+  "totalState": 1390,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.936,
+      "latitude": 38.223,
+      "etr": "Before 11:00 AM on 04/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:07 AM on 04/26",
+      "zip": "84752"
+    },
     {
       "icon": "planned",
       "longitude": -111.586,
@@ -28,18 +40,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.821,
-      "latitude": 40.441,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:55 AM on 04/26",
-      "zip": "84003"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.994,
       "latitude": 40.57,
       "etr": "Before 10:30 AM on 04/26",
@@ -63,6 +63,18 @@
       "zip": "84060"
     },
     {
+      "icon": "planned",
+      "longitude": -111.786,
+      "latitude": 40.687,
+      "etr": "Before 01:00 PM on 04/26",
+      "outCount": 1,
+      "custOut": 15,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:00 AM on 04/26",
+      "zip": "84109"
+    },
+    {
       "icon": "standard",
       "longitude": -111.806,
       "latitude": 40.702,
@@ -82,7 +94,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:58 AM on 04/26",
       "zip": "84106"
     },
@@ -100,25 +112,18 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.021,
-      "latitude": 41.092,
-      "etr": "Before 10:30 AM on 04/26",
+      "longitude": -111.407,
+      "latitude": 40.907,
+      "etr": "Before 12:30 PM on 04/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "07:16 AM on 04/26",
-      "zip": "84015"
+      "reported": "08:04 AM on 04/26",
+      "zip": "84017"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84003",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84009",
       "outCountPlan": 0,
@@ -127,7 +132,7 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84015",
+      "zipCode": "84017",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -156,9 +161,9 @@
     },
     {
       "zipCode": "84109",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 15,
       "custOutUnplan": 1
     },
     {
@@ -216,9 +221,23 @@
       "outCountUnplan": 0,
       "custOutPlan": 147,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84752",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -227,17 +246,10 @@
       "custOutUnplan": 28
     },
     {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 4,
-      "custOutPlan": 0,
+      "custOutPlan": 15,
       "custOutUnplan": 12
     },
     {
@@ -250,16 +262,9 @@
     {
       "countyName": "Summit",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Utah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
