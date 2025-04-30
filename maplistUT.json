@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 15,
+  "count": 3,
+  "totalState": 25,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.506,
+      "latitude": 40.448,
+      "etr": "Before 09:30 AM on 04/30",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "06:58 AM on 04/30",
+      "zip": "84078"
+    },
     {
       "icon": "standard",
       "longitude": -111.903,
@@ -22,12 +34,19 @@
       "outCount": 1,
       "custOut": 14,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "03:16 AM on 04/30",
       "zip": "84403"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84078",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84087",
       "outCountPlan": 0,
@@ -50,6 +69,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
