@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 7,
+  "count": 3,
+  "totalState": 28,
   "outages": [
     {
       "icon": "standard",
@@ -8,29 +8,62 @@
       "latitude": 41.59,
       "etr": "Assessing",
       "outCount": 2,
-      "custOut": 7,
+      "custOut": 19,
       "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "07:38 AM on 05/02",
       "zip": "82901"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.712,
+      "latitude": 44.921,
+      "etr": "Before 11:00 AM on 05/02",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:04 AM on 05/02",
+      "zip": "82423, 82435"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82423",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82435",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82901",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 6,
-      "custOutUnplan": 1
+      "custOutUnplan": 13
     }
   ],
   "counties": [
+    {
+      "countyName": "Park",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 6,
-      "custOutUnplan": 1
+      "custOutUnplan": 13
     }
   ]
 }
