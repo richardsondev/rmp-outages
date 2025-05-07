@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 30,
+  "count": 7,
+  "totalState": 32,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.981,
+      "latitude": 42.853,
+      "etr": "Before 11:30 PM on 05/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:10 PM on 05/06",
+      "zip": "83217"
+    },
     {
       "icon": "standard",
       "longitude": -111.962,
@@ -19,9 +31,9 @@
       "longitude": -111.727,
       "latitude": 43.876,
       "etr": "Before 12:00 AM on 05/07",
-      "outCount": 1,
-      "custOut": 23,
-      "cause": "Damaged Line",
+      "outCount": 2,
+      "custOut": 24,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "07:20 PM on 05/06",
       "zip": "83445, 83448"
@@ -41,6 +53,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 2,
       "outCountUnplan": 1,
@@ -57,9 +76,9 @@
     {
       "zipCode": "83448",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 20
+      "custOutUnplan": 21
     },
     {
       "zipCode": "83450",
@@ -75,6 +94,13 @@
       "outCountPlan": 2,
       "outCountUnplan": 1,
       "custOutPlan": 4,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -94,9 +120,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 19
+      "custOutUnplan": 20
     }
   ]
 }
