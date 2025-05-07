@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 131,
+  "count": 7,
+  "totalState": 110,
   "outages": [
     {
       "icon": "planned",
@@ -40,6 +40,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -105.401,
+      "latitude": 42.756,
+      "etr": "Before 02:00 PM on 05/07",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:36 AM on 05/07",
+      "zip": "82633"
+    },
+    {
+      "icon": "standard",
       "longitude": -110.206,
       "latitude": 43.028,
       "etr": "Before 12:00 PM on 05/07",
@@ -49,18 +61,6 @@
       "crewStatus": "Crews Notified",
       "reported": "08:58 AM on 05/07",
       "zip": "82922"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.103,
-      "latitude": 44.486,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 23,
-      "cause": "Snow",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:05 AM on 05/07",
-      "zip": "82414"
     },
     {
       "icon": "standard",
@@ -77,18 +77,18 @@
   ],
   "zips": [
     {
-      "zipCode": "82414",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 23
-    },
-    {
       "zipCode": "82435",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82633",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82922",
@@ -114,11 +114,18 @@
   ],
   "counties": [
     {
-      "countyName": "Park",
+      "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 24
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Sublette",
