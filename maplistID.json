@@ -1,24 +1,12 @@
 {
-  "count": 7,
-  "totalState": 10,
+  "count": 6,
+  "totalState": 9,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.387,
-      "latitude": 42.413,
-      "etr": "Before 08:00 PM on 05/06",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:57 PM on 05/06",
-      "zip": "83254"
-    },
     {
       "icon": "standard",
       "longitude": -111.961,
       "latitude": 43.498,
-      "etr": "Before 07:30 PM on 05/06",
+      "etr": "Before 07:00 PM on 05/06",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -27,16 +15,28 @@
       "zip": "83401"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.962,
       "latitude": 43.527,
       "etr": "Before 10:00 PM on 05/06",
-      "outCount": 3,
-      "custOut": 5,
-      "cause": "Multiple outages in the area",
+      "outCount": 2,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "05:00 PM on 05/06",
       "zip": "83401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.102,
+      "latitude": 43.555,
+      "etr": "Before 09:00 PM on 05/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:20 PM on 05/06",
+      "zip": "83402"
     },
     {
       "icon": "standard",
@@ -65,18 +65,18 @@
   ],
   "zips": [
     {
-      "zipCode": "83254",
+      "zipCode": "83401",
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 4,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83401",
-      "outCountPlan": 2,
-      "outCountUnplan": 2,
-      "custOutPlan": 4,
-      "custOutUnplan": 2
     },
     {
       "zipCode": "83448",
@@ -94,13 +94,6 @@
     }
   ],
   "counties": [
-    {
-      "countyName": "Bear Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 2,
