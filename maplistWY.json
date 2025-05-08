@@ -1,36 +1,62 @@
 {
-  "count": 1,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 4,
   "outages": [
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -105.602,
       "latitude": 41.332,
       "etr": "Before 03:00 PM on 05/08",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
+      "outCount": 2,
+      "custOut": 3,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "07:04 AM on 05/08",
       "zip": "82072"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.485,
+      "latitude": 42.809,
+      "etr": "Before 12:00 PM on 05/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:33 AM on 05/08",
+      "zip": "82633"
     }
   ],
   "zips": [
     {
       "zipCode": "82072",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 2,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82633",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Albany",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 2,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
