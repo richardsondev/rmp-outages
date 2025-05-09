@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 94,
+  "count": 4,
+  "totalState": 96,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.08,
+      "latitude": 43.468,
+      "etr": "Before 10:00 PM on 05/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:06 PM on 05/08",
+      "zip": "83402"
+    },
     {
       "icon": "planned",
       "longitude": -111.962,
@@ -16,13 +28,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.507,
-      "latitude": 44.065,
-      "etr": "Before 09:30 PM on 05/08",
+      "longitude": -111.808,
+      "latitude": 43.948,
+      "etr": "Before 10:00 PM on 05/08",
       "outCount": 1,
-      "custOut": 85,
+      "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "07:08 PM on 05/08",
+      "zip": "83445"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.507,
+      "latitude": 44.065,
+      "etr": "Before 08:30 PM on 05/08",
+      "outCount": 1,
+      "custOut": 85,
+      "cause": "Wind",
+      "crewStatus": "Crews Arrived",
       "reported": "06:05 PM on 05/08",
       "zip": "83420"
     }
@@ -36,27 +60,41 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83420",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 85
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 9,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 85
+      "custOutUnplan": 86
     }
   ]
 }
