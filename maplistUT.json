@@ -1,7 +1,19 @@
 {
-  "count": 13,
-  "totalState": 351,
+  "count": 16,
+  "totalState": 805,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.724,
+      "latitude": 39.544,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 420,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
+      "reported": "06:51 AM on 05/12",
+      "zip": "84501, 84542"
+    },
     {
       "icon": "standard",
       "longitude": -111.725,
@@ -31,8 +43,8 @@
       "longitude": -111.975,
       "latitude": 40.57,
       "etr": "Before 10:00 AM on 05/12",
-      "outCount": 3,
-      "custOut": 104,
+      "outCount": 2,
+      "custOut": 103,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "05:42 AM on 05/12",
@@ -67,9 +79,9 @@
       "longitude": -111.901,
       "latitude": 40.745,
       "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
+      "outCount": 3,
+      "custOut": 35,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "10:40 PM on 05/11",
       "zip": "84101"
@@ -112,18 +124,49 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.865,
+      "latitude": 40.904,
+      "etr": "Before 10:00 AM on 05/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:47 AM on 05/12",
+      "zip": "84014"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.947,
       "latitude": 41.252,
       "etr": "Before 10:30 AM on 05/12",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:16 AM on 05/12",
       "zip": "84404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.105,
+      "latitude": 41.555,
+      "etr": "Before 09:00 AM on 05/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:42 AM on 05/12",
+      "zip": "84302"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84014",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84036",
       "outCountPlan": 0,
@@ -176,16 +219,23 @@
     {
       "zipCode": "84095",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 121
+      "custOutUnplan": 120
     },
     {
       "zipCode": "84101",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 35
+    },
+    {
+      "zipCode": "84302",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84404",
@@ -193,22 +243,50 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 157
+    },
+    {
+      "zipCode": "84542",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 263
     }
   ],
   "counties": [
     {
-      "countyName": "Davis",
+      "countyName": "Box Elder",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 146
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 420
+    },
+    {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 147
     },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 7,
       "custOutPlan": 0,
-      "custOutUnplan": 138
+      "custOutUnplan": 170
     },
     {
       "countyName": "Summit",
