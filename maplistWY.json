@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 15,
+  "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.482,
+      "latitude": 41.506,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:07 AM on 05/15",
+      "zip": "82935"
+    },
+    {
+      "icon": "planned",
+      "longitude": -106.664,
+      "latitude": 44.362,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:07 AM on 05/15",
+      "zip": "82834"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "82834",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82935",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Johnson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    }
+  ]
 }
