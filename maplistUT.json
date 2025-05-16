@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 6,
+  "totalState": 115,
   "outages": [
     {
       "icon": "standard",
@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "04:00 AM on 05/16",
       "zip": "84036"
     },
@@ -30,9 +30,9 @@
       "icon": "standard",
       "longitude": -111.901,
       "latitude": 40.745,
-      "etr": "Before 09:00 AM on 05/16",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 10:30 AM on 05/16",
+      "outCount": 2,
+      "custOut": 111,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:36 AM on 05/16",
@@ -46,9 +46,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:42 AM on 05/16",
       "zip": "84405"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.946,
+      "latitude": 41.208,
+      "etr": "Before 09:30 AM on 05/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:26 AM on 05/16",
+      "zip": "84403"
     }
   ],
   "zips": [
@@ -69,6 +81,13 @@
     {
       "zipCode": "84101",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 111
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
@@ -85,9 +104,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 111
     },
     {
       "countyName": "Tooele",
@@ -106,9 +125,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
