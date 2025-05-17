@@ -1,19 +1,7 @@
 {
-  "count": 3,
-  "totalState": 17,
+  "count": 4,
+  "totalState": 13,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.837,
-      "latitude": 39.342,
-      "etr": "Before 10:00 AM on 05/17",
-      "outCount": 1,
-      "custOut": 15,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:40 AM on 05/17",
-      "zip": "84518"
-    },
     {
       "icon": "standard",
       "longitude": -111.851,
@@ -37,22 +25,53 @@
       "crewStatus": "Crews Notified",
       "reported": "03:44 PM on 05/16",
       "zip": "84121"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.901,
+      "latitude": 40.745,
+      "etr": "Before 11:30 AM on 05/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:25 AM on 05/17",
+      "zip": "84101"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.002,
+      "latitude": 41.077,
+      "etr": "Before 01:00 PM on 05/17",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:22 AM on 05/17",
+      "zip": "84041"
     }
   ],
   "zips": [
     {
-      "zipCode": "84121",
+      "zipCode": "84041",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84101",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84518",
+      "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84645",
@@ -64,11 +83,11 @@
   ],
   "counties": [
     {
-      "countyName": "Emery",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 15
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Juab",
@@ -80,9 +99,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
