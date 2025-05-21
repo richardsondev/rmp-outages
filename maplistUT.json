@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 24,
+  "count": 7,
+  "totalState": 29,
   "outages": [
     {
       "icon": "standard",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.972,
+      "latitude": 38.208,
+      "etr": "Before 11:00 AM on 05/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:19 AM on 05/21",
+      "zip": "84752"
+    },
+    {
+      "icon": "standard",
       "longitude": -110.837,
       "latitude": 39.53,
       "etr": "Before 09:30 AM on 05/21",
@@ -27,28 +39,16 @@
       "zip": "84501"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -109.525,
       "latitude": 40.463,
-      "etr": "Assessing",
+      "etr": "Before 02:00 PM on 05/21",
       "outCount": 1,
       "custOut": 20,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:05 AM on 05/21",
       "zip": "84078"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.318,
-      "latitude": 40.61,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:39 PM on 05/20",
-      "zip": "84074"
     },
     {
       "icon": "standard",
@@ -61,25 +61,56 @@
       "crewStatus": "Crews Notified",
       "reported": "07:24 AM on 05/21",
       "zip": "84098"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.482,
+      "latitude": 40.805,
+      "etr": "Before 11:00 AM on 05/21",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:15 AM on 05/21",
+      "zip": "84017"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.896,
+      "latitude": 41.83,
+      "etr": "Before 11:00 AM on 05/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:26 AM on 05/21",
+      "zip": "84335"
     }
   ],
   "zips": [
     {
-      "zipCode": "84074",
+      "zipCode": "84017",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84078",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84098",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84078",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
-    },
-    {
-      "zipCode": "84098",
+      "zipCode": "84335",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -98,9 +129,30 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84752",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -110,24 +162,17 @@
     },
     {
       "countyName": "Summit",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Tooele",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 4,
       "custOutUnplan": 1
     },
     {
       "countyName": "Uintah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 20
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Washington",
