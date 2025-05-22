@@ -1,7 +1,31 @@
 {
-  "count": 3,
+  "count": 4,
   "totalState": 11,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.395,
+      "latitude": 42.11,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:08 AM on 05/22",
+      "zip": "83272"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112,
+      "latitude": 43.425,
+      "etr": "Before 01:00 PM on 05/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:13 AM on 05/22",
+      "zip": "83404"
+    },
     {
       "icon": "planned",
       "longitude": -111.636,
@@ -25,27 +49,22 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:22 AM on 05/22",
       "zip": "83448"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.617,
-      "latitude": 43.913,
-      "etr": "Before 10:30 AM on 05/22",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:52 AM on 05/22",
-      "zip": "83436"
     }
   ],
   "zips": [
     {
-      "zipCode": "83436",
+      "zipCode": "83272",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83448",
@@ -57,11 +76,18 @@
   ],
   "counties": [
     {
-      "countyName": "Fremont",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Madison",
