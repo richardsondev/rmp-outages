@@ -1,12 +1,24 @@
 {
   "count": 4,
-  "totalState": 244,
+  "totalState": 242,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.101,
+      "latitude": 43.511,
+      "etr": "Before 02:00 PM on 05/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:02 AM on 05/23",
+      "zip": "83402"
+    },
     {
       "icon": "standard",
       "longitude": -111.923,
       "latitude": 43.629,
-      "etr": "Before 11:00 AM on 05/23",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -27,19 +39,26 @@
       "zip": "83448"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.747,
       "latitude": 43.876,
       "etr": "Before 01:00 PM on 05/23",
-      "outCount": 2,
-      "custOut": 242,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:39 AM on 05/23",
+      "outCount": 1,
+      "custOut": 239,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:14 AM on 05/23",
       "zip": "83440, 83448"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83440",
       "outCountPlan": 1,
@@ -57,12 +76,19 @@
     {
       "zipCode": "83448",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 125,
-      "custOutUnplan": 4
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
@@ -73,9 +99,9 @@
     {
       "countyName": "Madison",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 239,
-      "custOutUnplan": 4
+      "custOutUnplan": 1
     }
   ]
 }
