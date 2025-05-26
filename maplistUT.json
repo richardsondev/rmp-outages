@@ -1,19 +1,7 @@
 {
   "count": 7,
-  "totalState": 34,
+  "totalState": 21,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -111.955,
-      "latitude": 40.512,
-      "etr": "Before 12:00 AM on 05/26",
-      "outCount": 1,
-      "custOut": 14,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:40 PM on 05/25",
-      "zip": "84065"
-    },
     {
       "icon": "standard",
       "longitude": -111.842,
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:40 PM on 05/25",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.09,
+      "latitude": 40.664,
+      "etr": "Before 01:30 AM on 05/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:19 PM on 05/25",
+      "zip": "84029"
     },
     {
       "icon": "standard",
@@ -89,6 +89,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84029",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84050",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -101,13 +108,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
-    },
-    {
-      "zipCode": "84065",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 14,
-      "custOutUnplan": 0
     },
     {
       "zipCode": "84074",
@@ -155,17 +155,17 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 2,
-      "custOutPlan": 14,
+      "custOutPlan": 0,
       "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
