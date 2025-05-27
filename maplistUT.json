@@ -1,6 +1,6 @@
 {
-  "count": 15,
-  "totalState": 122,
+  "count": 14,
+  "totalState": 107,
   "outages": [
     {
       "icon": "standard",
@@ -39,6 +39,18 @@
       "zip": "84005"
     },
     {
+      "icon": "standard",
+      "longitude": -112.399,
+      "latitude": 40.394,
+      "etr": "Before 08:30 PM on 05/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:12 PM on 05/27",
+      "zip": "84069"
+    },
+    {
       "icon": "planned",
       "longitude": -111.176,
       "latitude": 40.559,
@@ -48,18 +60,6 @@
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:05 AM on 05/27",
-      "zip": "84036"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.148,
-      "latitude": 40.596,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:10 PM on 05/27",
       "zip": "84036"
     },
     {
@@ -78,11 +78,11 @@
       "icon": "standard",
       "longitude": -111.976,
       "latitude": 40.642,
-      "etr": "Before 08:00 PM on 05/27",
+      "etr": "Before 06:00 PM on 05/27",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:35 PM on 05/27",
       "zip": "84129"
     },
@@ -102,7 +102,7 @@
       "icon": "standard",
       "longitude": -111.825,
       "latitude": 40.731,
-      "etr": "Before 05:00 PM on 05/27",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 15,
       "cause": "Damaged Equipment",
@@ -118,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:43 PM on 05/27",
       "zip": "84103"
     },
@@ -169,18 +169,6 @@
       "crewStatus": "Crews Notified",
       "reported": "12:23 PM on 05/27",
       "zip": "84414"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.167,
-      "latitude": 41.742,
-      "etr": "Before 06:00 PM on 05/27",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Notified",
-      "reported": "04:07 PM on 05/27",
-      "zip": "84312"
     }
   ],
   "zips": [
@@ -194,9 +182,9 @@
     {
       "zipCode": "84036",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 9
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84050",
@@ -204,6 +192,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 5
+    },
+    {
+      "zipCode": "84069",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84084",
@@ -241,13 +236,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84312",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
-    },
-    {
       "zipCode": "84403",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -278,13 +266,6 @@
   ],
   "counties": [
     {
-      "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
-    },
-    {
       "countyName": "Millard",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -306,6 +287,13 @@
       "custOutUnplan": 19
     },
     {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Utah",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -315,9 +303,9 @@
     {
       "countyName": "Wasatch",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 1,
-      "custOutUnplan": 9
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
