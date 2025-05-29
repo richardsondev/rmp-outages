@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 6,
+  "count": 3,
+  "totalState": 183,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.08,
+      "latitude": 38.771,
+      "etr": "Before 09:00 AM on 05/29",
+      "outCount": 1,
+      "custOut": 169,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:01 AM on 05/29",
+      "zip": "84701"
+    },
     {
       "icon": "standard",
       "longitude": -111.742,
@@ -18,9 +30,9 @@
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.208,
-      "etr": "Before 07:00 AM on 05/29",
+      "etr": "Before 09:00 AM on 05/29",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 9,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "03:34 AM on 05/29",
@@ -40,7 +52,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
+    },
+    {
+      "zipCode": "84701",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 169,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -52,11 +71,18 @@
       "custOutUnplan": 5
     },
     {
+      "countyName": "Sevier",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 169,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     }
   ]
 }
