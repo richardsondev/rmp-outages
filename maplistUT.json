@@ -1,7 +1,31 @@
 {
-  "count": 9,
-  "totalState": 37,
+  "count": 10,
+  "totalState": 128,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -113.218,
+      "latitude": 37.522,
+      "etr": "Before 12:00 PM on 05/29",
+      "outCount": 1,
+      "custOut": 90,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:24 AM on 05/29",
+      "zip": "84720"
+    },
+    {
+      "icon": "planned",
+      "longitude": -113.069,
+      "latitude": 37.743,
+      "etr": "Before 11:00 AM on 05/29",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:16 AM on 05/29",
+      "zip": "84721"
+    },
     {
       "icon": "standard",
       "longitude": -111.572,
@@ -37,18 +61,6 @@
       "crewStatus": "Crews Notified",
       "reported": "07:52 AM on 05/29",
       "zip": "84045"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.86,
-      "latitude": 40.513,
-      "etr": "Before 10:00 AM on 05/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:40 AM on 05/29",
-      "zip": "84020"
     },
     {
       "icon": "planned",
@@ -106,19 +118,12 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:15 AM on 05/29",
       "zip": "84341"
     }
   ],
   "zips": [
-    {
-      "zipCode": "84020",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "84042",
       "outCountPlan": 0,
@@ -174,6 +179,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 90,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84721",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -185,6 +204,13 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Iron",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 92,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Morgan",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -194,9 +220,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Summit",
