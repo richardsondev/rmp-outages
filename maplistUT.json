@@ -1,6 +1,6 @@
 {
   "count": 11,
-  "totalState": 207,
+  "totalState": 225,
   "outages": [
     {
       "icon": "standard",
@@ -76,6 +76,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.921,
+      "latitude": 40.759,
+      "etr": "Before 08:00 PM on 06/01",
+      "outCount": 1,
+      "custOut": 19,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:38 PM on 06/01",
+      "zip": "84104"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.609,
       "latitude": 41.116,
       "etr": "Before 04:30 PM on 06/02",
@@ -109,18 +121,6 @@
       "crewStatus": "Crews Notified",
       "reported": "02:54 PM on 06/01",
       "zip": "84405"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.946,
-      "latitude": 41.179,
-      "etr": "Before 06:00 PM on 06/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:44 PM on 06/01",
-      "zip": "84403"
     }
   ],
   "zips": [
@@ -146,17 +146,17 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84104",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 19
+    },
+    {
       "zipCode": "84109",
       "outCountPlan": 2,
       "outCountUnplan": 1,
       "custOutPlan": 171,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84403",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -213,9 +213,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 171,
-      "custOutUnplan": 1
+      "custOutUnplan": 20
     },
     {
       "countyName": "Uintah",
@@ -234,9 +234,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
