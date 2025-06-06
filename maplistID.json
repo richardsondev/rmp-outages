@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 109,
+  "totalState": 108,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -111.881,
-      "latitude": 42.093,
-      "etr": "Before 01:00 PM on 06/06",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "08:57 AM on 06/06",
-      "zip": "83263"
-    },
     {
       "icon": "standard",
       "longitude": -111.625,
@@ -28,13 +16,25 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.02,
+      "latitude": 43.44,
+      "etr": "Before 03:00 PM on 06/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:30 PM on 06/06",
+      "zip": "83404"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.943,
       "latitude": 43.585,
       "etr": "Before 02:30 PM on 06/06",
       "outCount": 1,
       "custOut": 11,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:42 AM on 06/06",
       "zip": "83401"
     },
@@ -57,8 +57,8 @@
       "etr": "Before 01:00 PM on 06/06",
       "outCount": 1,
       "custOut": 87,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Trees",
+      "crewStatus": "Crews Notified",
       "reported": "11:48 AM on 06/06",
       "zip": "83440"
     },
@@ -77,13 +77,6 @@
   ],
   "zips": [
     {
-      "zipCode": "83263",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "83276",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -96,6 +89,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 11
+    },
+    {
+      "zipCode": "83404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83420",
@@ -123,9 +123,9 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 12
+      "custOutUnplan": 13
     },
     {
       "countyName": "Caribou",
@@ -133,13 +133,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Franklin",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
     },
     {
       "countyName": "Fremont",
