@@ -1,7 +1,31 @@
 {
-  "count": 2,
-  "totalState": 35,
+  "count": 4,
+  "totalState": 38,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.862,
+      "latitude": 42.093,
+      "etr": "Before 04:30 PM on 06/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:58 PM on 06/09",
+      "zip": "83263"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.962,
+      "latitude": 43.527,
+      "etr": "Before 04:00 PM on 06/09",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "01:48 PM on 06/09",
+      "zip": "83401"
+    },
     {
       "icon": "planned",
       "longitude": -112.133,
@@ -29,6 +53,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -46,10 +84,17 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 2,
+      "custOutPlan": 4,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Fremont",
