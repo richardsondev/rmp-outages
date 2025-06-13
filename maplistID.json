@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 27,
+  "count": 5,
+  "totalState": 56,
   "outages": [
     {
       "icon": "planned",
@@ -15,16 +15,16 @@
       "zip": "83263"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.222,
       "latitude": 42.626,
-      "etr": "Before 11:30 AM on 06/13",
+      "etr": "Before 12:00 PM on 06/13",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "custOut": 24,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "09:13 AM on 06/13",
-      "zip": "83250"
+      "zip": "83250, 83214"
     },
     {
       "icon": "standard",
@@ -34,9 +34,33 @@
       "outCount": 1,
       "custOut": 16,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:55 AM on 06/13",
       "zip": "83213"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.448,
+      "latitude": 44.066,
+      "etr": "Before 12:00 PM on 06/13",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:25 AM on 06/13",
+      "zip": "83420"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.408,
+      "latitude": 44.066,
+      "etr": "Before 12:30 PM on 06/13",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
+      "reported": "09:20 AM on 06/13",
+      "zip": "83420"
     }
   ],
   "zips": [
@@ -49,10 +73,10 @@
     },
     {
       "zipCode": "83250",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 24,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83263",
@@ -60,15 +84,22 @@
       "outCountUnplan": 0,
       "custOutPlan": 10,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83420",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
     }
   ],
   "counties": [
     {
       "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 24,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Butte",
@@ -83,6 +114,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 10,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
     }
   ]
 }
