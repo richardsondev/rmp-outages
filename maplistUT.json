@@ -4,18 +4,6 @@
   "outages": [
     {
       "icon": "standard",
-      "longitude": -113.669,
-      "latitude": 37.165,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:43 PM on 06/12",
-      "zip": "84738"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.841,
       "latitude": 40.513,
       "etr": "Before 05:00 AM on 06/13",
@@ -33,7 +21,7 @@
       "etr": "Assessing",
       "outCount": 1,
       "custOut": 3,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "02:08 AM on 06/13",
       "zip": "84074"
@@ -49,9 +37,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:15 PM on 06/12",
       "zip": "84104"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.041,
+      "latitude": 41.135,
+      "etr": "Before 06:30 AM on 06/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:29 AM on 06/13",
+      "zip": "84015"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84015",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84020",
       "outCountPlan": 0,
@@ -72,16 +79,16 @@
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "84738",
+      "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
@@ -95,13 +102,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "countyName": "Washington",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
