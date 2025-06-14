@@ -1,7 +1,19 @@
 {
-  "count": 10,
-  "totalState": 39,
+  "count": 12,
+  "totalState": 221,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.024,
+      "latitude": 39.226,
+      "etr": "Before 04:00 PM on 06/14",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:04 PM on 06/14",
+      "zip": "84513"
+    },
     {
       "icon": "planned",
       "longitude": -111.917,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:43 PM on 06/14",
       "zip": "84065"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.994,
-      "latitude": 40.584,
-      "etr": "Before 11:00 PM on 06/14",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:29 AM on 06/14",
-      "zip": "84088"
     },
     {
       "icon": "standard",
@@ -103,8 +103,8 @@
       "longitude": -112.044,
       "latitude": 41.323,
       "etr": "Before 11:00 PM on 06/14",
-      "outCount": 1,
-      "custOut": 11,
+      "outCount": 2,
+      "custOut": 192,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:43 PM on 06/14",
@@ -137,13 +137,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84088",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84098",
@@ -183,9 +176,16 @@
     {
       "zipCode": "84404",
       "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 193
+    },
+    {
+      "zipCode": "84513",
+      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 12
+      "custOutUnplan": 2
     }
   ],
   "counties": [
@@ -197,11 +197,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Emery",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 16,
-      "custOutUnplan": 4
+      "custOutUnplan": 3
     },
     {
       "countyName": "Summit",
@@ -220,9 +227,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 194
     }
   ]
 }
