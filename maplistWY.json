@@ -1,19 +1,7 @@
 {
   "count": 3,
-  "totalState": 3,
+  "totalState": 53,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -105.583,
-      "latitude": 41.331,
-      "etr": "Before 04:30 PM on 06/15",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:07 PM on 06/15",
-      "zip": "82072"
-    },
     {
       "icon": "standard",
       "longitude": -105.443,
@@ -37,15 +25,27 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:14 PM on 06/15",
       "zip": "82637"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.398,
+      "latitude": 43.023,
+      "etr": "Before 05:30 PM on 06/15",
+      "outCount": 1,
+      "custOut": 51,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:20 PM on 06/15",
+      "zip": "82501"
     }
   ],
   "zips": [
     {
-      "zipCode": "82072",
+      "zipCode": "82501",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 51
     },
     {
       "zipCode": "82633",
@@ -64,18 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Albany",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 51
     }
   ]
 }
