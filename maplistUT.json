@@ -1,19 +1,7 @@
 {
   "count": 3,
-  "totalState": 205,
+  "totalState": 10,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.014,
-      "latitude": 38.382,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 200,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:44 PM on 06/17",
-      "zip": "84751"
-    },
     {
       "icon": "standard",
       "longitude": -113.023,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:27 PM on 06/17",
       "zip": "84751"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.899,
+      "latitude": 40.556,
+      "etr": "Before 04:00 AM on 06/18",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:54 PM on 06/17",
+      "zip": "84070"
     },
     {
       "icon": "standard",
@@ -41,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84106",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -50,24 +57,24 @@
     {
       "zipCode": "84751",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 204
+      "custOutUnplan": 4
     }
   ],
   "counties": [
     {
       "countyName": "Beaver",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 204
+      "custOutUnplan": 4
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 5,
       "custOutUnplan": 1
     }
   ]
