@@ -1,19 +1,7 @@
 {
-  "count": 11,
-  "totalState": 545,
+  "count": 10,
+  "totalState": 927,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.942,
-      "latitude": 42.223,
-      "etr": "Before 10:00 PM on 06/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:21 PM on 06/20",
-      "zip": "83263"
-    },
     {
       "icon": "standard",
       "longitude": -112.001,
@@ -22,9 +10,21 @@
       "outCount": 2,
       "custOut": 57,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:56 PM on 06/20",
       "zip": "83234, 83263, 83281"
+    },
+    {
+      "icon": "ess",
+      "longitude": -112.162,
+      "latitude": 42.554,
+      "etr": "Before 10:30 PM on 06/20",
+      "outCount": 1,
+      "custOut": 384,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "08:00 PM on 06/20",
+      "zip": "83250, 83214, 83234, 83246"
     },
     {
       "icon": "standard",
@@ -52,27 +52,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.96,
-      "latitude": 43.44,
-      "etr": "Assessing",
+      "longitude": -112.002,
+      "latitude": 43.57,
+      "etr": "Before 10:30 PM on 06/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "04:21 PM on 06/20",
-      "zip": "83406"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.133,
-      "latitude": 43.634,
-      "etr": "Before 08:30 PM on 06/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:44 PM on 06/20",
-      "zip": "83402"
+      "reported": "07:50 PM on 06/20",
+      "zip": "83401"
     },
     {
       "icon": "standard",
@@ -89,6 +77,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 358
+    },
+    {
       "zipCode": "83217",
       "outCountPlan": 0,
       "outCountUnplan": 4,
@@ -98,23 +93,30 @@
     {
       "zipCode": "83234",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 4
     },
     {
       "zipCode": "83246",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 323
+    },
+    {
+      "zipCode": "83250",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 321
+      "custOutUnplan": 21
     },
     {
       "zipCode": "83263",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 6
     },
     {
       "zipCode": "83281",
@@ -124,14 +126,7 @@
       "custOutUnplan": 50
     },
     {
-      "zipCode": "83402",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83406",
+      "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -149,16 +144,16 @@
     {
       "countyName": "Bannock",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 378
+      "custOutUnplan": 762
     },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Caribou",
@@ -169,13 +164,6 @@
     },
     {
       "countyName": "Clark",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
