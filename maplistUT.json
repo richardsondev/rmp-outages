@@ -1,6 +1,6 @@
 {
-  "count": 9,
-  "totalState": 19,
+  "count": 11,
+  "totalState": 188,
   "outages": [
     {
       "icon": "standard",
@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:42 PM on 06/24",
       "zip": "84003"
     },
@@ -63,18 +63,6 @@
       "zip": "84121"
     },
     {
-      "icon": "planned",
-      "longitude": -112.262,
-      "latitude": 40.683,
-      "etr": "Before 12:00 AM on 06/25",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:00 PM on 06/24",
-      "zip": "84074"
-    },
-    {
       "icon": "standard",
       "longitude": -111.925,
       "latitude": 41.092,
@@ -88,9 +76,21 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.926,
+      "latitude": 41.121,
+      "etr": "Before 02:30 AM on 06/25",
+      "outCount": 3,
+      "custOut": 171,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:07 PM on 06/24",
+      "zip": "84405"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.966,
       "latitude": 41.266,
-      "etr": "Before 10:00 PM on 06/24",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
@@ -134,13 +134,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84074",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84081",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -174,6 +167,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84405",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 171
     }
   ],
   "counties": [
@@ -187,9 +187,9 @@
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 178
     },
     {
       "countyName": "Salt Lake",
@@ -197,13 +197,6 @@
       "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 6
-    },
-    {
-      "countyName": "Tooele",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
     },
     {
       "countyName": "Utah",
