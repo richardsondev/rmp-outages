@@ -1,7 +1,19 @@
 {
-  "count": 14,
-  "totalState": 64,
+  "count": 16,
+  "totalState": 152,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.26,
+      "latitude": 38.508,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:19 AM on 06/26",
+      "zip": "84766"
+    },
     {
       "icon": "standard",
       "longitude": -111.567,
@@ -54,7 +66,7 @@
       "icon": "standard",
       "longitude": -111.977,
       "latitude": 40.671,
-      "etr": "Before 10:00 AM on 06/26",
+      "etr": "Before 01:00 PM on 06/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -66,7 +78,7 @@
       "icon": "standard",
       "longitude": -111.843,
       "latitude": 40.687,
-      "etr": "Before 09:30 AM on 06/26",
+      "etr": "Before 12:30 PM on 06/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -78,9 +90,9 @@
       "icon": "standard",
       "longitude": -111.939,
       "latitude": 40.715,
-      "etr": "Before 11:00 AM on 06/26",
+      "etr": "Before 03:30 PM on 06/26",
       "outCount": 3,
-      "custOut": 8,
+      "custOut": 13,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:34 AM on 06/26",
@@ -89,22 +101,10 @@
     {
       "icon": "standard",
       "longitude": -111.901,
-      "latitude": 40.73,
-      "etr": "Before 11:30 AM on 06/26",
-      "outCount": 1,
-      "custOut": 17,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:11 AM on 06/26",
-      "zip": "84115"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.901,
       "latitude": 40.745,
-      "etr": "Before 10:30 AM on 06/26",
-      "outCount": 2,
-      "custOut": 2,
+      "etr": "Before 01:30 PM on 06/26",
+      "outCount": 3,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:10 AM on 06/26",
@@ -114,13 +114,13 @@
       "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.745,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 01:30 PM on 06/26",
+      "outCount": 2,
+      "custOut": 97,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:12 AM on 06/26",
-      "zip": "84115"
+      "zip": "84111, 84115"
     }
   ],
   "zips": [
@@ -139,18 +139,25 @@
       "custOutUnplan": 32
     },
     {
+      "zipCode": "84111",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84115",
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 20
+      "custOutUnplan": 99
     },
     {
       "zipCode": "84119",
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 14
     },
     {
       "zipCode": "84124",
@@ -165,15 +172,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84766",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 9,
+      "outCountUnplan": 10,
       "custOutPlan": 0,
-      "custOutUnplan": 30
+      "custOutUnplan": 115
     },
     {
       "countyName": "Sanpete",
@@ -181,6 +195,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Sevier",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Tooele",
