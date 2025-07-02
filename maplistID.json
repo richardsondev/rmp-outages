@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 14,
+  "totalState": 11,
   "outages": [
     {
       "icon": "planned",
@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.826,
+      "latitude": 43.835,
+      "etr": "Before 01:30 PM on 07/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:58 AM on 07/02",
+      "zip": "83440"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.307,
       "latitude": 43.842,
       "etr": "Before 02:00 PM on 07/02",
@@ -46,21 +58,9 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:49 AM on 07/02",
       "zip": "83425"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.448,
-      "latitude": 44.066,
-      "etr": "Before 11:30 AM on 07/02",
-      "outCount": 1,
-      "custOut": 4,
-      "cause": "Wildlife",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:12 AM on 07/02",
-      "zip": "83420"
     }
   ],
   "zips": [
@@ -72,14 +72,14 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83420",
+      "zipCode": "83425",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "83425",
+      "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -109,18 +109,18 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
-    },
-    {
       "countyName": "Jefferson",
       "outCountPlan": 1,
       "outCountUnplan": 2,
       "custOutPlan": 2,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
