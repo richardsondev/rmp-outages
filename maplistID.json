@@ -1,7 +1,19 @@
 {
   "count": 5,
-  "totalState": 9,
+  "totalState": 14,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.08,
+      "latitude": 43.453,
+      "etr": "Before 02:00 PM on 07/02",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:23 AM on 07/02",
+      "zip": "83402"
+    },
     {
       "icon": "planned",
       "longitude": -111.824,
@@ -28,18 +40,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.599,
-      "latitude": 43.889,
-      "etr": "Before 11:00 AM on 07/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:18 AM on 07/02",
-      "zip": "83435"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.119,
       "latitude": 43.982,
       "etr": "Before 12:30 PM on 07/02",
@@ -54,16 +54,23 @@
       "icon": "standard",
       "longitude": -111.448,
       "latitude": 44.066,
-      "etr": "Before 12:00 PM on 07/02",
+      "etr": "Before 11:30 AM on 07/02",
       "outCount": 1,
       "custOut": 4,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
       "reported": "09:12 AM on 07/02",
       "zip": "83420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83402",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83420",
       "outCountPlan": 0,
@@ -73,13 +80,6 @@
     },
     {
       "zipCode": "83425",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83435",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -102,6 +102,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -111,9 +118,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 2,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     }
   ]
 }
