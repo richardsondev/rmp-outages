@@ -1,7 +1,19 @@
 {
   "count": 5,
-  "totalState": 11,
+  "totalState": 10,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.006,
+      "latitude": 42.614,
+      "etr": "Before 01:30 PM on 07/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:06 AM on 07/02",
+      "zip": "83246"
+    },
     {
       "icon": "planned",
       "longitude": -112.08,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:23 AM on 07/02",
       "zip": "83402"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.824,
-      "latitude": 43.63,
-      "etr": "Before 12:00 PM on 07/02",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:34 AM on 07/02",
-      "zip": "83442"
     },
     {
       "icon": "standard",
@@ -65,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83246",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -86,13 +93,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83442",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "83450",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -102,6 +102,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -110,9 +117,9 @@
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 2,
-      "custOutPlan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 2
     },
     {
