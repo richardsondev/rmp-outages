@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 34,
+  "count": 5,
+  "totalState": 26,
   "outages": [
     {
       "icon": "standard",
@@ -27,18 +27,6 @@
       "zip": "84098"
     },
     {
-      "icon": "planned",
-      "longitude": -111.883,
-      "latitude": 40.774,
-      "etr": "Before 04:00 AM on 07/02",
-      "outCount": 2,
-      "custOut": 10,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:59 PM on 07/01",
-      "zip": "84111"
-    },
-    {
       "icon": "standard",
       "longitude": -111.387,
       "latitude": 40.834,
@@ -49,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "05:22 PM on 07/01",
       "zip": "84017"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.903,
+      "latitude": 40.875,
+      "etr": "Before 06:00 AM on 07/02",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "03:33 AM on 07/02",
+      "zip": "84010"
     },
     {
       "icon": "standard",
@@ -65,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84010",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84017",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -77,13 +84,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84111",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 10,
-      "custOutUnplan": 0
     },
     {
       "zipCode": "84128",
@@ -102,10 +102,17 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Salt Lake",
-      "outCountPlan": 2,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 10,
+      "custOutPlan": 0,
       "custOutUnplan": 21
     },
     {
