@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -107.333,
+      "latitude": 41.494,
+      "etr": "Before 01:30 PM on 07/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:15 AM on 07/03",
+      "zip": "82301"
+    },
+    {
+      "icon": "standard",
       "longitude": -106.34,
       "latitude": 42.827,
       "etr": "Before 01:00 PM on 07/03",
@@ -37,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:43 AM on 07/03",
       "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.239,
-      "latitude": 42.852,
-      "etr": "Before 01:00 PM on 07/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:32 AM on 07/03",
-      "zip": "82636"
     },
     {
       "icon": "standard",
@@ -82,12 +82,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:47 AM on 07/03",
       "zip": "82834"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82331",
       "outCountPlan": 0,
@@ -117,13 +124,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82636",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "82834",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -142,9 +142,9 @@
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Fremont",
@@ -163,9 +163,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Sweetwater",
