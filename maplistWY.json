@@ -1,7 +1,19 @@
 {
   "count": 3,
-  "totalState": 72,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 02:30 PM on 07/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:02 AM on 07/04",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -106.569,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:59 AM on 07/04",
       "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.28,
-      "latitude": 42.839,
-      "etr": "Before 11:30 AM on 07/04",
-      "outCount": 1,
-      "custOut": 70,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:02 AM on 07/04",
-      "zip": "82609"
     },
     {
       "icon": "standard",
@@ -41,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "82072",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82601",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,22 +60,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82609",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 70
     }
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 72
+      "custOutUnplan": 2
     }
   ]
 }
