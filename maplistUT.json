@@ -1,7 +1,19 @@
 {
   "count": 7,
-  "totalState": 43,
+  "totalState": 38,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.298,
+      "latitude": 40.538,
+      "etr": "Before 05:00 AM on 07/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:52 AM on 07/04",
+      "zip": "84074"
+    },
     {
       "icon": "standard",
       "longitude": -111.938,
@@ -73,23 +85,18 @@
       "crewStatus": "Crews Notified",
       "reported": "12:18 AM on 07/04",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.82,
-      "latitude": 41.832,
-      "etr": "Before 03:00 AM on 07/04",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:26 PM on 07/03",
-      "zip": "84335"
     }
   ],
   "zips": [
     {
       "zipCode": "84060",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -124,13 +131,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84335",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
-    },
-    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -139,13 +139,6 @@
     }
   ],
   "counties": [
-    {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
-    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -159,6 +152,13 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
