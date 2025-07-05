@@ -1,18 +1,30 @@
 {
-  "count": 6,
-  "totalState": 389,
+  "count": 9,
+  "totalState": 392,
   "outages": [
     {
       "icon": "ess",
       "longitude": -111.476,
       "latitude": 42.595,
-      "etr": "Before 11:00 AM on 07/05",
+      "etr": "Before 09:30 AM on 07/05",
       "outCount": 1,
       "custOut": 358,
       "cause": "Enhanced Safety Settings",
       "crewStatus": "Monitoring Conditions",
       "reported": "07:21 AM on 07/05",
       "zip": "83276"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.196,
+      "latitude": 43.312,
+      "etr": "Before 12:00 PM on 07/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:14 AM on 07/05",
+      "zip": "83236"
     },
     {
       "icon": "standard",
@@ -42,13 +54,25 @@
       "icon": "standard",
       "longitude": -112.234,
       "latitude": 43.72,
-      "etr": "Before 11:00 AM on 07/05",
-      "outCount": 1,
-      "custOut": 9,
+      "etr": "Before 12:00 PM on 07/05",
+      "outCount": 2,
+      "custOut": 10,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:46 AM on 07/05",
       "zip": "83444"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.686,
+      "latitude": 43.848,
+      "etr": "Before 12:00 PM on 07/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:14 AM on 07/05",
+      "zip": "83448"
     },
     {
       "icon": "standard",
@@ -76,6 +100,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83276",
       "outCountPlan": 0,
@@ -114,9 +145,16 @@
     {
       "zipCode": "83444",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -126,6 +164,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 101
+    },
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Bonneville",
@@ -151,9 +196,16 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 1
     }
   ]
 }
