@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 31,
   "outages": [
     {
       "icon": "standard",
@@ -10,7 +10,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:23 AM on 07/07",
       "zip": "83263"
     },
@@ -27,6 +27,18 @@
       "zip": "83254"
     },
     {
+      "icon": "planned",
+      "longitude": -111.298,
+      "latitude": 42.313,
+      "etr": "Before 11:30 AM on 07/07",
+      "outCount": 1,
+      "custOut": 27,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:27 AM on 07/07",
+      "zip": "83254"
+    },
+    {
       "icon": "standard",
       "longitude": -111.745,
       "latitude": 43.688,
@@ -37,18 +49,37 @@
       "crewStatus": "Crews Notified",
       "reported": "06:51 AM on 07/07",
       "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.617,
+      "latitude": 43.913,
+      "etr": "Before 11:00 AM on 07/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:19 AM on 07/07",
+      "zip": "83436"
     }
   ],
   "zips": [
     {
       "zipCode": "83254",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 27,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83263",
+      "zipCode": "83436",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -65,13 +96,20 @@
   "counties": [
     {
       "countyName": "Bear Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 27,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Franklin",
+      "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
