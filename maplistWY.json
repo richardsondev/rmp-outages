@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 7,
+  "count": 8,
+  "totalState": 43,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.566,
+      "latitude": 41.301,
+      "etr": "Before 09:30 PM on 07/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:21 PM on 07/07",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -109.463,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:26 PM on 07/07",
       "zip": "82935"
     },
@@ -30,7 +42,7 @@
       "icon": "standard",
       "longitude": -108.721,
       "latitude": 42.842,
-      "etr": "Assessing",
+      "etr": "Before 07:30 PM on 07/07",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -64,18 +76,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -105.263,
-      "latitude": 43.184,
-      "etr": "Before 06:00 PM on 07/07",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:39 PM on 07/07",
-      "zip": "82633"
-    },
-    {
-      "icon": "standard",
       "longitude": -107.69,
       "latitude": 44.063,
       "etr": "Assessing",
@@ -85,9 +85,35 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:34 AM on 07/07",
       "zip": "82442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.459,
+      "latitude": 44.879,
+      "etr": "Before 09:30 PM on 07/07",
+      "outCount": 1,
+      "custOut": 36,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:13 PM on 07/07",
+      "zip": "82420"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82420",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 36
+    },
     {
       "zipCode": "82442",
       "outCountPlan": 0,
@@ -104,13 +130,6 @@
     },
     {
       "zipCode": "82601",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82633",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -140,11 +159,18 @@
   ],
   "counties": [
     {
-      "countyName": "Converse",
+      "countyName": "Albany",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Big Horn",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 36
     },
     {
       "countyName": "Fremont",
