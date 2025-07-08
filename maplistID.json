@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 2,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.07,
+      "latitude": 42.238,
+      "etr": "Before 09:30 PM on 07/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:05 PM on 07/07",
+      "zip": "83238"
+    },
     {
       "icon": "standard",
       "longitude": -111.901,
@@ -10,12 +22,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:51 PM on 07/07",
       "zip": "83401"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83238",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83401",
       "outCountPlan": 0,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
