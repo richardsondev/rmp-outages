@@ -1,18 +1,42 @@
 {
-  "count": 3,
-  "totalState": 5153,
+  "count": 5,
+  "totalState": 5199,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -108.722,
       "latitude": 42.827,
       "etr": "Before 03:30 AM on 07/11",
       "outCount": 2,
       "custOut": 5078,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "12:12 AM on 07/11",
       "zip": "82520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.681,
+      "latitude": 42.855,
+      "etr": "Before 03:30 AM on 07/11",
+      "outCount": 1,
+      "custOut": 45,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:27 AM on 07/11",
+      "zip": "82501, 82515, 82520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.581,
+      "latitude": 42.897,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:28 AM on 07/11",
+      "zip": "82515"
     },
     {
       "icon": "standard",
@@ -29,11 +53,25 @@
   ],
   "zips": [
     {
-      "zipCode": "82520",
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82515",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 5078
+      "custOutUnplan": 23
+    },
+    {
+      "zipCode": "82520",
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 5078,
+      "custOutUnplan": 22
     },
     {
       "zipCode": "82834",
@@ -46,10 +84,10 @@
   "counties": [
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
+      "outCountPlan": 2,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 5078
+      "custOutPlan": 5078,
+      "custOutUnplan": 46
     },
     {
       "countyName": "Johnson",
