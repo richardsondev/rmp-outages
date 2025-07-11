@@ -1,7 +1,74 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 3,
+  "totalState": 1818,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.961,
+      "latitude": 43.513,
+      "etr": "Before 01:00 AM on 07/11",
+      "outCount": 1,
+      "custOut": 1744,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:00 PM on 07/10",
+      "zip": "83401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.962,
+      "latitude": 43.527,
+      "etr": "Before 01:30 AM on 07/11",
+      "outCount": 1,
+      "custOut": 73,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:03 PM on 07/10",
+      "zip": "83401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.959,
+      "latitude": 43.884,
+      "etr": "Before 01:00 AM on 07/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:03 PM on 07/10",
+      "zip": "83244"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1744,
+      "custOutUnplan": 73
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1744,
+      "custOutUnplan": 73
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    }
+  ]
 }
