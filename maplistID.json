@@ -1,7 +1,19 @@
 {
   "count": 11,
-  "totalState": 28,
+  "totalState": 31,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.253,
+      "latitude": 42.191,
+      "etr": "Before 12:30 PM on 07/16",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:53 AM on 07/16",
+      "zip": "83252"
+    },
     {
       "icon": "planned",
       "longitude": -111.415,
@@ -27,24 +39,12 @@
       "zip": "83444"
     },
     {
-      "icon": "standard",
-      "longitude": -112.006,
-      "latitude": 43.7,
-      "etr": "Before 10:30 AM on 07/16",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:57 AM on 07/16",
-      "zip": "83434"
-    },
-    {
       "icon": "planned",
       "longitude": -111.805,
       "latitude": 43.717,
       "etr": "Before 12:00 PM on 07/16",
       "outCount": 1,
-      "custOut": 2,
+      "custOut": 3,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "09:29 AM on 07/16",
@@ -113,6 +113,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83261",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -121,13 +128,6 @@
     },
     {
       "zipCode": "83423",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83434",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -144,7 +144,7 @@
       "zipCode": "83440",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 2,
+      "custOutPlan": 3,
       "custOutUnplan": 0
     },
     {
@@ -187,16 +187,23 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 2
     },
     {
       "countyName": "Madison",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 2,
+      "custOutPlan": 3,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
