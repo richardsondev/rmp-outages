@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.739,
+      "latitude": 42.42,
+      "etr": "Before 03:00 PM on 07/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:46 PM on 07/18",
+      "zip": "83283"
+    },
     {
       "icon": "standard",
       "longitude": -112.476,
@@ -15,13 +27,13 @@
       "zip": "83450"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.517,
       "latitude": 43.899,
-      "etr": "Assessing",
+      "etr": "Before 05:00 PM on 07/18",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "12:44 PM on 07/18",
       "zip": "83436"
@@ -29,11 +41,18 @@
   ],
   "zips": [
     {
-      "zipCode": "83436",
+      "zipCode": "83283",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83450",
@@ -45,11 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Fremont",
+      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Jefferson",
