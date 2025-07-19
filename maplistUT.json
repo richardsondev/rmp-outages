@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 4,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.234,
+      "latitude": 40.617,
+      "etr": "Before 09:00 AM on 07/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 AM on 07/19",
+      "zip": "84036"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.519,
       "latitude": 40.66,
       "etr": "Before 11:00 AM on 07/19",
@@ -25,9 +37,28 @@
       "crewStatus": "Crews Notified",
       "reported": "03:59 AM on 07/19",
       "zip": "84060"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.845,
+      "latitude": 40.774,
+      "etr": "Before 08:00 AM on 07/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 AM on 07/19",
+      "zip": "84103"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84036",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84060",
       "outCountPlan": 0,
@@ -41,15 +72,29 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84103",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Summit",
+      "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
     },
     {
       "countyName": "Tooele",
