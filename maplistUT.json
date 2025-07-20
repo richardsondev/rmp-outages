@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 63,
+  "count": 7,
+  "totalState": 65,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.593,
+      "latitude": 39.345,
+      "etr": "Before 05:30 PM on 07/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:26 PM on 07/20",
+      "zip": "84624"
+    },
     {
       "icon": "planned",
       "longitude": -111.899,
@@ -49,11 +61,30 @@
       "crewStatus": "Crews Notified",
       "reported": "12:16 PM on 07/20",
       "zip": "84037"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.023,
+      "latitude": 41.193,
+      "etr": "Before 05:30 PM on 07/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:17 PM on 07/20",
+      "zip": "84067"
     }
   ],
   "zips": [
     {
       "zipCode": "84037",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84067",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -86,6 +117,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 9,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84624",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -97,11 +135,25 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Millard",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 2,
       "outCountUnplan": 2,
       "custOutPlan": 44,
       "custOutUnplan": 18
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
