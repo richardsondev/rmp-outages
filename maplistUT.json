@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 434,
+  "totalState": 80,
   "outages": [
     {
       "icon": "standard",
@@ -10,21 +10,9 @@
       "outCount": 1,
       "custOut": 7,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:54 AM on 07/21",
       "zip": "84532"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.482,
-      "latitude": 39.464,
-      "etr": "Before 01:00 PM on 07/21",
-      "outCount": 1,
-      "custOut": 381,
-      "cause": "Damaged Line",
-      "crewStatus": "Crews Notified",
-      "reported": "06:29 AM on 07/21",
-      "zip": "84662, 84647"
     },
     {
       "icon": "standard",
@@ -49,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:36 AM on 07/21",
       "zip": "84121"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.844,
+      "latitude": 40.702,
+      "etr": "Before 01:30 PM on 07/21",
+      "outCount": 1,
+      "custOut": 27,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:32 AM on 07/21",
+      "zip": "84106"
     }
   ],
   "zips": [
@@ -58,6 +58,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84106",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 27,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84121",
@@ -72,20 +79,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
-    },
-    {
-      "zipCode": "84647",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 346
-    },
-    {
-      "zipCode": "84662",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 35
     }
   ],
   "counties": [
@@ -98,17 +91,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 27,
       "custOutUnplan": 46
-    },
-    {
-      "countyName": "Sanpete",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 381
     }
   ]
 }
