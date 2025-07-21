@@ -1,16 +1,40 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 7,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.999,
-      "latitude": 43.396,
-      "etr": "Before 04:30 PM on 07/21",
+      "longitude": -111.9,
+      "latitude": 42.02,
+      "etr": "Before 09:00 PM on 07/21",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "02:34 PM on 07/21",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.235,
+      "latitude": 43.264,
+      "etr": "Before 05:30 PM on 07/21",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "02:38 PM on 07/21",
+      "zip": "83236"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.999,
+      "latitude": 43.396,
+      "etr": "Before 03:30 PM on 07/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "01:45 PM on 07/21",
       "zip": "83404"
     },
@@ -41,6 +65,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -64,11 +102,25 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Jefferson",
