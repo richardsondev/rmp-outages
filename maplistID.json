@@ -1,16 +1,28 @@
 {
-  "count": 3,
-  "totalState": 6,
+  "count": 4,
+  "totalState": 8,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
+      "longitude": -112.211,
+      "latitude": 42.032,
+      "etr": "Before 10:30 AM on 07/22",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:32 AM on 07/22",
+      "zip": "83252"
+    },
+    {
+      "icon": "planned",
       "longitude": -112.181,
       "latitude": 42.503,
-      "etr": "Assessing",
+      "etr": "Before 01:00 PM on 07/22",
       "outCount": 1,
       "custOut": 4,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:29 AM on 07/22",
       "zip": "83214"
     },
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.786,
       "latitude": 43.818,
-      "etr": "Before 11:00 AM on 07/22",
+      "etr": "Before 09:00 AM on 07/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:28 AM on 07/22",
       "zip": "83440"
     }
@@ -42,10 +54,17 @@
   "zips": [
     {
       "zipCode": "83214",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83440",
@@ -65,10 +84,10 @@
   "counties": [
     {
       "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Jefferson",
@@ -83,6 +102,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ]
 }
