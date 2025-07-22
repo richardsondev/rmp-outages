@@ -1,15 +1,27 @@
 {
-  "count": 2,
-  "totalState": 48,
+  "count": 3,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.363,
+      "latitude": 42.74,
+      "etr": "Before 12:30 PM on 07/22",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:19 AM on 07/22",
+      "zip": "82633"
+    },
     {
       "icon": "standard",
       "longitude": -108.212,
       "latitude": 43.642,
-      "etr": "Before 12:00 PM on 07/22",
-      "outCount": 2,
-      "custOut": 48,
-      "cause": "Multiple outages in the area",
+      "etr": "Before 11:30 AM on 07/22",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Notified",
       "reported": "08:13 AM on 07/22",
       "zip": "82443"
@@ -19,18 +31,32 @@
     {
       "zipCode": "82443",
       "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
+    },
+    {
+      "zipCode": "82633",
+      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 48
+      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
-      "countyName": "Hot Springs",
+      "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 48
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Hot Springs",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
     }
   ]
 }
