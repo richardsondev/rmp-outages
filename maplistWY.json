@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 4,
   "outages": [
     {
       "icon": "planned",
@@ -13,9 +13,47 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:47 AM on 07/24",
       "zip": "82644"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.193,
+      "latitude": 42.945,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:58 AM on 07/24",
+      "zip": "82636"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.359,
+      "latitude": 43.022,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:58 AM on 07/24",
+      "zip": "82501"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82636",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82644",
       "outCountPlan": 1,
@@ -26,11 +64,18 @@
   ],
   "counties": [
     {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Natrona",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 2,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ]
 }
