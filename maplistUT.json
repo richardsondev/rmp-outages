@@ -22,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Line",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "12:22 PM on 07/24",
       "zip": "84020"
     },
@@ -88,6 +88,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.922,
+      "latitude": 40.846,
+      "etr": "Before 08:00 PM on 07/24",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:50 PM on 07/24",
+      "zip": "84054"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.925,
       "latitude": 41.078,
       "etr": "Before 06:00 PM on 07/24",
@@ -121,18 +133,6 @@
       "crewStatus": "Crews Notified",
       "reported": "04:15 PM on 07/24",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.956,
-      "latitude": 41.86,
-      "etr": "Before 07:00 PM on 07/24",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:03 PM on 07/24",
-      "zip": "84327"
     }
   ],
   "zips": [
@@ -159,6 +159,13 @@
     },
     {
       "zipCode": "84040",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84054",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -193,13 +200,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84327",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -216,18 +216,11 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "countyName": "Salt Lake",
