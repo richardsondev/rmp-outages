@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 3,
+  "count": 3,
+  "totalState": 234,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -108.8,
+      "latitude": 42.575,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 231,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:16 AM on 07/24",
+      "zip": "82520"
+    },
     {
       "icon": "planned",
       "longitude": -106.378,
@@ -36,6 +48,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82520",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 231,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82644",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -46,9 +65,9 @@
   "counties": [
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 230,
       "custOutUnplan": 1
     },
     {
@@ -56,6 +75,13 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sublette",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 0
     }
   ]
