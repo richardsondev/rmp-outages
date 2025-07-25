@@ -1,7 +1,19 @@
 {
-  "count": 9,
-  "totalState": 164,
+  "count": 13,
+  "totalState": 368,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.086,
+      "latitude": 37.684,
+      "etr": "Before 11:30 AM on 07/25",
+      "outCount": 2,
+      "custOut": 199,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:58 AM on 07/25",
+      "zip": "84720"
+    },
     {
       "icon": "standard",
       "longitude": -111.725,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:30 AM on 07/25",
       "zip": "84057"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.148,
+      "latitude": 40.509,
+      "etr": "Before 12:30 PM on 07/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:02 AM on 07/25",
+      "zip": "84036"
     },
     {
       "icon": "standard",
@@ -90,13 +114,25 @@
       "icon": "standard",
       "longitude": -112.042,
       "latitude": 41.178,
-      "etr": "Before 11:00 AM on 07/25",
+      "etr": "Before 01:00 PM on 07/25",
       "outCount": 1,
       "custOut": 14,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:40 AM on 07/25",
       "zip": "84067"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.023,
+      "latitude": 41.222,
+      "etr": "Before 02:00 PM on 07/25",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:05 AM on 07/25",
+      "zip": "84401"
     }
   ],
   "zips": [
@@ -110,9 +146,9 @@
     {
       "zipCode": "84036",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84050",
@@ -148,6 +184,20 @@
       "outCountUnplan": 0,
       "custOutPlan": 19,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 199
     }
   ],
   "counties": [
@@ -157,6 +207,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 34
+    },
+    {
+      "countyName": "Iron",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 199
     },
     {
       "countyName": "Morgan",
@@ -175,9 +232,9 @@
     {
       "countyName": "Summit",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Tooele",
@@ -195,9 +252,9 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 4,
       "custOutUnplan": 25
     }
   ]
