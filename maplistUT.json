@@ -1,6 +1,6 @@
 {
-  "count": 19,
-  "totalState": 105,
+  "count": 20,
+  "totalState": 111,
   "outages": [
     {
       "icon": "standard",
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:15 AM on 07/26",
       "zip": "84604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.784,
+      "latitude": 40.455,
+      "etr": "Before 03:00 PM on 07/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:30 PM on 07/26",
+      "zip": "84004"
     },
     {
       "icon": "standard",
@@ -171,6 +183,18 @@
       "zip": "84050"
     },
     {
+      "icon": "planned",
+      "longitude": -111.772,
+      "latitude": 41.137,
+      "etr": "Before 03:00 PM on 07/26",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "12:42 PM on 07/26",
+      "zip": "84050"
+    },
+    {
       "icon": "standard",
       "longitude": -111.984,
       "latitude": 41.164,
@@ -205,21 +229,16 @@
       "crewStatus": "Crews Notified",
       "reported": "08:33 AM on 07/26",
       "zip": "84401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.966,
-      "latitude": 41.904,
-      "etr": "Before 01:00 PM on 07/26",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:56 AM on 07/26",
-      "zip": "84327"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84004",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84014",
       "outCountPlan": 0,
@@ -236,9 +255,9 @@
     },
     {
       "zipCode": "84050",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 6,
       "custOutUnplan": 1
     },
     {
@@ -291,13 +310,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84327",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -335,13 +347,6 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -357,9 +362,9 @@
     },
     {
       "countyName": "Morgan",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 6,
       "custOutUnplan": 1
     },
     {
@@ -372,9 +377,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 16,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Washington",
