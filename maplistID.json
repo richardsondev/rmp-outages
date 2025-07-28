@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 7,
+  "count": 4,
+  "totalState": 4,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.764,
+      "latitude": 42.065,
+      "etr": "Before 05:00 PM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:23 PM on 07/28",
+      "zip": "83263"
+    },
     {
       "icon": "standard",
       "longitude": -111.298,
@@ -16,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.141,
+      "latitude": 42.482,
+      "etr": "Before 05:00 PM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:22 PM on 07/28",
+      "zip": "83234"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.16,
       "latitude": 43.467,
       "etr": "Before 04:30 PM on 07/28",
@@ -25,23 +49,25 @@
       "crewStatus": "Crews Arrived",
       "reported": "01:56 PM on 07/28",
       "zip": "83402"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.648,
-      "latitude": 43.964,
-      "etr": "Before 03:00 PM on 07/28",
-      "outCount": 1,
-      "custOut": 5,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:34 AM on 07/28",
-      "zip": "83445"
     }
   ],
   "zips": [
     {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -53,16 +79,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83445",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 5,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
@@ -78,11 +104,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Fremont",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 5,
-      "custOutUnplan": 0
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
