@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 16,
+  "count": 4,
+  "totalState": 17,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.005,
+      "latitude": 41.198,
+      "etr": "Before 12:00 AM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:09 PM on 07/27",
+      "zip": "82930"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.585,
+      "latitude": 41.302,
+      "etr": "Before 12:00 AM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:56 PM on 07/27",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -105.603,
@@ -10,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:04 PM on 07/27",
       "zip": "82072"
     },
@@ -18,28 +42,23 @@
       "icon": "standard",
       "longitude": -108.762,
       "latitude": 42.814,
-      "etr": "Before 08:30 PM on 07/27",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 14,
       "cause": "Damaged Equipment",
       "crewStatus": "Crews Notified",
       "reported": "05:21 PM on 07/27",
       "zip": "82520"
-    },
-    {
-      "icon": "standard",
-      "longitude": -105.907,
-      "latitude": 42.869,
-      "etr": "Before 11:00 PM on 07/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:56 PM on 07/27",
-      "zip": "82637"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82072",
       "outCountPlan": 0,
@@ -55,7 +74,7 @@
       "custOutUnplan": 14
     },
     {
-      "zipCode": "82637",
+      "zipCode": "82930",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -66,16 +85,9 @@
     {
       "countyName": "Albany",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Converse",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Fremont",
@@ -83,6 +95,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 14
+    },
+    {
+      "countyName": "Uinta",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
