@@ -1,15 +1,27 @@
 {
-  "count": 2,
-  "totalState": 8,
+  "count": 5,
+  "totalState": 11,
   "outages": [
     {
       "icon": "standard",
+      "longitude": -110.205,
+      "latitude": 42.267,
+      "etr": "Before 01:00 PM on 07/29",
+      "outCount": 3,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:45 AM on 07/29",
+      "zip": "83123"
+    },
+    {
+      "icon": "planned",
       "longitude": -108.358,
       "latitude": 43.051,
-      "etr": "Assessing",
+      "etr": "Before 01:00 PM on 07/29",
       "outCount": 1,
       "custOut": 7,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:37 AM on 07/29",
       "zip": "82501"
@@ -37,10 +49,17 @@
     },
     {
       "zipCode": "82501",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83123",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 3
     }
   ],
   "counties": [
@@ -53,10 +72,17 @@
     },
     {
       "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Lincoln",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 3
     }
   ]
 }
