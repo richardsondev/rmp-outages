@@ -1,15 +1,27 @@
 {
-  "count": 1,
-  "totalState": 13,
+  "count": 2,
+  "totalState": 323,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "ess",
+      "longitude": -112.253,
+      "latitude": 42.205,
+      "etr": "Before 12:30 PM on 08/01",
+      "outCount": 1,
+      "custOut": 310,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "08:30 AM on 08/01",
+      "zip": "83234, 83252"
+    },
+    {
+      "icon": "planned",
       "longitude": -111.617,
       "latitude": 43.913,
-      "etr": "Before 11:30 AM on 08/01",
+      "etr": "Before 01:00 PM on 08/01",
       "outCount": 1,
       "custOut": 13,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:29 AM on 08/01",
       "zip": "83445, 83451"
@@ -17,27 +29,55 @@
   ],
   "zips": [
     {
-      "zipCode": "83445",
+      "zipCode": "83234",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
+    },
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 305
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83451",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 12
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Fremont",
+      "countyName": "Bannock",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 5
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 305
     }
   ]
 }
