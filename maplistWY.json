@@ -1,7 +1,19 @@
 {
-  "count": 8,
-  "totalState": 78,
+  "count": 10,
+  "totalState": 137,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.463,
+      "latitude": 41.506,
+      "etr": "Before 07:30 PM on 08/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:26 PM on 08/02",
+      "zip": "82935"
+    },
     {
       "icon": "standard",
       "longitude": -109.21,
@@ -10,29 +22,17 @@
       "outCount": 2,
       "custOut": 68,
       "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:26 PM on 08/02",
       "zip": "82901"
     },
     {
       "icon": "standard",
-      "longitude": -110.453,
-      "latitude": 41.899,
-      "etr": "Before 08:00 PM on 08/02",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:54 PM on 08/02",
-      "zip": "83101"
-    },
-    {
-      "icon": "standard",
-      "longitude": -110.569,
-      "latitude": 41.9,
+      "longitude": -110.589,
+      "latitude": 41.813,
       "etr": "Before 09:30 PM on 08/02",
       "outCount": 1,
-      "custOut": 5,
+      "custOut": 41,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "04:49 PM on 08/02",
@@ -64,6 +64,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -107.953,
+      "latitude": 44.027,
+      "etr": "Before 08:30 PM on 08/02",
+      "outCount": 2,
+      "custOut": 23,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:00 PM on 08/02",
+      "zip": "82401"
+    },
+    {
+      "icon": "standard",
       "longitude": -108.719,
       "latitude": 44.748,
       "etr": "Before 08:00 PM on 08/02",
@@ -73,9 +85,35 @@
       "crewStatus": "Crews Notified",
       "reported": "04:51 PM on 08/02",
       "zip": "82435"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.593,
+      "latitude": 44.831,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:13 PM on 08/02",
+      "zip": "82412"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 23
+    },
+    {
+      "zipCode": "82412",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82435",
       "outCountPlan": 0,
@@ -98,11 +136,18 @@
       "custOutUnplan": 68
     },
     {
+      "zipCode": "82935",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83101",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 41
     },
     {
       "zipCode": "83123",
@@ -114,6 +159,13 @@
   ],
   "counties": [
     {
+      "countyName": "Big Horn",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -123,9 +175,9 @@
     {
       "countyName": "Lincoln",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 8
+      "custOutUnplan": 42
     },
     {
       "countyName": "Park",
@@ -137,9 +189,16 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 69
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 68
+      "custOutUnplan": 23
     }
   ]
 }
