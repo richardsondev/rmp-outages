@@ -1,6 +1,6 @@
 {
-  "count": 11,
-  "totalState": 120,
+  "count": 13,
+  "totalState": 959,
   "outages": [
     {
       "icon": "standard",
@@ -10,9 +10,21 @@
       "outCount": 3,
       "custOut": 3,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:18 PM on 08/02",
       "zip": "84636, 84624"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.783,
+      "latitude": 40.426,
+      "etr": "Before 08:30 PM on 08/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:30 PM on 08/02",
+      "zip": "84003"
     },
     {
       "icon": "planned",
@@ -78,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.208,
-      "etr": "Before 05:30 PM on 08/02",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 84,
       "cause": "Investigating",
@@ -90,7 +102,7 @@
       "icon": "standard",
       "longitude": -111.946,
       "latitude": 41.223,
-      "etr": "Before 05:30 PM on 08/02",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -100,18 +112,37 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.167,
+      "latitude": 41.728,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 838,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:44 PM on 08/02",
+      "zip": "84312"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.841,
       "latitude": 41.963,
       "etr": "Before 08:00 PM on 08/02",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:53 PM on 08/02",
       "zip": "84320"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84047",
       "outCountPlan": 1,
@@ -139,6 +170,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84312",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 838
     },
     {
       "zipCode": "84320",
@@ -178,6 +216,13 @@
   ],
   "counties": [
     {
+      "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 838
+    },
+    {
       "countyName": "Cache",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -197,6 +242,13 @@
       "outCountUnplan": 2,
       "custOutPlan": 21,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
