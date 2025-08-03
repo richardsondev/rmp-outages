@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 4,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 12:00 AM on 08/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "02:43 PM on 08/03",
+      "zip": "82637"
+    },
     {
       "icon": "standard",
       "longitude": -108.378,
@@ -22,12 +34,31 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:34 PM on 08/03",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.081,
+      "latitude": 44.544,
+      "etr": "Before 07:00 PM on 08/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:39 PM on 08/03",
+      "zip": "82414"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82501",
       "outCountPlan": 0,
@@ -41,18 +72,32 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Converse",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Fremont",
+      "countyName": "Park",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
