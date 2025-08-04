@@ -1,14 +1,14 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 13,
   "outages": [
     {
       "icon": "standard",
       "longitude": -112.007,
       "latitude": 42.041,
-      "etr": "Before 11:00 AM on 08/04",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:36 AM on 08/04",
@@ -18,7 +18,7 @@
       "icon": "standard",
       "longitude": -111.94,
       "latitude": 42.121,
-      "etr": "Assessing",
+      "etr": "Before 11:30 AM on 08/04",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:40 AM on 08/04",
       "zip": "83401"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.784,
+      "latitude": 43.642,
+      "etr": "Before 11:00 AM on 08/04",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:03 AM on 08/04",
+      "zip": "83442"
     }
   ],
   "zips": [
@@ -50,9 +62,9 @@
     {
       "zipCode": "83263",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "83401",
@@ -60,6 +72,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -73,9 +92,16 @@
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     }
   ]
 }
