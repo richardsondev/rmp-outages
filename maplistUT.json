@@ -1,6 +1,6 @@
 {
   "count": 10,
-  "totalState": 89,
+  "totalState": 199,
   "outages": [
     {
       "icon": "standard",
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 27,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "07:12 PM on 08/08",
       "zip": "84094"
     },
@@ -66,7 +66,7 @@
       "icon": "standard",
       "longitude": -111.804,
       "latitude": 40.615,
-      "etr": "Before 10:30 PM on 08/08",
+      "etr": "Assessing",
       "outCount": 2,
       "custOut": 8,
       "cause": "Investigating",
@@ -93,31 +93,45 @@
       "etr": "Before 10:30 PM on 08/08",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "06:29 PM on 08/08",
       "zip": "84044"
     },
     {
       "icon": "standard",
-      "longitude": -111.445,
-      "latitude": 40.979,
-      "etr": "Before 01:30 AM on 08/09",
+      "longitude": -111.484,
+      "latitude": 41.023,
+      "etr": "Before 02:30 AM on 08/09",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 111,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:44 PM on 08/08",
-      "zip": "84024"
+      "zip": "84017, 84024, 84033"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84017",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 18
+    },
     {
       "zipCode": "84024",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 43
+    },
+    {
+      "zipCode": "84033",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 50
     },
     {
       "zipCode": "84044",
@@ -189,7 +203,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 111
     },
     {
       "countyName": "Tooele",
