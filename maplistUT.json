@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 9,
+  "count": 4,
+  "totalState": 889,
   "outages": [
     {
       "icon": "standard",
@@ -28,18 +28,37 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.978,
-      "latitude": 40.758,
-      "etr": "Before 08:30 AM on 08/11",
+      "longitude": -111.963,
+      "latitude": 41.049,
+      "etr": "Before 09:30 AM on 08/11",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 56,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:25 AM on 08/11",
-      "zip": "84104"
+      "crewStatus": "Crews Notified",
+      "reported": "06:39 AM on 08/11",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.946,
+      "latitude": 41.194,
+      "etr": "Before 11:30 AM on 08/11",
+      "outCount": 1,
+      "custOut": 825,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:52 AM on 08/11",
+      "zip": "84408, 84403"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 56
+    },
     {
       "zipCode": "84078",
       "outCountPlan": 1,
@@ -48,11 +67,18 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84104",
+      "zipCode": "84403",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 823
+    },
+    {
+      "zipCode": "84408",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84721",
@@ -64,14 +90,14 @@
   ],
   "counties": [
     {
-      "countyName": "Iron",
+      "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 56
     },
     {
-      "countyName": "Salt Lake",
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -83,6 +109,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 7,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 825
     }
   ]
 }
