@@ -1,21 +1,52 @@
 {
-  "count": 1,
-  "totalState": 362,
+  "count": 3,
+  "totalState": 528,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "ess",
       "longitude": -111.803,
       "latitude": 42.05,
       "etr": "Before 11:00 PM on 08/11",
       "outCount": 1,
       "custOut": 362,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
       "reported": "06:47 PM on 08/11",
       "zip": "83263, 83237"
+    },
+    {
+      "icon": "ess",
+      "longitude": -111.862,
+      "latitude": 42.854,
+      "etr": "Before 09:30 PM on 08/11",
+      "outCount": 1,
+      "custOut": 165,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "07:10 PM on 08/11",
+      "zip": "83217"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.129,
+      "latitude": 43.96,
+      "etr": "Before 10:00 PM on 08/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:20 PM on 08/11",
+      "zip": "83425"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 165
+    },
     {
       "zipCode": "83237",
       "outCountPlan": 0,
@@ -29,15 +60,36 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 316
+    },
+    {
+      "zipCode": "83425",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 165
+    },
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 362
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
