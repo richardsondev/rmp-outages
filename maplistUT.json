@@ -1,19 +1,7 @@
 {
   "count": 15,
-  "totalState": 206,
+  "totalState": 104,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -113.014,
-      "latitude": 38.396,
-      "etr": "Before 04:00 AM on 08/13",
-      "outCount": 1,
-      "custOut": 103,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "12:13 AM on 08/13",
-      "zip": "84751"
-    },
     {
       "icon": "standard",
       "longitude": -112.373,
@@ -58,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:56 AM on 08/13",
       "zip": "84119"
     },
@@ -121,6 +109,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "01:11 AM on 08/13",
       "zip": "84111"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.94,
+      "latitude": 40.802,
+      "etr": "Before 05:30 AM on 08/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:24 AM on 08/13",
+      "zip": "84116"
     },
     {
       "icon": "standard",
@@ -196,6 +196,13 @@
       "custOutUnplan": 6
     },
     {
+      "zipCode": "84116",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84117",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -229,23 +236,9 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84751",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 103,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
-    {
-      "countyName": "Beaver",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 103,
-      "custOutUnplan": 0
-    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -263,9 +256,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 8,
+      "outCountUnplan": 9,
       "custOutPlan": 0,
-      "custOutUnplan": 49
+      "custOutUnplan": 50
     },
     {
       "countyName": "Tooele",
