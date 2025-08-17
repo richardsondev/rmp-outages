@@ -1,18 +1,30 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 8,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.905,
-      "latitude": 43.716,
-      "etr": "Before 07:00 AM on 08/17",
+      "longitude": -112.121,
+      "latitude": 42.424,
+      "etr": "Before 09:30 AM on 08/17",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:25 AM on 08/17",
-      "zip": "83442"
+      "crewStatus": "Crews Notified",
+      "reported": "07:09 AM on 08/17",
+      "zip": "83234"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.103,
+      "latitude": 43.714,
+      "etr": "Before 10:30 AM on 08/17",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:03 AM on 08/17",
+      "zip": "83444"
     },
     {
       "icon": "standard",
@@ -29,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83420",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -36,14 +55,21 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83442",
+      "zipCode": "83444",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bannock",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
@@ -56,7 +82,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 6
     }
   ]
 }
