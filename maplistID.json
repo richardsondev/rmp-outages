@@ -1,18 +1,18 @@
 {
   "count": 2,
-  "totalState": 19,
+  "totalState": 75,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -112.441,
-      "latitude": 42.326,
-      "etr": "Assessing",
+      "icon": "ess",
+      "longitude": -112.001,
+      "latitude": 42.309,
+      "etr": "Before 11:30 PM on 08/17",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:29 PM on 08/17",
-      "zip": "83252"
+      "custOut": 57,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "07:27 PM on 08/17",
+      "zip": "83234, 83263, 83281"
     },
     {
       "icon": "standard",
@@ -29,6 +29,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83241",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -36,27 +43,34 @@
       "custOutUnplan": 18
     },
     {
-      "zipCode": "83252",
+      "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 6
+    },
+    {
+      "zipCode": "83281",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 50
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 57
+    },
     {
       "countyName": "Caribou",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 18
-    },
-    {
-      "countyName": "Oneida",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
