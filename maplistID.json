@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 28,
+  "count": 9,
+  "totalState": 619,
   "outages": [
     {
       "icon": "planned",
@@ -16,12 +16,36 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.183,
-      "latitude": 42.626,
+      "longitude": -111.74,
+      "latitude": 42.529,
+      "etr": "Before 11:30 AM on 08/21",
+      "outCount": 1,
+      "custOut": 576,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:54 AM on 08/21",
+      "zip": "83241, 83263, 83283"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.182,
+      "latitude": 42.568,
       "etr": "Assessing",
       "outCount": 1,
+      "custOut": 15,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 08/21",
+      "zip": "83214"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.183,
+      "latitude": 42.626,
+      "etr": "Before 02:30 PM on 08/21",
+      "outCount": 1,
       "custOut": 3,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:44 AM on 08/21",
       "zip": "83250"
@@ -63,19 +87,26 @@
       "zip": "83406"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.001,
       "latitude": 43.512,
       "etr": "Before 02:30 PM on 08/21",
       "outCount": 2,
       "custOut": 3,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:13 AM on 08/21",
       "zip": "83401"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 15,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83217",
       "outCountPlan": 0,
@@ -91,11 +122,25 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83250",
+      "zipCode": "83241",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 427
+    },
+    {
+      "zipCode": "83250",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 71
     },
     {
       "zipCode": "83274",
@@ -105,11 +150,18 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83401",
-      "outCountPlan": 1,
+      "zipCode": "83283",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 2,
-      "custOutUnplan": 1
+      "custOutPlan": 0,
+      "custOutUnplan": 78
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83406",
@@ -122,10 +174,10 @@
   "counties": [
     {
       "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Bingham",
@@ -136,24 +188,24 @@
     },
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 2,
-      "custOutUnplan": 7
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 3,
+      "custOutUnplan": 6
     },
     {
       "countyName": "Caribou",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 429
     },
     {
       "countyName": "Franklin",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 5,
-      "custOutUnplan": 0
+      "custOutUnplan": 153
     }
   ]
 }
