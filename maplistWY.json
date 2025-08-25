@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
     {
       "icon": "standard",
@@ -25,11 +25,30 @@
       "crewStatus": "Crews Notified",
       "reported": "02:56 PM on 08/25",
       "zip": "82604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.725,
+      "latitude": 44.349,
+      "etr": "Before 06:30 PM on 08/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:24 PM on 08/25",
+      "zip": "82834"
     }
   ],
   "zips": [
     {
       "zipCode": "82604",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82834",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -44,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Johnson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
