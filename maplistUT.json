@@ -1,12 +1,24 @@
 {
-  "count": 5,
-  "totalState": 5,
+  "count": 7,
+  "totalState": 13,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.618,
+      "latitude": 37.253,
+      "etr": "Before 12:30 PM on 08/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:37 AM on 08/26",
+      "zip": "84770"
+    },
     {
       "icon": "standard",
       "longitude": -113.141,
       "latitude": 37.683,
-      "etr": "Before 09:30 AM on 08/26",
+      "etr": "Before 12:00 PM on 08/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -22,9 +34,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:59 AM on 08/26",
       "zip": "84721"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.781,
+      "latitude": 39.515,
+      "etr": "Before 09:30 AM on 08/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:41 AM on 08/26",
+      "zip": "84501"
     },
     {
       "icon": "standard",
@@ -56,7 +80,7 @@
       "latitude": 41.31,
       "etr": "Before 11:00 AM on 08/26",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 7,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "04:43 AM on 08/26",
@@ -83,6 +107,13 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 7
+    },
+    {
+      "zipCode": "84501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -98,9 +129,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84770",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Iron",
       "outCountPlan": 0,
@@ -109,11 +154,18 @@
       "custOutUnplan": 2
     },
     {
+      "countyName": "Washington",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 9
     }
   ]
 }
