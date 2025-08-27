@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.252,
+      "latitude": 42.161,
+      "etr": "Before 09:30 AM on 08/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:57 AM on 08/27",
+      "zip": "83233"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.74,
       "latitude": 42.529,
       "etr": "Before 07:30 AM on 08/27",
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.396,
       "latitude": 43.813,
-      "etr": "Before 07:30 AM on 08/27",
+      "etr": "Before 08:00 AM on 08/27",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:55 AM on 08/27",
       "zip": "83436"
     },
@@ -49,23 +61,18 @@
       "crewStatus": "Crews Notified",
       "reported": "05:50 AM on 08/27",
       "zip": "83425"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.119,
-      "latitude": 43.982,
-      "etr": "Before 08:30 AM on 08/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:23 AM on 08/27",
-      "zip": "83425"
     }
   ],
   "zips": [
     {
       "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83233",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -95,9 +102,9 @@
     {
       "zipCode": "83425",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83436",
@@ -108,6 +115,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Caribou",
       "outCountPlan": 0,
@@ -125,9 +139,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "countyName": "Madison",
