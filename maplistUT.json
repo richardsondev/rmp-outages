@@ -16,18 +16,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.953,
-      "latitude": 40.382,
-      "etr": "Before 11:00 AM on 08/29",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:17 AM on 08/29",
-      "zip": "84045"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.297,
       "latitude": 40.523,
       "etr": "Before 11:00 AM on 08/29",
@@ -123,16 +111,28 @@
       "zip": "84404"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.183,
       "latitude": 41.554,
-      "etr": "Before 05:00 PM on 08/29",
+      "etr": "Before 03:00 PM on 08/29",
       "outCount": 1,
       "custOut": 59,
-      "cause": "Damaged Line",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "06:00 AM on 08/29",
       "zip": "84307"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.145,
+      "latitude": 41.627,
+      "etr": "Before 12:00 PM on 08/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:21 AM on 08/29",
+      "zip": "84337"
     }
   ],
   "zips": [
@@ -142,13 +142,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84045",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84074",
@@ -173,10 +166,17 @@
     },
     {
       "zipCode": "84307",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 59,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84337",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 59
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84404",
@@ -196,10 +196,10 @@
   "counties": [
     {
       "countyName": "Box Elder",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 59
+      "custOutPlan": 59,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Iron",
@@ -221,13 +221,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 4,
       "custOutUnplan": 9
-    },
-    {
-      "countyName": "Utah",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
