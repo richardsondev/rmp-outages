@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 23,
+  "count": 6,
+  "totalState": 32,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.645,
+      "latitude": 38.358,
+      "etr": "Before 10:00 AM on 08/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:03 AM on 08/30",
+      "zip": "84713"
+    },
     {
       "icon": "standard",
       "longitude": -111.935,
@@ -37,6 +49,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:42 AM on 08/30",
       "zip": "84109"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.081,
+      "latitude": 41.221,
+      "etr": "Before 12:30 PM on 08/30",
+      "outCount": 2,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:02 AM on 08/30",
+      "zip": "84401"
     }
   ],
   "zips": [
@@ -60,9 +84,30 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84401",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
+      "zipCode": "84713",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -76,6 +121,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 21
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
     }
   ]
 }
