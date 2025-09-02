@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 4,
+  "totalState": 11,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -107.227,
+      "latitude": 41.817,
+      "etr": "Before 04:30 PM on 09/02",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:11 PM on 09/02",
+      "zip": "82301"
+    },
     {
       "icon": "standard",
       "longitude": -110.918,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Notified",
       "reported": "09:32 AM on 09/02",
       "zip": "83114"
-    },
-    {
-      "icon": "standard",
-      "longitude": -104.941,
-      "latitude": 42.434,
-      "etr": "Before 01:30 PM on 09/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:45 AM on 09/02",
-      "zip": "82213"
     },
     {
       "icon": "standard",
@@ -41,11 +41,11 @@
   ],
   "zips": [
     {
-      "zipCode": "82213",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82301",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82633",
@@ -64,6 +64,13 @@
   ],
   "counties": [
     {
+      "countyName": "Carbon",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -76,13 +83,6 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "countyName": "Platte",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
