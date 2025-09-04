@@ -1,19 +1,7 @@
 {
   "count": 2,
-  "totalState": 4,
+  "totalState": 112,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.786,
-      "latitude": 43.818,
-      "etr": "Before 10:00 PM on 09/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:21 PM on 09/03",
-      "zip": "83440"
-    },
     {
       "icon": "standard",
       "longitude": -112.238,
@@ -25,9 +13,28 @@
       "crewStatus": "Crews Notified",
       "reported": "07:27 PM on 09/03",
       "zip": "83425"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.234,
+      "latitude": 44.176,
+      "etr": "Before 11:00 PM on 09/03",
+      "outCount": 1,
+      "custOut": 109,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:25 PM on 09/03",
+      "zip": "83423, 83446"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 34
+    },
     {
       "zipCode": "83425",
       "outCountPlan": 0,
@@ -36,27 +43,27 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "83440",
+      "zipCode": "83446",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 75
     }
   ],
   "counties": [
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 109
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
-    },
-    {
-      "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
