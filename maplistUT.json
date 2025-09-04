@@ -1,7 +1,19 @@
 {
-  "count": 19,
-  "totalState": 107,
+  "count": 20,
+  "totalState": 112,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.067,
+      "latitude": 37.67,
+      "etr": "Before 09:00 PM on 09/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:56 PM on 09/03",
+      "zip": "84720"
+    },
     {
       "icon": "standard",
       "longitude": -112.394,
@@ -75,6 +87,18 @@
       "zip": "84095"
     },
     {
+      "icon": "planned",
+      "longitude": -111.804,
+      "latitude": 40.6,
+      "etr": "Before 09:00 PM on 09/03",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "05:52 PM on 09/03",
+      "zip": "84121"
+    },
+    {
       "icon": "standard",
       "longitude": -111.976,
       "latitude": 40.642,
@@ -88,15 +112,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.995,
-      "latitude": 40.657,
-      "etr": "Before 08:00 PM on 09/03",
+      "longitude": -112.053,
+      "latitude": 40.685,
+      "etr": "Before 09:00 PM on 09/03",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:40 PM on 09/03",
-      "zip": "84118"
+      "crewStatus": "Crews Notified",
+      "reported": "05:53 PM on 09/03",
+      "zip": "84128"
     },
     {
       "icon": "standard",
@@ -145,18 +169,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "03:29 PM on 09/03",
       "zip": "84106"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.463,
-      "latitude": 40.733,
-      "etr": "Before 09:00 PM on 09/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:34 PM on 09/03",
-      "zip": "84098"
     },
     {
       "icon": "standard",
@@ -214,7 +226,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:04 PM on 09/03",
       "zip": "84414"
     },
@@ -289,13 +301,6 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "84098",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84103",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -310,14 +315,21 @@
       "custOutUnplan": 49
     },
     {
-      "zipCode": "84118",
+      "zipCode": "84119",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84119",
+      "zipCode": "84121",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84128",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -350,22 +362,29 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
-    {
-      "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 10,
-      "custOutPlan": 0,
-      "custOutUnplan": 80
     },
     {
-      "countyName": "Summit",
+      "zipCode": "84720",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Iron",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 10,
+      "custOutPlan": 5,
+      "custOutUnplan": 80
     },
     {
       "countyName": "Tooele",
