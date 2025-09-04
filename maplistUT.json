@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 7,
+  "count": 3,
+  "totalState": 83,
   "outages": [
     {
       "icon": "planned",
@@ -18,16 +18,35 @@
       "icon": "standard",
       "longitude": -109.581,
       "latitude": 40.493,
-      "etr": "Before 08:00 AM on 09/04",
+      "etr": "Before 07:30 AM on 09/04",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "05:05 AM on 09/04",
       "zip": "84078"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.196,
+      "latitude": 40.777,
+      "etr": "Before 01:00 PM on 09/04",
+      "outCount": 1,
+      "custOut": 76,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "06:56 AM on 09/04",
+      "zip": "84036, 84055"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84055",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 76,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84078",
       "outCountPlan": 0,
@@ -44,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Summit",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 76,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Uintah",
       "outCountPlan": 0,
