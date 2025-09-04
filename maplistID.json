@@ -1,18 +1,54 @@
 {
-  "count": 5,
-  "totalState": 42,
+  "count": 8,
+  "totalState": 393,
   "outages": [
     {
+      "icon": "planned",
+      "longitude": -111.803,
+      "latitude": 42.093,
+      "etr": "Before 03:00 PM on 09/04",
+      "outCount": 1,
+      "custOut": 15,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:51 AM on 09/04",
+      "zip": "83263"
+    },
+    {
       "icon": "standard",
-      "longitude": -112.118,
-      "latitude": 43.381,
-      "etr": "Before 11:30 AM on 09/04",
+      "longitude": -112.176,
+      "latitude": 43.293,
+      "etr": "Before 12:30 PM on 09/04",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "09:46 AM on 09/04",
+      "zip": "83236"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.118,
+      "latitude": 43.381,
+      "etr": "Before 10:30 AM on 09/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "08:46 AM on 09/04",
       "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.08,
+      "latitude": 43.482,
+      "etr": "Before 12:30 PM on 09/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:36 AM on 09/04",
+      "zip": "83402"
     },
     {
       "icon": "planned",
@@ -28,15 +64,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.826,
-      "latitude": 43.789,
-      "etr": "Before 11:30 AM on 09/04",
+      "longitude": -112.133,
+      "latitude": 43.634,
+      "etr": "Assessing",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 335,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "08:55 AM on 09/04",
-      "zip": "83440"
+      "reported": "09:59 AM on 09/04",
+      "zip": "83401, 83402, 83442"
     },
     {
       "icon": "planned",
@@ -65,6 +101,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 15,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -74,16 +124,30 @@
     {
       "zipCode": "83401",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 3,
-      "custOutUnplan": 0
+      "custOutUnplan": 62
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 257
     },
     {
       "zipCode": "83440",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 19,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 17
     },
     {
       "zipCode": "83448",
@@ -97,23 +161,37 @@
     {
       "countyName": "Bingham",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 2,
       "custOutPlan": 3,
+      "custOutUnplan": 135
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 15,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 201
     },
     {
       "countyName": "Madison",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 19,
-      "custOutUnplan": 19
+      "custOutUnplan": 18
     }
   ]
 }
