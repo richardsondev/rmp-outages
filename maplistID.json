@@ -1,14 +1,38 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 5,
+  "totalState": 17,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.724,
+      "latitude": 43.616,
+      "etr": "Before 11:30 AM on 09/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:50 AM on 09/09",
+      "zip": "83443"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.825,
+      "latitude": 43.731,
+      "etr": "Before 11:00 AM on 09/09",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:57 AM on 09/09",
+      "zip": "83440"
+    },
     {
       "icon": "standard",
       "longitude": -112.356,
       "latitude": 43.806,
-      "etr": "Before 11:00 AM on 09/09",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 11:30 AM on 09/09",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:22 AM on 09/09",
@@ -29,20 +53,48 @@
   ],
   "zips": [
     {
+      "zipCode": "83440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83450",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
     }
   ]
 }
