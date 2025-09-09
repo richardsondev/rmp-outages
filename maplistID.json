@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 27,
+  "count": 8,
+  "totalState": 29,
   "outages": [
     {
       "icon": "planned",
@@ -45,10 +45,34 @@
       "etr": "Before 11:30 AM on 09/09",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "08:50 AM on 09/09",
       "zip": "83443"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.805,
+      "latitude": 43.717,
+      "etr": "Before 01:00 PM on 09/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:00 AM on 09/09",
+      "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.387,
+      "latitude": 43.827,
+      "etr": "Before 02:00 PM on 09/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:07 AM on 09/09",
+      "zip": "83450"
     }
   ],
   "zips": [
@@ -60,7 +84,21 @@
       "custOutUnplan": 14
     },
     {
+      "zipCode": "83440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83450",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -74,6 +112,20 @@
       "outCountUnplan": 3,
       "custOutPlan": 12,
       "custOutUnplan": 15
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
