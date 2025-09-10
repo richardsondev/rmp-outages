@@ -1,6 +1,6 @@
 {
   "count": 1,
-  "totalState": 1,
+  "totalState": 25,
   "outages": [
     {
       "icon": "standard",
@@ -8,20 +8,34 @@
       "latitude": 43.167,
       "etr": "Before 01:00 AM on 09/10",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 25,
+      "cause": "Lightning",
       "crewStatus": "Crews Notified",
       "reported": "08:10 PM on 09/09",
-      "zip": "82649"
+      "zip": "82501, 82649, 82642"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "82642",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "zipCode": "82649",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 21
     }
   ],
   "counties": [
@@ -30,7 +44,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 25
     }
   ]
 }
