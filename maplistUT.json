@@ -1,7 +1,19 @@
 {
-  "count": 9,
-  "totalState": 192,
+  "count": 11,
+  "totalState": 194,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.218,
+      "latitude": 37.522,
+      "etr": "Before 12:30 AM on 09/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:00 PM on 09/11",
+      "zip": "84720"
+    },
     {
       "icon": "standard",
       "longitude": -109.238,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:43 PM on 09/11",
       "zip": "84530"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.009,
+      "latitude": 40.309,
+      "etr": "Before 01:00 AM on 09/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:13 PM on 09/11",
+      "zip": "84005"
     },
     {
       "icon": "standard",
@@ -93,13 +117,20 @@
       "etr": "Before 10:30 PM on 09/11",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "08:12 PM on 09/11",
       "zip": "84054"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84045",
       "outCountPlan": 0,
@@ -148,11 +179,25 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 165
+    },
+    {
+      "zipCode": "84720",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -189,9 +234,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
