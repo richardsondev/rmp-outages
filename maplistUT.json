@@ -1,7 +1,19 @@
 {
-  "count": 15,
-  "totalState": 217,
+  "count": 17,
+  "totalState": 219,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.918,
+      "latitude": 37.883,
+      "etr": "Before 03:00 PM on 09/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:30 PM on 09/13",
+      "zip": "84761"
+    },
     {
       "icon": "standard",
       "longitude": -111.061,
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:49 AM on 09/13",
       "zip": "84042"
     },
@@ -106,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:00 PM on 09/13",
       "zip": "84115"
     },
@@ -121,6 +133,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:03 AM on 09/13",
       "zip": "84104"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.903,
+      "latitude": 40.846,
+      "etr": "Before 04:00 PM on 09/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:36 PM on 09/13",
+      "zip": "84010"
     },
     {
       "icon": "standard",
@@ -154,7 +178,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:38 AM on 09/13",
       "zip": "84403"
     },
@@ -184,6 +208,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84010",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84040",
       "outCountPlan": 1,
@@ -274,18 +305,32 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84761",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 23,
-      "custOutUnplan": 52
+      "custOutUnplan": 53
     },
     {
       "countyName": "Emery",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Iron",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
