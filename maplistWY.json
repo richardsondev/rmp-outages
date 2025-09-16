@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
     {
       "icon": "standard",
@@ -15,21 +15,40 @@
       "zip": "82637"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -107.972,
       "latitude": 44.009,
       "etr": "Before 05:30 PM on 09/16",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "02:05 PM on 09/16",
       "zip": "82401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.063,
+      "latitude": 44.493,
+      "etr": "Before 06:00 PM on 09/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:45 PM on 09/16",
+      "zip": "82414"
     }
   ],
   "zips": [
     {
       "zipCode": "82401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82414",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -52,11 +71,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Washakie",
+      "countyName": "Park",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
