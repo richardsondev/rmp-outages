@@ -1,19 +1,7 @@
 {
   "count": 3,
-  "totalState": 54,
+  "totalState": 6,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.804,
-      "latitude": 41.103,
-      "etr": "Before 12:00 PM on 09/16",
-      "outCount": 1,
-      "custOut": 49,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:29 AM on 09/16",
-      "zip": "82930"
-    },
     {
       "icon": "standard",
       "longitude": -107.287,
@@ -22,9 +10,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Lightning",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "04:28 AM on 09/16",
       "zip": "82301"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.32,
+      "latitude": 42.827,
+      "etr": "Before 11:30 AM on 09/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:27 AM on 09/16",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -48,18 +48,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82604",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 4
-    },
-    {
-      "zipCode": "82930",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 49
     }
   ],
   "counties": [
@@ -73,16 +73,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 4
-    },
-    {
-      "countyName": "Uinta",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 49
+      "custOutUnplan": 5
     }
   ]
 }
