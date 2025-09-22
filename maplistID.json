@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 8,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.823,
+      "latitude": 42.064,
+      "etr": "Before 12:00 PM on 09/22",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:58 AM on 09/22",
+      "zip": "83263"
+    },
     {
       "icon": "standard",
       "longitude": -112.197,
@@ -22,12 +34,19 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:57 AM on 09/22",
       "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83274",
       "outCountPlan": 0,
@@ -50,6 +69,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Fremont",
