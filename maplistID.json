@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 98,
+  "totalState": 93,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -111.823,
-      "latitude": 42.064,
-      "etr": "Before 05:00 PM on 09/22",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:58 AM on 09/22",
-      "zip": "83263"
-    },
     {
       "icon": "standard",
       "longitude": -111.881,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:28 AM on 09/22",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.197,
+      "latitude": 43.365,
+      "etr": "Before 03:30 PM on 09/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:34 PM on 09/22",
+      "zip": "83236"
     },
     {
       "icon": "standard",
@@ -77,10 +77,17 @@
   ],
   "zips": [
     {
-      "zipCode": "83263",
-      "outCountPlan": 1,
+      "zipCode": "83236",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 6,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -114,6 +121,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -129,9 +143,9 @@
     },
     {
       "countyName": "Franklin",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 6,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
