@@ -1,12 +1,12 @@
 {
-  "count": 4,
-  "totalState": 147,
+  "count": 7,
+  "totalState": 150,
   "outages": [
     {
       "icon": "standard",
       "longitude": -112.118,
       "latitude": 43.381,
-      "etr": "Before 12:00 PM on 09/23",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -19,9 +19,9 @@
       "longitude": -111.94,
       "latitude": 43.44,
       "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 17,
-      "cause": "Damaged Equipment",
+      "outCount": 3,
+      "custOut": 19,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "07:49 AM on 09/23",
       "zip": "83406"
@@ -49,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:09 AM on 09/23",
       "zip": "83420"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.243,
+      "latitude": 44.155,
+      "etr": "Before 03:00 PM on 09/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:04 PM on 09/23",
+      "zip": "83423"
     }
   ],
   "zips": [
@@ -69,9 +81,9 @@
     {
       "zipCode": "83406",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 17
+      "custOutUnplan": 19
     },
     {
       "zipCode": "83420",
@@ -79,6 +91,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 59,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -92,9 +111,16 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 19
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 17
+      "custOutUnplan": 1
     },
     {
       "countyName": "Fremont",
