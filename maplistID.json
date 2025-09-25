@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 48,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.414,
+      "latitude": 42.038,
+      "etr": "Before 01:00 PM on 09/25",
+      "outCount": 1,
+      "custOut": 44,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:06 AM on 09/25",
+      "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.133,
+      "latitude": 43.634,
+      "etr": "Before 12:00 PM on 09/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:10 AM on 09/25",
+      "zip": "83431"
+    },
     {
       "icon": "standard",
       "longitude": -111.904,
@@ -41,7 +65,21 @@
   ],
   "zips": [
     {
+      "zipCode": "83287",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 44
+    },
+    {
       "zipCode": "83420",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83431",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -64,6 +102,13 @@
   ],
   "counties": [
     {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 44
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -73,9 +118,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
