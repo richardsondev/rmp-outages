@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.882,
+      "latitude": 42.122,
+      "etr": "Before 05:00 PM on 09/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:52 PM on 09/25",
+      "zip": "83263"
+    },
     {
       "icon": "standard",
       "longitude": -112.143,
@@ -30,18 +42,37 @@
       "icon": "standard",
       "longitude": -111.963,
       "latitude": 43.585,
-      "etr": "Before 04:30 PM on 09/25",
+      "etr": "Before 04:00 PM on 09/25",
       "outCount": 1,
       "custOut": 2,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "01:38 PM on 09/25",
       "zip": "83401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.688,
+      "latitude": 43.978,
+      "etr": "Before 05:30 PM on 09/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:52 PM on 09/25",
+      "zip": "83445"
     }
   ],
   "zips": [
     {
       "zipCode": "83250",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -56,6 +87,13 @@
     },
     {
       "zipCode": "83406",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83445",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,6 +114,20 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
