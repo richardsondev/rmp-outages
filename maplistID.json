@@ -1,18 +1,30 @@
 {
   "count": 5,
-  "totalState": 112,
+  "totalState": 24,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.731,
       "latitude": 42.572,
-      "etr": "Before 04:30 PM on 09/26",
+      "etr": "Before 04:00 PM on 09/26",
       "outCount": 1,
       "custOut": 13,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "10:13 AM on 09/26",
       "zip": "83241"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.197,
+      "latitude": 43.365,
+      "etr": "Before 06:00 PM on 09/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:22 PM on 09/26",
+      "zip": "83236"
     },
     {
       "icon": "standard",
@@ -39,18 +51,6 @@
       "zip": "83406"
     },
     {
-      "icon": "planned",
-      "longitude": -111.961,
-      "latitude": 43.469,
-      "etr": "Before 04:00 PM on 09/26",
-      "outCount": 1,
-      "custOut": 89,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "02:59 PM on 09/26",
-      "zip": "83406"
-    },
-    {
       "icon": "standard",
       "longitude": -111.786,
       "latitude": 43.832,
@@ -64,6 +64,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "83236",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83241",
       "outCountPlan": 0,
@@ -80,9 +87,9 @@
     },
     {
       "zipCode": "83406",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 89,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -97,15 +104,15 @@
     {
       "countyName": "Bingham",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 8
+      "custOutUnplan": 9
     },
     {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 89,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
