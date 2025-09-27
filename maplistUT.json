@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 11,
+  "count": 6,
+  "totalState": 12,
   "outages": [
     {
       "icon": "standard",
@@ -21,7 +21,7 @@
       "etr": "Before 08:00 AM on 09/27",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "04:33 AM on 09/27",
       "zip": "84074"
@@ -42,13 +42,25 @@
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.222,
-      "etr": "Before 03:30 PM on 09/27",
+      "etr": "Before 03:00 PM on 09/27",
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "05:59 AM on 09/27",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.186,
+      "latitude": 41.713,
+      "etr": "Before 10:00 AM on 09/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:02 AM on 09/27",
+      "zip": "84337"
     }
   ],
   "zips": [
@@ -61,6 +73,13 @@
     },
     {
       "zipCode": "84074",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84337",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -82,6 +101,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Box Elder",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Tooele",
       "outCountPlan": 0,
