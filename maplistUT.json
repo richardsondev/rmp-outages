@@ -1,12 +1,24 @@
 {
-  "count": 1,
-  "totalState": 24,
+  "count": 2,
+  "totalState": 25,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.972,
+      "latitude": 40.367,
+      "etr": "Before 08:30 AM on 09/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:58 AM on 09/28",
+      "zip": "84005"
+    },
     {
       "icon": "planned",
       "longitude": -111.882,
       "latitude": 40.701,
-      "etr": "Before 08:30 AM on 09/28",
+      "etr": "Before 12:00 PM on 09/28",
       "outCount": 1,
       "custOut": 24,
       "cause": "Planned Maintenance",
@@ -16,6 +28,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84005",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84115",
       "outCountPlan": 1,
@@ -31,6 +50,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 24,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
