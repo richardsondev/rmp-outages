@@ -1,7 +1,31 @@
 {
-  "count": 6,
-  "totalState": 16,
+  "count": 7,
+  "totalState": 67,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.809,
+      "latitude": 39.356,
+      "etr": "Before 12:00 AM on 09/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:09 PM on 09/28",
+      "zip": "84521"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.856,
+      "latitude": 39.385,
+      "etr": "Before 12:30 AM on 09/29",
+      "outCount": 1,
+      "custOut": 51,
+      "cause": "Pole Fire",
+      "crewStatus": "Crews Notified",
+      "reported": "09:01 PM on 09/28",
+      "zip": "84521, 84518"
+    },
     {
       "icon": "standard",
       "longitude": -111.706,
@@ -16,21 +40,9 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.602,
-      "latitude": 40.333,
-      "etr": "Before 11:00 PM on 09/28",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:38 PM on 09/28",
-      "zip": "84604"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.783,
       "latitude": 40.383,
-      "etr": "Assessing",
+      "etr": "Before 11:30 PM on 09/28",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:16 PM on 09/28",
       "zip": "84036"
     },
@@ -54,10 +66,10 @@
       "icon": "standard",
       "longitude": -111.825,
       "latitude": 40.745,
-      "etr": "Before 11:00 PM on 09/28",
+      "etr": "Before 09:30 PM on 09/28",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "07:38 PM on 09/28",
       "zip": "84108"
@@ -112,14 +124,28 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84604",
+      "zipCode": "84518",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 37
+    },
+    {
+      "zipCode": "84521",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 15
     }
   ],
   "counties": [
+    {
+      "countyName": "Emery",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 52
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -137,9 +163,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 12
     },
     {
       "countyName": "Wasatch",
