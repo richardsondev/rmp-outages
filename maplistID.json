@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 36,
+  "count": 11,
+  "totalState": 44,
   "outages": [
     {
       "icon": "standard",
@@ -27,16 +27,52 @@
       "zip": "83252"
     },
     {
-      "icon": "planned",
-      "longitude": -111.396,
-      "latitude": 42.226,
+      "icon": "standard",
+      "longitude": -111.736,
+      "latitude": 42.159,
       "etr": "Before 01:00 PM on 09/30",
       "outCount": 1,
-      "custOut": 31,
-      "cause": "Planned Maintenance",
+      "custOut": 2,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:47 AM on 09/30",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.259,
+      "latitude": 42.212,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:58 AM on 09/30",
+      "zip": "83233"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.396,
+      "latitude": 42.226,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 32,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "09:30 AM on 09/30",
       "zip": "83261"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.121,
+      "latitude": 42.439,
+      "etr": "Before 12:00 PM on 09/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:56 AM on 09/30",
+      "zip": "83234"
     },
     {
       "icon": "standard",
@@ -49,6 +85,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:13 AM on 09/30",
       "zip": "83401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.944,
+      "latitude": 43.643,
+      "etr": "Before 12:30 PM on 09/30",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:51 AM on 09/30",
+      "zip": "83442"
     },
     {
       "icon": "standard",
@@ -77,6 +125,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83233",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -86,9 +148,16 @@
     {
       "zipCode": "83261",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 31,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "zipCode": "83287",
@@ -112,6 +181,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83442",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83445",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -121,11 +197,18 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bear Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 31,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "countyName": "Bonneville",
@@ -135,11 +218,25 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Madison",
