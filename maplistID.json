@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 56,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "03:57 AM on 09/30",
       "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.299,
+      "latitude": 42.328,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 51,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:43 AM on 09/30",
+      "zip": "83254"
     },
     {
       "icon": "standard",
@@ -34,12 +46,31 @@
       "outCount": 1,
       "custOut": 2,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:39 AM on 09/30",
       "zip": "83434"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.826,
+      "latitude": 43.818,
+      "etr": "Before 02:00 PM on 09/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:32 AM on 09/30",
+      "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 51
+    },
     {
       "zipCode": "83287",
       "outCountPlan": 0,
@@ -60,15 +91,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bear Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 52
     },
     {
       "countyName": "Bonneville",
@@ -83,6 +121,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
