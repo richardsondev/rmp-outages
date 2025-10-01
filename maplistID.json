@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 9,
+  "count": 7,
+  "totalState": 14,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:09 AM on 10/01",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.328,
+      "latitude": 42.502,
+      "etr": "Before 01:00 PM on 10/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:55 AM on 10/01",
+      "zip": "83214"
     },
     {
       "icon": "standard",
@@ -37,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:11 AM on 10/01",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.367,
+      "latitude": 43.856,
+      "etr": "Before 01:00 PM on 10/01",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:48 AM on 10/01",
+      "zip": "83450"
     },
     {
       "icon": "standard",
@@ -65,6 +89,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -91,9 +122,23 @@
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83450",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
     }
   ],
   "counties": [
+    {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
@@ -118,9 +163,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 1,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     }
   ]
 }
