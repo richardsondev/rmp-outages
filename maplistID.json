@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 5,
   "outages": [
     {
       "icon": "standard",
@@ -27,6 +27,18 @@
       "zip": "83402"
     },
     {
+      "icon": "planned",
+      "longitude": -111.887,
+      "latitude": 43.752,
+      "etr": "Before 12:00 PM on 10/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:11 AM on 10/01",
+      "zip": "83442"
+    },
+    {
       "icon": "standard",
       "longitude": -112.119,
       "latitude": 43.982,
@@ -36,6 +48,18 @@
       "cause": "Damaged Equipment",
       "crewStatus": "Crews Arrived",
       "reported": "03:53 PM on 09/30",
+      "zip": "83425"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.24,
+      "latitude": 43.995,
+      "etr": "Before 12:00 PM on 10/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:08 AM on 10/01",
       "zip": "83425"
     }
   ],
@@ -57,9 +81,16 @@
     {
       "zipCode": "83425",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -82,6 +113,13 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 1,
       "custOutUnplan": 1
     }
   ]
