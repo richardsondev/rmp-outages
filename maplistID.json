@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 19,
+  "count": 3,
+  "totalState": 20,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 07:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:08 PM on 10/06",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.124,
@@ -10,12 +22,19 @@
       "outCount": 2,
       "custOut": 19,
       "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:41 PM on 10/06",
       "zip": "83444"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83444",
       "outCountPlan": 1,
@@ -25,6 +44,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
