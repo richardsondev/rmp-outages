@@ -1,7 +1,48 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 5,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.988,
+      "latitude": 43.288,
+      "etr": "Before 02:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:08 AM on 10/06",
+      "zip": "83236"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.156,
+      "latitude": 43.293,
+      "etr": "Before 12:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:06 AM on 10/06",
+      "zip": "83236"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83236",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 2,
+      "custOutUnplan": 3
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 2,
+      "custOutUnplan": 3
+    }
+  ]
 }
