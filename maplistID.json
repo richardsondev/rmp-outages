@@ -1,15 +1,39 @@
 {
-  "count": 2,
-  "totalState": 3,
+  "count": 6,
+  "totalState": 20,
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.415,
+      "latitude": 42.009,
+      "etr": "Before 11:00 AM on 10/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:45 AM on 10/09",
+      "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 11:30 AM on 10/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:51 AM on 10/09",
+      "zip": "83401"
+    },
+    {
+      "icon": "planned",
       "longitude": -112.023,
       "latitude": 43.526,
-      "etr": "Assessing",
+      "etr": "Before 12:30 PM on 10/09",
       "outCount": 1,
-      "custOut": 2,
-      "cause": "Investigating",
+      "custOut": 4,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:29 AM on 10/09",
       "zip": "83401"
@@ -25,15 +49,41 @@
       "crewStatus": "Crews Notified",
       "reported": "07:41 AM on 10/09",
       "zip": "83451"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.668,
+      "latitude": 43.962,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 13,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:59 AM on 10/09",
+      "zip": "83445"
     }
   ],
   "zips": [
     {
-      "zipCode": "83401",
+      "zipCode": "83287",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 4,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
     },
     {
       "zipCode": "83451",
@@ -45,11 +95,25 @@
   ],
   "counties": [
     {
-      "countyName": "Bonneville",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 4,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 13
     },
     {
       "countyName": "Madison",
