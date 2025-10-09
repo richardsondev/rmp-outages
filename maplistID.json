@@ -1,7 +1,19 @@
 {
-  "count": 8,
-  "totalState": 24,
+  "count": 10,
+  "totalState": 34,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.33,
+      "latitude": 42.161,
+      "etr": "Before 03:00 PM on 10/09",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "11:59 AM on 10/09",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.862,
@@ -75,6 +87,18 @@
       "zip": "83442"
     },
     {
+      "icon": "standard",
+      "longitude": -111.667,
+      "latitude": 43.877,
+      "etr": "Before 02:30 PM on 10/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:48 AM on 10/09",
+      "zip": "83451"
+    },
+    {
       "icon": "planned",
       "longitude": -111.668,
       "latitude": 43.962,
@@ -94,6 +118,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83401",
@@ -129,6 +160,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 14,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83451",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -149,15 +187,22 @@
     {
       "countyName": "Fremont",
       "outCountPlan": 2,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 14,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
       "custOutUnplan": 0
     }
   ]
