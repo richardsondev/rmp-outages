@@ -1,19 +1,7 @@
 {
   "count": 2,
-  "totalState": 2,
+  "totalState": 7,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.025,
-      "latitude": 41.4,
-      "etr": "Before 11:00 AM on 10/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:51 AM on 10/10",
-      "zip": "82930"
-    },
     {
       "icon": "standard",
       "longitude": -108.398,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:10 AM on 10/10",
       "zip": "82501"
+    },
+    {
+      "icon": "planned",
+      "longitude": -108.111,
+      "latitude": 43.248,
+      "etr": "Before 03:00 PM on 10/10",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:47 AM on 10/10",
+      "zip": "82649"
     }
   ],
   "zips": [
@@ -36,26 +36,19 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82930",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82649",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Uinta",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 6,
       "custOutUnplan": 1
     }
   ]
