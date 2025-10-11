@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:38 PM on 10/11",
       "zip": "84065"
     },
@@ -112,13 +112,25 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.825,
+      "latitude": 40.745,
+      "etr": "Before 07:00 PM on 10/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:31 PM on 10/11",
+      "zip": "84108"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.759,
       "etr": "Before 05:00 PM on 10/11",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:44 PM on 10/11",
       "zip": "84102"
     },
@@ -157,18 +169,6 @@
       "crewStatus": "Crews Notified",
       "reported": "02:36 PM on 10/11",
       "zip": "84401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.799,
-      "latitude": 41.76,
-      "etr": "Before 04:30 PM on 10/11",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:17 PM on 10/11",
-      "zip": "84341"
     }
   ],
   "zips": [
@@ -195,6 +195,13 @@
     },
     {
       "zipCode": "84102",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84108",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -236,13 +243,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84341",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84401",
       "outCountPlan": 0,
       "outCountUnplan": 3,
@@ -266,13 +266,6 @@
   ],
   "counties": [
     {
-      "countyName": "Cache",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Emery",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -282,9 +275,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 8,
+      "outCountUnplan": 9,
       "custOutPlan": 1,
-      "custOutUnplan": 100
+      "custOutUnplan": 101
     },
     {
       "countyName": "Sevier",
