@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 4,
+  "totalState": 450,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.117,
+      "latitude": 39.945,
+      "etr": "Before 12:00 PM on 10/17",
+      "outCount": 1,
+      "custOut": 447,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "06:45 AM on 10/17",
+      "zip": "84628"
+    },
     {
       "icon": "standard",
       "longitude": -111.938,
@@ -37,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "06:17 AM on 10/17",
       "zip": "84115"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.966,
-      "latitude": 41.237,
-      "etr": "Before 10:00 AM on 10/17",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:41 AM on 10/17",
-      "zip": "84404"
     }
   ],
   "zips": [
@@ -74,14 +74,21 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84404",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "84628",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 447,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
+    {
+      "countyName": "Juab",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 441,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
@@ -90,11 +97,11 @@
       "custOutUnplan": 3
     },
     {
-      "countyName": "Weber",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "countyName": "Utah",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     }
   ]
 }
