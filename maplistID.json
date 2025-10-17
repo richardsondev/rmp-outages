@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.822,
+      "latitude": 42.05,
+      "etr": "Before 01:30 PM on 10/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:02 AM on 10/17",
+      "zip": "83237"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.941,
       "latitude": 43.498,
       "etr": "Before 12:00 PM on 10/17",
@@ -30,28 +42,23 @@
       "icon": "standard",
       "longitude": -112.115,
       "latitude": 43.562,
-      "etr": "Before 11:30 AM on 10/17",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:31 AM on 10/17",
-      "zip": "83402"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.825,
-      "latitude": 43.76,
       "etr": "Before 12:00 PM on 10/17",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "09:37 AM on 10/17",
-      "zip": "83440"
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:31 AM on 10/17",
+      "zip": "83402"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83401",
       "outCountPlan": 0,
@@ -65,13 +72,6 @@
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "83440",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -83,11 +83,11 @@
       "custOutUnplan": 18
     },
     {
-      "countyName": "Madison",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
