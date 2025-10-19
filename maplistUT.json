@@ -4,18 +4,6 @@
   "outages": [
     {
       "icon": "standard",
-      "longitude": -113.07,
-      "latitude": 37.757,
-      "etr": "Before 10:30 PM on 10/18",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Notified",
-      "reported": "09:58 PM on 10/18",
-      "zip": "84721"
-    },
-    {
-      "icon": "standard",
       "longitude": -110.855,
       "latitude": 39.661,
       "etr": "Before 12:30 AM on 10/19",
@@ -45,10 +33,22 @@
       "etr": "Before 12:00 AM on 10/19",
       "outCount": 1,
       "custOut": 8,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "07:43 PM on 10/18",
       "zip": "84109"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.08,
+      "latitude": 41.163,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:29 PM on 10/18",
+      "zip": "84315"
     },
     {
       "icon": "standard",
@@ -79,6 +79,13 @@
       "custOutUnplan": 8
     },
     {
+      "zipCode": "84315",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -91,13 +98,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 17
-    },
-    {
-      "zipCode": "84721",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -107,13 +107,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 17
-    },
-    {
-      "countyName": "Iron",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "countyName": "Salt Lake",
@@ -132,9 +125,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 61
+      "custOutUnplan": 62
     }
   ]
 }
