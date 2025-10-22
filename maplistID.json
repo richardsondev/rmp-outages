@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.261,
+      "latitude": 42.582,
+      "etr": "Before 11:30 AM on 10/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:14 AM on 10/22",
+      "zip": "83214"
+    },
     {
       "icon": "standard",
       "longitude": -112.026,
@@ -15,19 +27,26 @@
       "zip": "83246"
     },
     {
-      "icon": "standard",
-      "longitude": -112.487,
-      "latitude": 43.84,
-      "etr": "Before 09:00 AM on 10/22",
+      "icon": "planned",
+      "longitude": -111.904,
+      "latitude": 43.672,
+      "etr": "Before 10:00 AM on 10/22",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:04 AM on 10/22",
-      "zip": "83450"
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:05 AM on 10/22",
+      "zip": "83442"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83246",
       "outCountPlan": 0,
@@ -36,27 +55,27 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83450",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "83442",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Bannock",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
