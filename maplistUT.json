@@ -1,6 +1,6 @@
 {
   "count": 8,
-  "totalState": 8,
+  "totalState": 11,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:05 AM on 10/26",
       "zip": "84512"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.088,
+      "latitude": 37.771,
+      "etr": "Before 05:00 PM on 10/26",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:09 PM on 10/26",
+      "zip": "84721"
     },
     {
       "icon": "standard",
@@ -52,21 +64,9 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.882,
-      "latitude": 40.745,
-      "etr": "Before 04:00 PM on 10/26",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:44 PM on 10/26",
-      "zip": "84111"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.863,
       "latitude": 40.745,
-      "etr": "Before 04:30 PM on 10/26",
+      "etr": "Assessing",
       "outCount": 2,
       "custOut": 2,
       "cause": "Multiple outages in the area",
@@ -78,11 +78,11 @@
       "icon": "standard",
       "longitude": -111.896,
       "latitude": 41.83,
-      "etr": "Before 02:00 PM on 10/26",
+      "etr": "Before 03:30 PM on 10/26",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
       "reported": "11:45 AM on 10/26",
       "zip": "84335"
     }
@@ -110,13 +110,6 @@
       "custOutUnplan": 2
     },
     {
-      "zipCode": "84111",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84117",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -136,6 +129,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84721",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
     }
   ],
   "counties": [
@@ -147,11 +147,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Salt Lake",
+      "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "San Juan",
