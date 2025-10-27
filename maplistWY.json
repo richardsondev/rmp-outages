@@ -1,19 +1,7 @@
 {
   "count": 3,
-  "totalState": 9,
+  "totalState": 11,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -109.21,
-      "latitude": 41.575,
-      "etr": "Before 11:00 AM on 10/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:35 PM on 10/26",
-      "zip": "82901"
-    },
     {
       "icon": "standard",
       "longitude": -106.319,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:22 AM on 10/27",
       "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.887,
+      "latitude": 44.119,
+      "etr": "Before 02:00 PM on 10/27",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:43 AM on 10/27",
+      "zip": "82401"
     },
     {
       "icon": "standard",
@@ -41,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "82401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "82420",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -53,13 +60,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
-    },
-    {
-      "zipCode": "82901",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -78,11 +78,11 @@
       "custOutUnplan": 7
     },
     {
-      "countyName": "Sweetwater",
+      "countyName": "Washakie",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     }
   ]
 }
