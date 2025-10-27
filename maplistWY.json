@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 28,
   "outages": [
     {
       "icon": "standard",
@@ -13,11 +13,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:35 PM on 10/26",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.829,
+      "latitude": 41.706,
+      "etr": "Before 05:00 AM on 10/27",
+      "outCount": 1,
+      "custOut": 27,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:34 AM on 10/27",
+      "zip": "82901, 82945"
     }
   ],
   "zips": [
     {
       "zipCode": "82901",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 27
+    },
+    {
+      "zipCode": "82945",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -28,9 +47,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 28
     }
   ]
 }
