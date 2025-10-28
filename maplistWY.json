@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 48,
+  "totalState": 45,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -109.267,
-      "latitude": 41.634,
-      "etr": "Before 04:30 PM on 10/28",
-      "outCount": 1,
-      "custOut": 4,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:12 AM on 10/28",
-      "zip": "82901"
-    },
     {
       "icon": "standard",
       "longitude": -107.526,
@@ -24,6 +12,18 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:40 PM on 10/28",
+      "zip": "82301"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.171,
+      "latitude": 42.271,
+      "etr": "Before 06:30 PM on 10/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:24 PM on 10/28",
       "zip": "82301"
     },
     {
@@ -70,7 +70,7 @@
       "outCount": 1,
       "custOut": 40,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:24 PM on 10/28",
       "zip": "82414"
     }
@@ -79,9 +79,9 @@
     {
       "zipCode": "82301",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82401",
@@ -110,22 +110,15 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82901",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 4,
-      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Converse",
@@ -147,13 +140,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 40
-    },
-    {
-      "countyName": "Sweetwater",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 4,
-      "custOutUnplan": 0
     },
     {
       "countyName": "Washakie",
