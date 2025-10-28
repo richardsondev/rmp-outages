@@ -3,25 +3,25 @@
   "totalState": 4,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.133,
       "latitude": 43.634,
-      "etr": "Assessing",
+      "etr": "Before 03:30 PM on 10/28",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "01:59 PM on 10/28",
       "zip": "83431"
     },
     {
-      "icon": "planned",
+      "icon": "standard",
       "longitude": -111.648,
       "latitude": 43.964,
       "etr": "Before 05:00 PM on 10/28",
       "outCount": 1,
       "custOut": 3,
-      "cause": "Planned Maintenance",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "01:58 PM on 10/28",
       "zip": "83445"
@@ -30,33 +30,33 @@
   "zips": [
     {
       "zipCode": "83431",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83445",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
       "countyName": "Fremont",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
