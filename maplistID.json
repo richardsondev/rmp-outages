@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 74,
+  "totalState": 78,
   "outages": [
     {
       "icon": "planned",
@@ -27,13 +27,13 @@
       "zip": "83431, 83434, 83444"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.824,
       "latitude": 43.672,
       "etr": "Before 12:00 PM on 10/29",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 3,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:50 AM on 10/29",
       "zip": "83442"
@@ -49,6 +49,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:17 AM on 10/29",
       "zip": "83445"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.558,
+      "latitude": 44.073,
+      "etr": "Before 12:00 PM on 10/29",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:50 AM on 10/29",
+      "zip": "83420"
     }
   ],
   "zips": [
@@ -74,6 +86,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83420",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83431",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -90,9 +109,9 @@
     {
       "zipCode": "83442",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 2,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83444",
@@ -119,17 +138,17 @@
     },
     {
       "countyName": "Fremont",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 6,
+      "custOutPlan": 10,
       "custOutUnplan": 0
     },
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 2,
-      "custOutUnplan": 4
+      "outCountUnplan": 1,
+      "custOutPlan": 3,
+      "custOutUnplan": 3
     }
   ]
 }
