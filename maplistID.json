@@ -3,6 +3,18 @@
   "totalState": 30,
   "outages": [
     {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 04:30 PM on 10/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:47 PM on 10/30",
+      "zip": "83401"
+    },
+    {
       "icon": "planned",
       "longitude": -112.35,
       "latitude": 43.545,
@@ -13,18 +25,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:09 AM on 10/30",
       "zip": "83402"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.885,
-      "latitude": 43.73,
-      "etr": "Before 03:00 PM on 10/30",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:21 PM on 10/30",
-      "zip": "83442"
     },
     {
       "icon": "planned",
@@ -77,6 +77,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -98,13 +105,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83442",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "83445",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -116,9 +116,9 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 7,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Clark",
@@ -129,13 +129,6 @@
     },
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
