@@ -1,18 +1,42 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 21,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.962,
-      "latitude": 43.527,
-      "etr": "Before 10:30 AM on 10/30",
+      "longitude": -111.575,
+      "latitude": 42.602,
+      "etr": "Before 11:00 AM on 10/30",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "08:22 AM on 10/30",
+      "zip": "83276"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.962,
+      "latitude": 43.527,
+      "etr": "Before 09:00 AM on 10/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "07:46 AM on 10/30",
       "zip": "83401"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.396,
+      "latitude": 43.813,
+      "etr": "Before 03:30 PM on 10/30",
+      "outCount": 1,
+      "custOut": 18,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:20 AM on 10/30",
+      "zip": "83436"
     },
     {
       "icon": "standard",
@@ -29,11 +53,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83276",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83445",
@@ -52,11 +90,25 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 18,
+      "custOutUnplan": 0
     }
   ]
 }
