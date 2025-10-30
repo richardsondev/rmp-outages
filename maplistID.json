@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 21,
+  "totalState": 27,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.35,
+      "latitude": 43.545,
+      "etr": "Before 04:00 PM on 10/30",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:09 AM on 10/30",
+      "zip": "83402"
+    },
     {
       "icon": "planned",
       "longitude": -111.396,
@@ -15,60 +27,48 @@
       "zip": "83436"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.517,
       "latitude": 43.899,
       "etr": "Before 12:30 PM on 10/30",
       "outCount": 2,
       "custOut": 2,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "09:58 AM on 10/30",
       "zip": "83436"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.828,
-      "latitude": 43.934,
-      "etr": "Before 11:00 AM on 10/30",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:08 AM on 10/30",
-      "zip": "83445"
     }
   ],
   "zips": [
     {
-      "zipCode": "83436",
-      "outCountPlan": 2,
-      "outCountUnplan": 1,
-      "custOutPlan": 19,
-      "custOutUnplan": 1
+      "zipCode": "83402",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     },
     {
-      "zipCode": "83445",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "83436",
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 2,
-      "outCountUnplan": 1,
-      "custOutPlan": 19,
-      "custOutUnplan": 1
+      "outCountPlan": 3,
+      "outCountUnplan": 0,
+      "custOutPlan": 20,
+      "custOutUnplan": 0
     }
   ]
 }
