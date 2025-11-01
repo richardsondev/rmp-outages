@@ -1,14 +1,14 @@
 {
-  "count": 10,
-  "totalState": 247,
+  "count": 12,
+  "totalState": 249,
   "outages": [
     {
       "icon": "standard",
       "longitude": -112.106,
       "latitude": 39.249,
       "etr": "Before 01:00 PM on 11/01",
-      "outCount": 1,
-      "custOut": 1,
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "10:06 AM on 11/01",
@@ -46,7 +46,7 @@
       "outCount": 1,
       "custOut": 8,
       "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "08:47 AM on 11/01",
       "zip": "84107"
     },
@@ -54,10 +54,10 @@
       "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.759,
-      "etr": "Before 12:30 PM on 11/01",
+      "etr": "Before 02:00 PM on 11/01",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "09:20 AM on 11/01",
       "zip": "84111"
@@ -111,6 +111,18 @@
       "zip": "84040"
     },
     {
+      "icon": "standard",
+      "longitude": -112.021,
+      "latitude": 41.106,
+      "etr": "Before 01:30 PM on 11/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:24 AM on 11/01",
+      "zip": "84015"
+    },
+    {
       "icon": "planned",
       "longitude": -111.946,
       "latitude": 41.194,
@@ -126,6 +138,13 @@
   "zips": [
     {
       "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84015",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -204,25 +223,25 @@
     {
       "zipCode": "84656",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 112,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Millard",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Morgan",
