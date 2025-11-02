@@ -1,7 +1,19 @@
 {
-  "count": 9,
-  "totalState": 27,
+  "count": 11,
+  "totalState": 79,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.706,
+      "latitude": 40.325,
+      "etr": "Before 10:30 PM on 11/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:31 PM on 11/01",
+      "zip": "84057"
+    },
     {
       "icon": "standard",
       "longitude": -111.823,
@@ -31,11 +43,11 @@
       "longitude": -111.88,
       "latitude": 40.6,
       "etr": "Before 10:00 PM on 11/01",
-      "outCount": 1,
-      "custOut": 1,
+      "outCount": 2,
+      "custOut": 52,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:45 PM on 11/01",
+      "crewStatus": "Crews Arrived",
+      "reported": "05:32 PM on 11/01",
       "zip": "84070"
     },
     {
@@ -61,6 +73,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:59 PM on 11/01",
       "zip": "84081"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.938,
+      "latitude": 40.628,
+      "etr": "Before 10:30 PM on 11/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:08 PM on 11/01",
+      "zip": "84084"
     },
     {
       "icon": "standard",
@@ -97,21 +121,16 @@
       "crewStatus": "Crews Notified",
       "reported": "04:44 PM on 11/01",
       "zip": "84107"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.053,
-      "latitude": 40.685,
-      "etr": "Before 09:30 PM on 11/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:12 PM on 11/01",
-      "zip": "84128"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84057",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84060",
       "outCountPlan": 0,
@@ -122,12 +141,19 @@
     {
       "zipCode": "84070",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 52
+    },
+    {
+      "zipCode": "84081",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84081",
+      "zipCode": "84084",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -167,22 +193,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84128",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 8,
+      "outCountUnplan": 9,
       "custOutPlan": 0,
-      "custOutUnplan": 26
+      "custOutUnplan": 77
+    },
+    {
+      "countyName": "Utah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Wasatch",
