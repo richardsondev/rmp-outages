@@ -1,19 +1,7 @@
 {
   "count": 2,
-  "totalState": 2,
+  "totalState": 33,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.026,
-      "latitude": 42.613,
-      "etr": "Before 11:30 AM on 11/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:11 AM on 11/04",
-      "zip": "83246"
-    },
     {
       "icon": "standard",
       "longitude": -113.076,
@@ -25,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:16 AM on 11/04",
       "zip": "83244"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.446,
+      "latitude": 43.849,
+      "etr": "Before 03:00 PM on 11/04",
+      "outCount": 1,
+      "custOut": 32,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:18 AM on 11/04",
+      "zip": "83436"
     }
   ],
   "zips": [
@@ -36,27 +36,27 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83246",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "83436",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 32,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
-    {
-      "countyName": "Bannock",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "countyName": "Butte",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 32,
+      "custOutUnplan": 0
     }
   ]
 }
