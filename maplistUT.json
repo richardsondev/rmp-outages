@@ -1,6 +1,6 @@
 {
   "count": 16,
-  "totalState": 159,
+  "totalState": 158,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "05:01 AM on 11/11",
       "zip": "84624"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.717,
+      "latitude": 39.452,
+      "etr": "Before 12:30 PM on 11/11",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:41 AM on 11/11",
+      "zip": "84635"
     },
     {
       "icon": "standard",
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:08 AM on 11/11",
       "zip": "84020"
     },
@@ -169,18 +181,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:04 AM on 11/11",
       "zip": "84404"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.986,
-      "latitude": 41.28,
-      "etr": "Before 09:30 AM on 11/11",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:05 AM on 11/11",
-      "zip": "84404"
     }
   ],
   "zips": [
@@ -271,12 +271,19 @@
     {
       "zipCode": "84404",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 16,
-      "custOutUnplan": 2
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84624",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84635",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -294,9 +301,9 @@
     {
       "countyName": "Millard",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Salt Lake",
@@ -329,9 +336,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 72,
-      "custOutUnplan": 2
+      "custOutUnplan": 0
     }
   ]
 }
