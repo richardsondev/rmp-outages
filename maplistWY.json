@@ -1,7 +1,19 @@
 {
-  "count": 38,
-  "totalState": 776,
+  "count": 41,
+  "totalState": 1193,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.607,
+      "latitude": 41.274,
+      "etr": "Before 11:30 PM on 11/13",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:20 PM on 11/13",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -106.565,
@@ -18,9 +30,9 @@
       "icon": "standard",
       "longitude": -105.306,
       "latitude": 42.723,
-      "etr": "Before 04:30 AM on 11/14",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 05:30 AM on 11/14",
+      "outCount": 2,
+      "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:21 PM on 11/13",
@@ -90,9 +102,9 @@
       "icon": "standard",
       "longitude": -105.4,
       "latitude": 42.775,
-      "etr": "Before 03:30 AM on 11/14",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 05:30 AM on 11/14",
+      "outCount": 3,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:04 PM on 11/13",
@@ -136,18 +148,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -106.338,
-      "latitude": 42.842,
-      "etr": "Before 12:30 AM on 11/14",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:16 PM on 11/13",
-      "zip": "82604"
-    },
-    {
-      "icon": "standard",
       "longitude": -106.397,
       "latitude": 42.844,
       "etr": "Before 04:30 AM on 11/14",
@@ -180,18 +180,6 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:13 PM on 11/13",
-      "zip": "82601"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.337,
-      "latitude": 42.856,
-      "etr": "Before 02:00 AM on 11/14",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "04:59 PM on 11/13",
       "zip": "82601"
     },
     {
@@ -304,6 +292,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -109.391,
+      "latitude": 44.331,
+      "etr": "Before 11:30 PM on 11/13",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:18 PM on 11/13",
+      "zip": "82414"
+    },
+    {
+      "icon": "standard",
       "longitude": -106.665,
       "latitude": 44.347,
       "etr": "Before 03:00 AM on 11/14",
@@ -319,8 +319,8 @@
       "longitude": -106.705,
       "latitude": 44.349,
       "etr": "Assessing",
-      "outCount": 3,
-      "custOut": 64,
+      "outCount": 4,
+      "custOut": 472,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:18 PM on 11/13",
@@ -334,7 +334,7 @@
       "outCount": 1,
       "custOut": 51,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:01 PM on 11/13",
       "zip": "82834"
     },
@@ -343,15 +343,22 @@
       "longitude": -106.704,
       "latitude": 44.363,
       "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 2,
+      "outCount": 1,
+      "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "06:32 PM on 11/13",
+      "reported": "07:06 PM on 11/13",
       "zip": "82834"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82327",
       "outCountPlan": 0,
@@ -360,18 +367,25 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82601",
+      "zipCode": "82414",
       "outCountPlan": 0,
-      "outCountUnplan": 7,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
     },
     {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 6,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
+    },
+    {
       "zipCode": "82604",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 581
+      "custOutUnplan": 580
     },
     {
       "zipCode": "82609",
@@ -383,9 +397,9 @@
     {
       "zipCode": "82633",
       "outCountPlan": 0,
-      "outCountUnplan": 14,
+      "outCountUnplan": 17,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 18
     },
     {
       "zipCode": "82636",
@@ -399,10 +413,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 7,
       "custOutPlan": 0,
-      "custOutUnplan": 118
+      "custOutUnplan": 525
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -413,23 +434,30 @@
     {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 14,
+      "outCountUnplan": 17,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 18
     },
     {
       "countyName": "Johnson",
       "outCountPlan": 0,
       "outCountUnplan": 7,
       "custOutPlan": 0,
-      "custOutUnplan": 118
+      "custOutUnplan": 525
     },
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 16,
+      "outCountUnplan": 14,
       "custOutPlan": 0,
-      "custOutUnplan": 642
+      "custOutUnplan": 640
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 7
     }
   ]
 }
