@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 148,
+  "count": 11,
+  "totalState": 190,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.593,
+      "latitude": 39.374,
+      "etr": "Before 02:00 PM on 11/14",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:02 AM on 11/14",
+      "zip": "84624"
+    },
     {
       "icon": "standard",
       "longitude": -112.05,
@@ -10,21 +22,9 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:49 AM on 11/14",
       "zip": "84096"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.318,
-      "latitude": 40.61,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:39 PM on 11/13",
-      "zip": "84074"
     },
     {
       "icon": "standard",
@@ -52,6 +52,30 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.786,
+      "latitude": 40.673,
+      "etr": "Assessing",
+      "outCount": 3,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:13 AM on 11/14",
+      "zip": "84124"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.843,
+      "latitude": 40.687,
+      "etr": "Before 12:00 PM on 11/14",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:09 AM on 11/14",
+      "zip": "84106"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.902,
       "latitude": 40.774,
       "etr": "Before 10:00 AM on 11/14",
@@ -73,18 +97,23 @@
       "crewStatus": "Crews Notified",
       "reported": "07:44 AM on 11/14",
       "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.946,
+      "latitude": 41.194,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:14 AM on 11/14",
+      "zip": "84403"
     }
   ],
   "zips": [
     {
       "zipCode": "84041",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -105,11 +134,39 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84106",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 144
+    },
+    {
+      "zipCode": "84124",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
+    {
+      "zipCode": "84624",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -121,18 +178,25 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 4,
-      "custOutPlan": 0,
-      "custOutUnplan": 146
+      "countyName": "Millard",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
     },
     {
-      "countyName": "Tooele",
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 7,
+      "custOutPlan": 8,
+      "custOutUnplan": 149
+    },
+    {
+      "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 10
     }
   ]
 }
