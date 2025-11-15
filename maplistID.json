@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.978,
+      "latitude": 42.034,
+      "etr": "Before 07:30 PM on 11/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:12 PM on 11/14",
+      "zip": "83286"
+    },
     {
       "icon": "standard",
       "longitude": -111.881,
@@ -13,11 +25,37 @@
       "crewStatus": "Crews Notified",
       "reported": "02:59 PM on 11/14",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.318,
+      "latitude": 42.386,
+      "etr": "Before 07:30 PM on 11/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:01 PM on 11/14",
+      "zip": "83254"
     }
   ],
   "zips": [
     {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83286",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -26,11 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Franklin",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
