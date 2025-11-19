@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 25,
+  "count": 8,
+  "totalState": 104,
   "outages": [
     {
       "icon": "standard",
@@ -34,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:07 AM on 11/19",
       "zip": "84047"
     },
@@ -49,6 +49,30 @@
       "crewStatus": "Crews Notified",
       "reported": "07:02 AM on 11/19",
       "zip": "84121"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.901,
+      "latitude": 40.745,
+      "etr": "Before 11:30 AM on 11/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:30 AM on 11/19",
+      "zip": "84101"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.615,
+      "latitude": 40.746,
+      "etr": "Before 02:30 PM on 11/19",
+      "outCount": 1,
+      "custOut": 78,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:30 AM on 11/19",
+      "zip": "84098"
     },
     {
       "icon": "planned",
@@ -78,6 +102,20 @@
   "zips": [
     {
       "zipCode": "84047",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84098",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 78,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84101",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -122,10 +160,17 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "outCountPlan": 1,
+      "outCountUnplan": 4,
+      "custOutPlan": 1,
+      "custOutUnplan": 4
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 77,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Weber",
