@@ -1,28 +1,16 @@
 {
-  "count": 4,
-  "totalState": 19,
+  "count": 3,
+  "totalState": 11,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -109.228,
-      "latitude": 41.619,
-      "etr": "Before 04:00 PM on 11/20",
-      "outCount": 2,
-      "custOut": 9,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:55 AM on 11/20",
-      "zip": "82901"
-    },
     {
       "icon": "standard",
       "longitude": -110.104,
       "latitude": 42.557,
-      "etr": "Before 12:30 PM on 11/20",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:31 AM on 11/20",
       "zip": "83113"
     },
@@ -37,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:22 AM on 11/20",
       "zip": "82520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 11:00 PM on 11/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "11:36 AM on 11/20",
+      "zip": "82637"
     }
   ],
   "zips": [
@@ -48,11 +48,11 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "82901",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 9,
-      "custOutUnplan": 0
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83113",
@@ -63,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 1,
@@ -76,13 +83,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Sweetwater",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 9,
-      "custOutUnplan": 0
     }
   ]
 }
