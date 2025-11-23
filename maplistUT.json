@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 76,
+  "count": 3,
+  "totalState": 44,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.841,
+      "latitude": 40.513,
+      "etr": "Before 05:00 PM on 11/23",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:08 PM on 11/23",
+      "zip": "84020"
+    },
     {
       "icon": "planned",
       "longitude": -111.939,
@@ -25,39 +37,15 @@
       "crewStatus": "Crews Notified",
       "reported": "07:23 AM on 11/23",
       "zip": "84103"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.944,
-      "latitude": 41.078,
-      "etr": "Before 04:00 PM on 11/23",
-      "outCount": 1,
-      "custOut": 31,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:19 AM on 11/23",
-      "zip": "84040"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.107,
-      "latitude": 41.642,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 6,
-      "cause": "Pole Fire",
-      "crewStatus": "Crews Notified",
-      "reported": "06:37 AM on 11/23",
-      "zip": "84314"
     }
   ],
   "zips": [
     {
-      "zipCode": "84040",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 31
+      "zipCode": "84020",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84103",
@@ -72,35 +60,14 @@
       "outCountUnplan": 0,
       "custOutPlan": 38,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84314",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
     }
   ],
   "counties": [
     {
-      "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
-    },
-    {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 31
-    },
-    {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 1,
-      "custOutPlan": 38,
+      "custOutPlan": 43,
       "custOutUnplan": 1
     }
   ]
