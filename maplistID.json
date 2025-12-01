@@ -1,36 +1,88 @@
 {
-  "count": 1,
-  "totalState": 14,
+  "count": 3,
+  "totalState": 25,
   "outages": [
     {
+      "icon": "planned",
+      "longitude": -112.552,
+      "latitude": 42.064,
+      "etr": "Before 05:00 PM on 12/01",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:49 AM on 12/01",
+      "zip": "83252"
+    },
+    {
       "icon": "standard",
-      "longitude": -111.07,
-      "latitude": 42.238,
+      "longitude": -111.961,
+      "latitude": 43.484,
       "etr": "Before 11:00 AM on 12/01",
       "outCount": 1,
       "custOut": 14,
-      "cause": "Emergency Repair",
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Notified",
-      "reported": "09:00 AM on 12/01",
-      "zip": "83254"
+      "reported": "09:50 AM on 12/01",
+      "zip": "83406"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.705,
+      "latitude": 43.746,
+      "etr": "Before 01:00 PM on 12/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:59 AM on 12/01",
+      "zip": "83440"
     }
   ],
   "zips": [
     {
-      "zipCode": "83254",
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83406",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 14
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Bear Lake",
+      "countyName": "Bonneville",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 14
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     }
   ]
 }
