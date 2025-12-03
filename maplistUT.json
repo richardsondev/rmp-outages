@@ -1,7 +1,19 @@
 {
   "count": 12,
-  "totalState": 706,
+  "totalState": 627,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.182,
+      "latitude": 38.204,
+      "etr": "Before 06:00 PM on 12/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:13 PM on 12/03",
+      "zip": "84743"
+    },
     {
       "icon": "standard",
       "longitude": -111.879,
@@ -30,7 +42,7 @@
       "icon": "standard",
       "longitude": -111.938,
       "latitude": 40.657,
-      "etr": "Before 03:00 PM on 12/03",
+      "etr": "Before 03:30 PM on 12/03",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -121,18 +133,6 @@
       "crewStatus": "Crews Notified",
       "reported": "01:02 PM on 12/03",
       "zip": "84067"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.965,
-      "latitude": 41.164,
-      "etr": "Before 03:00 PM on 12/03",
-      "outCount": 1,
-      "custOut": 80,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "08:56 AM on 12/03",
-      "zip": "84405"
     }
   ],
   "zips": [
@@ -200,16 +200,23 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84405",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 80,
-      "custOutUnplan": 0
+      "zipCode": "84743",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Piute",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -238,9 +245,9 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 80,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ]
