@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 54,
+  "count": 9,
+  "totalState": 58,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:00 AM on 12/03",
       "zip": "84738"
+    },
+    {
+      "icon": "planned",
+      "longitude": -113.14,
+      "latitude": 37.654,
+      "etr": "Before 11:00 AM on 12/03",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:34 AM on 12/03",
+      "zip": "84720"
     },
     {
       "icon": "standard",
@@ -85,6 +97,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:18 AM on 12/03",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.813,
+      "latitude": 41.325,
+      "etr": "Before 12:00 PM on 12/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:35 AM on 12/03",
+      "zip": "84310"
     }
   ],
   "zips": [
@@ -97,6 +121,13 @@
     },
     {
       "zipCode": "84045",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84310",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -124,6 +155,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84720",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84738",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -138,6 +176,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 7
+    },
+    {
+      "countyName": "Iron",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Millard",
@@ -170,9 +215,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 7,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ]
 }
