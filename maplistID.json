@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 87,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.669,
+      "latitude": 42.062,
+      "etr": "Before 01:00 PM on 12/03",
+      "outCount": 1,
+      "custOut": 12,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:15 AM on 12/03",
+      "zip": "83252"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.04,
+      "latitude": 43.584,
+      "etr": "Before 03:30 PM on 12/03",
+      "outCount": 1,
+      "custOut": 74,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:27 AM on 12/03",
+      "zip": "83401"
+    },
     {
       "icon": "planned",
       "longitude": -111.488,
@@ -17,6 +41,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 74,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83420",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -26,10 +64,24 @@
   ],
   "counties": [
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 74,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
       "custOutUnplan": 0
     }
   ]
