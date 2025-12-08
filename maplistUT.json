@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 288,
+  "count": 8,
+  "totalState": 291,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.842,
+      "latitude": 40.586,
+      "etr": "Before 01:00 AM on 12/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:53 PM on 12/07",
+      "zip": "84093"
+    },
     {
       "icon": "standard",
       "longitude": -112.318,
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:33 PM on 12/07",
       "zip": "84121"
     },
@@ -39,6 +51,18 @@
       "zip": "84120"
     },
     {
+      "icon": "planned",
+      "longitude": -111.902,
+      "latitude": 40.759,
+      "etr": "Before 12:00 AM on 12/08",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:32 PM on 12/07",
+      "zip": "84101"
+    },
+    {
       "icon": "standard",
       "longitude": -111.902,
       "latitude": 40.774,
@@ -49,18 +73,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "05:24 PM on 12/07",
       "zip": "84116"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.946,
-      "latitude": 41.194,
-      "etr": "Before 11:30 PM on 12/07",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:15 PM on 12/07",
-      "zip": "84403"
     }
   ],
   "zips": [
@@ -70,6 +82,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84093",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84101",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84116",
@@ -91,32 +117,18 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84403",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
-      "outCountUnplan": 4,
-      "custOutPlan": 224,
-      "custOutUnplan": 62
+      "outCountPlan": 2,
+      "outCountUnplan": 5,
+      "custOutPlan": 227,
+      "custOutUnplan": 63
     },
     {
       "countyName": "Tooele",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
