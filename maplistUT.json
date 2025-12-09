@@ -1,6 +1,6 @@
 {
-  "count": 20,
-  "totalState": 299,
+  "count": 22,
+  "totalState": 305,
   "outages": [
     {
       "icon": "planned",
@@ -48,6 +48,18 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "08:17 AM on 12/09",
+      "zip": "84078"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.545,
+      "latitude": 40.42,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:44 AM on 12/09",
       "zip": "84078"
     },
     {
@@ -106,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:20 AM on 12/09",
       "zip": "84081"
     },
@@ -184,18 +196,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.864,
-      "latitude": 40.774,
-      "etr": "Before 11:30 AM on 12/09",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:21 AM on 12/09",
-      "zip": "84102"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.921,
       "latitude": 40.788,
       "etr": "Before 11:00 AM on 12/09",
@@ -219,13 +219,25 @@
       "zip": "84041"
     },
     {
+      "icon": "planned",
+      "longitude": -111.925,
+      "latitude": 41.078,
+      "etr": "Before 03:00 PM on 12/09",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:44 AM on 12/09",
+      "zip": "84040"
+    },
+    {
       "icon": "standard",
       "longitude": -112.003,
       "latitude": 41.164,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Investigating",
+      "etr": "Before 01:00 PM on 12/09",
+      "outCount": 2,
+      "custOut": 10,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "08:29 AM on 12/09",
       "zip": "84405"
@@ -238,6 +250,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84040",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84041",
@@ -263,9 +282,9 @@
     {
       "zipCode": "84078",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 4
     },
     {
       "zipCode": "84081",
@@ -293,13 +312,6 @@
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 15,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84102",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -339,10 +351,10 @@
     },
     {
       "zipCode": "84405",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutPlan": 9,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84720",
@@ -362,9 +374,9 @@
   "counties": [
     {
       "countyName": "Davis",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 5,
       "custOutUnplan": 1
     },
     {
@@ -377,9 +389,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 9,
+      "outCountUnplan": 8,
       "custOutPlan": 172,
-      "custOutUnplan": 9
+      "custOutUnplan": 8
     },
     {
       "countyName": "Summit",
@@ -391,9 +403,9 @@
     {
       "countyName": "Uintah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 4
     },
     {
       "countyName": "Utah",
@@ -411,10 +423,10 @@
     },
     {
       "countyName": "Weber",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutPlan": 9,
+      "custOutUnplan": 1
     }
   ]
 }
