@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 50,
+  "count": 8,
+  "totalState": 61,
   "outages": [
     {
       "icon": "standard",
@@ -9,10 +9,22 @@
       "etr": "Before 01:00 PM on 12/10",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Damaged Line",
+      "crewStatus": "Crews Notified",
       "reported": "10:33 AM on 12/10",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.803,
+      "latitude": 42.05,
+      "etr": "Before 03:30 PM on 12/10",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:02 PM on 12/10",
+      "zip": "83237"
     },
     {
       "icon": "standard",
@@ -49,9 +61,52 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:23 AM on 12/10",
       "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.06,
+      "latitude": 43.439,
+      "etr": "Before 03:00 PM on 12/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:02 PM on 12/10",
+      "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.04,
+      "latitude": 43.439,
+      "etr": "Before 03:00 PM on 12/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:02 PM on 12/10",
+      "zip": "83404"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.133,
+      "latitude": 43.634,
+      "etr": "Before 03:30 PM on 12/10",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:03 PM on 12/10",
+      "zip": "83402"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "zipCode": "83263",
       "outCountPlan": 0,
@@ -65,6 +120,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 48,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
+      "zipCode": "83404",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -76,11 +145,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 9
+    },
+    {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     }
   ]
 }
