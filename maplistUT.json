@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 49,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,30 @@
       "crewStatus": "Crews Notified",
       "reported": "01:23 AM on 12/14",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.977,
+      "latitude": 40.7,
+      "etr": "Before 06:00 AM on 12/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:39 AM on 12/14",
+      "zip": "84119"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.863,
+      "latitude": 40.716,
+      "etr": "Before 07:00 AM on 12/14",
+      "outCount": 1,
+      "custOut": 47,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "02:31 AM on 12/14",
+      "zip": "84106"
     }
   ],
   "zips": [
@@ -22,9 +46,30 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84106",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 47,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84119",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 47,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Tooele",
       "outCountPlan": 0,
