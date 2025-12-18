@@ -1,16 +1,16 @@
 {
-  "count": 6,
-  "totalState": 20,
+  "count": 7,
+  "totalState": 21,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.744,
       "latitude": 42.036,
-      "etr": "Assessing",
+      "etr": "Before 01:00 PM on 12/18",
       "outCount": 1,
       "custOut": 9,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
       "reported": "08:59 AM on 12/18",
       "zip": "83237"
     },
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:37 AM on 12/18",
       "zip": "83246"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.157,
+      "latitude": 43.308,
+      "etr": "Before 12:00 PM on 12/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:11 AM on 12/18",
+      "zip": "83236"
     },
     {
       "icon": "standard",
@@ -77,11 +89,18 @@
   ],
   "zips": [
     {
-      "zipCode": "83237",
+      "zipCode": "83236",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83237",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83244",
@@ -128,6 +147,13 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Butte",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -143,10 +169,10 @@
     },
     {
       "countyName": "Franklin",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 10
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 9,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Fremont",
