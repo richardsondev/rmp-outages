@@ -1,7 +1,31 @@
 {
-  "count": 5,
-  "totalState": 13,
+  "count": 6,
+  "totalState": 14,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.822,
+      "latitude": 42.05,
+      "etr": "Before 04:00 PM on 12/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "01:02 PM on 12/22",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.318,
+      "latitude": 42.328,
+      "etr": "Before 03:30 PM on 12/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:06 PM on 12/22",
+      "zip": "83254"
+    },
     {
       "icon": "planned",
       "longitude": -111.507,
@@ -40,43 +64,38 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.982,
-      "latitude": 43.556,
-      "etr": "Before 05:00 PM on 12/22",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:32 AM on 12/22",
-      "zip": "83401"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.766,
       "latitude": 43.818,
-      "etr": "Before 03:00 PM on 12/22",
+      "etr": "Before 02:00 PM on 12/22",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "12:14 PM on 12/22",
       "zip": "83440"
     }
   ],
   "zips": [
     {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83276",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 3,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83401",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "83404",
@@ -102,17 +121,31 @@
   ],
   "counties": [
     {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 8
     },
     {
       "countyName": "Caribou",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 0
     },
     {
