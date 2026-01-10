@@ -1,7 +1,19 @@
 {
-  "count": 8,
-  "totalState": 9,
+  "count": 9,
+  "totalState": 10,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.861,
+      "latitude": 40.542,
+      "etr": "Before 06:00 PM on 01/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:51 PM on 01/10",
+      "zip": "84094"
+    },
     {
       "icon": "planned",
       "longitude": -112.013,
@@ -52,18 +64,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.882,
-      "latitude": 40.701,
-      "etr": "Before 03:30 PM on 01/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:33 PM on 01/10",
-      "zip": "84115"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.111,
       "latitude": 40.714,
       "etr": "Before 04:30 PM on 01/10",
@@ -97,11 +97,30 @@
       "crewStatus": "Crews Notified",
       "reported": "02:24 PM on 01/10",
       "zip": "84401"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.151,
+      "latitude": 41.727,
+      "etr": "Before 06:00 PM on 01/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:52 PM on 01/10",
+      "zip": "84064"
     }
   ],
   "zips": [
     {
       "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84064",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -115,11 +134,18 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84094",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84115",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84121",
@@ -151,6 +177,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Rich",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
