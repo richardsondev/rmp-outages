@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 11,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 12:30 PM on 01/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:02 AM on 01/12",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -109.247,
@@ -13,9 +25,35 @@
       "crewStatus": "Crews Notified",
       "reported": "08:55 AM on 01/12",
       "zip": "82901"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.063,
+      "latitude": 44.493,
+      "etr": "Before 11:30 AM on 01/12",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:03 AM on 01/12",
+      "zip": "82414"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82072",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82414",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82901",
       "outCountPlan": 0,
@@ -25,6 +63,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
