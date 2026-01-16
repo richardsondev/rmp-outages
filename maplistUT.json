@@ -1,6 +1,6 @@
 {
-  "count": 21,
-  "totalState": 262,
+  "count": 22,
+  "totalState": 263,
   "outages": [
     {
       "icon": "planned",
@@ -51,6 +51,18 @@
       "zip": "84003"
     },
     {
+      "icon": "planned",
+      "longitude": -111.879,
+      "latitude": 40.498,
+      "etr": "Before 04:00 PM on 01/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "12:38 PM on 01/16",
+      "zip": "84020"
+    },
+    {
       "icon": "standard",
       "longitude": -111.614,
       "latitude": 40.572,
@@ -61,18 +73,6 @@
       "crewStatus": "Crews Notified",
       "reported": "10:26 AM on 01/16",
       "zip": "84092"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.899,
-      "latitude": 40.6,
-      "etr": "Before 02:30 PM on 01/16",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:28 AM on 01/16",
-      "zip": "84070"
     },
     {
       "icon": "standard",
@@ -90,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.862,
       "latitude": 40.658,
-      "etr": "Assessing",
+      "etr": "Before 02:00 PM on 01/16",
       "outCount": 1,
       "custOut": 25,
       "cause": "Damaged Line",
@@ -102,7 +102,7 @@
       "icon": "standard",
       "longitude": -111.938,
       "latitude": 40.672,
-      "etr": "Before 12:30 PM on 01/16",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Damaged Equipment",
@@ -114,7 +114,7 @@
       "icon": "standard",
       "longitude": -111.939,
       "latitude": 40.701,
-      "etr": "Before 12:30 PM on 01/16",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -208,6 +208,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.983,
+      "latitude": 41.092,
+      "etr": "Before 03:30 PM on 01/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:38 PM on 01/16",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.119,
       "latitude": 41.192,
       "etr": "Before 01:30 PM on 01/16",
@@ -234,7 +246,7 @@
       "icon": "standard",
       "longitude": -111.947,
       "latitude": 41.266,
-      "etr": "Before 12:30 PM on 01/16",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 59,
       "cause": "Emergency Repair",
@@ -252,14 +264,21 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84057",
+      "zipCode": "84020",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84041",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84070",
+      "zipCode": "84057",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -359,11 +378,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
-      "outCountPlan": 1,
-      "outCountUnplan": 12,
-      "custOutPlan": 1,
-      "custOutUnplan": 92
+      "outCountPlan": 2,
+      "outCountUnplan": 11,
+      "custOutPlan": 2,
+      "custOutUnplan": 91
     },
     {
       "countyName": "Utah",
