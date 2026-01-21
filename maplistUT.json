@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 152,
   "outages": [
     {
       "icon": "standard",
@@ -37,6 +37,30 @@
       "crewStatus": "Crews Notified",
       "reported": "08:02 AM on 01/21",
       "zip": "84017"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.022,
+      "latitude": 41.178,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 17,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:28 AM on 01/21",
+      "zip": "84067"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.965,
+      "latitude": 41.208,
+      "etr": "Before 02:30 PM on 01/21",
+      "outCount": 1,
+      "custOut": 132,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:21 AM on 01/21",
+      "zip": "84403"
     }
   ],
   "zips": [
@@ -48,11 +72,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84067",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 17
+    },
+    {
       "zipCode": "84081",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "zipCode": "84403",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 132,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -69,6 +107,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Weber",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 132,
+      "custOutUnplan": 17
     }
   ]
 }
