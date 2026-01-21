@@ -1,7 +1,31 @@
 {
-  "count": 2,
-  "totalState": 16,
+  "count": 4,
+  "totalState": 39,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.236,
+      "latitude": 42.336,
+      "etr": "Before 11:00 AM on 01/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:34 AM on 01/21",
+      "zip": "83252"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.476,
+      "latitude": 42.595,
+      "etr": "Before 02:00 PM on 01/21",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:43 AM on 01/21",
+      "zip": "83276"
+    },
     {
       "icon": "standard",
       "longitude": -111.396,
@@ -29,6 +53,20 @@
   ],
   "zips": [
     {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83276",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83436",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -45,6 +83,13 @@
   ],
   "counties": [
     {
+      "countyName": "Caribou",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -57,6 +102,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 5
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Teton",
