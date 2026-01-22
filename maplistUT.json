@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 50,
+  "count": 6,
+  "totalState": 123,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.28,
+      "latitude": 40.625,
+      "etr": "Before 11:00 PM on 01/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:00 PM on 01/21",
+      "zip": "84074"
+    },
     {
       "icon": "standard",
       "longitude": -111.805,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:58 PM on 01/21",
       "zip": "84121"
     },
@@ -28,18 +40,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.635,
-      "latitude": 40.738,
-      "etr": "Before 09:30 PM on 01/21",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "02:03 PM on 01/21",
-      "zip": "84029"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.041,
       "latitude": 41.12,
       "etr": "Before 10:30 PM on 01/21",
@@ -54,13 +54,25 @@
       "icon": "standard",
       "longitude": -111.926,
       "latitude": 41.165,
-      "etr": "Before 09:00 PM on 01/21",
+      "etr": "Before 08:30 PM on 01/21",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "05:47 PM on 01/21",
       "zip": "84403"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.967,
+      "latitude": 41.295,
+      "etr": "Before 12:00 AM on 01/22",
+      "outCount": 1,
+      "custOut": 73,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:50 PM on 01/21",
+      "zip": "84414"
     }
   ],
   "zips": [
@@ -72,7 +84,7 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84029",
+      "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -98,6 +110,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84414",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 73
     }
   ],
   "counties": [
@@ -125,9 +144,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 74
     }
   ]
 }
