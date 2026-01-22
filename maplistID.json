@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,30 @@
       "crewStatus": "Crews Notified",
       "reported": "09:07 AM on 01/22",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.752,
+      "latitude": 42.703,
+      "etr": "Before 01:30 PM on 01/22",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:13 AM on 01/22",
+      "zip": "83217"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.138,
+      "latitude": 43.366,
+      "etr": "Before 12:00 PM on 01/22",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:11 AM on 01/22",
+      "zip": "83274"
     },
     {
       "icon": "standard",
@@ -29,11 +53,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83263",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83274",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83402",
@@ -45,7 +83,21 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Caribou",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
