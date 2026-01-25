@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.944,
+      "latitude": 41.049,
+      "etr": "Before 07:00 PM on 01/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:11 PM on 01/25",
+      "zip": "84041"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.695,
       "latitude": 41.065,
       "etr": "Before 08:30 PM on 01/25",
@@ -37,18 +49,6 @@
       "crewStatus": "Crews Notified",
       "reported": "03:29 PM on 01/25",
       "zip": "84050"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.965,
-      "latitude": 41.193,
-      "etr": "Before 04:30 PM on 01/25",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:02 PM on 01/25",
-      "zip": "84403"
     },
     {
       "icon": "standard",
@@ -64,6 +64,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84045",
       "outCountPlan": 1,
@@ -91,16 +98,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 5
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "84403",
+      "countyName": "Davis",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Morgan",
       "outCountPlan": 0,
@@ -125,9 +132,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 5
     }
   ]
 }
