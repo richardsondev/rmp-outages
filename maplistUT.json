@@ -1,18 +1,30 @@
 {
   "count": 6,
-  "totalState": 87,
+  "totalState": 70,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.842,
       "latitude": 40.6,
-      "etr": "Before 06:30 PM on 01/25",
-      "outCount": 3,
-      "custOut": 79,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 60,
       "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "03:24 PM on 01/25",
       "zip": "84093"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.318,
+      "latitude": 40.61,
+      "etr": "Before 10:00 PM on 01/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:33 PM on 01/25",
+      "zip": "84074"
     },
     {
       "icon": "standard",
@@ -30,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.977,
       "latitude": 40.7,
-      "etr": "Before 08:00 PM on 01/25",
+      "etr": "Before 10:30 PM on 01/25",
       "outCount": 1,
-      "custOut": 6,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "custOut": 7,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "04:36 PM on 01/25",
       "zip": "84120"
     },
@@ -53,6 +65,13 @@
   ],
   "zips": [
     {
+      "zipCode": "84074",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84088",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -62,9 +81,9 @@
     {
       "zipCode": "84093",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 79
+      "custOutUnplan": 60
     },
     {
       "zipCode": "84103",
@@ -78,16 +97,23 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 7
     }
   ],
   "counties": [
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 6,
+      "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 87
+      "custOutUnplan": 69
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
