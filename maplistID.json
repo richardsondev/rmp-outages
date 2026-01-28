@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 6,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.04,
+      "latitude": 43.584,
+      "etr": "Before 12:00 PM on 01/28",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:17 AM on 01/28",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -111.786,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "08:15 AM on 01/28",
       "zip": "83440"
     },
@@ -29,6 +41,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
       "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -44,6 +63,13 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 1,
