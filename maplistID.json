@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 29,
+  "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.881,
+      "latitude": 42.107,
+      "etr": "Before 12:30 PM on 01/30",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:06 AM on 01/30",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.138,
+      "latitude": 43.366,
+      "etr": "Before 04:30 PM on 01/30",
+      "outCount": 1,
+      "custOut": 27,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:01 AM on 01/30",
+      "zip": "83274"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 27
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 27
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    }
+  ]
 }
