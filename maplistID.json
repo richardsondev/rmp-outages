@@ -1,30 +1,42 @@
 {
-  "count": 4,
-  "totalState": 31,
+  "count": 5,
+  "totalState": 42,
   "outages": [
     {
-      "icon": "planned",
-      "longitude": -111.862,
-      "latitude": 42.108,
-      "etr": "Before 12:30 PM on 01/30",
+      "icon": "standard",
+      "longitude": -112.182,
+      "latitude": 42.554,
+      "etr": "Before 01:00 PM on 01/30",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Planned Maintenance",
+      "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "10:10 AM on 01/30",
-      "zip": "83263"
+      "reported": "10:30 AM on 01/30",
+      "zip": "83214"
     },
     {
       "icon": "standard",
       "longitude": -112.138,
       "latitude": 43.366,
-      "etr": "Assessing",
+      "etr": "Before 04:30 PM on 01/30",
       "outCount": 2,
-      "custOut": 28,
+      "custOut": 38,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "09:01 AM on 01/30",
       "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.978,
+      "latitude": 43.483,
+      "etr": "Before 01:30 PM on 01/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:35 AM on 01/30",
+      "zip": "83406"
     },
     {
       "icon": "planned",
@@ -41,18 +53,25 @@
   ],
   "zips": [
     {
-      "zipCode": "83263",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
+      "zipCode": "83214",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 28
+      "custOutUnplan": 38
+    },
+    {
+      "zipCode": "83406",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83423",
@@ -64,24 +83,31 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 28
+      "custOutUnplan": 38
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Clark",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Franklin",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
       "custOutUnplan": 0
     }
   ]
