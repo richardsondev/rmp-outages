@@ -1,7 +1,62 @@
 {
-  "count": 0,
-  "totalState": 0,
-  "outages": [],
-  "zips": [],
-  "counties": []
+  "count": 2,
+  "totalState": 5,
+  "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.064,
+      "latitude": 42.27,
+      "etr": "Before 10:30 AM on 02/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:02 AM on 02/07",
+      "zip": "83238"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.485,
+      "latitude": 44.152,
+      "etr": "Before 11:00 AM on 02/07",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:08 AM on 02/07",
+      "zip": "83423"
+    }
+  ],
+  "zips": [
+    {
+      "zipCode": "83238",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 4
+    }
+  ]
 }
