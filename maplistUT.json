@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 107,
+  "count": 6,
+  "totalState": 133,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.898,
+      "latitude": 40.527,
+      "etr": "Before 05:30 AM on 02/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:01 AM on 02/10",
+      "zip": "84020"
+    },
     {
       "icon": "planned",
       "longitude": -111.883,
@@ -18,13 +30,13 @@
       "icon": "standard",
       "longitude": -112.041,
       "latitude": 41.149,
-      "etr": "Before 08:00 AM on 02/10",
+      "etr": "Before 10:00 AM on 02/10",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 26,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "01:41 AM on 02/10",
-      "zip": "84067"
+      "zip": "84015, 84067"
     },
     {
       "icon": "standard",
@@ -53,11 +65,25 @@
   ],
   "zips": [
     {
-      "zipCode": "84067",
+      "zipCode": "84015",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 18
+    },
+    {
+      "zipCode": "84020",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84067",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
     },
     {
       "zipCode": "84103",
@@ -76,18 +102,25 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 18
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 6,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 101
+      "custOutUnplan": 108
     }
   ]
 }
