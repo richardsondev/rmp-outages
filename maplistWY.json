@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 63,
+  "count": 3,
+  "totalState": 65,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.583,
+      "latitude": 41.331,
+      "etr": "Before 01:30 PM on 02/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:19 AM on 02/10",
+      "zip": "82072"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.229,
+      "latitude": 41.59,
+      "etr": "Before 04:30 PM on 02/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:01 AM on 02/10",
+      "zip": "82901"
+    },
     {
       "icon": "planned",
       "longitude": -110.947,
@@ -17,6 +41,20 @@
   ],
   "zips": [
     {
+      "zipCode": "82072",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83114",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -26,10 +64,24 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Lincoln",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 63,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
       "custOutUnplan": 0
     }
   ]
