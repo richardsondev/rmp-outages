@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "totalState": 5,
+  "totalState": 3,
   "outages": [
     {
       "icon": "planned",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.883,
+      "latitude": 40.774,
+      "etr": "Before 02:30 AM on 02/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:13 PM on 02/11",
+      "zip": "84103"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.099,
       "latitude": 41.149,
       "etr": "Before 01:30 AM on 02/12",
@@ -25,18 +37,6 @@
       "crewStatus": "Crews Notified",
       "reported": "10:17 PM on 02/11",
       "zip": "84015"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.042,
-      "latitude": 41.193,
-      "etr": "Before 11:30 PM on 02/11",
-      "outCount": 1,
-      "custOut": 3,
-      "cause": "Lightning",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:18 PM on 02/11",
-      "zip": "84401"
     }
   ],
   "zips": [
@@ -48,18 +48,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84103",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84108",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84401",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
     }
   ],
   "counties": [
@@ -73,16 +73,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutPlan": 1,
+      "custOutUnplan": 1
     }
   ]
 }
