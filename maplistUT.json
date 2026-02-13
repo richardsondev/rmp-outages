@@ -1,7 +1,19 @@
 {
-  "count": 26,
-  "totalState": 196,
+  "count": 25,
+  "totalState": 189,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.585,
+      "latitude": 38.584,
+      "etr": "Before 03:00 PM on 02/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:07 PM on 02/13",
+      "zip": "84713"
+    },
     {
       "icon": "standard",
       "longitude": -110.855,
@@ -18,7 +30,7 @@
       "icon": "standard",
       "longitude": -111.706,
       "latitude": 40.34,
-      "etr": "Before 12:00 PM on 02/13",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 13,
       "cause": "Damaged Equipment",
@@ -39,13 +51,13 @@
       "zip": "84003"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.821,
       "latitude": 40.426,
-      "etr": "Assessing",
+      "etr": "Before 06:30 PM on 02/13",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "11:59 AM on 02/13",
       "zip": "84043"
@@ -61,18 +73,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "10:20 AM on 02/13",
       "zip": "84078"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.917,
-      "latitude": 40.469,
-      "etr": "Before 01:00 PM on 02/13",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:29 AM on 02/13",
-      "zip": "84065"
     },
     {
       "icon": "planned",
@@ -97,18 +97,6 @@
       "crewStatus": "Crews Notified",
       "reported": "11:03 AM on 02/13",
       "zip": "84094"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.033,
-      "latitude": 40.599,
-      "etr": "Before 12:00 PM on 02/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:54 AM on 02/13",
-      "zip": "84081"
     },
     {
       "icon": "standard",
@@ -246,7 +234,7 @@
       "icon": "standard",
       "longitude": -111.735,
       "latitude": 41.224,
-      "etr": "Assessing",
+      "etr": "Before 06:00 PM on 02/13",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -286,27 +274,13 @@
     },
     {
       "zipCode": "84043",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84065",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 7,
+      "custOutPlan": 1,
       "custOutUnplan": 0
     },
     {
       "zipCode": "84078",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84081",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -402,6 +376,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84713",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -427,11 +408,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Millard",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
-      "outCountPlan": 3,
-      "outCountUnplan": 6,
-      "custOutPlan": 27,
-      "custOutUnplan": 6
+      "outCountPlan": 2,
+      "outCountUnplan": 5,
+      "custOutPlan": 20,
+      "custOutUnplan": 5
     },
     {
       "countyName": "Summit",
@@ -449,10 +437,10 @@
     },
     {
       "countyName": "Utah",
-      "outCountPlan": 1,
-      "outCountUnplan": 2,
-      "custOutPlan": 5,
-      "custOutUnplan": 14
+      "outCountPlan": 2,
+      "outCountUnplan": 1,
+      "custOutPlan": 6,
+      "custOutUnplan": 13
     },
     {
       "countyName": "Weber",
