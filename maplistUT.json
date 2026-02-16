@@ -1,7 +1,31 @@
 {
-  "count": 2,
+  "count": 4,
   "totalState": 4,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.014,
+      "latitude": 38.396,
+      "etr": "Before 10:30 AM on 02/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:21 AM on 02/16",
+      "zip": "84751"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.917,
+      "latitude": 40.483,
+      "etr": "Before 10:30 AM on 02/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Vehicle Accident",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:24 AM on 02/16",
+      "zip": "84065"
+    },
     {
       "icon": "standard",
       "longitude": -112.013,
@@ -15,19 +39,26 @@
       "zip": "84081"
     },
     {
-      "icon": "planned",
-      "longitude": -111.882,
-      "latitude": 40.73,
-      "etr": "Before 09:30 AM on 02/16",
+      "icon": "standard",
+      "longitude": -111.958,
+      "latitude": 40.701,
+      "etr": "Before 11:00 AM on 02/16",
       "outCount": 1,
-      "custOut": 3,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "05:18 AM on 02/16",
-      "zip": "84115"
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:42 AM on 02/16",
+      "zip": "84119"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84065",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84081",
       "outCountPlan": 0,
@@ -36,20 +67,34 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84115",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 3,
-      "custOutUnplan": 0
+      "zipCode": "84119",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84751",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Salt Lake",
-      "outCountPlan": 1,
+      "countyName": "Beaver",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 3,
+      "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
