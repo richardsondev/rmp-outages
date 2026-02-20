@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 17,
+  "count": 6,
+  "totalState": 23,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.218,
+      "latitude": 37.203,
+      "etr": "Before 10:30 AM on 02/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:17 AM on 02/20",
+      "zip": "84779"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.432,
+      "latitude": 37.839,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:44 AM on 02/20",
+      "zip": "84759"
+    },
     {
       "icon": "standard",
       "longitude": -111.843,
@@ -9,20 +33,32 @@
       "etr": "Before 03:00 PM on 02/20",
       "outCount": 1,
       "custOut": 15,
-      "cause": "Investigating",
+      "cause": "Pole Fire",
       "crewStatus": "Crews Notified",
       "reported": "04:06 PM on 02/19",
       "zip": "84121"
     },
     {
+      "icon": "planned",
+      "longitude": -111.349,
+      "latitude": 40.856,
+      "etr": "Before 12:00 PM on 02/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:42 AM on 02/20",
+      "zip": "84017"
+    },
+    {
       "icon": "standard",
       "longitude": -111.904,
       "latitude": 40.977,
-      "etr": "Before 10:00 AM on 02/20",
+      "etr": "Before 10:30 AM on 02/20",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 4,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "07:06 AM on 02/20",
       "zip": "84025"
     },
@@ -41,11 +77,18 @@
   ],
   "zips": [
     {
+      "zipCode": "84017",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84025",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 4
     },
     {
       "zipCode": "84121",
@@ -56,6 +99,20 @@
     },
     {
       "zipCode": "84335",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84759",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84779",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -75,6 +132,13 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 4
+    },
+    {
+      "countyName": "Garfield",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -83,6 +147,20 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 15
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Washington",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
