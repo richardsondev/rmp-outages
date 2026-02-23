@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.157,
+      "latitude": 43.337,
+      "etr": "Before 11:30 AM on 02/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:43 AM on 02/23",
+      "zip": "83274"
+    },
     {
       "icon": "standard",
       "longitude": -111.904,
@@ -13,11 +25,37 @@
       "crewStatus": "Crews Notified",
       "reported": "08:22 AM on 02/23",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.467,
+      "latitude": 43.84,
+      "etr": "Before 11:30 AM on 02/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:37 AM on 02/23",
+      "zip": "83450"
     }
   ],
   "zips": [
     {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83442",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83450",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -26,11 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Jefferson",
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
