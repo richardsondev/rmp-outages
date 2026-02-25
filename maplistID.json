@@ -1,12 +1,24 @@
 {
-  "count": 2,
-  "totalState": 6,
+  "count": 3,
+  "totalState": 7,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.902,
+      "latitude": 43.513,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:59 AM on 02/25",
+      "zip": "83401"
+    },
     {
       "icon": "planned",
       "longitude": -112.002,
       "latitude": 43.541,
-      "etr": "Before 10:30 AM on 02/25",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 5,
       "cause": "Planned Maintenance",
@@ -15,13 +27,13 @@
       "zip": "83401"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -111.727,
       "latitude": 43.848,
-      "etr": "Before 12:30 PM on 02/25",
+      "etr": "Before 12:00 PM on 02/25",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "09:57 AM on 02/25",
       "zip": "83448"
@@ -31,32 +43,32 @@
     {
       "zipCode": "83401",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 5,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83448",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Bonneville",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 5,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
