@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 4,
+  "totalState": 25,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.745,
+      "latitude": 40.427,
+      "etr": "Before 10:00 AM on 03/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:05 AM on 03/01",
+      "zip": "84062"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.298,
+      "latitude": 40.552,
+      "etr": "Before 09:00 AM on 03/01",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:11 AM on 03/01",
+      "zip": "84074"
+    },
     {
       "icon": "standard",
       "longitude": -112.318,
@@ -13,11 +37,37 @@
       "crewStatus": "Crews Notified",
       "reported": "06:42 PM on 02/28",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.596,
+      "latitude": 40.761,
+      "etr": "Before 11:30 AM on 03/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:09 AM on 03/01",
+      "zip": "84098"
     }
   ],
   "zips": [
     {
+      "zipCode": "84062",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84074",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 22,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84098",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -26,7 +76,21 @@
   ],
   "counties": [
     {
+      "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Tooele",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 22,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Utah",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
