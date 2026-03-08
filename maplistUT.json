@@ -1,6 +1,6 @@
 {
   "count": 13,
-  "totalState": 259,
+  "totalState": 266,
   "outages": [
     {
       "icon": "standard",
@@ -46,9 +46,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:54 AM on 03/08",
       "zip": "84078"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.279,
+      "latitude": 40.538,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:43 AM on 03/08",
+      "zip": "84074"
     },
     {
       "icon": "standard",
@@ -76,13 +88,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.862,
-      "latitude": 40.672,
-      "etr": "Assessing",
+      "longitude": -111.804,
+      "latitude": 40.615,
+      "etr": "Before 02:00 PM on 03/08",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "10:35 AM on 03/08",
+      "zip": "84121"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.862,
+      "latitude": 40.672,
+      "etr": "Before 02:30 PM on 03/08",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
       "reported": "10:29 AM on 03/08",
       "zip": "84124"
     },
@@ -94,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:01 AM on 03/08",
       "zip": "84109"
     },
@@ -112,30 +136,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.902,
-      "latitude": 40.788,
-      "etr": "Before 11:00 AM on 03/08",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Vehicle Accident",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:55 AM on 03/08",
-      "zip": "84103"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.944,
-      "latitude": 41.092,
-      "etr": "Before 01:30 PM on 03/08",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:24 AM on 03/08",
-      "zip": "84040"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.041,
       "latitude": 41.164,
       "etr": "Before 01:00 PM on 03/08",
@@ -149,14 +149,14 @@
   ],
   "zips": [
     {
-      "zipCode": "84040",
+      "zipCode": "84067",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84067",
+      "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -177,13 +177,6 @@
       "custOutUnplan": 47
     },
     {
-      "zipCode": "84103",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84104",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -198,11 +191,18 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84124",
+      "zipCode": "84121",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84124",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
     },
     {
       "zipCode": "84631",
@@ -228,13 +228,6 @@
   ],
   "counties": [
     {
-      "countyName": "Davis",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Millard",
       "outCountPlan": 0,
       "outCountUnplan": 3,
@@ -246,7 +239,14 @@
       "outCountPlan": 1,
       "outCountUnplan": 6,
       "custOutPlan": 96,
-      "custOutUnplan": 50
+      "custOutUnplan": 57
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Uintah",
