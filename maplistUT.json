@@ -1,23 +1,42 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 9,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.983,
       "latitude": 41.092,
-      "etr": "Assessing",
+      "etr": "Before 09:30 AM on 03/08",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 8,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:29 AM on 03/08",
       "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.083,
+      "latitude": 41.337,
+      "etr": "Before 12:00 PM on 03/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:34 AM on 03/08",
+      "zip": "84404"
     }
   ],
   "zips": [
     {
       "zipCode": "84041",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
+      "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -27,6 +46,13 @@
   "counties": [
     {
       "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 8
+    },
+    {
+      "countyName": "Weber",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
