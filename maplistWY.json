@@ -1,38 +1,14 @@
 {
-  "count": 6,
-  "totalState": 14,
+  "count": 4,
+  "totalState": 20,
   "outages": [
-    {
-      "icon": "planned",
-      "longitude": -109.463,
-      "latitude": 41.506,
-      "etr": "Before 01:00 PM on 03/18",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:00 AM on 03/18",
-      "zip": "82935"
-    },
-    {
-      "icon": "standard",
-      "longitude": -109.287,
-      "latitude": 41.576,
-      "etr": "Before 01:30 PM on 03/18",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:24 AM on 03/18",
-      "zip": "82901"
-    },
     {
       "icon": "standard",
       "longitude": -108.485,
       "latitude": 41.612,
-      "etr": "Before 03:00 PM on 03/18",
-      "outCount": 2,
-      "custOut": 2,
+      "etr": "Before 02:30 PM on 03/18",
+      "outCount": 1,
+      "custOut": 15,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "11:08 AM on 03/18",
@@ -49,31 +25,57 @@
       "crewStatus": "Crews Notified",
       "reported": "11:27 AM on 03/18",
       "zip": "82934, 82935"
+    },
+    {
+      "icon": "standard",
+      "longitude": -104.941,
+      "latitude": 42.434,
+      "etr": "Before 03:00 PM on 03/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:52 AM on 03/18",
+      "zip": "82213"
     }
   ],
   "zips": [
     {
+      "zipCode": "82213",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82901",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 15
     },
     {
       "zipCode": "82935",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 2,
-      "custOutPlan": 7,
+      "custOutPlan": 0,
       "custOutUnplan": 4
     }
   ],
   "counties": [
     {
+      "countyName": "Platte",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Sweetwater",
-      "outCountPlan": 1,
-      "outCountUnplan": 5,
-      "custOutPlan": 7,
-      "custOutUnplan": 7
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 19
     }
   ]
 }
