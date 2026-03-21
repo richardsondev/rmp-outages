@@ -1,18 +1,18 @@
 {
-  "count": 2,
-  "totalState": 3,
+  "count": 3,
+  "totalState": 4,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -110.948,
-      "latitude": 41.256,
-      "etr": "Before 03:30 PM on 03/21",
+      "longitude": -106.344,
+      "latitude": 42.77,
+      "etr": "Before 06:00 PM on 03/21",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:53 PM on 03/21",
-      "zip": "82930"
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:00 PM on 03/21",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -25,38 +25,57 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:14 PM on 03/21",
       "zip": "82609"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.379,
+      "latitude": 44.834,
+      "etr": "Before 06:30 PM on 03/21",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:12 PM on 03/21",
+      "zip": "82431"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82431",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82609",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "82930",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
-      "countyName": "Uinta",
+      "countyName": "Big Horn",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
