@@ -1,6 +1,6 @@
 {
   "count": 7,
-  "totalState": 10,
+  "totalState": 16,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "12:30 PM on 03/31",
       "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.95,
+      "latitude": 42.158,
+      "etr": "Before 03:00 PM on 03/31",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:53 PM on 03/31",
+      "zip": "83228"
     },
     {
       "icon": "standard",
@@ -46,7 +58,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:39 PM on 03/31",
       "zip": "83440"
     },
@@ -54,11 +66,11 @@
       "icon": "standard",
       "longitude": -111.428,
       "latitude": 44.066,
-      "etr": "Before 03:00 PM on 03/31",
+      "etr": "Before 02:00 PM on 03/31",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "12:17 PM on 03/31",
       "zip": "83420"
     },
@@ -68,21 +80,9 @@
       "latitude": 44.152,
       "etr": "Before 02:30 PM on 03/31",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 7,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:47 AM on 03/31",
-      "zip": "83423"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.364,
-      "latitude": 44.153,
-      "etr": "Before 02:00 PM on 03/31",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:18 AM on 03/31",
       "zip": "83423"
     }
@@ -90,6 +90,13 @@
   "zips": [
     {
       "zipCode": "83213",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83228",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -119,9 +126,9 @@
     {
       "zipCode": "83423",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 7
     },
     {
       "zipCode": "83440",
@@ -149,16 +156,16 @@
     {
       "countyName": "Clark",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 7
     },
     {
       "countyName": "Franklin",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 3
     },
     {
       "countyName": "Fremont",
