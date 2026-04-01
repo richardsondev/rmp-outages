@@ -1,7 +1,19 @@
 {
-  "count": 11,
-  "totalState": 331,
+  "count": 12,
+  "totalState": 552,
   "outages": [
+    {
+      "icon": "ess",
+      "longitude": -113.058,
+      "latitude": 38.316,
+      "etr": "Before 04:00 AM on 04/01",
+      "outCount": 1,
+      "custOut": 123,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "12:52 AM on 04/01",
+      "zip": "84751"
+    },
     {
       "icon": "standard",
       "longitude": -111.853,
@@ -68,9 +80,9 @@
       "latitude": 40.745,
       "etr": "Before 03:00 AM on 04/01",
       "outCount": 2,
-      "custOut": 2,
+      "custOut": 11,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:35 PM on 03/31",
       "zip": "84108"
     },
@@ -88,11 +100,11 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.119,
-      "latitude": 41.192,
-      "etr": "Assessing",
+      "longitude": -112.118,
+      "latitude": 41.178,
+      "etr": "Before 04:30 AM on 04/01",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 90,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:29 AM on 04/01",
@@ -119,14 +131,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 11
     },
     {
       "zipCode": "84315",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 90
     },
     {
       "zipCode": "84651",
@@ -148,15 +160,29 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84751",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 123
     }
   ],
   "counties": [
+    {
+      "countyName": "Beaver",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 123
+    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 11
     },
     {
       "countyName": "Summit",
@@ -184,7 +210,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 90
     }
   ]
 }
