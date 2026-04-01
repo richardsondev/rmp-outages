@@ -1,19 +1,7 @@
 {
-  "count": 6,
-  "totalState": 52,
+  "count": 5,
+  "totalState": 51,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.039,
-      "latitude": 43.381,
-      "etr": "Before 02:30 PM on 04/01",
-      "outCount": 2,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "11:37 AM on 04/01",
-      "zip": "83404"
-    },
     {
       "icon": "standard",
       "longitude": -112.115,
@@ -22,7 +10,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:57 PM on 04/01",
       "zip": "83402"
     },
@@ -30,13 +18,25 @@
       "icon": "standard",
       "longitude": -112.233,
       "latitude": 43.633,
-      "etr": "Before 01:30 PM on 04/01",
+      "etr": "Before 04:00 PM on 04/01",
       "outCount": 1,
       "custOut": 9,
-      "cause": "Investigating",
+      "cause": "Vehicle Accident",
       "crewStatus": "Crews Notified",
       "reported": "10:16 AM on 04/01",
       "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.133,
+      "latitude": 43.634,
+      "etr": "Before 04:30 PM on 04/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:31 PM on 04/01",
+      "zip": "83444"
     },
     {
       "icon": "planned",
@@ -52,15 +52,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.485,
-      "latitude": 44.152,
-      "etr": "Assessing",
+      "longitude": -112.483,
+      "latitude": 44.065,
+      "etr": "Before 03:30 PM on 04/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
-      "reported": "10:12 AM on 04/01",
-      "zip": "83423"
+      "reported": "01:22 PM on 04/01",
+      "zip": "83435"
     }
   ],
   "zips": [
@@ -79,14 +79,14 @@
       "custOutUnplan": 10
     },
     {
-      "zipCode": "83404",
+      "zipCode": "83435",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "83423",
+      "zipCode": "83444",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -97,9 +97,9 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 12
+      "custOutUnplan": 10
     },
     {
       "countyName": "Butte",
@@ -110,6 +110,13 @@
     },
     {
       "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
