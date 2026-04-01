@@ -4,6 +4,18 @@
   "outages": [
     {
       "icon": "standard",
+      "longitude": -112.195,
+      "latitude": 43.249,
+      "etr": "Before 06:00 PM on 04/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:24 PM on 04/01",
+      "zip": "83221"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.233,
       "latitude": 43.633,
       "etr": "Before 04:00 PM on 04/01",
@@ -15,22 +27,10 @@
       "zip": "83402"
     },
     {
-      "icon": "standard",
-      "longitude": -112.133,
-      "latitude": 43.634,
-      "etr": "Before 04:30 PM on 04/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "01:31 PM on 04/01",
-      "zip": "83444"
-    },
-    {
       "icon": "planned",
       "longitude": -113.3,
       "latitude": 43.638,
-      "etr": "Assessing",
+      "etr": "Before 06:00 PM on 04/01",
       "outCount": 1,
       "custOut": 39,
       "cause": "Planned Maintenance",
@@ -48,21 +48,28 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83221",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 9
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "83444",
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
@@ -76,13 +83,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 39,
       "custOutUnplan": 0
-    },
-    {
-      "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
