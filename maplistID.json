@@ -1,16 +1,40 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 5,
+  "totalState": 43,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -113.3,
-      "latitude": 43.638,
-      "etr": "Before 11:30 AM on 04/01",
+      "longitude": -112.35,
+      "latitude": 43.545,
+      "etr": "Before 12:30 PM on 04/01",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "09:33 AM on 04/01",
+      "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.233,
+      "latitude": 43.633,
+      "etr": "Before 12:00 PM on 04/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:23 AM on 04/01",
+      "zip": "83444"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.3,
+      "latitude": 43.638,
+      "etr": "Before 03:00 PM on 04/01",
+      "outCount": 2,
+      "custOut": 40,
+      "cause": "Multiple outages in the area",
+      "crewStatus": "Crews Arrived",
       "reported": "08:50 AM on 04/01",
       "zip": "83213"
     },
@@ -18,11 +42,11 @@
       "icon": "standard",
       "longitude": -111.903,
       "latitude": 43.882,
-      "etr": "Before 11:30 AM on 04/01",
+      "etr": "Before 10:30 AM on 04/01",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wind",
+      "crewStatus": "Crews Arrived",
       "reported": "08:47 AM on 04/01",
       "zip": "83445"
     }
@@ -30,6 +54,20 @@
   "zips": [
     {
       "zipCode": "83213",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 39,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83444",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -45,10 +83,17 @@
   ],
   "counties": [
     {
-      "countyName": "Butte",
+      "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 39,
       "custOutUnplan": 1
     },
     {
