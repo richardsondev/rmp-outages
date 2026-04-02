@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 920,
+  "count": 9,
+  "totalState": 1140,
   "outages": [
     {
       "icon": "planned",
@@ -16,15 +16,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -110.084,
-      "latitude": 42.593,
-      "etr": "Before 02:30 PM on 04/02",
+      "longitude": -110.541,
+      "latitude": 41.791,
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
+      "reported": "09:44 AM on 04/02",
+      "zip": "83101"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.084,
+      "latitude": 42.593,
+      "etr": "Before 02:30 PM on 04/02",
+      "outCount": 2,
+      "custOut": 209,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
       "reported": "08:23 AM on 04/02",
-      "zip": "83113"
+      "zip": "83113, 83115"
     },
     {
       "icon": "planned",
@@ -42,11 +54,11 @@
       "icon": "standard",
       "longitude": -106.32,
       "latitude": 42.827,
-      "etr": "Before 11:30 AM on 04/02",
+      "etr": "Before 10:30 AM on 04/02",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wind",
+      "crewStatus": "Crews Arrived",
       "reported": "08:30 AM on 04/02",
       "zip": "82601"
     },
@@ -64,6 +76,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -108.721,
+      "latitude": 42.856,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 11,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:23 AM on 04/02",
+      "zip": "82520"
+    },
+    {
+      "icon": "standard",
       "longitude": -109.922,
       "latitude": 42.859,
       "etr": "Before 04:00 PM on 04/02",
@@ -76,6 +100,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "82520",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 11
+    },
     {
       "zipCode": "82601",
       "outCountPlan": 0,
@@ -119,21 +150,42 @@
       "custOutUnplan": 598
     },
     {
+      "zipCode": "83101",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83113",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 102
     },
     {
       "zipCode": "83115",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 202
+      "custOutUnplan": 313
     }
   ],
   "counties": [
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 11
+    },
+    {
+      "countyName": "Lincoln",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Natrona",
       "outCountPlan": 1,
@@ -144,9 +196,9 @@
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 895
+      "custOutUnplan": 1103
     },
     {
       "countyName": "Sweetwater",
