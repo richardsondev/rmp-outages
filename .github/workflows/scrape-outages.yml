@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: '01,16,31,46 * * * *'
 
+permissions:
+  contents: write
+
 jobs:
   fetch-external-data:
     runs-on: ubuntu-latest
