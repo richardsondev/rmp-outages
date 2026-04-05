@@ -12,6 +12,7 @@ permissions:
 jobs:
   fetch-external-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
     - name: Checkout latest commit
@@ -29,6 +30,10 @@ jobs:
           echo "Fetching data for ${state}"
           mapJson=$(curl --max-time 60 --retry 3 -s ${URL_BASE}/map${state}.json)
           listJson=$(curl --max-time 60 --retry 3 -s ${URL_BASE}/list${state}.json)
+
+          # Validate responses are valid JSON
+          echo "$mapJson" | jq -e . > /dev/null || { echo "Invalid map JSON for ${state}"; exit 1; }
+          echo "$listJson" | jq -e . > /dev/null || { echo "Invalid list JSON for ${state}"; exit 1; }
 
           # Get shared keys
           shared_keys=$(echo $mapJson | jq -r 'keys[]' | grep -Fx -f <(echo $listJson | jq -r 'keys[]'))
