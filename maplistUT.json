@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 22,
+  "count": 5,
+  "totalState": 26,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.05,
+      "latitude": 37.699,
+      "etr": "Before 12:00 PM on 04/05",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:00 AM on 04/05",
+      "zip": "84721"
+    },
     {
       "icon": "standard",
       "longitude": -111.937,
@@ -27,13 +39,13 @@
       "zip": "84108"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.016,
       "latitude": 40.787,
-      "etr": "Assessing",
+      "etr": "Before 04:00 PM on 04/05",
       "outCount": 2,
       "custOut": 9,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "08:58 AM on 04/05",
       "zip": "84116"
@@ -56,19 +68,33 @@
     },
     {
       "zipCode": "84116",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84721",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 4
     }
   ],
   "counties": [
     {
-      "countyName": "Salt Lake",
+      "countyName": "Iron",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 22
+      "custOutUnplan": 4
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 2,
+      "outCountUnplan": 2,
+      "custOutPlan": 9,
+      "custOutUnplan": 13
     }
   ]
 }
