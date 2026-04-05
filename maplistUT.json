@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 28,
+  "count": 4,
+  "totalState": 19,
   "outages": [
     {
       "icon": "planned",
@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.11,
+      "latitude": 40.699,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:27 PM on 04/05",
+      "zip": "84044"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.92,
       "latitude": 40.715,
       "etr": "Before 03:00 PM on 04/05",
@@ -37,21 +49,16 @@
       "crewStatus": "Crews Notified",
       "reported": "11:44 AM on 04/05",
       "zip": "84119"
-    },
-    {
-      "icon": "planned",
-      "longitude": -112.016,
-      "latitude": 40.787,
-      "etr": "Before 04:00 PM on 04/05",
-      "outCount": 2,
-      "custOut": 10,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:58 AM on 04/05",
-      "zip": "84116"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84047",
       "outCountPlan": 1,
@@ -67,13 +74,6 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84116",
-      "outCountPlan": 2,
-      "outCountUnplan": 0,
-      "custOutPlan": 10,
-      "custOutUnplan": 0
-    },
-    {
       "zipCode": "84119",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -84,10 +84,10 @@
   "counties": [
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 3,
-      "outCountUnplan": 1,
-      "custOutPlan": 17,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 7,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Wasatch",
