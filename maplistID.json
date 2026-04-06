@@ -1,27 +1,15 @@
 {
   "count": 6,
-  "totalState": 95,
+  "totalState": 10,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -111.862,
-      "latitude": 42.079,
-      "etr": "Before 01:30 PM on 04/06",
-      "outCount": 1,
-      "custOut": 88,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:53 AM on 04/06",
-      "zip": "83263"
-    },
-    {
-      "icon": "planned",
       "longitude": -111.842,
       "latitude": 42.079,
       "etr": "Before 02:00 PM on 04/06",
       "outCount": 1,
       "custOut": 3,
-      "cause": "Planned Maintenance",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "09:04 AM on 04/06",
       "zip": "83263"
@@ -42,11 +30,11 @@
       "icon": "standard",
       "longitude": -112.02,
       "latitude": 43.44,
-      "etr": "Assessing",
+      "etr": "Before 12:30 PM on 04/06",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:27 AM on 04/06",
       "zip": "83404"
     },
@@ -73,6 +61,18 @@
       "crewStatus": "Crews Notified",
       "reported": "11:15 AM on 04/06",
       "zip": "83425"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.212,
+      "latitude": 44.068,
+      "etr": "Before 03:00 PM on 04/06",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:51 AM on 04/06",
+      "zip": "83423"
     }
   ],
   "zips": [
@@ -85,10 +85,10 @@
     },
     {
       "zipCode": "83263",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 3,
-      "custOutUnplan": 88
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83402",
@@ -103,6 +103,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83423",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83425",
@@ -128,11 +135,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Franklin",
-      "outCountPlan": 1,
+      "countyName": "Clark",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 3,
-      "custOutUnplan": 88
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Jefferson",
