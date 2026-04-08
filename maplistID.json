@@ -1,30 +1,18 @@
 {
-  "count": 3,
-  "totalState": 4,
+  "count": 2,
+  "totalState": 6,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -111.806,
-      "latitude": 43.832,
-      "etr": "Before 10:00 AM on 04/08",
+      "icon": "planned",
+      "longitude": -112.09,
+      "latitude": 42.33,
+      "etr": "Before 01:00 PM on 04/08",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 5,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
-      "reported": "07:30 AM on 04/08",
-      "zip": "83440"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.517,
-      "latitude": 43.899,
-      "etr": "Before 10:00 AM on 04/08",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:07 AM on 04/08",
-      "zip": "83436"
+      "reported": "08:54 AM on 04/08",
+      "zip": "83281"
     },
     {
       "icon": "standard",
@@ -41,21 +29,14 @@
   ],
   "zips": [
     {
+      "zipCode": "83281",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83423",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83436",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
-    },
-    {
-      "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -64,18 +45,18 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Clark",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
     }
   ]
 }
