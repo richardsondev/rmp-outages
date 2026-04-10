@@ -1,6 +1,6 @@
 {
   "count": 5,
-  "totalState": 71,
+  "totalState": 49,
   "outages": [
     {
       "icon": "standard",
@@ -15,6 +15,30 @@
       "zip": "84005"
     },
     {
+      "icon": "standard",
+      "longitude": -111.915,
+      "latitude": 40.339,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:26 AM on 04/10",
+      "zip": "84045"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.88,
+      "latitude": 40.585,
+      "etr": "Before 04:30 AM on 04/10",
+      "outCount": 2,
+      "custOut": 31,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:19 AM on 04/10",
+      "zip": "84070"
+    },
+    {
       "icon": "planned",
       "longitude": -111.903,
       "latitude": 40.875,
@@ -25,18 +49,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "07:55 PM on 04/09",
       "zip": "84010"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.027,
-      "latitude": 41.454,
-      "etr": "Assessing",
-      "outCount": 3,
-      "custOut": 54,
-      "cause": "Vehicle Accident",
-      "crewStatus": "Crews Notified",
-      "reported": "05:37 PM on 04/09",
-      "zip": "84302"
     }
   ],
   "zips": [
@@ -55,21 +67,21 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "84302",
+      "zipCode": "84045",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 54
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84070",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 31
     }
   ],
   "counties": [
-    {
-      "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 3,
-      "custOutPlan": 0,
-      "custOutUnplan": 54
-    },
     {
       "countyName": "Davis",
       "outCountPlan": 1,
@@ -78,11 +90,18 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Salt Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 31
+    },
+    {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 10
+      "custOutUnplan": 11
     }
   ]
 }
