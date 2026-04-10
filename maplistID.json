@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 109,
+  "count": 3,
+  "totalState": 173,
   "outages": [
     {
       "icon": "planned",
@@ -13,6 +13,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:21 AM on 04/10",
       "zip": "83276"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.027,
+      "latitude": 43.49,
+      "etr": "Before 01:00 PM on 04/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:03 AM on 04/10",
+      "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.688,
+      "latitude": 43.966,
+      "etr": "Before 12:30 PM on 04/10",
+      "outCount": 1,
+      "custOut": 63,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:54 AM on 04/10",
+      "zip": "83445"
     }
   ],
   "zips": [
@@ -22,15 +46,43 @@
       "outCountUnplan": 0,
       "custOutPlan": 109,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 63
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Caribou",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 109,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 63
     }
   ]
 }
