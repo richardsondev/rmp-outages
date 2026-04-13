@@ -1,6 +1,6 @@
 {
-  "count": 6,
-  "totalState": 53,
+  "count": 8,
+  "totalState": 55,
   "outages": [
     {
       "icon": "standard",
@@ -34,9 +34,21 @@
       "outCount": 1,
       "custOut": 18,
       "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:00 AM on 04/13",
       "zip": "84119"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.111,
+      "latitude": 40.714,
+      "etr": "Before 09:00 AM on 04/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:57 AM on 04/13",
+      "zip": "84044"
     },
     {
       "icon": "standard",
@@ -61,11 +73,37 @@
       "crewStatus": "Crews Notified",
       "reported": "03:25 AM on 04/13",
       "zip": "84116"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.922,
+      "latitude": 40.831,
+      "etr": "Before 09:30 AM on 04/13",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:14 AM on 04/13",
+      "zip": "84054"
     }
   ],
   "zips": [
     {
       "zipCode": "84029",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84044",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84054",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -102,11 +140,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 5,
+      "outCountUnplan": 6,
       "custOutPlan": 0,
-      "custOutUnplan": 52
+      "custOutUnplan": 53
     },
     {
       "countyName": "Tooele",
