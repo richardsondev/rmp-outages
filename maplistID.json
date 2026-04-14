@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 5,
   "outages": [
     {
       "icon": "planned",
@@ -16,15 +16,27 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.636,
-      "latitude": 43.812,
-      "etr": "Before 11:00 AM on 04/14",
+      "longitude": -112.118,
+      "latitude": 43.381,
+      "etr": "Before 12:00 PM on 04/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:27 AM on 04/14",
+      "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.212,
+      "latitude": 44.068,
+      "etr": "Before 12:30 PM on 04/14",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "08:22 AM on 04/14",
-      "zip": "83436"
+      "reported": "09:35 AM on 04/14",
+      "zip": "83423"
     }
   ],
   "zips": [
@@ -36,7 +48,14 @@
       "custOutUnplan": 0
     },
     {
-      "zipCode": "83436",
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83423",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -45,18 +64,25 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Clark",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Franklin",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 3,
       "custOutUnplan": 0
-    },
-    {
-      "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
