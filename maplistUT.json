@@ -1,6 +1,6 @@
 {
-  "count": 7,
-  "totalState": 7,
+  "count": 9,
+  "totalState": 81,
   "outages": [
     {
       "icon": "standard",
@@ -56,9 +56,9 @@
       "latitude": 40.714,
       "etr": "Before 10:30 AM on 04/22",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "custOut": 11,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
       "reported": "07:27 AM on 04/19",
       "zip": "84044"
     },
@@ -85,9 +85,40 @@
       "crewStatus": "Crews Notified",
       "reported": "07:52 AM on 04/19",
       "zip": "84036"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.041,
+      "latitude": 41.135,
+      "etr": "Before 12:00 PM on 04/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:02 AM on 04/19",
+      "zip": "84015"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.041,
+      "latitude": 41.149,
+      "etr": "Before 03:00 PM on 04/19",
+      "outCount": 1,
+      "custOut": 63,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:06 AM on 04/19",
+      "zip": "84015"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84015",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 63,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84036",
       "outCountPlan": 0,
@@ -100,7 +131,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 11
     },
     {
       "zipCode": "84060",
@@ -140,11 +171,18 @@
   ],
   "counties": [
     {
+      "countyName": "Davis",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 63,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
       "outCountUnplan": 4,
       "custOutPlan": 1,
-      "custOutUnplan": 4
+      "custOutUnplan": 14
     },
     {
       "countyName": "Summit",
