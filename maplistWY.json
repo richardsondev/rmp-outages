@@ -1,27 +1,51 @@
 {
-  "count": 3,
-  "totalState": 111,
+  "count": 6,
+  "totalState": 114,
   "outages": [
     {
       "icon": "standard",
       "longitude": -106.4,
       "latitude": 42.815,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 110,
-      "cause": "Multiple outages in the area",
+      "etr": "Before 05:00 PM on 04/20",
+      "outCount": 3,
+      "custOut": 111,
+      "cause": "Investigating",
       "crewStatus": "Crews Arrived",
       "reported": "09:26 AM on 04/20",
       "zip": "82604"
     },
     {
       "icon": "standard",
+      "longitude": -106.398,
+      "latitude": 42.834,
+      "etr": "Before 05:00 PM on 04/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:39 AM on 04/20",
+      "zip": "82604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.214,
+      "latitude": 43.599,
+      "etr": "Before 02:00 PM on 04/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:42 AM on 04/20",
+      "zip": "82443"
+    },
+    {
+      "icon": "planned",
       "longitude": -107.954,
       "latitude": 44.012,
       "etr": "Before 01:30 PM on 04/20",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "10:26 AM on 04/20",
       "zip": "82401"
@@ -30,6 +54,13 @@
   "zips": [
     {
       "zipCode": "82401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82443",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -37,26 +68,33 @@
     },
     {
       "zipCode": "82604",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 11,
-      "custOutUnplan": 99
+      "outCountPlan": 0,
+      "outCountUnplan": 4,
+      "custOutPlan": 0,
+      "custOutUnplan": 112
     }
   ],
   "counties": [
     {
-      "countyName": "Natrona",
-      "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 11,
-      "custOutUnplan": 99
-    },
-    {
-      "countyName": "Washakie",
+      "countyName": "Hot Springs",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 4,
+      "custOutPlan": 0,
+      "custOutUnplan": 112
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     }
   ]
 }
