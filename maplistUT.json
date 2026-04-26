@@ -1,19 +1,7 @@
 {
-  "count": 3,
-  "totalState": 9,
+  "count": 4,
+  "totalState": 6,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -109.526,
-      "latitude": 40.42,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:59 AM on 04/26",
-      "zip": "84078"
-    },
     {
       "icon": "standard",
       "longitude": -111.862,
@@ -27,6 +15,18 @@
       "zip": "84047"
     },
     {
+      "icon": "planned",
+      "longitude": -111.883,
+      "latitude": 40.774,
+      "etr": "Before 04:00 PM on 04/26",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:40 AM on 04/26",
+      "zip": "84111"
+    },
+    {
       "icon": "standard",
       "longitude": -111.616,
       "latitude": 41.812,
@@ -37,9 +37,28 @@
       "crewStatus": "Crews Notified",
       "reported": "07:27 AM on 04/26",
       "zip": "84321"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.394,
+      "latitude": 41.907,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:43 AM on 04/26",
+      "zip": "84028"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84028",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84047",
       "outCountPlan": 0,
@@ -48,11 +67,11 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84078",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
+      "zipCode": "84111",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84321",
@@ -71,18 +90,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Salt Lake",
+      "countyName": "Rich",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Uintah",
-      "outCountPlan": 0,
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutPlan": 3,
+      "custOutUnplan": 1
     }
   ]
 }
