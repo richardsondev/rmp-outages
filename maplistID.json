@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 8,
+  "totalState": 752,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.86,
+      "latitude": 42.68,
+      "etr": "Before 02:00 PM on 04/29",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:00 AM on 04/29",
+      "zip": "83217, 83241"
+    },
     {
       "icon": "standard",
       "longitude": -112.178,
@@ -15,16 +27,52 @@
       "zip": "83274"
     },
     {
+      "icon": "planned",
+      "longitude": -112.021,
+      "latitude": 43.555,
+      "etr": "Before 12:00 PM on 04/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:42 AM on 04/29",
+      "zip": "83401"
+    },
+    {
       "icon": "standard",
-      "longitude": -112.023,
-      "latitude": 43.526,
-      "etr": "Before 10:30 AM on 04/29",
+      "longitude": -111.764,
+      "latitude": 43.63,
+      "etr": "Before 01:30 PM on 04/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:31 AM on 04/29",
+      "zip": "83443"
+    },
+    {
+      "icon": "planned",
+      "longitude": -113.3,
+      "latitude": 43.638,
+      "etr": "Before 03:00 PM on 04/29",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "07:39 AM on 04/29",
-      "zip": "83401"
+      "reported": "10:16 AM on 04/29",
+      "zip": "83213"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.607,
+      "latitude": 43.877,
+      "etr": "Before 02:00 PM on 04/29",
+      "outCount": 1,
+      "custOut": 724,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:03 AM on 04/29",
+      "zip": "83436, 83448, 83445, 83451"
     },
     {
       "icon": "standard",
@@ -42,16 +90,30 @@
       "icon": "standard",
       "longitude": -111.758,
       "latitude": 43.992,
-      "etr": "Before 12:00 PM on 04/29",
+      "etr": "Before 11:00 AM on 04/29",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "custOut": 3,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "09:08 AM on 04/29",
       "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83213",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83217",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83274",
       "outCountPlan": 0,
@@ -61,13 +123,20 @@
     },
     {
       "zipCode": "83401",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83436",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 193
+    },
+    {
+      "zipCode": "83443",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,9 +145,23 @@
     {
       "zipCode": "83445",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 23
+    },
+    {
+      "zipCode": "83448",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 58
+    },
+    {
+      "zipCode": "83451",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 454
     }
   ],
   "counties": [
@@ -91,17 +174,45 @@
     },
     {
       "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Butte",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 13,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 592
+    },
+    {
+      "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "countyName": "Fremont",
+      "countyName": "Madison",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 136
     }
   ]
 }
