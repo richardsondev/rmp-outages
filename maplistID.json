@@ -1,7 +1,31 @@
 {
   "count": 4,
-  "totalState": 9,
+  "totalState": 4,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 42.244,
+      "etr": "Before 04:30 PM on 05/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:18 PM on 05/04",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.044,
+      "latitude": 42.541,
+      "etr": "Before 04:30 PM on 05/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:06 PM on 05/04",
+      "zip": "83246"
+    },
     {
       "icon": "standard",
       "longitude": -111.962,
@@ -13,18 +37,6 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:22 PM on 05/04",
       "zip": "83401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.155,
-      "latitude": 43.743,
-      "etr": "Before 04:00 PM on 05/04",
-      "outCount": 2,
-      "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "01:00 PM on 05/04",
-      "zip": "83444"
     },
     {
       "icon": "standard",
@@ -41,18 +53,25 @@
   ],
   "zips": [
     {
-      "zipCode": "83401",
+      "zipCode": "83246",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83444",
+      "zipCode": "83263",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 7
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83445",
@@ -64,7 +83,21 @@
   ],
   "counties": [
     {
+      "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,13 +109,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 7
     }
   ]
 }
