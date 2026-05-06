@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 150,
+  "count": 7,
+  "totalState": 157,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.229,
+      "latitude": 41.604,
+      "etr": "Before 01:30 PM on 05/06",
+      "outCount": 1,
+      "custOut": 6,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:49 AM on 05/06",
+      "zip": "82901"
+    },
     {
       "icon": "standard",
       "longitude": -107.554,
@@ -30,13 +42,25 @@
       "icon": "standard",
       "longitude": -108.653,
       "latitude": 42.833,
-      "etr": "Before 01:00 PM on 05/06",
+      "etr": "Before 04:00 PM on 05/06",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:40 AM on 05/06",
       "zip": "82520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.377,
+      "latitude": 43.052,
+      "etr": "Before 01:30 PM on 05/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:08 AM on 05/06",
+      "zip": "82501"
     }
   ],
   "zips": [
@@ -62,26 +86,40 @@
       "custOutUnplan": 120
     },
     {
+      "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82520",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 4
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 6,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 30
+      "custOutUnplan": 31
     },
     {
       "countyName": "Sweetwater",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 2,
-      "custOutPlan": 0,
+      "custOutPlan": 6,
       "custOutUnplan": 120
     }
   ]
