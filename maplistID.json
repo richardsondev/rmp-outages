@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 6,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.202,
+      "latitude": 42.068,
+      "etr": "Before 04:00 PM on 05/07",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:32 AM on 05/07",
+      "zip": "83252"
+    },
     {
       "icon": "planned",
       "longitude": -112.102,
@@ -13,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:56 AM on 05/07",
       "zip": "83402"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.924,
+      "latitude": 43.672,
+      "etr": "Before 12:30 PM on 05/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:00 AM on 05/07",
+      "zip": "83442"
     },
     {
       "icon": "standard",
@@ -48,11 +72,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 2,
       "outCountUnplan": 0,
       "custOutPlan": 2,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83444",
@@ -80,9 +118,16 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     }
   ]
 }
