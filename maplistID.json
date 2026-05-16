@@ -1,15 +1,27 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.726,
+      "latitude": 42.108,
+      "etr": "Before 01:00 PM on 05/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:39 AM on 05/16",
+      "zip": "83263"
+    },
     {
       "icon": "standard",
       "longitude": -112.093,
       "latitude": 42.504,
       "etr": "Before 01:00 PM on 05/16",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "08:04 AM on 05/16",
       "zip": "83234"
@@ -19,6 +31,13 @@
     {
       "zipCode": "83234",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "83263",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
@@ -27,6 +46,13 @@
   "counties": [
     {
       "countyName": "Bannock",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Franklin",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
