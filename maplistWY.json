@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 5,
+  "totalState": 8,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -107.229,
+      "latitude": 41.788,
+      "etr": "Before 10:30 AM on 05/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:10 AM on 05/23",
+      "zip": "82301"
+    },
     {
       "icon": "standard",
       "longitude": -107.248,
@@ -25,15 +37,39 @@
       "crewStatus": "Crews Arrived",
       "reported": "03:30 AM on 05/18",
       "zip": "82327"
+    },
+    {
+      "icon": "planned",
+      "longitude": -107.081,
+      "latitude": 41.835,
+      "etr": "Before 09:00 AM on 05/23",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "05:56 AM on 05/23",
+      "zip": "82334"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.724,
+      "latitude": 44.364,
+      "etr": "Before 10:00 AM on 05/23",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:59 AM on 05/23",
+      "zip": "82834"
     }
   ],
   "zips": [
     {
       "zipCode": "82301",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82327",
@@ -41,15 +77,36 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "zipCode": "82334",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82834",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Carbon",
+      "outCountPlan": 1,
+      "outCountUnplan": 3,
+      "custOutPlan": 2,
+      "custOutUnplan": 5
+    },
+    {
+      "countyName": "Johnson",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 1
     }
   ]
 }
