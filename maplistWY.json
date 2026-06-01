@@ -1,19 +1,7 @@
 {
-  "count": 7,
-  "totalState": 7,
+  "count": 10,
+  "totalState": 129,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -106.546,
-      "latitude": 41.865,
-      "etr": "Before 08:30 PM on 05/31",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:25 PM on 05/31",
-      "zip": "82327"
-    },
     {
       "icon": "standard",
       "longitude": -105.201,
@@ -30,9 +18,9 @@
       "icon": "standard",
       "longitude": -105.319,
       "latitude": 43.325,
-      "etr": "Before 02:30 AM on 06/01",
-      "outCount": 1,
-      "custOut": 1,
+      "etr": "Before 03:00 AM on 06/01",
+      "outCount": 2,
+      "custOut": 5,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:02 PM on 05/31",
@@ -42,9 +30,9 @@
       "icon": "standard",
       "longitude": -105.43,
       "latitude": 43.417,
-      "etr": "Before 02:30 AM on 06/01",
-      "outCount": 2,
-      "custOut": 2,
+      "etr": "Before 03:00 AM on 06/01",
+      "outCount": 4,
+      "custOut": 4,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "05:13 PM on 05/31",
@@ -73,38 +61,43 @@
       "crewStatus": "Crews Notified",
       "reported": "05:01 PM on 05/31",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.303,
+      "latitude": 43.498,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 117,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:59 PM on 05/31",
+      "zip": "82718, 82633"
     }
   ],
   "zips": [
     {
-      "zipCode": "82327",
+      "zipCode": "82633",
+      "outCountPlan": 0,
+      "outCountUnplan": 10,
+      "custOutPlan": 0,
+      "custOutUnplan": 118
+    },
+    {
+      "zipCode": "82718",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82633",
-      "outCountPlan": 0,
-      "outCountUnplan": 6,
-      "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 11
     }
   ],
   "counties": [
     {
-      "countyName": "Carbon",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 6,
+      "outCountUnplan": 10,
       "custOutPlan": 0,
-      "custOutUnplan": 6
+      "custOutUnplan": 129
     }
   ]
 }
