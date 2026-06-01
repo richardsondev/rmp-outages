@@ -1,42 +1,30 @@
 {
   "count": 6,
-  "totalState": 6,
+  "totalState": 13,
   "outages": [
     {
-      "icon": "standard",
-      "longitude": -109.21,
-      "latitude": 41.575,
-      "etr": "Before 11:30 AM on 06/01",
+      "icon": "planned",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 02:30 PM on 06/01",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 8,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "08:13 AM on 06/01",
+      "reported": "12:29 PM on 06/01",
+      "zip": "82072"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.829,
+      "latitude": 41.706,
+      "etr": "Before 03:00 PM on 06/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:31 AM on 06/01",
       "zip": "82901"
-    },
-    {
-      "icon": "standard",
-      "longitude": -107.97,
-      "latitude": 41.679,
-      "etr": "Before 01:30 PM on 06/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "10:09 AM on 06/01",
-      "zip": "82336"
-    },
-    {
-      "icon": "standard",
-      "longitude": -110.206,
-      "latitude": 42.253,
-      "etr": "Before 11:00 AM on 06/01",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:14 AM on 06/01",
-      "zip": "83123"
     },
     {
       "icon": "standard",
@@ -52,20 +40,51 @@
     },
     {
       "icon": "standard",
-      "longitude": -105.225,
-      "latitude": 43.059,
-      "etr": "Assessing",
-      "outCount": 2,
-      "custOut": 2,
+      "longitude": -106.299,
+      "latitude": 42.84,
+      "etr": "Before 03:30 PM on 06/01",
+      "outCount": 1,
+      "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "05:43 AM on 06/01",
+      "reported": "12:22 PM on 06/01",
+      "zip": "82609"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.225,
+      "latitude": 43.059,
+      "etr": "Before 04:00 PM on 06/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "09:50 AM on 06/01",
+      "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.572,
+      "latitude": 43.163,
+      "etr": "Before 05:30 PM on 06/01",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:15 AM on 06/01",
       "zip": "82633"
     }
   ],
   "zips": [
     {
-      "zipCode": "82336",
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82609",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -91,16 +110,16 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "83123",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Converse",
       "outCountPlan": 0,
@@ -109,7 +128,7 @@
       "custOutUnplan": 2
     },
     {
-      "countyName": "Lincoln",
+      "countyName": "Natrona",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -125,9 +144,9 @@
     {
       "countyName": "Sweetwater",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
