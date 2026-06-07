@@ -1,7 +1,31 @@
 {
-  "count": 8,
-  "totalState": 13,
+  "count": 12,
+  "totalState": 360,
   "outages": [
+    {
+      "icon": "wed",
+      "longitude": -112.151,
+      "latitude": 39.198,
+      "etr": "Before 04:30 PM on 06/07",
+      "outCount": 1,
+      "custOut": 262,
+      "cause": "Wildfire Emergency De-energization",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "01:30 PM on 06/07",
+      "zip": "84636, 84656"
+    },
+    {
+      "icon": "wed",
+      "longitude": -112.044,
+      "latitude": 39.46,
+      "etr": "Before 05:00 PM on 06/07",
+      "outCount": 1,
+      "custOut": 76,
+      "cause": "Wildfire Emergency De-energization",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "01:31 PM on 06/07",
+      "zip": "84639, 84648"
+    },
     {
       "icon": "planned",
       "longitude": -111.668,
@@ -16,13 +40,25 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.996,
-      "latitude": 40.671,
-      "etr": "Before 04:00 PM on 06/07",
+      "longitude": -111.919,
+      "latitude": 40.614,
+      "etr": "Before 05:00 PM on 06/07",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
+      "reported": "01:49 PM on 06/07",
+      "zip": "84047"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.996,
+      "latitude": 40.671,
+      "etr": "Before 05:00 PM on 06/07",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
       "reported": "12:42 PM on 06/07",
       "zip": "84120"
     },
@@ -36,6 +72,18 @@
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "12:56 PM on 06/07",
+      "zip": "84106"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.825,
+      "latitude": 40.731,
+      "etr": "Before 05:00 PM on 06/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:41 PM on 06/07",
       "zip": "84106"
     },
     {
@@ -70,7 +118,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:38 AM on 06/07",
       "zip": "84054"
     },
@@ -100,6 +148,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84047",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84054",
       "outCountPlan": 0,
@@ -138,16 +193,16 @@
     {
       "zipCode": "84106",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "84120",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 8
     },
     {
       "zipCode": "84414",
@@ -155,6 +210,34 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84636",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
+    },
+    {
+      "zipCode": "84639",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 31
+    },
+    {
+      "zipCode": "84648",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 45
+    },
+    {
+      "zipCode": "84656",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 256
     }
   ],
   "counties": [
@@ -166,6 +249,20 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Juab",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 76
+    },
+    {
+      "countyName": "Millard",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 262
+    },
+    {
       "countyName": "Rich",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -175,9 +272,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
-      "outCountUnplan": 3,
+      "outCountUnplan": 5,
       "custOutPlan": 5,
-      "custOutUnplan": 3
+      "custOutUnplan": 12
     },
     {
       "countyName": "Utah",
