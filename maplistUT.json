@@ -1,7 +1,19 @@
 {
   "count": 2,
-  "totalState": 49,
+  "totalState": 14,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.703,
+      "latitude": 38.588,
+      "etr": "Before 09:00 AM on 06/08",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:03 AM on 06/08",
+      "zip": "84532"
+    },
     {
       "icon": "wed",
       "longitude": -112.151,
@@ -13,27 +25,15 @@
       "crewStatus": "Monitoring Conditions",
       "reported": "01:50 PM on 06/07",
       "zip": "84636, 84656"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.805,
-      "latitude": 40.629,
-      "etr": "Before 06:30 AM on 06/08",
-      "outCount": 1,
-      "custOut": 36,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:12 AM on 06/08",
-      "zip": "84121"
     }
   ],
   "zips": [
     {
-      "zipCode": "84121",
+      "zipCode": "84532",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 36
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84636",
@@ -52,18 +52,18 @@
   ],
   "counties": [
     {
+      "countyName": "Grand",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Millard",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 13
-    },
-    {
-      "countyName": "Salt Lake",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 36
     }
   ]
 }
