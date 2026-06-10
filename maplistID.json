@@ -1,7 +1,31 @@
 {
-  "count": 5,
-  "totalState": 11,
+  "count": 7,
+  "totalState": 17,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.842,
+      "latitude": 42.064,
+      "etr": "Before 12:30 PM on 06/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:10 AM on 06/10",
+      "zip": "83263"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.978,
+      "latitude": 43.483,
+      "etr": "Before 02:00 PM on 06/10",
+      "outCount": 1,
+      "custOut": 5,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:55 AM on 06/10",
+      "zip": "83406"
+    },
     {
       "icon": "planned",
       "longitude": -111.961,
@@ -18,12 +42,12 @@
       "icon": "planned",
       "longitude": -111.923,
       "latitude": 43.585,
-      "etr": "Before 11:00 AM on 06/10",
+      "etr": "Before 12:00 PM on 06/10",
       "outCount": 1,
       "custOut": 1,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "09:03 AM on 06/10",
+      "reported": "10:47 AM on 06/10",
       "zip": "83401"
     },
     {
@@ -53,10 +77,24 @@
   ],
   "zips": [
     {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 4,
       "outCountUnplan": 0,
       "custOutPlan": 10,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83406",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
       "custOutUnplan": 0
     },
     {
@@ -70,10 +108,17 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 4,
+      "outCountPlan": 5,
       "outCountUnplan": 0,
-      "custOutPlan": 10,
+      "custOutPlan": 15,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Fremont",
