@@ -1,36 +1,88 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 44,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -109.268,
+      "latitude": 41.59,
+      "etr": "Before 01:30 PM on 06/10",
+      "outCount": 2,
+      "custOut": 28,
+      "cause": "Multiple outages in the area",
+      "crewStatus": "Crews Notified",
+      "reported": "07:50 AM on 06/10",
+      "zip": "82901"
+    },
     {
       "icon": "standard",
       "longitude": -106.337,
       "latitude": 42.856,
       "etr": "Before 11:00 AM on 06/10",
-      "outCount": 2,
-      "custOut": 2,
+      "outCount": 1,
+      "custOut": 15,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "07:34 AM on 06/10",
       "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.276,
+      "latitude": 43.781,
+      "etr": "Before 01:00 PM on 06/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:47 AM on 06/10",
+      "zip": "82443"
     }
   ],
   "zips": [
     {
+      "zipCode": "82443",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82601",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 15
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 27,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
+      "countyName": "Hot Springs",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 15
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 27,
+      "custOutUnplan": 1
     }
   ]
 }
