@@ -1,16 +1,28 @@
 {
   "count": 8,
-  "totalState": 26,
+  "totalState": 33,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.118,
+      "latitude": 43.381,
+      "etr": "Before 08:30 PM on 06/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:57 PM on 06/10",
+      "zip": "83274"
+    },
     {
       "icon": "standard",
       "longitude": -112.079,
       "latitude": 43.41,
-      "etr": "Before 07:30 PM on 06/10",
-      "outCount": 2,
+      "etr": "Before 10:30 PM on 06/10",
+      "outCount": 1,
       "custOut": 7,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Wind",
+      "crewStatus": "Crews Notified",
       "reported": "04:48 PM on 06/10",
       "zip": "83402"
     },
@@ -33,8 +45,8 @@
       "etr": "Before 07:00 PM on 06/10",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
       "reported": "04:14 PM on 06/10",
       "zip": "83401"
     },
@@ -44,11 +56,23 @@
       "latitude": 43.832,
       "etr": "Before 07:30 PM on 06/10",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 7,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "01:18 PM on 06/10",
       "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.788,
+      "latitude": 43.963,
+      "etr": "Before 09:00 PM on 06/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Damaged Equipment",
+      "crewStatus": "Crews Notified",
+      "reported": "05:00 PM on 06/10",
+      "zip": "83445"
     },
     {
       "icon": "standard",
@@ -58,7 +82,7 @@
       "outCount": 1,
       "custOut": 12,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:55 PM on 06/10",
       "zip": "83435"
     },
@@ -73,21 +97,16 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:38 PM on 06/10",
       "zip": "83445"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.758,
-      "latitude": 43.992,
-      "etr": "Before 07:30 PM on 06/10",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:00 PM on 06/10",
-      "zip": "83445"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83274",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83401",
       "outCountPlan": 0,
@@ -98,7 +117,7 @@
     {
       "zipCode": "83402",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 8
     },
@@ -114,7 +133,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 7
     },
     {
       "zipCode": "83445",
@@ -126,9 +145,16 @@
   ],
   "counties": [
     {
+      "countyName": "Bingham",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
       "custOutUnplan": 9
     },
@@ -151,7 +177,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 7
     }
   ]
 }
