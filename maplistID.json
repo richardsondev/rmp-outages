@@ -1,18 +1,30 @@
 {
   "count": 3,
-  "totalState": 76,
+  "totalState": 75,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -112.22,
-      "latitude": 42.51,
-      "etr": "Before 10:30 AM on 06/12",
+      "longitude": -111.299,
+      "latitude": 42.328,
+      "etr": "Before 12:00 PM on 06/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:32 AM on 06/12",
+      "zip": "83254"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.121,
+      "latitude": 42.439,
+      "etr": "Before 12:30 PM on 06/12",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:03 AM on 06/12",
-      "zip": "83214"
+      "crewStatus": "Crews Notified",
+      "reported": "09:53 AM on 06/12",
+      "zip": "83234"
     },
     {
       "icon": "planned",
@@ -25,23 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:00 AM on 06/12",
       "zip": "83274"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.237,
-      "latitude": 43.372,
-      "etr": "Before 12:00 PM on 06/12",
-      "outCount": 1,
-      "custOut": 2,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:31 AM on 06/12",
-      "zip": "83274"
     }
   ],
   "zips": [
     {
-      "zipCode": "83214",
+      "zipCode": "83234",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83254",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -50,9 +57,9 @@
     {
       "zipCode": "83274",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 73,
-      "custOutUnplan": 2
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -64,11 +71,18 @@
       "custOutUnplan": 1
     },
     {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Bingham",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 73,
-      "custOutUnplan": 2
+      "custOutUnplan": 0
     }
   ]
 }
