@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 6,
+  "totalState": 66,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.584,
+      "latitude": 41.316,
+      "etr": "Before 02:00 PM on 06/17",
+      "outCount": 2,
+      "custOut": 34,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "07:38 AM on 06/17",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -105.266,
@@ -13,9 +25,80 @@
       "crewStatus": "Crews Notified",
       "reported": "08:02 AM on 06/17",
       "zip": "82633"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.454,
+      "latitude": 42.876,
+      "etr": "Before 05:00 PM on 06/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:46 AM on 06/17",
+      "zip": "82604"
+    },
+    {
+      "icon": "planned",
+      "longitude": -109.943,
+      "latitude": 44.504,
+      "etr": "Before 03:00 PM on 06/17",
+      "outCount": 1,
+      "custOut": 29,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:37 AM on 06/17",
+      "zip": "82414, 82190"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.812,
+      "latitude": 44.697,
+      "etr": "Before 01:00 PM on 06/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:37 AM on 06/17",
+      "zip": "82435"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82072",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 34,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82190",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82414",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 28,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82435",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82604",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82633",
       "outCountPlan": 0,
@@ -26,10 +109,31 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 34,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Park",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 29,
       "custOutUnplan": 1
     }
   ]
