@@ -1,12 +1,36 @@
 {
-  "count": 8,
-  "totalState": 229,
+  "count": 9,
+  "totalState": 31,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.039,
+      "latitude": 43.396,
+      "etr": "Before 04:00 PM on 06/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:22 PM on 06/18",
+      "zip": "83274"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.35,
+      "latitude": 43.545,
+      "etr": "Before 04:00 PM on 06/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:22 PM on 06/18",
+      "zip": "83402"
+    },
     {
       "icon": "standard",
       "longitude": -111.764,
       "latitude": 43.63,
-      "etr": "Before 01:00 PM on 06/18",
+      "etr": "Before 03:00 PM on 06/18",
       "outCount": 2,
       "custOut": 13,
       "cause": "Investigating",
@@ -16,15 +40,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.124,
-      "latitude": 43.712,
-      "etr": "Assessing",
+      "longitude": -111.924,
+      "latitude": 43.643,
+      "etr": "Before 03:30 PM on 06/18",
       "outCount": 1,
-      "custOut": 200,
+      "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:52 AM on 06/18",
-      "zip": "83434, 83442, 83431, 83444, 83402"
+      "crewStatus": "Crews Notified",
+      "reported": "01:00 PM on 06/18",
+      "zip": "83442"
     },
     {
       "icon": "planned",
@@ -42,25 +66,13 @@
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 43.73,
-      "etr": "Before 01:30 PM on 06/18",
+      "etr": "Before 04:00 PM on 06/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "10:41 AM on 06/18",
       "zip": "83434"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.726,
-      "latitude": 43.833,
-      "etr": "Before 01:30 PM on 06/18",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "11:33 AM on 06/18",
-      "zip": "83448"
     },
     {
       "icon": "standard",
@@ -77,14 +89,14 @@
   ],
   "zips": [
     {
-      "zipCode": "83402",
+      "zipCode": "83274",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 31
+      "custOutUnplan": 1
     },
     {
-      "zipCode": "83431",
+      "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -93,16 +105,16 @@
     {
       "zipCode": "83434",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83442",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83443",
@@ -114,9 +126,9 @@
     {
       "zipCode": "83444",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 13,
-      "custOutUnplan": 158
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83445",
@@ -124,16 +136,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
+    }
+  ],
+  "counties": [
     {
-      "zipCode": "83448",
+      "countyName": "Bingham",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    }
-  ],
-  "counties": [
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
@@ -146,14 +165,7 @@
       "outCountPlan": 2,
       "outCountUnplan": 4,
       "custOutPlan": 13,
-      "custOutUnplan": 214
-    },
-    {
-      "countyName": "Madison",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 15
     }
   ]
 }
