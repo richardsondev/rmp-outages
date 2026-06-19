@@ -1,7 +1,31 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 6,
+  "totalState": 44,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.862,
+      "latitude": 42.108,
+      "etr": "Before 03:00 PM on 06/19",
+      "outCount": 1,
+      "custOut": 31,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:55 AM on 06/19",
+      "zip": "83263"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 11:00 AM on 06/19",
+      "outCount": 2,
+      "custOut": 10,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:08 AM on 06/19",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.115,
@@ -16,18 +40,44 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.607,
+      "latitude": 43.892,
+      "etr": "Before 11:00 AM on 06/19",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:22 AM on 06/19",
+      "zip": "83436"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.119,
       "latitude": 43.982,
       "etr": "Before 09:30 AM on 06/19",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Notified",
       "reported": "07:00 AM on 06/19",
       "zip": "83425"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 31,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
     {
       "zipCode": "83402",
       "outCountPlan": 0,
@@ -41,11 +91,32 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 11
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 31,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
