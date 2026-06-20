@@ -1,18 +1,30 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 4,
+  "totalState": 7,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -105.907,
-      "latitude": 42.869,
-      "etr": "Before 10:00 PM on 06/20",
+      "longitude": -106.398,
+      "latitude": 42.834,
+      "etr": "Before 06:30 PM on 06/20",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:00 PM on 06/20",
-      "zip": "82637"
+      "crewStatus": "Crews Notified",
+      "reported": "03:25 PM on 06/20",
+      "zip": "82604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.4,
+      "latitude": 42.994,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:27 PM on 06/20",
+      "zip": "82501"
     },
     {
       "icon": "standard",
@@ -20,10 +32,22 @@
       "latitude": 44.429,
       "etr": "Before 05:00 PM on 06/20",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 4,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "01:35 PM on 06/20",
+      "zip": "82414"
+    },
+    {
+      "icon": "standard",
+      "longitude": -109.165,
+      "latitude": 44.444,
+      "etr": "Before 06:30 PM on 06/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:13 PM on 06/20",
       "zip": "82414"
     }
   ],
@@ -31,12 +55,19 @@
     {
       "zipCode": "82414",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 5
+    },
+    {
+      "zipCode": "82501",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "82637",
+      "zipCode": "82604",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -45,7 +76,14 @@
   ],
   "counties": [
     {
-      "countyName": "Converse",
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -54,9 +92,9 @@
     {
       "countyName": "Park",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     }
   ]
 }
