@@ -1,19 +1,7 @@
 {
-  "count": 7,
-  "totalState": 36,
+  "count": 6,
+  "totalState": 33,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -112.253,
-      "latitude": 42.191,
-      "etr": "Before 03:30 PM on 06/25",
-      "outCount": 2,
-      "custOut": 5,
-      "cause": "Trees",
-      "crewStatus": "Crews Arrived",
-      "reported": "12:56 PM on 06/25",
-      "zip": "83252"
-    },
     {
       "icon": "planned",
       "longitude": -112.141,
@@ -30,7 +18,7 @@
       "icon": "standard",
       "longitude": -111.924,
       "latitude": 43.672,
-      "etr": "Assessing",
+      "etr": "Before 07:30 PM on 06/25",
       "outCount": 2,
       "custOut": 25,
       "cause": "Multiple outages in the area",
@@ -58,9 +46,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "02:07 PM on 06/25",
       "zip": "83435"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.001,
+      "latitude": 44.07,
+      "etr": "Before 04:00 PM on 06/25",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "02:45 PM on 06/25",
+      "zip": "83445"
     }
   ],
   "zips": [
@@ -70,13 +70,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 4,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83252",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
     },
     {
       "zipCode": "83435",
@@ -98,6 +91,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83445",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -109,18 +109,18 @@
       "custOutUnplan": 0
     },
     {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Jefferson",
       "outCountPlan": 0,
       "outCountUnplan": 4,
       "custOutPlan": 0,
       "custOutUnplan": 27
-    },
-    {
-      "countyName": "Oneida",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 5
     }
   ]
 }
