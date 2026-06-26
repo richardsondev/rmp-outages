@@ -1,15 +1,27 @@
 {
-  "count": 4,
-  "totalState": 15,
+  "count": 5,
+  "totalState": 18,
   "outages": [
     {
       "icon": "standard",
+      "longitude": -111.862,
+      "latitude": 42.093,
+      "etr": "Before 05:00 PM on 06/26",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:45 PM on 06/26",
+      "zip": "83263"
+    },
+    {
+      "icon": "planned",
       "longitude": -111.978,
       "latitude": 43.483,
-      "etr": "Before 04:30 PM on 06/26",
-      "outCount": 3,
-      "custOut": 14,
-      "cause": "Multiple outages in the area",
+      "etr": "Before 03:00 PM on 06/26",
+      "outCount": 2,
+      "custOut": 13,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:05 AM on 06/26",
       "zip": "83406"
@@ -25,14 +37,40 @@
       "crewStatus": "Crews Notified",
       "reported": "02:07 PM on 06/26",
       "zip": "83444"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.607,
+      "latitude": 43.877,
+      "etr": "Before 05:00 PM on 06/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "02:21 PM on 06/26",
+      "zip": "83436"
     }
   ],
   "zips": [
     {
+      "zipCode": "83263",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83406",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 13,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83436",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
@@ -47,12 +85,26 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 13,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Madison",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
