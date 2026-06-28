@@ -1,18 +1,30 @@
 {
-  "count": 2,
-  "totalState": 17,
+  "count": 4,
+  "totalState": 19,
   "outages": [
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -105.607,
       "latitude": 41.274,
-      "etr": "Before 10:00 AM on 06/28",
+      "etr": "Before 05:30 PM on 06/28",
       "outCount": 1,
       "custOut": 2,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "06:54 AM on 06/28",
       "zip": "82070"
+    },
+    {
+      "icon": "standard",
+      "longitude": -110.221,
+      "latitude": 41.811,
+      "etr": "Before 10:30 AM on 06/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:22 AM on 06/28",
+      "zip": "83124"
     },
     {
       "icon": "standard",
@@ -21,42 +33,68 @@
       "etr": "Before 12:00 PM on 06/28",
       "outCount": 1,
       "custOut": 15,
-      "cause": "Investigating",
+      "cause": "Damaged Equipment",
       "crewStatus": "Crews Notified",
       "reported": "02:12 AM on 06/28",
+      "zip": "82520"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.741,
+      "latitude": 42.842,
+      "etr": "Before 10:30 AM on 06/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:26 AM on 06/28",
       "zip": "82520"
     }
   ],
   "zips": [
     {
       "zipCode": "82070",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82520",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 16
+    },
+    {
+      "zipCode": "83124",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Albany",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Fremont",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 16
+    },
+    {
+      "countyName": "Lincoln",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 15
+      "custOutUnplan": 1
     }
   ]
 }
