@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 7,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.617,
+      "latitude": 43.913,
+      "etr": "Before 10:30 AM on 06/30",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "08:21 AM on 06/30",
+      "zip": "83436"
+    },
     {
       "icon": "standard",
       "longitude": -111.608,
@@ -13,24 +25,43 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:41 AM on 06/30",
       "zip": "83445"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.09,
+      "latitude": 44.004,
+      "etr": "Before 10:30 AM on 06/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:56 AM on 06/30",
+      "zip": "83445"
     }
   ],
   "zips": [
     {
+      "zipCode": "83436",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83445",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 5
     }
   ],
   "counties": [
     {
       "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 4
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 2,
+      "custOutUnplan": 5
     }
   ]
 }
