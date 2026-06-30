@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 21,
+  "count": 3,
+  "totalState": 55,
   "outages": [
     {
       "icon": "planned",
@@ -15,25 +15,37 @@
       "zip": "82935"
     },
     {
-      "icon": "standard",
-      "longitude": -109.269,
-      "latitude": 41.54,
-      "etr": "Before 12:30 PM on 06/30",
+      "icon": "planned",
+      "longitude": -110.541,
+      "latitude": 41.791,
+      "etr": "Before 02:00 PM on 06/30",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 16,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "09:09 AM on 06/30",
-      "zip": "82901"
+      "reported": "10:01 AM on 06/30",
+      "zip": "83101"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.953,
+      "latitude": 44.027,
+      "etr": "Before 01:30 PM on 06/30",
+      "outCount": 1,
+      "custOut": 19,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:27 AM on 06/30",
+      "zip": "82401"
     }
   ],
   "zips": [
     {
-      "zipCode": "82901",
+      "zipCode": "82401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 19
     },
     {
       "zipCode": "82935",
@@ -41,15 +53,36 @@
       "outCountUnplan": 0,
       "custOutPlan": 20,
       "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83101",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
     {
+      "countyName": "Lincoln",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 16,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Sweetwater",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 0,
       "custOutPlan": 20,
-      "custOutUnplan": 1
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Washakie",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 19
     }
   ]
 }
