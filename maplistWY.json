@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 7,
+  "totalState": 17,
   "outages": [
     {
       "icon": "standard",
@@ -10,30 +10,80 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "05:38 PM on 07/05",
       "zip": "82901"
     },
     {
       "icon": "standard",
+      "longitude": -105.061,
+      "latitude": 42.529,
+      "etr": "Before 01:30 AM on 07/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:12 PM on 07/05",
+      "zip": "82213"
+    },
+    {
+      "icon": "standard",
       "longitude": -105.031,
       "latitude": 42.617,
-      "etr": "Before 10:00 PM on 07/05",
+      "etr": "Before 01:00 AM on 07/06",
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "06:21 PM on 07/05",
       "zip": "82213"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.298,
+      "latitude": 42.855,
+      "etr": "Before 01:30 AM on 07/06",
+      "outCount": 2,
+      "custOut": 12,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:08 PM on 07/05",
+      "zip": "82609"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 09:00 AM on 07/06",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "06:41 PM on 07/05",
+      "zip": "82637"
     }
   ],
   "zips": [
     {
       "zipCode": "82213",
       "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "82609",
+      "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 12
+    },
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "82901",
@@ -45,11 +95,25 @@
   ],
   "counties": [
     {
-      "countyName": "Platte",
+      "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 12
+    },
+    {
+      "countyName": "Platte",
+      "outCountPlan": 0,
+      "outCountUnplan": 3,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Sweetwater",
