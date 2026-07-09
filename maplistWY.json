@@ -1,7 +1,19 @@
 {
   "count": 2,
-  "totalState": 49,
+  "totalState": 21,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.229,
+      "latitude": 41.59,
+      "etr": "Before 01:00 PM on 07/09",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:04 AM on 07/09",
+      "zip": "82901"
+    },
     {
       "icon": "standard",
       "longitude": -106.338,
@@ -9,54 +21,42 @@
       "etr": "Before 10:30 AM on 07/09",
       "outCount": 1,
       "custOut": 11,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
       "reported": "07:05 AM on 07/09",
       "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -108.398,
-      "latitude": 43.023,
-      "etr": "Before 09:30 AM on 07/09",
-      "outCount": 1,
-      "custOut": 38,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "06:24 AM on 07/09",
-      "zip": "82501"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82501",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 38
-    },
     {
       "zipCode": "82604",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 11
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     }
   ],
   "counties": [
-    {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 38
-    },
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 11
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 10,
+      "custOutUnplan": 0
     }
   ]
 }
