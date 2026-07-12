@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 2,
+  "count": 3,
+  "totalState": 3,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.205,
+      "latitude": 42.242,
+      "etr": "Before 01:00 AM on 07/12",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:54 PM on 07/11",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.942,
@@ -18,16 +30,23 @@
       "icon": "standard",
       "longitude": -111.888,
       "latitude": 43.904,
-      "etr": "Before 11:00 PM on 07/11",
+      "etr": "Before 01:00 AM on 07/12",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Pole Fire",
       "crewStatus": "Crews Notified",
-      "reported": "08:23 PM on 07/11",
+      "reported": "10:22 PM on 07/11",
       "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83427",
       "outCountPlan": 0,
@@ -53,6 +72,13 @@
     },
     {
       "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
