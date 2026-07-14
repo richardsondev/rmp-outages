@@ -1,19 +1,7 @@
 {
   "count": 2,
-  "totalState": 251,
+  "totalState": 17,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -110.967,
-      "latitude": 41.27,
-      "etr": "Before 06:30 PM on 07/14",
-      "outCount": 1,
-      "custOut": 235,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:48 AM on 07/14",
-      "zip": "82930"
-    },
     {
       "icon": "planned",
       "longitude": -108.053,
@@ -25,22 +13,34 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:02 AM on 07/14",
       "zip": "82649"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.493,
+      "latitude": 43.551,
+      "etr": "Before 02:00 PM on 07/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:32 AM on 07/14",
+      "zip": "82639"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82639",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82649",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 16,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "82930",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 235
     }
   ],
   "counties": [
@@ -52,11 +52,11 @@
       "custOutUnplan": 0
     },
     {
-      "countyName": "Uinta",
+      "countyName": "Johnson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 235
+      "custOutUnplan": 1
     }
   ]
 }
