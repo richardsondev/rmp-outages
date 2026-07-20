@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 81,
+  "count": 7,
+  "totalState": 83,
   "outages": [
     {
       "icon": "ess",
@@ -28,15 +28,39 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.35,
+      "latitude": 43.545,
+      "etr": "Before 01:30 PM on 07/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:52 AM on 07/20",
+      "zip": "83402"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.752,
       "latitude": 43.659,
       "etr": "Before 12:00 PM on 07/20",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Trees",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "10:02 AM on 07/20",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.356,
+      "latitude": 43.806,
+      "etr": "Before 11:30 AM on 07/20",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:53 AM on 07/20",
+      "zip": "83450"
     },
     {
       "icon": "planned",
@@ -79,6 +103,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83425",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -98,6 +129,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83450",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -109,6 +147,13 @@
       "custOutUnplan": 12
     },
     {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Fremont",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -118,9 +163,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 66,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
