@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 159,
+  "count": 5,
+  "totalState": 290,
   "outages": [
+    {
+      "icon": "ess",
+      "longitude": -112.671,
+      "latitude": 42.149,
+      "etr": "Before 10:00 PM on 07/20",
+      "outCount": 1,
+      "custOut": 131,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "06:58 PM on 07/20",
+      "zip": "83243, 83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.74,
@@ -27,15 +39,27 @@
       "zip": "83236"
     },
     {
+      "icon": "standard",
+      "longitude": -113.079,
+      "latitude": 43.882,
+      "etr": "Before 11:30 PM on 07/20",
+      "outCount": 1,
+      "custOut": 86,
+      "cause": "Vehicle Accident",
+      "crewStatus": "Crews Notified",
+      "reported": "05:21 PM on 07/20",
+      "zip": "83244"
+    },
+    {
       "icon": "ess",
       "longitude": -112.959,
       "latitude": 43.884,
-      "etr": "Before 08:00 PM on 07/20",
+      "etr": "Before 11:30 PM on 07/20",
       "outCount": 1,
-      "custOut": 145,
+      "custOut": 59,
       "cause": "Enhanced Safety Settings",
       "crewStatus": "Monitoring Conditions",
-      "reported": "05:21 PM on 07/20",
+      "reported": "05:25 PM on 07/20",
       "zip": "83244"
     }
   ],
@@ -55,11 +79,25 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83244",
+      "zipCode": "83243",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
+      "custOutUnplan": 99
+    },
+    {
+      "zipCode": "83244",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
       "custOutUnplan": 145
+    },
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 32
     }
   ],
   "counties": [
@@ -73,7 +111,7 @@
     {
       "countyName": "Butte",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 145
     },
@@ -83,6 +121,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 131
     }
   ]
 }
