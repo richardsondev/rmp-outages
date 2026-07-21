@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 11,
+  "count": 6,
+  "totalState": 31,
   "outages": [
     {
       "icon": "standard",
@@ -27,6 +27,18 @@
       "zip": "82633"
     },
     {
+      "icon": "standard",
+      "longitude": -106.4,
+      "latitude": 42.815,
+      "etr": "Before 12:30 AM on 07/21",
+      "outCount": 3,
+      "custOut": 21,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "06:02 PM on 07/20",
+      "zip": "82604"
+    },
+    {
       "icon": "planned",
       "longitude": -106.28,
       "latitude": 42.839,
@@ -37,27 +49,15 @@
       "crewStatus": "Crews Notified",
       "reported": "09:14 AM on 07/20",
       "zip": "82609"
-    },
-    {
-      "icon": "standard",
-      "longitude": -107.972,
-      "latitude": 44.009,
-      "etr": "Before 07:00 PM on 07/20",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Pole Fire",
-      "crewStatus": "Crews Notified",
-      "reported": "03:35 PM on 07/20",
-      "zip": "82401"
     }
   ],
   "zips": [
     {
-      "zipCode": "82401",
+      "zipCode": "82604",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 21
     },
     {
       "zipCode": "82609",
@@ -99,16 +99,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 3,
       "custOutPlan": 8,
-      "custOutUnplan": 0
-    },
-    {
-      "countyName": "Washakie",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 21
     }
   ]
 }
