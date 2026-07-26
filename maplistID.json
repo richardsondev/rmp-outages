@@ -1,7 +1,19 @@
 {
   "count": 11,
-  "totalState": 858,
+  "totalState": 765,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.369,
+      "latitude": 42.153,
+      "etr": "Before 03:00 AM on 07/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:56 AM on 07/26",
+      "zip": "83252"
+    },
     {
       "icon": "standard",
       "longitude": -111.95,
@@ -10,9 +22,21 @@
       "outCount": 1,
       "custOut": 377,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "10:31 PM on 07/25",
       "zip": "83281, 83228, 83232"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.388,
+      "latitude": 42.509,
+      "etr": "Before 03:00 AM on 07/26",
+      "outCount": 1,
+      "custOut": 85,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:28 AM on 07/26",
+      "zip": "83254"
     },
     {
       "icon": "standard",
@@ -34,7 +58,7 @@
       "outCount": 1,
       "custOut": 45,
       "cause": "Wind",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:15 PM on 07/25",
       "zip": "83221"
     },
@@ -46,21 +70,9 @@
       "outCount": 1,
       "custOut": 18,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:23 PM on 07/25",
       "zip": "83236"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.078,
-      "latitude": 43.367,
-      "etr": "Before 06:00 AM on 07/26",
-      "outCount": 1,
-      "custOut": 153,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:32 PM on 07/25",
-      "zip": "83274, 83404"
     },
     {
       "icon": "standard",
@@ -112,18 +124,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.001,
-      "latitude": 43.512,
-      "etr": "Before 12:30 AM on 07/26",
-      "outCount": 1,
-      "custOut": 26,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:02 PM on 07/25",
-      "zip": "83401"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.959,
       "latitude": 43.884,
       "etr": "Before 04:00 AM on 07/26",
@@ -172,11 +172,25 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 85
+    },
+    {
       "zipCode": "83274",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 145
+      "custOutUnplan": 5
     },
     {
       "zipCode": "83276",
@@ -193,13 +207,6 @@
       "custOutUnplan": 86
     },
     {
-      "zipCode": "83401",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 26
-    },
-    {
       "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 2,
@@ -209,9 +216,9 @@
     {
       "zipCode": "83404",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 103
+      "custOutUnplan": 90
     }
   ],
   "counties": [
@@ -223,18 +230,25 @@
       "custOutUnplan": 86
     },
     {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 85
+    },
+    {
       "countyName": "Bingham",
       "outCountPlan": 0,
-      "outCountUnplan": 5,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 208
+      "custOutUnplan": 68
     },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 269
+      "custOutUnplan": 230
     },
     {
       "countyName": "Butte",
@@ -256,6 +270,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 291
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
