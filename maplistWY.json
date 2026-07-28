@@ -1,18 +1,30 @@
 {
-  "count": 2,
-  "totalState": 188,
+  "count": 5,
+  "totalState": 191,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -105.622,
-      "latitude": 41.318,
-      "etr": "Assessing",
+      "longitude": -110.541,
+      "latitude": 41.776,
+      "etr": "Before 02:00 PM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:10 AM on 07/28",
+      "zip": "83116"
+    },
+    {
+      "icon": "standard",
+      "longitude": -107.41,
+      "latitude": 42.192,
+      "etr": "Before 12:30 PM on 07/28",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
-      "reported": "09:26 AM on 07/28",
-      "zip": "82070"
+      "reported": "10:57 AM on 07/28",
+      "zip": "82301"
     },
     {
       "icon": "standard",
@@ -25,11 +37,42 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:57 AM on 07/28",
       "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.3,
+      "latitude": 42.826,
+      "etr": "Before 02:30 PM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:04 AM on 07/28",
+      "zip": "82601"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.381,
+      "latitude": 43.007,
+      "etr": "Before 02:30 PM on 07/28",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:15 AM on 07/28",
+      "zip": "82501"
     }
   ],
   "zips": [
     {
-      "zipCode": "82070",
+      "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82501",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -38,14 +81,35 @@
     {
       "zipCode": "82601",
       "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 188
+    },
+    {
+      "zipCode": "83116",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 187
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Albany",
+      "countyName": "Carbon",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Lincoln",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -54,9 +118,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 187
+      "custOutUnplan": 188
     }
   ]
 }
