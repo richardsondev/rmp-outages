@@ -1,7 +1,19 @@
 {
-  "count": 6,
-  "totalState": 15,
+  "count": 5,
+  "totalState": 5,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.566,
+      "latitude": 41.301,
+      "etr": "Before 05:30 PM on 07/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:15 PM on 07/29",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -111.025,
@@ -22,7 +34,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:35 AM on 07/29",
       "zip": "82301"
     },
@@ -43,27 +55,22 @@
       "longitude": -106.401,
       "latitude": 42.801,
       "etr": "Before 08:00 PM on 07/29",
-      "outCount": 2,
-      "custOut": 11,
-      "cause": "Multiple outages in the area",
-      "crewStatus": "Crews Arrived",
-      "reported": "10:39 AM on 07/29",
-      "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.42,
-      "latitude": 42.802,
-      "etr": "Before 08:00 PM on 07/29",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "01:50 PM on 07/29",
+      "reported": "01:35 PM on 07/29",
       "zip": "82604"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "82301",
       "outCountPlan": 0,
@@ -74,9 +81,9 @@
     {
       "zipCode": "82604",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 2
     },
     {
       "zipCode": "82930",
@@ -88,6 +95,13 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "countyName": "Carbon",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -97,9 +111,9 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 4,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 13
+      "custOutUnplan": 2
     },
     {
       "countyName": "Uinta",
