@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 5,
+  "totalState": 23,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.979,
+      "latitude": 42.136,
+      "etr": "Before 06:30 PM on 07/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:57 PM on 07/30",
+      "zip": "83232"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.298,
+      "latitude": 42.313,
+      "etr": "Before 06:30 PM on 07/30",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:51 PM on 07/30",
+      "zip": "83254"
+    },
     {
       "icon": "standard",
       "longitude": -112.356,
@@ -18,22 +42,36 @@
       "icon": "standard",
       "longitude": -111.787,
       "latitude": 43.847,
-      "etr": "Before 06:00 PM on 07/30",
+      "etr": "Before 04:30 PM on 07/30",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 19,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "03:03 PM on 07/30",
       "zip": "83440"
     }
   ],
   "zips": [
     {
-      "zipCode": "83440",
+      "zipCode": "83232",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83254",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 19
     },
     {
       "zipCode": "83450",
@@ -44,6 +82,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
@@ -56,7 +108,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 19
     }
   ]
 }
