@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 66,
+  "count": 6,
+  "totalState": 50,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.299,
+      "latitude": 42.357,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:31 PM on 08/03",
+      "zip": "83254"
+    },
     {
       "icon": "standard",
       "longitude": -111.666,
@@ -20,7 +32,7 @@
       "latitude": 43.632,
       "etr": "Before 11:00 PM on 08/03",
       "outCount": 1,
-      "custOut": 21,
+      "custOut": 4,
       "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "08:25 PM on 07/31",
@@ -42,11 +54,11 @@
       "icon": "standard",
       "longitude": -113.079,
       "latitude": 43.882,
-      "etr": "Before 07:00 PM on 08/03",
+      "etr": "Before 06:00 PM on 08/03",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:12 PM on 08/03",
       "zip": "83244"
     },
@@ -72,6 +84,13 @@
       "custOutUnplan": 2
     },
     {
+      "zipCode": "83254",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -83,10 +102,17 @@
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 40
+      "custOutUnplan": 23
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Bonneville",
       "outCountPlan": 0,
@@ -106,7 +132,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 35
+      "custOutUnplan": 18
     },
     {
       "countyName": "Madison",
