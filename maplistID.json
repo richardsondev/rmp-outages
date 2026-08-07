@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 9,
+  "count": 3,
+  "totalState": 198,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.415,
+      "latitude": 42.009,
+      "etr": "Before 06:30 AM on 08/07",
+      "outCount": 1,
+      "custOut": 188,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:37 AM on 08/07",
+      "zip": "83287"
+    },
     {
       "icon": "standard",
       "longitude": -111.752,
@@ -13,15 +25,41 @@
       "crewStatus": "Crews Notified",
       "reported": "12:55 AM on 08/02",
       "zip": "83443, 83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.925,
+      "latitude": 43.716,
+      "etr": "Before 06:30 AM on 08/07",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:35 AM on 08/07",
+      "zip": "83442"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83287",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 188
+    },
     {
       "zipCode": "83440",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 8
+    },
+    {
+      "zipCode": "83442",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83443",
@@ -33,11 +71,18 @@
   ],
   "counties": [
     {
-      "countyName": "Jefferson",
+      "countyName": "Bear Lake",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 188
+    },
+    {
+      "countyName": "Jefferson",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Madison",
