@@ -1,6 +1,6 @@
 {
-  "count": 9,
-  "totalState": 95,
+  "count": 11,
+  "totalState": 98,
   "outages": [
     {
       "icon": "planned",
@@ -28,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.741,
+      "latitude": 42.594,
+      "etr": "Before 01:30 PM on 08/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:08 AM on 08/10",
+      "zip": "83217"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.164,
       "latitude": 42.628,
       "etr": "Before 01:30 PM on 08/10",
@@ -51,15 +63,15 @@
       "zip": "83236"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -112.077,
       "latitude": 43.309,
       "etr": "Before 01:00 PM on 08/10",
-      "outCount": 2,
+      "outCount": 1,
       "custOut": 4,
-      "cause": "Multiple outages in the area",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "10:04 AM on 08/10",
+      "reported": "11:07 AM on 08/10",
       "zip": "83274"
     },
     {
@@ -73,6 +85,30 @@
       "crewStatus": "Crews Notified",
       "reported": "10:25 AM on 08/10",
       "zip": "83440"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.356,
+      "latitude": 43.806,
+      "etr": "Before 02:00 PM on 08/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:16 AM on 08/10",
+      "zip": "83450"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.007,
+      "latitude": 43.832,
+      "etr": "Before 02:00 PM on 08/10",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:21 AM on 08/10",
+      "zip": "83244"
     },
     {
       "icon": "planned",
@@ -101,6 +137,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83217",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83236",
       "outCountPlan": 1,
       "outCountUnplan": 0,
@@ -110,9 +153,9 @@
     {
       "zipCode": "83244",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "zipCode": "83250",
@@ -138,9 +181,9 @@
     {
       "zipCode": "83274",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
-      "custOutPlan": 3,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83440",
@@ -152,9 +195,9 @@
     {
       "zipCode": "83450",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 74,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -175,12 +218,19 @@
     {
       "countyName": "Bingham",
       "outCountPlan": 2,
-      "outCountUnplan": 1,
-      "custOutPlan": 6,
-      "custOutUnplan": 1
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Butte",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Caribou",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -196,9 +246,9 @@
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 74,
-      "custOutUnplan": 0
+      "custOutUnplan": 1
     },
     {
       "countyName": "Madison",
