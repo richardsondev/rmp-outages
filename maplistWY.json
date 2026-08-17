@@ -1,7 +1,19 @@
 {
-  "count": 1,
-  "totalState": 42,
+  "count": 2,
+  "totalState": 43,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.541,
+      "latitude": 41.776,
+      "etr": "Before 01:00 AM on 08/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:07 PM on 08/16",
+      "zip": "83116"
+    },
     {
       "icon": "standard",
       "longitude": -110.589,
@@ -9,7 +21,7 @@
       "etr": "Before 01:30 AM on 08/17",
       "outCount": 1,
       "custOut": 42,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Notified",
       "reported": "09:13 PM on 08/16",
       "zip": "83101"
@@ -22,15 +34,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 42
+    },
+    {
+      "zipCode": "83116",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Lincoln",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 42
+      "custOutUnplan": 43
     }
   ]
 }
