@@ -1,12 +1,12 @@
 {
-  "count": 6,
-  "totalState": 110,
+  "count": 5,
+  "totalState": 12,
   "outages": [
     {
       "icon": "standard",
       "longitude": -105.588,
       "latitude": 41.273,
-      "etr": "Before 03:00 PM on 08/18",
+      "etr": "Before 05:00 PM on 08/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -15,16 +15,28 @@
       "zip": "82070"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
       "longitude": -110.541,
       "latitude": 41.791,
       "etr": "Assessing",
-      "outCount": 3,
-      "custOut": 107,
-      "cause": "Multiple outages in the area",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "10:38 AM on 08/18",
       "zip": "83101"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.344,
+      "latitude": 42.77,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:13 PM on 08/18",
+      "zip": "82601"
     },
     {
       "icon": "standard",
@@ -42,7 +54,7 @@
       "icon": "standard",
       "longitude": -107.95,
       "latitude": 44.041,
-      "etr": "Before 03:30 PM on 08/18",
+      "etr": "Before 05:30 PM on 08/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -67,6 +79,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "82637",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -76,9 +95,9 @@
     {
       "zipCode": "83101",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 0,
       "custOutPlan": 8,
-      "custOutUnplan": 99
+      "custOutUnplan": 0
     }
   ],
   "counties": [
@@ -99,9 +118,16 @@
     {
       "countyName": "Lincoln",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 0,
       "custOutPlan": 8,
-      "custOutUnplan": 99
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Washakie",
