@@ -1,6 +1,6 @@
 {
   "count": 6,
-  "totalState": 8,
+  "totalState": 68,
   "outages": [
     {
       "icon": "standard",
@@ -8,7 +8,7 @@
       "latitude": 42.754,
       "etr": "Before 08:00 PM on 08/17",
       "outCount": 2,
-      "custOut": 4,
+      "custOut": 8,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "04:33 PM on 08/17",
@@ -16,21 +16,9 @@
     },
     {
       "icon": "standard",
-      "longitude": -106.176,
-      "latitude": 42.908,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:55 PM on 08/17",
-      "zip": "82636"
-    },
-    {
-      "icon": "standard",
       "longitude": -105.351,
       "latitude": 42.978,
-      "etr": "Before 06:00 PM on 08/17",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -61,9 +49,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "11:20 AM on 08/17",
       "zip": "82421"
+    },
+    {
+      "icon": "ess",
+      "longitude": -108.834,
+      "latitude": 44.923,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 57,
+      "cause": "Enhanced Safety Settings",
+      "crewStatus": "Monitoring Conditions",
+      "reported": "05:13 PM on 08/17",
+      "zip": "82435, 59008"
     }
   ],
   "zips": [
+    {
+      "zipCode": "59008",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 6
+    },
     {
       "zipCode": "82421",
       "outCountPlan": 0,
@@ -79,18 +86,18 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "82435",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 51
+    },
+    {
       "zipCode": "82633",
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 5
-    },
-    {
-      "zipCode": "82636",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     }
   ],
   "counties": [
@@ -106,21 +113,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 5
-    },
-    {
-      "countyName": "Natrona",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 9
     },
     {
       "countyName": "Park",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 58
     }
   ]
 }
