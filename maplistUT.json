@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 14,
+  "count": 5,
+  "totalState": 70,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "06:22 PM on 08/19",
       "zip": "84058"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.706,
+      "latitude": 40.311,
+      "etr": "Before 07:00 AM on 08/20",
+      "outCount": 2,
+      "custOut": 65,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "01:23 AM on 08/20",
+      "zip": "84057"
     },
     {
       "icon": "standard",
@@ -37,21 +49,16 @@
       "crewStatus": "Crews Notified",
       "reported": "06:57 PM on 08/19",
       "zip": "84074"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.079,
-      "latitude": 41.149,
-      "etr": "Before 03:00 AM on 08/20",
-      "outCount": 1,
-      "custOut": 9,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Notified",
-      "reported": "09:02 PM on 08/19",
-      "zip": "84067"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84057",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 65
+    },
     {
       "zipCode": "84058",
       "outCountPlan": 0,
@@ -65,13 +72,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84067",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 9
     },
     {
       "zipCode": "84074",
@@ -99,16 +99,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 3
-    },
-    {
-      "countyName": "Weber",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 9
+      "custOutUnplan": 68
     }
   ]
 }
