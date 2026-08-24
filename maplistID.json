@@ -1,7 +1,19 @@
 {
   "count": 3,
-  "totalState": 33,
+  "totalState": 42,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.064,
+      "latitude": 42.357,
+      "etr": "Before 09:00 PM on 08/23",
+      "outCount": 1,
+      "custOut": 10,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:48 PM on 08/23",
+      "zip": "83238"
+    },
     {
       "icon": "standard",
       "longitude": -111.673,
@@ -25,50 +37,38 @@
       "crewStatus": "Crews Notified",
       "reported": "04:47 PM on 08/23",
       "zip": "83276"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.133,
-      "latitude": 43.634,
-      "etr": "Before 06:00 PM on 08/23",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "04:09 PM on 08/23",
-      "zip": "83444"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83238",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
     {
       "zipCode": "83276",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 32
-    },
-    {
-      "zipCode": "83444",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Bear Lake",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 10
+    },
     {
       "countyName": "Caribou",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 32
-    },
-    {
-      "countyName": "Jefferson",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ]
 }
