@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 5,
+  "count": 5,
+  "totalState": 7,
   "outages": [
     {
       "icon": "standard",
@@ -22,9 +22,21 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:52 PM on 08/24",
       "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.865,
+      "latitude": 42.851,
+      "etr": "Before 05:30 PM on 08/24",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:18 PM on 08/24",
+      "zip": "82637"
     },
     {
       "icon": "standard",
@@ -37,11 +49,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "12:59 PM on 08/24",
       "zip": "82501"
+    },
+    {
+      "icon": "standard",
+      "longitude": -108.378,
+      "latitude": 43.037,
+      "etr": "Before 05:30 PM on 08/24",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:17 PM on 08/24",
+      "zip": "82501"
     }
   ],
   "zips": [
     {
       "zipCode": "82501",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
+    },
+    {
+      "zipCode": "82637",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -64,11 +95,18 @@
   ],
   "counties": [
     {
-      "countyName": "Fremont",
+      "countyName": "Converse",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     },
     {
       "countyName": "Sweetwater",
