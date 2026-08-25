@@ -1,7 +1,19 @@
 {
   "count": 4,
-  "totalState": 22,
+  "totalState": 15,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -110.338,
+      "latitude": 41.725,
+      "etr": "Before 03:00 PM on 08/25",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:53 AM on 08/25",
+      "zip": "83101"
+    },
     {
       "icon": "planned",
       "longitude": -106.342,
@@ -12,18 +24,6 @@
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "09:00 AM on 08/25",
-      "zip": "82601"
-    },
-    {
-      "icon": "planned",
-      "longitude": -106.341,
-      "latitude": 42.813,
-      "etr": "Before 12:30 PM on 08/25",
-      "outCount": 1,
-      "custOut": 8,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:00 AM on 08/25",
       "zip": "82601"
     },
     {
@@ -54,13 +54,20 @@
   "zips": [
     {
       "zipCode": "82601",
-      "outCountPlan": 2,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 20,
+      "custOutPlan": 12,
       "custOutUnplan": 1
     },
     {
       "zipCode": "82633",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83101",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -76,10 +83,17 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Natrona",
-      "outCountPlan": 2,
+      "countyName": "Lincoln",
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 20,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 12,
       "custOutUnplan": 1
     }
   ]
