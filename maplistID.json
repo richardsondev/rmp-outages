@@ -1,6 +1,6 @@
 {
-  "count": 5,
-  "totalState": 10,
+  "count": 7,
+  "totalState": 198,
   "outages": [
     {
       "icon": "planned",
@@ -25,6 +25,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:07 AM on 08/25",
       "zip": "83254"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 120,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:44 AM on 08/25",
+      "zip": "83401"
     },
     {
       "icon": "planned",
@@ -56,11 +68,23 @@
       "latitude": 43.646,
       "etr": "Before 12:00 PM on 08/25",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 66,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "09:11 AM on 08/25",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.786,
+      "latitude": 43.818,
+      "etr": "Before 12:30 PM on 08/25",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:34 AM on 08/25",
+      "zip": "83440"
     }
   ],
   "zips": [
@@ -79,6 +103,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83401",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 120
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 2,
       "outCountUnplan": 0,
@@ -86,11 +117,18 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 66
     }
   ],
   "counties": [
@@ -104,9 +142,9 @@
     {
       "countyName": "Bonneville",
       "outCountPlan": 2,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 3,
-      "custOutUnplan": 0
+      "custOutUnplan": 120
     },
     {
       "countyName": "Franklin",
@@ -120,7 +158,14 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 66
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     }
   ]
 }
