@@ -1,19 +1,7 @@
 {
   "count": 6,
-  "totalState": 61,
+  "totalState": 63,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -113.22,
-      "latitude": 37.602,
-      "etr": "Before 12:00 AM on 09/02",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Emergency Repair",
-      "crewStatus": "Crews Arrived",
-      "reported": "08:39 PM on 09/01",
-      "zip": "84720"
-    },
     {
       "icon": "standard",
       "longitude": -109.135,
@@ -64,6 +52,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -110.986,
+      "latitude": 40.777,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:52 PM on 09/01",
+      "zip": "84017"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.948,
       "latitude": 41.324,
       "etr": "Before 03:00 AM on 09/02",
@@ -76,6 +76,13 @@
     }
   ],
   "zips": [
+    {
+      "zipCode": "84017",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "zipCode": "84047",
       "outCountPlan": 1,
@@ -110,13 +117,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84720",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -128,18 +128,18 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Iron",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 56,
       "custOutUnplan": 1
+    },
+    {
+      "countyName": "Summit",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
     },
     {
       "countyName": "Tooele",
