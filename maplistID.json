@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 123,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -111.961,
+      "latitude": 43.498,
+      "etr": "Before 01:00 PM on 09/03",
+      "outCount": 1,
+      "custOut": 120,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:20 AM on 09/03",
+      "zip": "83401"
+    },
     {
       "icon": "standard",
       "longitude": -112.231,
@@ -10,7 +22,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "08:00 AM on 09/03",
       "zip": "83402"
     },
@@ -41,6 +53,13 @@
   ],
   "zips": [
     {
+      "zipCode": "83401",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 120,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83402",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -58,9 +77,9 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 120,
       "custOutUnplan": 1
     },
     {
