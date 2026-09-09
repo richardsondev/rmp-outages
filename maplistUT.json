@@ -1,7 +1,19 @@
 {
-  "count": 11,
-  "totalState": 28,
+  "count": 10,
+  "totalState": 25,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.012,
+      "latitude": 40.497,
+      "etr": "Before 12:00 AM on 09/09",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:35 PM on 09/08",
+      "zip": "84096"
+    },
     {
       "icon": "standard",
       "longitude": -111.956,
@@ -34,7 +46,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "12:42 PM on 09/08",
       "zip": "84047"
     },
@@ -66,7 +78,7 @@
       "icon": "standard",
       "longitude": -111.882,
       "latitude": 40.759,
-      "etr": "Before 08:00 PM on 09/08",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -78,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.52,
       "latitude": 40.776,
-      "etr": "Before 08:00 PM on 09/08",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -88,25 +100,13 @@
     },
     {
       "icon": "standard",
-      "longitude": -112.016,
-      "latitude": 40.787,
-      "etr": "Before 11:00 PM on 09/08",
-      "outCount": 1,
-      "custOut": 3,
-      "cause": "Damaged Equipment",
-      "crewStatus": "Crews Arrived",
-      "reported": "06:43 PM on 09/08",
-      "zip": "84116"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.903,
       "latitude": 40.846,
       "etr": "Before 09:30 PM on 09/08",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "06:02 PM on 09/08",
       "zip": "84054"
     },
@@ -121,18 +121,6 @@
       "crewStatus": "Crews Notified",
       "reported": "08:54 AM on 09/08",
       "zip": "84317"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.043,
-      "latitude": 41.294,
-      "etr": "Before 11:00 PM on 09/08",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "07:42 PM on 09/08",
-      "zip": "84404"
     }
   ],
   "zips": [
@@ -172,6 +160,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84096",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84098",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -186,13 +181,6 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84116",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 3
-    },
-    {
       "zipCode": "84118",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -201,13 +189,6 @@
     },
     {
       "zipCode": "84317",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84404",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -227,7 +208,7 @@
       "outCountPlan": 0,
       "outCountUnplan": 6,
       "custOutPlan": 0,
-      "custOutUnplan": 14
+      "custOutUnplan": 12
     },
     {
       "countyName": "Summit",
@@ -239,9 +220,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     }
   ]
 }
