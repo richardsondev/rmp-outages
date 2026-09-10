@@ -1,15 +1,27 @@
 {
-  "count": 1,
-  "totalState": 7,
+  "count": 3,
+  "totalState": 11,
   "outages": [
     {
-      "icon": "planned",
-      "longitude": -112.157,
-      "latitude": 43.322,
+      "icon": "standard",
+      "longitude": -111.624,
+      "latitude": 42.682,
       "etr": "Before 05:30 PM on 09/10",
       "outCount": 1,
-      "custOut": 7,
-      "cause": "Planned Maintenance",
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "02:50 PM on 09/10",
+      "zip": "83276"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.157,
+      "latitude": 43.322,
+      "etr": "Assessing",
+      "outCount": 2,
+      "custOut": 10,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Arrived",
       "reported": "02:43 PM on 09/10",
       "zip": "83218"
@@ -19,18 +31,32 @@
     {
       "zipCode": "83218",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 7,
-      "custOutUnplan": 0
+      "custOutUnplan": 3
+    },
+    {
+      "zipCode": "83276",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
       "countyName": "Bingham",
       "outCountPlan": 1,
-      "outCountUnplan": 0,
+      "outCountUnplan": 1,
       "custOutPlan": 7,
-      "custOutUnplan": 0
+      "custOutUnplan": 3
+    },
+    {
+      "countyName": "Caribou",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ]
 }
