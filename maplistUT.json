@@ -1,7 +1,19 @@
 {
-  "count": 7,
-  "totalState": 2871,
+  "count": 8,
+  "totalState": 156,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -112.098,
+      "latitude": 38.756,
+      "etr": "Before 08:30 AM on 09/14",
+      "outCount": 2,
+      "custOut": 9,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:33 AM on 09/14",
+      "zip": "84701"
+    },
     {
       "icon": "standard",
       "longitude": -111.974,
@@ -63,18 +75,6 @@
       "zip": "84108"
     },
     {
-      "icon": "planned",
-      "longitude": -111.772,
-      "latitude": 41.137,
-      "etr": "Before 05:30 AM on 09/14",
-      "outCount": 1,
-      "custOut": 2724,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Notified",
-      "reported": "12:04 AM on 09/14",
-      "zip": "84050"
-    },
-    {
       "icon": "standard",
       "longitude": -111.966,
       "latitude": 41.28,
@@ -88,13 +88,6 @@
     }
   ],
   "zips": [
-    {
-      "zipCode": "84050",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2724,
-      "custOutUnplan": 0
-    },
     {
       "zipCode": "84065",
       "outCountPlan": 0,
@@ -129,22 +122,29 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 118
+    },
+    {
+      "zipCode": "84701",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 9
     }
   ],
   "counties": [
-    {
-      "countyName": "Morgan",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 2724,
-      "custOutUnplan": 0
-    },
     {
       "countyName": "Salt Lake",
       "outCountPlan": 1,
       "outCountUnplan": 4,
       "custOutPlan": 13,
       "custOutUnplan": 16
+    },
+    {
+      "countyName": "Sevier",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 9
     },
     {
       "countyName": "Weber",
