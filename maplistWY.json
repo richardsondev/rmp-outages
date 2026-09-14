@@ -1,16 +1,28 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 6,
+  "totalState": 12,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.546,
+      "latitude": 41.315,
+      "etr": "Before 04:00 PM on 09/14",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:38 AM on 09/14",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -107.67,
       "latitude": 41.678,
-      "etr": "Before 10:30 AM on 09/14",
+      "etr": "Before 10:00 AM on 09/14",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "cause": "Lightning",
+      "crewStatus": "Crews Arrived",
       "reported": "05:06 AM on 09/14",
       "zip": "82301"
     },
@@ -49,9 +61,28 @@
       "crewStatus": "Crews Notified",
       "reported": "08:29 AM on 09/14",
       "zip": "82604"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.136,
+      "latitude": 43.536,
+      "etr": "Before 12:00 PM on 09/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:41 AM on 09/14",
+      "zip": "82643"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82301",
       "outCountPlan": 0,
@@ -79,9 +110,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82643",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -91,6 +136,13 @@
     },
     {
       "countyName": "Converse",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Johnson",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
