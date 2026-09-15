@@ -1,7 +1,19 @@
 {
-  "count": 2,
-  "totalState": 106,
+  "count": 4,
+  "totalState": 721,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.545,
+      "latitude": 41.329,
+      "etr": "Before 04:00 PM on 09/15",
+      "outCount": 1,
+      "custOut": 4,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:47 AM on 09/15",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -109.785,
@@ -15,13 +27,25 @@
       "zip": "82941"
     },
     {
-      "icon": "standard",
+      "icon": "planned",
+      "longitude": -108.841,
+      "latitude": 44.749,
+      "etr": "Before 04:00 PM on 09/15",
+      "outCount": 1,
+      "custOut": 611,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:54 AM on 09/15",
+      "zip": "82435, 82440"
+    },
+    {
+      "icon": "planned",
       "longitude": -108.79,
       "latitude": 44.756,
       "etr": "Before 05:00 PM on 09/15",
       "outCount": 1,
       "custOut": 105,
-      "cause": "Investigating",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
       "reported": "07:45 AM on 09/15",
       "zip": "82435"
@@ -29,11 +53,25 @@
   ],
   "zips": [
     {
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "82435",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 105
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 709,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82440",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "82941",
@@ -45,11 +83,18 @@
   ],
   "counties": [
     {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 4,
+      "custOutUnplan": 0
+    },
+    {
       "countyName": "Park",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 105
+      "outCountPlan": 2,
+      "outCountUnplan": 0,
+      "custOutPlan": 716,
+      "custOutUnplan": 0
     },
     {
       "countyName": "Sublette",
