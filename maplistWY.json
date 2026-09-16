@@ -1,7 +1,31 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 3,
+  "totalState": 26,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -107.229,
+      "latitude": 41.788,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 24,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "04:59 PM on 09/16",
+      "zip": "82301"
+    },
+    {
+      "icon": "standard",
+      "longitude": -106.278,
+      "latitude": 42.854,
+      "etr": "Before 08:00 PM on 09/16",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "04:57 PM on 09/16",
+      "zip": "82609"
+    },
     {
       "icon": "standard",
       "longitude": -106.355,
@@ -17,7 +41,21 @@
   ],
   "zips": [
     {
+      "zipCode": "82301",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 24
+    },
+    {
       "zipCode": "82601",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82609",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -26,11 +64,18 @@
   ],
   "counties": [
     {
-      "countyName": "Natrona",
+      "countyName": "Carbon",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 24
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
+      "custOutPlan": 0,
+      "custOutUnplan": 2
     }
   ]
 }
