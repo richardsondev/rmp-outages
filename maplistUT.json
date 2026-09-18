@@ -1,6 +1,6 @@
 {
   "count": 58,
-  "totalState": 369,
+  "totalState": 207,
   "outages": [
     {
       "icon": "standard",
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:26 PM on 09/18",
       "zip": "84042"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.783,
+      "latitude": 40.383,
+      "etr": "Before 08:30 PM on 09/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:43 PM on 09/18",
+      "zip": "84003"
     },
     {
       "icon": "standard",
@@ -78,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.899,
       "latitude": 40.6,
-      "etr": "Before 10:30 PM on 09/18",
+      "etr": "Assessing",
       "outCount": 2,
       "custOut": 2,
       "cause": "Investigating",
@@ -234,10 +246,10 @@
       "icon": "standard",
       "longitude": -111.863,
       "latitude": 40.701,
-      "etr": "Before 08:30 PM on 09/18",
+      "etr": "Before 06:30 PM on 09/18",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Investigating",
+      "cause": "Emergency Repair",
       "crewStatus": "Crews Arrived",
       "reported": "02:19 PM on 09/18",
       "zip": "84106"
@@ -436,18 +448,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.963,
-      "latitude": 41.063,
-      "etr": "Before 08:30 PM on 09/18",
-      "outCount": 1,
-      "custOut": 163,
-      "cause": "Wildlife",
-      "crewStatus": "Crews Notified",
-      "reported": "03:36 PM on 09/18",
-      "zip": "84041"
-    },
-    {
-      "icon": "standard",
       "longitude": -112.002,
       "latitude": 41.092,
       "etr": "Before 08:00 PM on 09/18",
@@ -490,7 +490,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "01:34 PM on 09/18",
       "zip": "84315"
     },
@@ -634,7 +634,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Trees",
-      "crewStatus": "Crews Arrived",
+      "crewStatus": "Crews Notified",
       "reported": "04:26 PM on 09/18",
       "zip": "84335"
     }
@@ -642,6 +642,13 @@
   "zips": [
     {
       "zipCode": "82930",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84003",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -688,13 +695,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 12
-    },
-    {
-      "zipCode": "84041",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 163
     },
     {
       "zipCode": "84042",
@@ -939,9 +939,9 @@
     {
       "countyName": "Davis",
       "outCountPlan": 0,
-      "outCountUnplan": 6,
+      "outCountUnplan": 5,
       "custOutPlan": 0,
-      "custOutUnplan": 206
+      "custOutUnplan": 43
     },
     {
       "countyName": "Iron",
@@ -974,9 +974,9 @@
     {
       "countyName": "Utah",
       "outCountPlan": 1,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 4,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     },
     {
       "countyName": "Weber",
