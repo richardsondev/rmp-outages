@@ -1,6 +1,6 @@
 {
-  "count": 1,
-  "totalState": 1,
+  "count": 2,
+  "totalState": 8,
   "outages": [
     {
       "icon": "standard",
@@ -13,9 +13,35 @@
       "crewStatus": "Crews Notified",
       "reported": "07:54 AM on 09/23",
       "zip": "82941"
+    },
+    {
+      "icon": "planned",
+      "longitude": -106.262,
+      "latitude": 43.455,
+      "etr": "Before 10:30 AM on 09/23",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:21 AM on 09/23",
+      "zip": "82643, 82635"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82635",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "82643",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82941",
       "outCountPlan": 0,
@@ -25,6 +51,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Johnson",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Natrona",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 5,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Sublette",
       "outCountPlan": 0,
