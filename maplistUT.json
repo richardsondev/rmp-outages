@@ -1,7 +1,19 @@
 {
-  "count": 11,
-  "totalState": 212,
+  "count": 16,
+  "totalState": 333,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -113.058,
+      "latitude": 38.316,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:29 AM on 09/29",
+      "zip": "84751"
+    },
     {
       "icon": "standard",
       "longitude": -111.852,
@@ -16,6 +28,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.031,
+      "latitude": 40.497,
+      "etr": "Assessing",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:29 AM on 09/29",
+      "zip": "84096"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.937,
       "latitude": 40.556,
       "etr": "Before 09:00 AM on 09/29",
@@ -25,6 +49,18 @@
       "crewStatus": "Crews Notified",
       "reported": "05:17 PM on 09/28",
       "zip": "84095"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.88,
+      "latitude": 40.556,
+      "etr": "Before 02:30 PM on 09/29",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "08:19 AM on 09/29",
+      "zip": "84070"
     },
     {
       "icon": "standard",
@@ -49,6 +85,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:15 PM on 09/28",
       "zip": "84074"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.957,
+      "latitude": 40.628,
+      "etr": "Before 11:30 AM on 09/29",
+      "outCount": 1,
+      "custOut": 115,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:15 AM on 09/29",
+      "zip": "84084"
     },
     {
       "icon": "standard",
@@ -133,15 +181,41 @@
       "crewStatus": "Crews Notified",
       "reported": "11:03 AM on 09/28",
       "zip": "84414"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.838,
+      "latitude": 41.774,
+      "etr": "Before 11:30 AM on 09/29",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:27 AM on 09/29",
+      "zip": "84341"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84070",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "84074",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84084",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 115
     },
     {
       "zipCode": "84094",
@@ -152,6 +226,13 @@
     },
     {
       "zipCode": "84095",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84096",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -193,6 +274,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84341",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84414",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -205,15 +293,36 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 14
+    },
+    {
+      "zipCode": "84751",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Salt Lake",
+      "countyName": "Beaver",
       "outCountPlan": 0,
-      "outCountUnplan": 8,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 196
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 10,
+      "custOutPlan": 3,
+      "custOutUnplan": 312
     },
     {
       "countyName": "Sanpete",
