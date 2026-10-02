@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 11,
+  "count": 7,
+  "totalState": 13,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.026,
+      "latitude": 42.599,
+      "etr": "Before 01:30 PM on 10/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:24 AM on 10/02",
+      "zip": "83246"
+    },
     {
       "icon": "planned",
       "longitude": -112.203,
@@ -61,6 +73,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:22 AM on 10/02",
       "zip": "83442"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.807,
+      "latitude": 43.905,
+      "etr": "Before 12:00 PM on 10/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "09:23 AM on 10/02",
+      "zip": "83440"
     }
   ],
   "zips": [
@@ -70,6 +94,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83246",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83250",
@@ -93,6 +124,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -103,9 +141,9 @@
   "counties": [
     {
       "countyName": "Bannock",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 3,
+      "custOutPlan": 4,
       "custOutUnplan": 0
     },
     {
@@ -121,6 +159,13 @@
       "outCountUnplan": 0,
       "custOutPlan": 5,
       "custOutUnplan": 0
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Jefferson",
