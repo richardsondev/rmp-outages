@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 4,
+  "count": 3,
+  "totalState": 32,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -109.463,
+      "latitude": 41.506,
+      "etr": "Before 04:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 26,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "10:26 AM on 10/06",
+      "zip": "82935"
+    },
     {
       "icon": "standard",
       "longitude": -110.454,
@@ -20,58 +32,27 @@
       "latitude": 42.815,
       "etr": "Before 02:30 PM on 10/06",
       "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
+      "custOut": 5,
+      "cause": "Wildlife",
       "crewStatus": "Crews Notified",
       "reported": "08:08 AM on 10/06",
       "zip": "82604"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.299,
-      "latitude": 42.84,
-      "etr": "Before 03:00 PM on 10/06",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:58 AM on 10/06",
-      "zip": "82609"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.338,
-      "latitude": 42.842,
-      "etr": "Before 03:00 PM on 10/06",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:58 AM on 10/06",
-      "zip": "82601"
     }
   ],
   "zips": [
-    {
-      "zipCode": "82601",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
     {
       "zipCode": "82604",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 5
     },
     {
-      "zipCode": "82609",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82935",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 26,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "83101",
@@ -92,9 +73,16 @@
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 5
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 26,
+      "custOutUnplan": 0
     }
   ]
 }
