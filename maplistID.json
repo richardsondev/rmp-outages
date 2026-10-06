@@ -1,14 +1,26 @@
 {
-  "count": 3,
-  "totalState": 14,
+  "count": 5,
+  "totalState": 40,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -112.431,
+      "latitude": 41.892,
+      "etr": "Before 03:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 22,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:05 AM on 10/06",
+      "zip": "83252"
+    },
     {
       "icon": "planned",
       "longitude": -111.843,
       "latitude": 42.151,
       "etr": "Before 11:00 AM on 10/06",
       "outCount": 1,
-      "custOut": 2,
+      "custOut": 3,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:52 AM on 10/06",
@@ -20,11 +32,23 @@
       "latitude": 42.328,
       "etr": "Before 01:00 PM on 10/06",
       "outCount": 1,
-      "custOut": 11,
+      "custOut": 12,
       "cause": "Planned Maintenance",
       "crewStatus": "Crews Notified",
       "reported": "08:32 AM on 10/06",
       "zip": "83254"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.16,
+      "latitude": 43.496,
+      "etr": "Before 03:00 PM on 10/06",
+      "outCount": 1,
+      "custOut": 2,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:13 AM on 10/06",
+      "zip": "83402"
     },
     {
       "icon": "standard",
@@ -41,14 +65,28 @@
   ],
   "zips": [
     {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 22,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83254",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 11,
+      "custOutPlan": 12,
       "custOutUnplan": 0
     },
     {
       "zipCode": "83263",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "83402",
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 2,
@@ -67,7 +105,14 @@
       "countyName": "Bear Lake",
       "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 11,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 2,
       "custOutUnplan": 0
     },
     {
@@ -80,8 +125,15 @@
     {
       "countyName": "Franklin",
       "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
       "outCountUnplan": 0,
-      "custOutPlan": 2,
+      "custOutPlan": 22,
       "custOutUnplan": 0
     }
   ]
