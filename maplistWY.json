@@ -1,7 +1,19 @@
 {
-  "count": 4,
-  "totalState": 6,
+  "count": 3,
+  "totalState": 7,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -105.566,
+      "latitude": 41.301,
+      "etr": "Before 03:00 PM on 10/11",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "11:33 AM on 10/11",
+      "zip": "82070"
+    },
     {
       "icon": "standard",
       "longitude": -105.581,
@@ -25,33 +37,16 @@
       "crewStatus": "Crews Notified",
       "reported": "09:16 AM on 10/11",
       "zip": "82609"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.143,
-      "latitude": 43.45,
-      "etr": "Before 11:30 AM on 10/11",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "08:18 AM on 10/11",
-      "zip": "82635"
-    },
-    {
-      "icon": "standard",
-      "longitude": -106.262,
-      "latitude": 43.455,
-      "etr": "Before 03:30 PM on 10/11",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:10 AM on 10/11",
-      "zip": "82635"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82070",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 3
+    },
     {
       "zipCode": "82072",
       "outCountPlan": 0,
@@ -65,29 +60,22 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "82635",
-      "outCountPlan": 0,
-      "outCountUnplan": 2,
-      "custOutPlan": 0,
-      "custOutUnplan": 2
     }
   ],
   "counties": [
     {
       "countyName": "Albany",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 6
     },
     {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 1
     }
   ]
 }
