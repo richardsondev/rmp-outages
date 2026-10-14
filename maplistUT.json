@@ -1,19 +1,7 @@
 {
-  "count": 19,
-  "totalState": 59,
+  "count": 20,
+  "totalState": 134,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -109.294,
-      "latitude": 38.3,
-      "etr": "Assessing",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:52 PM on 10/13",
-      "zip": "84530"
-    },
     {
       "icon": "standard",
       "longitude": -111.879,
@@ -78,11 +66,11 @@
       "icon": "standard",
       "longitude": -111.862,
       "latitude": 40.614,
-      "etr": "Before 10:00 PM on 10/13",
+      "etr": "Before 09:00 PM on 10/13",
       "outCount": 1,
       "custOut": 25,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
+      "cause": "Emergency Repair",
+      "crewStatus": "Crews Notified",
       "reported": "02:22 PM on 10/13",
       "zip": "84047"
     },
@@ -148,15 +136,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.882,
-      "latitude": 40.701,
-      "etr": "Before 10:00 PM on 10/13",
+      "longitude": -111.939,
+      "latitude": 40.686,
+      "etr": "Before 01:00 AM on 10/14",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 64,
       "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "03:17 PM on 10/13",
-      "zip": "84115"
+      "crewStatus": "Crews Notified",
+      "reported": "08:33 PM on 10/13",
+      "zip": "84123"
     },
     {
       "icon": "standard",
@@ -169,6 +157,18 @@
       "crewStatus": "Crews Notified",
       "reported": "07:23 PM on 10/13",
       "zip": "84101"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.864,
+      "latitude": 40.774,
+      "etr": "Before 12:00 AM on 10/14",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "08:34 PM on 10/13",
+      "zip": "84102"
     },
     {
       "icon": "standard",
@@ -186,10 +186,10 @@
       "icon": "standard",
       "longitude": -111.965,
       "latitude": 41.164,
-      "etr": "Before 11:00 PM on 10/13",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Damaged Equipment",
+      "etr": "Before 06:00 PM on 10/15",
+      "outCount": 2,
+      "custOut": 13,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "11:32 AM on 10/13",
       "zip": "84405"
@@ -303,7 +303,7 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84115",
+      "zipCode": "84102",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -315,6 +315,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84123",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 64
     },
     {
       "zipCode": "84124",
@@ -347,9 +354,9 @@
     {
       "zipCode": "84405",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 13
     },
     {
       "zipCode": "84414",
@@ -357,13 +364,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "84530",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -384,16 +384,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 11,
+      "outCountUnplan": 12,
       "custOutPlan": 0,
-      "custOutUnplan": 37
-    },
-    {
-      "countyName": "San Juan",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 101
     },
     {
       "countyName": "Tooele",
@@ -405,9 +398,9 @@
     {
       "countyName": "Weber",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 4,
       "custOutPlan": 0,
-      "custOutUnplan": 4
+      "custOutUnplan": 16
     }
   ]
 }
