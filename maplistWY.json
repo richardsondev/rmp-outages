@@ -1,7 +1,19 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 11,
   "outages": [
+    {
+      "icon": "planned",
+      "longitude": -105.603,
+      "latitude": 41.317,
+      "etr": "Before 11:00 AM on 10/16",
+      "outCount": 1,
+      "custOut": 8,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "09:09 AM on 10/16",
+      "zip": "82072"
+    },
     {
       "icon": "standard",
       "longitude": -107.283,
@@ -16,15 +28,15 @@
     },
     {
       "icon": "standard",
-      "longitude": -108.358,
-      "latitude": 43.051,
-      "etr": "Before 11:30 AM on 10/16",
+      "longitude": -106.299,
+      "latitude": 42.84,
+      "etr": "Before 12:30 PM on 10/16",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "08:21 AM on 10/16",
-      "zip": "82501"
+      "reported": "09:08 AM on 10/16",
+      "zip": "82609"
     },
     {
       "icon": "standard",
@@ -41,14 +53,14 @@
   ],
   "zips": [
     {
-      "zipCode": "82301",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "zipCode": "82072",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
     },
     {
-      "zipCode": "82501",
+      "zipCode": "82301",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -60,9 +72,23 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82609",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     }
   ],
   "counties": [
+    {
+      "countyName": "Albany",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 8,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Carbon",
       "outCountPlan": 0,
@@ -71,18 +97,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Fremont",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Natrona",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
