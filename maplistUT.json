@@ -1,7 +1,31 @@
 {
-  "count": 3,
-  "totalState": 6,
+  "count": 6,
+  "totalState": 21,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.801,
+      "latitude": 40.354,
+      "etr": "Before 10:00 AM on 10/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:18 AM on 10/17",
+      "zip": "84003"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.861,
+      "latitude": 40.556,
+      "etr": "Before 10:30 AM on 10/17",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:23 AM on 10/17",
+      "zip": "84094"
+    },
     {
       "icon": "standard",
       "longitude": -111.823,
@@ -27,6 +51,18 @@
       "zip": "84121"
     },
     {
+      "icon": "planned",
+      "longitude": -111.786,
+      "latitude": 40.702,
+      "etr": "Before 05:30 PM on 10/17",
+      "outCount": 1,
+      "custOut": 13,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:18 AM on 10/17",
+      "zip": "84108, 84109"
+    },
+    {
       "icon": "standard",
       "longitude": -111.839,
       "latitude": 41.832,
@@ -41,11 +77,39 @@
   ],
   "zips": [
     {
+      "zipCode": "84003",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84092",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84094",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84108",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 12,
+      "custOutUnplan": 0
+    },
+    {
+      "zipCode": "84109",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
     },
     {
       "zipCode": "84121",
@@ -72,10 +136,17 @@
     },
     {
       "countyName": "Salt Lake",
+      "outCountPlan": 1,
+      "outCountUnplan": 3,
+      "custOutPlan": 13,
+      "custOutUnplan": 6
+    },
+    {
+      "countyName": "Utah",
       "outCountPlan": 0,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 5
+      "custOutUnplan": 1
     }
   ]
 }
