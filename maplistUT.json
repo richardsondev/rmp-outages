@@ -1,19 +1,7 @@
 {
   "count": 10,
-  "totalState": 49,
+  "totalState": 18,
   "outages": [
-    {
-      "icon": "standard",
-      "longitude": -111.859,
-      "latitude": 38.932,
-      "etr": "Before 06:00 PM on 10/18",
-      "outCount": 1,
-      "custOut": 40,
-      "cause": "Investigating",
-      "crewStatus": "Crews Arrived",
-      "reported": "07:23 AM on 10/18",
-      "zip": "84654"
-    },
     {
       "icon": "standard",
       "longitude": -112.446,
@@ -49,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "02:35 PM on 10/18",
       "zip": "84009"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.956,
+      "latitude": 40.57,
+      "etr": "Before 07:00 PM on 10/18",
+      "outCount": 1,
+      "custOut": 9,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "03:57 PM on 10/18",
+      "zip": "84095"
     },
     {
       "icon": "standard",
@@ -90,7 +90,7 @@
       "icon": "standard",
       "longitude": -111.901,
       "latitude": 40.745,
-      "etr": "Before 06:00 PM on 10/18",
+      "etr": "Before 04:30 PM on 10/18",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
@@ -160,6 +160,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "84095",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 9,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "84096",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -186,13 +193,6 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
-    },
-    {
-      "zipCode": "84654",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 40
     }
   ],
   "counties": [
@@ -212,17 +212,10 @@
     },
     {
       "countyName": "Salt Lake",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 4,
-      "custOutPlan": 0,
+      "custOutPlan": 9,
       "custOutUnplan": 4
-    },
-    {
-      "countyName": "Sevier",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 40
     },
     {
       "countyName": "Summit",
