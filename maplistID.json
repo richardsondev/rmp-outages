@@ -1,12 +1,12 @@
 {
-  "count": 8,
-  "totalState": 53,
+  "count": 10,
+  "totalState": 72,
   "outages": [
     {
       "icon": "standard",
       "longitude": -111.731,
       "latitude": 42.572,
-      "etr": "Before 12:00 PM on 10/26",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 9,
       "cause": "Investigating",
@@ -16,15 +16,39 @@
     },
     {
       "icon": "standard",
+      "longitude": -111.967,
+      "latitude": 42.592,
+      "etr": "Before 03:00 PM on 10/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "12:25 PM on 10/26",
+      "zip": "83246"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.89,
       "latitude": 42.716,
-      "etr": "Before 12:00 PM on 10/26",
+      "etr": "Assessing",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "09:42 AM on 10/26",
       "zip": "83217"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.08,
+      "latitude": 43.453,
+      "etr": "Before 03:30 PM on 10/26",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Notified",
+      "reported": "12:19 PM on 10/26",
+      "zip": "83402"
     },
     {
       "icon": "planned",
@@ -40,38 +64,38 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.982,
-      "latitude": 43.541,
-      "etr": "Before 02:00 PM on 10/26",
+      "longitude": -111.923,
+      "latitude": 43.614,
+      "etr": "Before 03:00 PM on 10/26",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Vehicle Accident",
+      "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "08:39 AM on 10/26",
+      "reported": "12:19 PM on 10/26",
       "zip": "83401"
-    },
-    {
-      "icon": "planned",
-      "longitude": -111.904,
-      "latitude": 43.687,
-      "etr": "Before 12:30 PM on 10/26",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Planned Maintenance",
-      "crewStatus": "Crews Arrived",
-      "reported": "09:04 AM on 10/26",
-      "zip": "83442"
     },
     {
       "icon": "standard",
       "longitude": -111.825,
       "latitude": 43.76,
-      "etr": "Before 02:30 PM on 10/26",
+      "etr": "Before 01:00 PM on 10/26",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "11:36 AM on 10/26",
+      "zip": "83440"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.806,
+      "latitude": 43.804,
+      "etr": "Before 04:00 PM on 10/26",
+      "outCount": 1,
+      "custOut": 18,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:00 PM on 10/26",
       "zip": "83440"
     },
     {
@@ -115,6 +139,13 @@
       "custOutUnplan": 9
     },
     {
+      "zipCode": "83246",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -123,9 +154,9 @@
     },
     {
       "zipCode": "83402",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 0,
-      "custOutPlan": 37,
+      "custOutPlan": 38,
       "custOutUnplan": 0
     },
     {
@@ -144,25 +175,25 @@
     },
     {
       "zipCode": "83440",
+      "outCountPlan": 1,
+      "outCountUnplan": 1,
+      "custOutPlan": 18,
+      "custOutUnplan": 1
+    }
+  ],
+  "counties": [
+    {
+      "countyName": "Bannock",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
-      "zipCode": "83442",
-      "outCountPlan": 1,
-      "outCountUnplan": 0,
-      "custOutPlan": 1,
-      "custOutUnplan": 0
-    }
-  ],
-  "counties": [
-    {
       "countyName": "Bonneville",
-      "outCountPlan": 1,
+      "outCountPlan": 2,
       "outCountUnplan": 1,
-      "custOutPlan": 37,
+      "custOutPlan": 38,
       "custOutUnplan": 1
     },
     {
@@ -181,16 +212,16 @@
     },
     {
       "countyName": "Jefferson",
-      "outCountPlan": 1,
+      "outCountPlan": 0,
       "outCountUnplan": 1,
-      "custOutPlan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     },
     {
       "countyName": "Madison",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
-      "custOutPlan": 0,
+      "custOutPlan": 18,
       "custOutUnplan": 1
     }
   ]
