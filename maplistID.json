@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "totalState": 4,
+  "count": 4,
+  "totalState": 8,
   "outages": [
     {
       "icon": "standard",
@@ -16,6 +16,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -112.1,
+      "latitude": 43.497,
+      "etr": "Before 10:30 AM on 11/02",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:31 AM on 11/02",
+      "zip": "83402"
+    },
+    {
+      "icon": "standard",
       "longitude": -112.119,
       "latitude": 43.982,
       "etr": "Before 12:00 PM on 11/02",
@@ -25,6 +37,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:26 AM on 11/01",
       "zip": "83425"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.558,
+      "latitude": 44.073,
+      "etr": "Before 10:00 AM on 11/02",
+      "outCount": 1,
+      "custOut": 3,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "07:37 AM on 11/02",
+      "zip": "83420"
     }
   ],
   "zips": [
@@ -36,6 +60,20 @@
       "custOutUnplan": 3
     },
     {
+      "zipCode": "83402",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "83420",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83425",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -44,6 +82,20 @@
     }
   ],
   "counties": [
+    {
+      "countyName": "Bonneville",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Fremont",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 3,
+      "custOutUnplan": 0
+    },
     {
       "countyName": "Jefferson",
       "outCountPlan": 0,
