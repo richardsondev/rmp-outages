@@ -1,6 +1,6 @@
 {
   "count": 4,
-  "totalState": 4,
+  "totalState": 6,
   "outages": [
     {
       "icon": "standard",
@@ -8,11 +8,23 @@
       "latitude": 42.067,
       "etr": "Before 02:00 PM on 11/03",
       "outCount": 1,
-      "custOut": 1,
+      "custOut": 3,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
       "reported": "11:31 AM on 11/03",
       "zip": "83287"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.205,
+      "latitude": 42.242,
+      "etr": "Before 03:30 PM on 11/03",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "12:28 PM on 11/03",
+      "zip": "83252"
     },
     {
       "icon": "planned",
@@ -37,27 +49,22 @@
       "crewStatus": "Crews Notified",
       "reported": "11:51 AM on 11/03",
       "zip": "83425"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.603,
-      "latitude": 44.063,
-      "etr": "Before 12:30 PM on 11/03",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "09:56 AM on 11/03",
-      "zip": "83435"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83252",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "83287",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "zipCode": "83425",
@@ -72,13 +79,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 1,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "83435",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
@@ -87,20 +87,20 @@
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
-      "countyName": "Clark",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "countyName": "Jefferson",
       "outCountPlan": 1,
       "outCountUnplan": 1,
       "custOutPlan": 1,
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
       "custOutUnplan": 1
     }
   ]
