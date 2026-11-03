@@ -1,18 +1,18 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 20,
   "outages": [
     {
       "icon": "standard",
-      "longitude": -113.123,
-      "latitude": 37.698,
-      "etr": "Before 09:30 AM on 11/03",
+      "longitude": -111.841,
+      "latitude": 40.499,
+      "etr": "Before 11:00 AM on 11/03",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Notified",
-      "reported": "06:29 AM on 11/03",
-      "zip": "84721"
+      "reported": "07:34 AM on 11/03",
+      "zip": "84020"
     },
     {
       "icon": "standard",
@@ -37,9 +37,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "06:49 AM on 11/03",
       "zip": "84041"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.973,
+      "latitude": 41.715,
+      "etr": "Before 10:30 AM on 11/03",
+      "outCount": 1,
+      "custOut": 17,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "07:30 AM on 11/03",
+      "zip": "84325"
     }
   ],
   "zips": [
+    {
+      "zipCode": "84020",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
     {
       "zipCode": "84041",
       "outCountPlan": 0,
@@ -55,14 +74,21 @@
       "custOutUnplan": 1
     },
     {
-      "zipCode": "84721",
+      "zipCode": "84325",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 17
     }
   ],
   "counties": [
+    {
+      "countyName": "Cache",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 17
+    },
     {
       "countyName": "Davis",
       "outCountPlan": 0,
@@ -71,18 +97,11 @@
       "custOutUnplan": 1
     },
     {
-      "countyName": "Iron",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 2
     }
   ]
 }
