@@ -1,6 +1,6 @@
 {
-  "count": 26,
-  "totalState": 271,
+  "count": 27,
+  "totalState": 272,
   "outages": [
     {
       "icon": "standard",
@@ -29,11 +29,23 @@
     {
       "icon": "standard",
       "longitude": -113.014,
-      "latitude": 38.396,
-      "etr": "Before 05:00 PM on 11/04",
+      "latitude": 38.382,
+      "etr": "Before 07:00 PM on 11/04",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Vehicle Accident",
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:52 PM on 11/04",
+      "zip": "84751"
+    },
+    {
+      "icon": "standard",
+      "longitude": -113.014,
+      "latitude": 38.396,
+      "etr": "Before 07:00 PM on 11/04",
+      "outCount": 2,
+      "custOut": 2,
+      "cause": "Multiple outages in the area",
       "crewStatus": "Crews Notified",
       "reported": "08:21 AM on 11/04",
       "zip": "84751"
@@ -88,6 +100,18 @@
     },
     {
       "icon": "standard",
+      "longitude": -109.487,
+      "latitude": 40.434,
+      "etr": "Before 07:00 PM on 11/04",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "03:58 PM on 11/04",
+      "zip": "84078"
+    },
+    {
+      "icon": "standard",
       "longitude": -111.976,
       "latitude": 40.628,
       "etr": "Before 06:00 PM on 11/04",
@@ -126,25 +150,13 @@
       "icon": "standard",
       "longitude": -111.957,
       "latitude": 40.672,
-      "etr": "Before 04:00 PM on 11/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "12:33 PM on 11/04",
-      "zip": "84129"
-    },
-    {
-      "icon": "standard",
-      "longitude": -111.805,
-      "latitude": 40.673,
-      "etr": "Before 04:00 PM on 11/04",
+      "etr": "Before 05:00 PM on 11/04",
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
       "crewStatus": "Crews Arrived",
-      "reported": "09:11 AM on 11/04",
-      "zip": "84124"
+      "reported": "12:33 PM on 11/04",
+      "zip": "84129"
     },
     {
       "icon": "standard",
@@ -244,18 +256,6 @@
     },
     {
       "icon": "standard",
-      "longitude": -111.94,
-      "latitude": 40.788,
-      "etr": "Before 07:00 PM on 11/04",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "03:41 PM on 11/04",
-      "zip": "84116"
-    },
-    {
-      "icon": "standard",
       "longitude": -111.96,
       "latitude": 40.831,
       "etr": "Assessing",
@@ -342,6 +342,13 @@
       "custOutUnplan": 0
     },
     {
+      "zipCode": "84078",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "84102",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -379,9 +386,9 @@
     {
       "zipCode": "84116",
       "outCountPlan": 1,
-      "outCountUnplan": 2,
+      "outCountUnplan": 1,
       "custOutPlan": 13,
-      "custOutUnplan": 2
+      "custOutUnplan": 1
     },
     {
       "zipCode": "84118",
@@ -389,13 +396,6 @@
       "outCountUnplan": 0,
       "custOutPlan": 22,
       "custOutUnplan": 0
-    },
-    {
-      "zipCode": "84124",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     },
     {
       "zipCode": "84129",
@@ -428,18 +428,18 @@
     {
       "zipCode": "84751",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     }
   ],
   "counties": [
     {
       "countyName": "Beaver",
       "outCountPlan": 0,
-      "outCountUnplan": 1,
+      "outCountUnplan": 3,
       "custOutPlan": 0,
-      "custOutUnplan": 1
+      "custOutUnplan": 3
     },
     {
       "countyName": "Carbon",
@@ -465,9 +465,9 @@
     {
       "countyName": "Salt Lake",
       "outCountPlan": 3,
-      "outCountUnplan": 13,
+      "outCountUnplan": 11,
       "custOutPlan": 59,
-      "custOutUnplan": 31
+      "custOutUnplan": 29
     },
     {
       "countyName": "San Juan",
@@ -475,6 +475,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 2
+    },
+    {
+      "countyName": "Uintah",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Utah",
