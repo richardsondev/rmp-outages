@@ -1,6 +1,6 @@
 {
-  "count": 3,
-  "totalState": 3,
+  "count": 4,
+  "totalState": 4,
   "outages": [
     {
       "icon": "standard",
@@ -27,41 +27,67 @@
       "zip": "82935"
     },
     {
-      "icon": "standard",
-      "longitude": -108.973,
-      "latitude": 41.759,
-      "etr": "Before 07:00 PM on 11/05",
+      "icon": "planned",
+      "longitude": -109.249,
+      "latitude": 41.561,
+      "etr": "Before 10:30 PM on 11/05",
       "outCount": 1,
       "custOut": 1,
-      "cause": "Emergency Repair",
+      "cause": "Planned Maintenance",
       "crewStatus": "Crews Arrived",
-      "reported": "04:18 PM on 11/05",
-      "zip": "82945"
+      "reported": "07:03 PM on 11/05",
+      "zip": "82901"
+    },
+    {
+      "icon": "standard",
+      "longitude": -105.907,
+      "latitude": 42.869,
+      "etr": "Before 11:00 PM on 11/05",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Wildlife",
+      "crewStatus": "Crews Arrived",
+      "reported": "06:04 PM on 11/05",
+      "zip": "82637"
     }
   ],
   "zips": [
+    {
+      "zipCode": "82637",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "82901",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 1,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "82935",
       "outCountPlan": 0,
       "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
-    },
-    {
-      "zipCode": "82945",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
     }
   ],
   "counties": [
     {
-      "countyName": "Sweetwater",
+      "countyName": "Converse",
       "outCountPlan": 0,
-      "outCountUnplan": 3,
+      "outCountUnplan": 1,
       "custOutPlan": 0,
-      "custOutUnplan": 3
+      "custOutUnplan": 1
+    },
+    {
+      "countyName": "Sweetwater",
+      "outCountPlan": 1,
+      "outCountUnplan": 2,
+      "custOutPlan": 1,
+      "custOutUnplan": 2
     }
   ]
 }
