@@ -1,6 +1,6 @@
 {
-  "count": 4,
-  "totalState": 106,
+  "count": 6,
+  "totalState": 151,
   "outages": [
     {
       "icon": "standard",
@@ -13,6 +13,18 @@
       "crewStatus": "Crews Notified",
       "reported": "08:48 AM on 11/12",
       "zip": "83287"
+    },
+    {
+      "icon": "planned",
+      "longitude": -112.697,
+      "latitude": 42.026,
+      "etr": "Before 03:30 PM on 11/12",
+      "outCount": 1,
+      "custOut": 25,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:09 AM on 11/12",
+      "zip": "83252"
     },
     {
       "icon": "planned",
@@ -49,9 +61,28 @@
       "crewStatus": "Crews Arrived",
       "reported": "08:45 AM on 11/12",
       "zip": "83442, 83443"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.787,
+      "latitude": 43.847,
+      "etr": "Before 12:00 PM on 11/12",
+      "outCount": 1,
+      "custOut": 20,
+      "cause": "Investigating",
+      "crewStatus": "Crews Arrived",
+      "reported": "09:04 AM on 11/12",
+      "zip": "83440"
     }
   ],
   "zips": [
+    {
+      "zipCode": "83252",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 25,
+      "custOutUnplan": 0
+    },
     {
       "zipCode": "83254",
       "outCountPlan": 1,
@@ -72,6 +103,13 @@
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 3
+    },
+    {
+      "zipCode": "83440",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 20
     },
     {
       "zipCode": "83442",
@@ -115,6 +153,20 @@
       "outCountPlan": 1,
       "outCountUnplan": 0,
       "custOutPlan": 92,
+      "custOutUnplan": 0
+    },
+    {
+      "countyName": "Madison",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 20
+    },
+    {
+      "countyName": "Oneida",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 25,
       "custOutUnplan": 0
     }
   ]
