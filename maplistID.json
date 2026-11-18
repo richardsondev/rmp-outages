@@ -1,7 +1,19 @@
 {
-  "count": 5,
-  "totalState": 30,
+  "count": 8,
+  "totalState": 39,
   "outages": [
+    {
+      "icon": "standard",
+      "longitude": -111.802,
+      "latitude": 42.006,
+      "etr": "Before 01:30 PM on 11/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:21 AM on 11/18",
+      "zip": "83237"
+    },
     {
       "icon": "standard",
       "longitude": -112.696,
@@ -13,6 +25,30 @@
       "crewStatus": "Crews Arrived",
       "reported": "09:31 AM on 11/18",
       "zip": "83252"
+    },
+    {
+      "icon": "standard",
+      "longitude": -111.978,
+      "latitude": 42.034,
+      "etr": "Before 01:00 PM on 11/18",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "10:18 AM on 11/18",
+      "zip": "83286"
+    },
+    {
+      "icon": "planned",
+      "longitude": -111.922,
+      "latitude": 43.527,
+      "etr": "Before 12:00 PM on 11/18",
+      "outCount": 1,
+      "custOut": 7,
+      "cause": "Planned Maintenance",
+      "crewStatus": "Crews Arrived",
+      "reported": "10:15 AM on 11/18",
+      "zip": "83427"
     },
     {
       "icon": "standard",
@@ -65,11 +101,25 @@
   ],
   "zips": [
     {
+      "zipCode": "83237",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
       "zipCode": "83252",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
       "custOutUnplan": 24
+    },
+    {
+      "zipCode": "83286",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "zipCode": "83402",
@@ -86,6 +136,13 @@
       "custOutUnplan": 1
     },
     {
+      "zipCode": "83427",
+      "outCountPlan": 1,
+      "outCountUnplan": 0,
+      "custOutPlan": 7,
+      "custOutUnplan": 0
+    },
+    {
       "zipCode": "83442",
       "outCountPlan": 1,
       "outCountUnplan": 1,
@@ -96,8 +153,15 @@
   "counties": [
     {
       "countyName": "Bonneville",
-      "outCountPlan": 0,
+      "outCountPlan": 1,
       "outCountUnplan": 1,
+      "custOutPlan": 7,
+      "custOutUnplan": 2
+    },
+    {
+      "countyName": "Franklin",
+      "outCountPlan": 0,
+      "outCountUnplan": 2,
       "custOutPlan": 0,
       "custOutUnplan": 2
     },
