@@ -10,7 +10,7 @@
       "outCount": 1,
       "custOut": 1,
       "cause": "Investigating",
-      "crewStatus": "Crews Notified",
+      "crewStatus": "Crews Arrived",
       "reported": "04:02 PM on 11/27",
       "zip": "84020"
     },
@@ -37,6 +37,18 @@
       "crewStatus": "Crews Notified",
       "reported": "04:35 PM on 11/27",
       "zip": "84092"
+    },
+    {
+      "icon": "standard",
+      "longitude": -112.47,
+      "latitude": 40.594,
+      "etr": "Before 09:00 PM on 11/27",
+      "outCount": 1,
+      "custOut": 1,
+      "cause": "Investigating",
+      "crewStatus": "Crews Notified",
+      "reported": "05:46 PM on 11/27",
+      "zip": "84029"
     },
     {
       "icon": "standard",
@@ -85,23 +97,18 @@
       "crewStatus": "Crews Arrived",
       "reported": "04:07 PM on 11/27",
       "zip": "84401"
-    },
-    {
-      "icon": "standard",
-      "longitude": -112.166,
-      "latitude": 41.699,
-      "etr": "Before 08:00 PM on 11/27",
-      "outCount": 1,
-      "custOut": 1,
-      "cause": "Investigating",
-      "crewStatus": "Crews Notified",
-      "reported": "05:10 PM on 11/27",
-      "zip": "84337"
     }
   ],
   "zips": [
     {
       "zipCode": "84020",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
+    },
+    {
+      "zipCode": "84029",
       "outCountPlan": 0,
       "outCountUnplan": 1,
       "custOutPlan": 0,
@@ -136,13 +143,6 @@
       "custOutUnplan": 3
     },
     {
-      "zipCode": "84337",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "zipCode": "84401",
       "outCountPlan": 0,
       "outCountUnplan": 1,
@@ -152,18 +152,18 @@
   ],
   "counties": [
     {
-      "countyName": "Box Elder",
-      "outCountPlan": 0,
-      "outCountUnplan": 1,
-      "custOutPlan": 0,
-      "custOutUnplan": 1
-    },
-    {
       "countyName": "Salt Lake",
       "outCountPlan": 0,
       "outCountUnplan": 6,
       "custOutPlan": 0,
       "custOutUnplan": 8
+    },
+    {
+      "countyName": "Tooele",
+      "outCountPlan": 0,
+      "outCountUnplan": 1,
+      "custOutPlan": 0,
+      "custOutUnplan": 1
     },
     {
       "countyName": "Weber",
